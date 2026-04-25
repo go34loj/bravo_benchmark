@@ -1,0 +1,2218 @@
+generated_question_id,scene_id,file_path,template_id,layer_id,question_text,ground_truth_answer
+0,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is guest bedroom directly connected to the child bedroom? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+1,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is living room directly connected to the child bedroom? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+2,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is wc directly connected to the child bedroom? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+3,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is public zone directly connected to the child bedroom? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+4,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is child bedroom directly connected to the wc? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+5,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is guest bedroom directly connected to the wc? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+6,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is living room directly connected to the wc? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+7,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is public zone directly connected to the wc? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+8,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is child bedroom directly connected to the guest bedroom? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+9,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is living room directly connected to the guest bedroom? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+10,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is wc directly connected to the guest bedroom? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+11,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is public zone directly connected to the guest bedroom? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+12,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is child bedroom directly connected to the living room? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+13,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is guest bedroom directly connected to the living room? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+14,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is kitchen directly connected to the living room? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+15,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is guest wc directly connected to the living room? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+16,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is entrance area directly connected to the living room? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+17,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is living room directly connected to the guest wc? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+18,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is kitchen directly connected to the guest wc? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+19,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is corridor directly connected to the guest wc? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+20,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is entrance area directly connected to the guest wc? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+21,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is private zone directly connected to the guest wc? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+22,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is living room directly connected to the kitchen? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+23,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is guestwc directly connected to the kitchen? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+24,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is entrance area directly connected to the kitchen? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+25,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is corridor directly connected to the kitchen? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+26,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is private zone directly connected to the kitchen? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+27,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is corridor 2ac2 directly connected to the stair 2as1? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+28,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is dental waiting 1d44 directly connected to the stair 2as1? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+29,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is corridor 2ac1 directly connected to the stair 2as1? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+30,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is corridor 2cc4 directly connected to the hk 2c11? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+31,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is corridor 2cc3 directly connected to the hk 2c11? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+32,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is corridor 2cc1 directly connected to the hk 2c11? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+33,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is gen. dent. dtr #9 2c09 directly connected to the hk 2c11? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+34,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is gen. dent. dtr #8 2c06 directly connected to the hk 2c11? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+35,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is m. staff toilet 2c07 directly connected to the hk 2c11? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+36,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is dipc decon 2c10 directly connected to the hk 2c11? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+37,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is dipc clean 2c12 directly connected to the hk 2c11? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+38,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is corridor 2cc5 directly connected to the hk 2c11? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+39,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is hk 2c11 directly connected to the gen. dent. dtr #9 2c09? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+40,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is corridor 2cc4 directly connected to the gen. dent. dtr #9 2c09? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+41,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is corridor 2cc3 directly connected to the gen. dent. dtr #9 2c09? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+42,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is corridor 2cc1 directly connected to the gen. dent. dtr #9 2c09? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+43,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is corridor 2cc2 directly connected to the gen. dent. dtr #9 2c09? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+44,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is gen. dent. dtr #8 2c06 directly connected to the gen. dent. dtr #9 2c09? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+45,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is m. staff toilet 2c07 directly connected to the gen. dent. dtr #9 2c09? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+46,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is deep decon 2c10 directly connected to the gen. dent. dtr #9 2c09? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+47,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is sec. office 2a03 directly connected to the dental surgeon office 2a04? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+48,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is super office 2a02 directly connected to the dental surgeon office 2a04? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+49,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is corridor 2ac4 directly connected to the dental surgeon office 2a04? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+50,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is dental surgeon office 2a04 directly connected to the sec. office 2a03? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+51,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is super office 2a02 directly connected to the sec. office 2a03? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+52,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is corridor 2ac4 directly connected to the sec. office 2a03? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+53,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is corridor 2ac5 directly connected to the sec. office 2a03? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+54,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is admin 2a14 directly connected to the sec. office 2a03? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+55,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is library/conf. room 2a01 directly connected to the sec. office 2a03? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+56,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is oh dtr #1 2a05 directly connected to the sec. office 2a03? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+57,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is corridor 2cc3 directly connected to the dipc decon 2c10? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+58,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is corridor 2cc1 directly connected to the dipc decon 2c10? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+59,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is corridor 2cc4 directly connected to the dipc decon 2c10? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+60,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is hk 2c11 directly connected to the dipc decon 2c10? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+61,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is gen. dent. dtr #9 2c09 directly connected to the dipc decon 2c10? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+62,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is gen. dent. dtr #8 2c06 directly connected to the dipc decon 2c10? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+63,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is m. staff toilet 2c07 directly connected to the dipc decon 2c10? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+64,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is corridor 2cc1 directly connected to the w. staff toilet 2c08? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+65,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is lounge 2cc22 directly connected to the w. staff toilet 2c08? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+66,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is corridor 2cc3 directly connected to the w. staff toilet 2c08? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+67,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is m. staff toilet 2c07 directly connected to the w. staff toilet 2c08? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+68,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is gen. dent. dtr #9 2c09 directly connected to the w. staff toilet 2c08? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+69,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is gen. dent. dtr #8 2c06 directly connected to the w. staff toilet 2c08? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+70,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is dipc decon 2c10 directly connected to the w. staff toilet 2c08? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+71,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is corridor 2cc4 directly connected to the w. staff toilet 2c08? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+72,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is hk 2c11 directly connected to the w. staff toilet 2c08? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+73,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is corridor 2cc2 directly connected to the m. staff toilet 2c07? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+74,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is corridor 2cc3 directly connected to the m. staff toilet 2c07? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+75,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is corridor 2cc1 directly connected to the m. staff toilet 2c07? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+76,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is gen. dent. dtr #8 2c06 directly connected to the m. staff toilet 2c07? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+77,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is gen. dent. dtr #9 2c09 directly connected to the m. staff toilet 2c07? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+78,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is hk 2c11 directly connected to the m. staff toilet 2c07? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+79,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is dipc decon 2c10 directly connected to the m. staff toilet 2c07? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+80,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is corridor 2cc4 directly connected to the m. staff toilet 2c07? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+81,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is corridor 2cc2 directly connected to the consult. 2c03? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+82,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is touchdown base 2c01 directly connected to the consult. 2c03? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+83,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is jan.cl. 2c05 directly connected to the consult. 2c03? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+84,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is gen. dent. dtr #7 2c04 directly connected to the consult. 2c03? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+85,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is gen. dent. dtr #6 2c02 directly connected to the consult. 2c03? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+86,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is corridor 1d45 directly connected to the consult. 2c03? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+87,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is corridor 2cc3 directly connected to the consult. 2c03? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+88,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is corridor 2cc2 directly connected to the touchdown base 2c01? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+89,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is corridor 1d45 directly connected to the touchdown base 2c01? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+90,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is corridor 2ac2 directly connected to the touchdown base 2c01? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+91,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is dental waiting directly connected to the touchdown base 2c01? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+92,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is gen. dent. dtr #6 2c02 directly connected to the touchdown base 2c01? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+93,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is gen. dent. dtr #7 2c04 directly connected to the touchdown base 2c01? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+94,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is consult. 2c03 directly connected to the touchdown base 2c01? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+95,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is jan.cl. 2c05 directly connected to the touchdown base 2c01? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+96,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is corridor 2cc3 directly connected to the touchdown base 2c01? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+97,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is corridor 1d57 directly connected to the dental waiting 1d49? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+98,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is corridor 2ac2 directly connected to the dental waiting 1d49? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+99,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is gen. dent. dtr #5 2a09 directly connected to the dental waiting 1d49? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+100,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is gen. dent. dtr #4 2a08 directly connected to the dental waiting 1d49? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+101,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is oh dtr 3 2a07 directly connected to the dental waiting 1d49? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+102,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is oh dtr 2 2a06 directly connected to the dental waiting 1d49? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+103,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is corridor 2ac4 directly connected to the dental waiting 1d49? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+104,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is x-ray alcove 2a12-a directly connected to the dental waiting 1d49? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+105,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is touchdown base 1d54 directly connected to the dental waiting 1d49? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+106,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is corridor 2cc2 directly connected to the dental waiting 1d49? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",yes
+107,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is guest wc directly connected to the child bedroom? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+108,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is kitchen directly connected to the child bedroom? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+109,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is entrance area directly connected to the child bedroom? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+110,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is guest wc directly connected to the wc? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+111,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is entrance area directly connected to the wc? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+112,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is kitchen directly connected to the wc? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+113,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is guest wc directly connected to the guest bedroom? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+114,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is kitchen directly connected to the guest bedroom? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+115,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is entrance area directly connected to the guest bedroom? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+116,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is child bedroom directly connected to the guest wc? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+117,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is guest bedroom directly connected to the guest wc? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+118,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is wc directly connected to the guest wc? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+119,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is child bedroom directly connected to the kitchen? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+120,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is wc directly connected to the kitchen? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+121,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
+Is guest bedroom directly connected to the kitchen? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+122,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is dipc decon 2c10 directly connected to the stair 2as1? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+123,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is gen. dent. dtr #9 2c09 directly connected to the stair 2as1? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+124,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is hk 2c11 directly connected to the stair 2as1? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+125,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is stair 2as1 directly connected to the hk 2c11? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+126,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is dental waiting 1d49 directly connected to the hk 2c11? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+127,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is library/conf. room 2a01 directly connected to the hk 2c11? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+128,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is dental surgeon office 2a04 directly connected to the gen. dent. dtr #9 2c09? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+129,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is stair 2as1 directly connected to the gen. dent. dtr #9 2c09? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+130,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is x-ray alcove 2a12-a directly connected to the gen. dent. dtr #9 2c09? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+131,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is hk 2c11 directly connected to the dental surgeon office 2a04? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+132,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is gen. dent. dtr #9 2c09 directly connected to the dental surgeon office 2a04? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+133,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is dipc decon 2c10 directly connected to the dental surgeon office 2a04? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+134,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is dipc decon 2c10 directly connected to the sec. office 2a03? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+135,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is hk 2c11 directly connected to the sec. office 2a03? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+136,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is gen. dent. dtr #8 2c06 directly connected to the sec. office 2a03? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+137,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is dental surgeon office 2a04 directly connected to the dipc decon 2c10? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+138,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is sec. office 2a03 directly connected to the dipc decon 2c10? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+139,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is stair 2as1 directly connected to the dipc decon 2c10? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+140,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is dental surgeon office 2a04 directly connected to the w. staff toilet 2c08? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+141,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is sec. office 2a03 directly connected to the w. staff toilet 2c08? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+142,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is stair 2as1 directly connected to the w. staff toilet 2c08? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+143,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is dental surgeon office 2a04 directly connected to the m. staff toilet 2c07? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+144,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is sec. office 2a03 directly connected to the m. staff toilet 2c07? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+145,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is stair 2as1 directly connected to the m. staff toilet 2c07? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+146,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is dipc decon 2c10 directly connected to the consult. 2c03? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+147,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is hk 2c11 directly connected to the consult. 2c03? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+148,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is sec. office 2a03 directly connected to the consult. 2c03? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+149,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is dipc decon 2c10 directly connected to the touchdown base 2c01? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+150,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is hk 2c11 directly connected to the touchdown base 2c01? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+151,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is m. staff toilet 2c07 directly connected to the touchdown base 2c01? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+152,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is dipc decon 2c10 directly connected to the dental waiting 1d49? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+153,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is hk 2c11 directly connected to the dental waiting 1d49? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+154,22,22 Cutout 9 - Compositional view.jpg,14,1_2_1,"Look at the attached image.
+Is dipc clean 2c12 directly connected to the dental waiting 1d49? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".",no
+155,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is guest bedroom adjacent to the child bedroom (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+156,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is wc adjacent to the child bedroom (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+157,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is corridor adjacent to the child bedroom (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+158,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is child bedroom adjacent to the wc (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+159,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is guest wc adjacent to the wc (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+160,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is corridor adjacent to the wc (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+161,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is service duct adjacent to the wc (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+162,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is corridor adjacent to the guest bedroom (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+163,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is child bedroom adjacent to the guest bedroom (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+164,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is public zone adjacent to the guest bedroom (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+165,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is living room adjacent to the guest wc (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+166,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is wc adjacent to the guest wc (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+167,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is entrance area adjacent to the guest wc (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+168,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is guest bedroom adjacent to the living room (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+169,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is entrance area adjacent to the living room (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+170,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is kitchen adjacent to the living room (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+171,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is guest wc adjacent to the living room (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+172,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is private zone adjacent to the living room (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+173,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is living room adjacent to the kitchen (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+174,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is public zone adjacent to the private zone (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+175,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is private zone adjacent to the public zone (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+176,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is sink adjacent to the toilet (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+177,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is wall adjacent to the toilet (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+178,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is bath adjacent to the toilet (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+179,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is wall adjacent to the door (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+180,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is wall adjacent to the doorless portal (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+181,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is door adjacent to the doorless portal (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+182,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is living room adjacent to the doorless portal (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+183,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is wall adjacent to the staircase (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+184,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is dining table adjacent to the staircase (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+185,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is glazed curtain wall adjacent to the staircase (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+186,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is door adjacent to the staircase (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+187,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is living room adjacent to the staircase (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+188,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is guest bedroom adjacent to the staircase (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+189,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is toilet adjacent to the bath (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+190,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is sink adjacent to the bath (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+191,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is wall adjacent to the bath (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+192,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is wall adjacent to the stove (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+193,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is sink adjacent to the stove (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+194,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is wall adjacent to the double bed (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+195,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is bedside table adjacent to the double bed (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+196,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is guest bedroom adjacent to the double bed (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+197,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is wardrobe adjacent to the double bed (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+198,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is bedside tablewall adjacent to the single bed (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+199,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is wardrobe adjacent to the single bed (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+200,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is child bedroom adjacent to the single bed (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+201,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is double bed adjacent to the bedside table (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+202,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is wall adjacent to the bedside table (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+203,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is floor adjacent to the bedside table (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+204,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is armchair adjacent to the coffee table (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+205,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is chair adjacent to the coffee table (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+206,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is living room adjacent to the coffee table (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+207,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is chair adjacent to the dining table (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+208,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is cabinet adjacent to the dining table (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+209,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is staircase adjacent to the dining table (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+210,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is plates adjacent to the dining table (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+211,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is forks adjacent to the dining table (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+212,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is knifes adjacent to the dining table (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+213,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is living room adjacent to the dining table (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+214,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is dining table adjacent to the plates (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+215,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is fork adjacent to the plates (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+216,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is knife adjacent to the plates (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+217,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is plates adjacent to the knife (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+218,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is fork adjacent to the knife (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+219,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is dining table adjacent to the knife (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+220,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is plates adjacent to the fork (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+221,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is knife adjacent to the fork (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+222,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is dining table adjacent to the fork (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+223,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is dining table adjacent to the chair (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+224,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is coffee table adjacent to the armchair (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+225,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is living room adjacent to the armchair (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+226,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is chair adjacent to the armchair (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+227,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is woman adjacent to the armchair (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+228,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is man adjacent to the armchair (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+229,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is single bed adjacent to the wardrobe (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+230,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is wall adjacent to the wardrobe (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+231,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is child bedroom adjacent to the wardrobe (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+232,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is living room adjacent to the plant (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+233,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is woman adjacent to the plant (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+234,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is living room adjacent to the humans (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+235,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is armchair adjacent to the humans (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+236,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is coffee table adjacent to the humans (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+237,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is armchair adjacent to the reading human (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+238,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is coffee table adjacent to the reading human (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+239,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is armchair adjacent to the human having a drink (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+240,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is coffee table adjacent to the human having a drink (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+241,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is armchair adjacent to the man (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+242,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is woman adjacent to the man (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+243,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is living room adjacent to the man (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+244,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is wall adjacent to the glazed curtain wall (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+245,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is living room adjacent to the glazed curtain wall (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+246,12,12 Cutout 5.jpg,17,1_2_2,"Look at the attached image.
+Is wall adjacent to the toilet (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+247,12,12 Cutout 5.jpg,17,1_2_2,"Look at the attached image.
+Is shower curtain adjacent to the toilet (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+248,12,12 Cutout 5.jpg,17,1_2_2,"Look at the attached image.
+Is handrails adjacent to the toilet (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+249,12,12 Cutout 5.jpg,17,1_2_2,"Look at the attached image.
+Is wall adjacent to the sink (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+250,12,12 Cutout 5.jpg,17,1_2_2,"Look at the attached image.
+Is door adjacent to the sink (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+251,12,12 Cutout 5.jpg,17,1_2_2,"Look at the attached image.
+Is paper towel dispenser adjacent to the sink (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+252,12,12 Cutout 5.jpg,17,1_2_2,"Look at the attached image.
+Is toilet pan or sluice adjacent to the shower trolley (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+253,12,12 Cutout 5.jpg,17,1_2_2,"Look at the attached image.
+Is wall adjacent to the shower trolley (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+254,12,12 Cutout 5.jpg,17,1_2_2,"Look at the attached image.
+Is shower curtain adjacent to the shower trolley (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+255,12,12 Cutout 5.jpg,17,1_2_2,"Look at the attached image.
+Is shower adjacent to the shower trolley (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+256,12,12 Cutout 5.jpg,17,1_2_2,"Look at the attached image.
+Is wall adjacent to the door (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+257,12,12 Cutout 5.jpg,17,1_2_2,"Look at the attached image.
+Is corridor adjacent to the door (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+258,12,12 Cutout 5.jpg,17,1_2_2,"Look at the attached image.
+Is toilet adjacent to the floor (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+259,12,12 Cutout 5.jpg,17,1_2_2,"Look at the attached image.
+Is sink adjacent to the floor (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+260,12,12 Cutout 5.jpg,17,1_2_2,"Look at the attached image.
+Is shower trolley adjacent to the floor (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+261,12,12 Cutout 5.jpg,17,1_2_2,"Look at the attached image.
+Is toilet pan or sluice adjacent to the floor (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+262,12,12 Cutout 5.jpg,17,1_2_2,"Look at the attached image.
+Is walls adjacent to the floor (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",yes
+263,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is private zone adjacent to the guest wc (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+264,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is private zone adjacent to the kitchen (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+265,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is entrance area adjacent to the kitchen (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+266,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is guest bedroom adjacent to the wc (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+267,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is corridor adjacent to the guest wc (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+268,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is guestwc adjacent to the kitchen (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+269,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is living room adjacent to the wc (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+270,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is corridor adjacent to the kitchen (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+271,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is child bedroom adjacent to the living room (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+272,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is living room adjacent to the guest bedroom (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+273,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is public zone adjacent to the wc (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+274,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is kitchen adjacent to the guest wc (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+275,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is living room adjacent to the child bedroom (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+276,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is public zone adjacent to the child bedroom (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+277,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
+Is wc adjacent to the guest bedroom (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+278,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is gen. dent. dtr #8 2c06 adjacent to the hk 2c11 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+279,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is sec. office 2a03 adjacent to the dental surgeon office 2a04 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+280,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is corridor 2ac5 adjacent to the sec. office 2a03 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+281,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is dipc decon 2c10 adjacent to the w. staff toilet 2c08 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+282,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is gen. dent. dtr #8 2c06 adjacent to the w. staff toilet 2c08 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+283,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is corridor 2ac2 adjacent to the touchdown base 2c01 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+284,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is corridor 2ac2 adjacent to the stair 2as1 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+285,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is m. staff toilet 2c07 adjacent to the hk 2c11 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+286,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is corridor 2cc2 adjacent to the m. staff toilet 2c07 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+287,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is m. staff toilet 2c07 adjacent to the w. staff toilet 2c08 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+288,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is corridor 2ac4 adjacent to the dental waiting 1d49 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+289,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is touchdown base 2c01 adjacent to the consult. 2c03 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+290,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is gen. dent. dtr #6 2c02 adjacent to the consult. 2c03 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+291,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is gen. dent. dtr #8 2c06 adjacent to the dipc decon 2c10 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+292,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is corridor 2cc3 adjacent to the m. staff toilet 2c07 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+293,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is corridor 2ac4 adjacent to the sec. office 2a03 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+294,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is corridor 2cc2 adjacent to the touchdown base 2c01 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+295,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is super office 2a02 adjacent to the sec. office 2a03 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+296,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is corridor 2ac1 adjacent to the stair 2as1 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+297,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is corridor 2cc1 adjacent to the w. staff toilet 2c08 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+298,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is corridor 2ac4 adjacent to the dental surgeon office 2a04 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+299,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is gen. dent. dtr #4 2a08 adjacent to the dental waiting 1d49 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+300,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is oh dtr 3 2a07 adjacent to the dental waiting 1d49 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+301,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is corridor 2cc4 adjacent to the gen. dent. dtr #9 2c09 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+302,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is admin 2a14 adjacent to the sec. office 2a03 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+303,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is dipc decon 2c10 adjacent to the m. staff toilet 2c07 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+304,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is gen. dent. dtr #8 2c06 adjacent to the m. staff toilet 2c07 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+305,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is corridor 1d45 adjacent to the consult. 2c03 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+306,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is corridor 2cc1 adjacent to the dipc decon 2c10 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+307,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is jan.cl. 2c05 adjacent to the consult. 2c03 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+308,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is hk 2c11 adjacent to the m. staff toilet 2c07 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+309,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is dental waiting 1d44 adjacent to the stair 2as1 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+310,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is corridor 2cc4 adjacent to the hk 2c11 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+311,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is corridor 2cc3 adjacent to the hk 2c11 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+312,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is gen. dent. dtr #9 2c09 adjacent to the m. staff toilet 2c07 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+313,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is touchdown base 1d54 adjacent to the dental waiting 1d49 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+314,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is corridor 2cc4 adjacent to the w. staff toilet 2c08 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+315,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is corridor 2cc3 adjacent to the w. staff toilet 2c08 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+316,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is lounge 2cc22 adjacent to the w. staff toilet 2c08 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+317,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is x-ray alcove 2a12-a adjacent to the dental waiting 1d49 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+318,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is corridor 2cc3 adjacent to the consult. 2c03 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+319,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is corridor 2cc4 adjacent to the dipc decon 2c10 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+320,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is corridor 2cc3 adjacent to the dipc decon 2c10 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+321,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is corridor 2ac2 adjacent to the dental waiting 1d49 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+322,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is corridor 1d45 adjacent to the touchdown base 2c01 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+323,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is corridor 2cc5 adjacent to the hk 2c11 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+324,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is corridor 2cc1 adjacent to the gen. dent. dtr #9 2c09 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+325,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is dipc clean 2c12 adjacent to the hk 2c11 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+326,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is deep decon 2c10 adjacent to the gen. dent. dtr #9 2c09 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+327,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is gen. dent. dtr #7 2c04 adjacent to the consult. 2c03 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+328,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is jan.cl. 2c05 adjacent to the touchdown base 2c01 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+329,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is gen. dent. dtr #9 2c09 adjacent to the hk 2c11 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+330,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is hk 2c11 adjacent to the w. staff toilet 2c08 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+331,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is gen. dent. dtr #9 2c09 adjacent to the w. staff toilet 2c08 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+332,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is corridor 2cc4 adjacent to the m. staff toilet 2c07 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+333,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is oh dtr #1 2a05 adjacent to the sec. office 2a03 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+334,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is corridor 2cc1 adjacent to the hk 2c11 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+335,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is corridor 2cc2 adjacent to the dental waiting 1d49 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+336,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is corridor 1d57 adjacent to the dental waiting 1d49 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+337,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is corridor 2cc2 adjacent to the gen. dent. dtr #9 2c09 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+338,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is oh dtr 2 2a06 adjacent to the dental waiting 1d49 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+339,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is m. staff toilet 2c07 adjacent to the dipc decon 2c10 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+340,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is hk 2c11 adjacent to the dipc decon 2c10 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+341,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is corridor 2cc3 adjacent to the gen. dent. dtr #9 2c09 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+342,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is gen. dent. dtr #5 2a09 adjacent to the dental waiting 1d49 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+343,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is corridor 2cc3 adjacent to the touchdown base 2c01 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+344,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is gen. dent. dtr #9 2c09 adjacent to the dipc decon 2c10 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+345,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is dental waiting adjacent to the touchdown base 2c01 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+346,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is library/conf. room 2a01 adjacent to the sec. office 2a03 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+347,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is super office 2a02 adjacent to the dental surgeon office 2a04 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+348,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is gen. dent. dtr #7 2c04 adjacent to the touchdown base 2c01 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+349,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is gen. dent. dtr #8 2c06 adjacent to the gen. dent. dtr #9 2c09 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+350,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is gen. dent. dtr #6 2c02 adjacent to the touchdown base 2c01 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+351,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is corridor 2cc2 adjacent to the consult. 2c03 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+352,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is dental surgeon office 2a04 adjacent to the sec. office 2a03 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+353,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is consult. 2c03 adjacent to the touchdown base 2c01 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+354,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is m. staff toilet 2c07 adjacent to the gen. dent. dtr #9 2c09 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+355,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is hk 2c11 adjacent to the gen. dent. dtr #9 2c09 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+356,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is corridor 2cc1 adjacent to the m. staff toilet 2c07 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+357,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
+Is dipc decon 2c10 adjacent to the hk 2c11 (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".",no
+358,3,3 double flat.jpg,23,1_2_3,"The attached image shows private zone.
+Does this private zone contain child bedroom?
+Answer ""yes"" or ""no"".",yes
+359,3,3 double flat.jpg,23,1_2_3,"The attached image shows private zone.
+Does this private zone contain wc?
+Answer ""yes"" or ""no"".",yes
+360,3,3 double flat.jpg,23,1_2_3,"The attached image shows private zone.
+Does this private zone contain guest bedroom?
+Answer ""yes"" or ""no"".",yes
+361,3,3 double flat.jpg,23,1_2_3,"The attached image shows private zone.
+Does this private zone contain living room?
+Answer ""yes"" or ""no"".",no
+362,3,3 double flat.jpg,23,1_2_3,"The attached image shows private zone.
+Does this private zone contain guest wc?
+Answer ""yes"" or ""no"".",no
+363,3,3 double flat.jpg,23,1_2_3,"The attached image shows private zone.
+Does this private zone contain two corridor spaces?
+Answer ""yes"" or ""no"".",no
+364,3,3 double flat.jpg,24,1_2_3,"The attached image shows flat.
+
+Does it contain private zone?
+Answer ""yes"" or ""no"".",yes
+365,3,3 double flat.jpg,24,1_2_3,"The attached image shows flat.
+
+Does it contain administrative area?
+Answer ""yes"" or ""no"".",no
+366,3,3 double flat.jpg,23,1_2_3,"The attached image shows public zone.
+Does this public zone contain living room?
+Answer ""yes"" or ""no"".",yes
+367,3,3 double flat.jpg,23,1_2_3,"The attached image shows public zone.
+Does this public zone contain guest wc?
+Answer ""yes"" or ""no"".",yes
+368,3,3 double flat.jpg,23,1_2_3,"The attached image shows public zone.
+Does this public zone contain child bedroom?
+Answer ""yes"" or ""no"".",no
+369,3,3 double flat.jpg,23,1_2_3,"The attached image shows public zone.
+Does this public zone contain wc?
+Answer ""yes"" or ""no"".",no
+370,3,3 double flat.jpg,23,1_2_3,"The attached image shows public zone.
+Does this public zone contain guest bedroom?
+Answer ""yes"" or ""no"".",no
+371,3,3 double flat.jpg,23,1_2_3,"The attached image shows public zone.
+Does this public zone contain two corridor spaces?
+Answer ""yes"" or ""no"".",no
+372,3,3 double flat.jpg,24,1_2_3,"The attached image shows flat.
+
+Does it contain public zone?
+Answer ""yes"" or ""no"".",yes
+373,3,3 double flat.jpg,24,1_2_3,"The attached image shows flat.
+
+Does it contain administrative area?
+Answer ""yes"" or ""no"".",no
+374,3,3 double flat.jpg,23,1_2_3,"The attached image shows entrance zone.
+Does this entrance zone contain two corridor spaces?
+Answer ""yes"" or ""no"".",yes
+375,3,3 double flat.jpg,23,1_2_3,"The attached image shows entrance zone.
+Does this entrance zone contain child bedroom?
+Answer ""yes"" or ""no"".",no
+376,3,3 double flat.jpg,23,1_2_3,"The attached image shows entrance zone.
+Does this entrance zone contain wc?
+Answer ""yes"" or ""no"".",no
+377,3,3 double flat.jpg,23,1_2_3,"The attached image shows entrance zone.
+Does this entrance zone contain guest bedroom?
+Answer ""yes"" or ""no"".",no
+378,3,3 double flat.jpg,23,1_2_3,"The attached image shows entrance zone.
+Does this entrance zone contain living room?
+Answer ""yes"" or ""no"".",no
+379,3,3 double flat.jpg,23,1_2_3,"The attached image shows entrance zone.
+Does this entrance zone contain guest wc?
+Answer ""yes"" or ""no"".",no
+380,3,3 double flat.jpg,24,1_2_3,"The attached image shows flat.
+
+Does it contain entrance zone?
+Answer ""yes"" or ""no"".",yes
+381,3,3 double flat.jpg,24,1_2_3,"The attached image shows flat.
+
+Does it contain administrative area?
+Answer ""yes"" or ""no"".",no
+382,3,3 double flat.jpg,23,1_2_3,"The attached image shows lounge area.
+Does this lounge area contain armchairs?
+Answer ""yes"" or ""no"".",yes
+383,3,3 double flat.jpg,23,1_2_3,"The attached image shows lounge area.
+Does this lounge area contain coffee table?
+Answer ""yes"" or ""no"".",yes
+384,3,3 double flat.jpg,23,1_2_3,"The attached image shows lounge area.
+Does this lounge area contain plant?
+Answer ""yes"" or ""no"".",yes
+385,3,3 double flat.jpg,23,1_2_3,"The attached image shows lounge area.
+Does this lounge area contain reading human?
+Answer ""yes"" or ""no"".",yes
+386,3,3 double flat.jpg,23,1_2_3,"The attached image shows lounge area.
+Does this lounge area contain human having a drink?
+Answer ""yes"" or ""no"".",yes
+387,3,3 double flat.jpg,23,1_2_3,"The attached image shows lounge area.
+Does this lounge area contain woman?
+Answer ""yes"" or ""no"".",yes
+388,3,3 double flat.jpg,23,1_2_3,"The attached image shows lounge area.
+Does this lounge area contain man?
+Answer ""yes"" or ""no"".",yes
+389,3,3 double flat.jpg,23,1_2_3,"The attached image shows lounge area.
+Does this lounge area contain dining table?
+Answer ""yes"" or ""no"".",no
+390,3,3 double flat.jpg,23,1_2_3,"The attached image shows lounge area.
+Does this lounge area contain chairs?
+Answer ""yes"" or ""no"".",no
+391,3,3 double flat.jpg,23,1_2_3,"The attached image shows lounge area.
+Does this lounge area contain plates?
+Answer ""yes"" or ""no"".",no
+392,3,3 double flat.jpg,23,1_2_3,"The attached image shows lounge area.
+Does this lounge area contain knifes?
+Answer ""yes"" or ""no"".",no
+393,3,3 double flat.jpg,23,1_2_3,"The attached image shows lounge area.
+Does this lounge area contain forks?
+Answer ""yes"" or ""no"".",no
+394,3,3 double flat.jpg,23,1_2_3,"The attached image shows lounge area.
+Does this lounge area contain two doors?
+Answer ""yes"" or ""no"".",no
+395,3,3 double flat.jpg,23,1_2_3,"The attached image shows lounge area.
+Does this lounge area contain doorless portal?
+Answer ""yes"" or ""no"".",no
+396,3,3 double flat.jpg,23,1_2_3,"The attached image shows lounge area.
+Does this lounge area contain wardrobe?
+Answer ""yes"" or ""no"".",no
+397,3,3 double flat.jpg,24,1_2_3,"The attached image shows flat.
+
+Does it contain lounge area?
+Answer ""yes"" or ""no"".",yes
+398,3,3 double flat.jpg,24,1_2_3,"The attached image shows flat.
+
+Does it contain administrative area?
+Answer ""yes"" or ""no"".",no
+399,3,3 double flat.jpg,23,1_2_3,"The attached image shows dining area.
+Does this dining area contain dining table?
+Answer ""yes"" or ""no"".",yes
+400,3,3 double flat.jpg,23,1_2_3,"The attached image shows dining area.
+Does this dining area contain chairs?
+Answer ""yes"" or ""no"".",yes
+401,3,3 double flat.jpg,23,1_2_3,"The attached image shows dining area.
+Does this dining area contain plates?
+Answer ""yes"" or ""no"".",yes
+402,3,3 double flat.jpg,23,1_2_3,"The attached image shows dining area.
+Does this dining area contain knifes?
+Answer ""yes"" or ""no"".",yes
+403,3,3 double flat.jpg,23,1_2_3,"The attached image shows dining area.
+Does this dining area contain forks?
+Answer ""yes"" or ""no"".",yes
+404,3,3 double flat.jpg,23,1_2_3,"The attached image shows dining area.
+Does this dining area contain armchairs?
+Answer ""yes"" or ""no"".",no
+405,3,3 double flat.jpg,23,1_2_3,"The attached image shows dining area.
+Does this dining area contain coffee table?
+Answer ""yes"" or ""no"".",no
+406,3,3 double flat.jpg,23,1_2_3,"The attached image shows dining area.
+Does this dining area contain plant?
+Answer ""yes"" or ""no"".",no
+407,3,3 double flat.jpg,23,1_2_3,"The attached image shows dining area.
+Does this dining area contain reading human?
+Answer ""yes"" or ""no"".",no
+408,3,3 double flat.jpg,23,1_2_3,"The attached image shows dining area.
+Does this dining area contain human having a drink?
+Answer ""yes"" or ""no"".",no
+409,3,3 double flat.jpg,23,1_2_3,"The attached image shows dining area.
+Does this dining area contain woman?
+Answer ""yes"" or ""no"".",no
+410,3,3 double flat.jpg,23,1_2_3,"The attached image shows dining area.
+Does this dining area contain man?
+Answer ""yes"" or ""no"".",no
+411,3,3 double flat.jpg,23,1_2_3,"The attached image shows dining area.
+Does this dining area contain two doors?
+Answer ""yes"" or ""no"".",no
+412,3,3 double flat.jpg,23,1_2_3,"The attached image shows dining area.
+Does this dining area contain doorless portal?
+Answer ""yes"" or ""no"".",no
+413,3,3 double flat.jpg,23,1_2_3,"The attached image shows dining area.
+Does this dining area contain wardrobe?
+Answer ""yes"" or ""no"".",no
+414,3,3 double flat.jpg,24,1_2_3,"The attached image shows flat.
+
+Does it contain dining area?
+Answer ""yes"" or ""no"".",yes
+415,3,3 double flat.jpg,24,1_2_3,"The attached image shows flat.
+
+Does it contain administrative area?
+Answer ""yes"" or ""no"".",no
+416,3,3 double flat.jpg,23,1_2_3,"The attached image shows entrance zone.
+Does this entrance zone contain two doors?
+Answer ""yes"" or ""no"".",yes
+417,3,3 double flat.jpg,23,1_2_3,"The attached image shows entrance zone.
+Does this entrance zone contain doorless portal?
+Answer ""yes"" or ""no"".",yes
+418,3,3 double flat.jpg,23,1_2_3,"The attached image shows entrance zone.
+Does this entrance zone contain wardrobe?
+Answer ""yes"" or ""no"".",yes
+419,3,3 double flat.jpg,23,1_2_3,"The attached image shows entrance zone.
+Does this entrance zone contain armchairs?
+Answer ""yes"" or ""no"".",no
+420,3,3 double flat.jpg,23,1_2_3,"The attached image shows entrance zone.
+Does this entrance zone contain coffee table?
+Answer ""yes"" or ""no"".",no
+421,3,3 double flat.jpg,23,1_2_3,"The attached image shows entrance zone.
+Does this entrance zone contain plant?
+Answer ""yes"" or ""no"".",no
+422,3,3 double flat.jpg,23,1_2_3,"The attached image shows entrance zone.
+Does this entrance zone contain reading human?
+Answer ""yes"" or ""no"".",no
+423,3,3 double flat.jpg,23,1_2_3,"The attached image shows entrance zone.
+Does this entrance zone contain human having a drink?
+Answer ""yes"" or ""no"".",no
+424,3,3 double flat.jpg,23,1_2_3,"The attached image shows entrance zone.
+Does this entrance zone contain woman?
+Answer ""yes"" or ""no"".",no
+425,3,3 double flat.jpg,23,1_2_3,"The attached image shows entrance zone.
+Does this entrance zone contain man?
+Answer ""yes"" or ""no"".",no
+426,3,3 double flat.jpg,23,1_2_3,"The attached image shows entrance zone.
+Does this entrance zone contain dining table?
+Answer ""yes"" or ""no"".",no
+427,3,3 double flat.jpg,23,1_2_3,"The attached image shows entrance zone.
+Does this entrance zone contain chairs?
+Answer ""yes"" or ""no"".",no
+428,3,3 double flat.jpg,23,1_2_3,"The attached image shows entrance zone.
+Does this entrance zone contain plates?
+Answer ""yes"" or ""no"".",no
+429,3,3 double flat.jpg,23,1_2_3,"The attached image shows entrance zone.
+Does this entrance zone contain knifes?
+Answer ""yes"" or ""no"".",no
+430,3,3 double flat.jpg,23,1_2_3,"The attached image shows entrance zone.
+Does this entrance zone contain forks?
+Answer ""yes"" or ""no"".",no
+431,3,3 double flat.jpg,24,1_2_3,"The attached image shows flat.
+
+Does it contain entrance zone?
+Answer ""yes"" or ""no"".",yes
+432,3,3 double flat.jpg,24,1_2_3,"The attached image shows flat.
+
+Does it contain administrative area?
+Answer ""yes"" or ""no"".",no
+433,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain corridor 2bc1?
+Answer ""yes"" or ""no"".",yes
+434,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain corridor 2bc6?
+Answer ""yes"" or ""no"".",yes
+435,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain waiting 2b11?
+Answer ""yes"" or ""no"".",yes
+436,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain tech office 2b9?
+Answer ""yes"" or ""no"".",yes
+437,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain tech office 2b7?
+Answer ""yes"" or ""no"".",yes
+438,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain psych test 2b4?
+Answer ""yes"" or ""no"".",yes
+439,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain jan. cl. 2b2?
+Answer ""yes"" or ""no"".",yes
+440,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain corridor 2bc5?
+Answer ""yes"" or ""no"".",yes
+441,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain office 2b01?
+Answer ""yes"" or ""no"".",yes
+442,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain staff toilet 2b6?
+Answer ""yes"" or ""no"".",yes
+443,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain w. toilet 2b5?
+Answer ""yes"" or ""no"".",yes
+444,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain office / exam 2b8?
+Answer ""yes"" or ""no"".",yes
+445,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain soil. utl. / trash 2b25?
+Answer ""yes"" or ""no"".",yes
+446,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain bee tech 2b24?
+Answer ""yes"" or ""no"".",yes
+447,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain comm. room 2b12?
+Answer ""yes"" or ""no"".",yes
+448,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain reception 2b10?
+Answer ""yes"" or ""no"".",yes
+449,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain corridor 2bc4?
+Answer ""yes"" or ""no"".",yes
+450,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain bee tech 2b23?
+Answer ""yes"" or ""no"".",yes
+451,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain electrical 2b13?
+Answer ""yes"" or ""no"".",yes
+452,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain recs/forms storage 2b14?
+Answer ""yes"" or ""no"".",yes
+453,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain wait / ergom 2b15?
+Answer ""yes"" or ""no"".",yes
+454,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain cl.utl. / kitchenet 2b17?
+Answer ""yes"" or ""no"".",yes
+455,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain office 2b19?
+Answer ""yes"" or ""no"".",yes
+456,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain corridor 2bc3?
+Answer ""yes"" or ""no"".",yes
+457,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain m. toilet 2b22?
+Answer ""yes"" or ""no"".",yes
+458,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain stair 2bs2?
+Answer ""yes"" or ""no"".",yes
+459,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain ph tech 2b16?
+Answer ""yes"" or ""no"".",yes
+460,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain ph tech 2b18?
+Answer ""yes"" or ""no"".",yes
+461,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain jan. cl. 2b20?
+Answer ""yes"" or ""no"".",yes
+462,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain ph super 2b21?
+Answer ""yes"" or ""no"".",yes
+463,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain stair 2as1?
+Answer ""yes"" or ""no"".",no
+464,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain hk 2c11?
+Answer ""yes"" or ""no"".",no
+465,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain corridor 2cc4?
+Answer ""yes"" or ""no"".",no
+466,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain gen. dent. dtr #9 2c09?
+Answer ""yes"" or ""no"".",no
+467,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain gen. dent. dtr #8 2c06?
+Answer ""yes"" or ""no"".",no
+468,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain gen. dent. dtr #7 2c04?
+Answer ""yes"" or ""no"".",no
+469,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain gen. dent. dtr 6 #2c02?
+Answer ""yes"" or ""no"".",no
+470,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain gen. dent. dtr #5 2a09?
+Answer ""yes"" or ""no"".",no
+471,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain gen. dent. dtr #4 2a08?
+Answer ""yes"" or ""no"".",no
+472,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain oh dtr #3 2a07?
+Answer ""yes"" or ""no"".",no
+473,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain oh dtr #2 2a06?
+Answer ""yes"" or ""no"".",no
+474,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain oh dtr #1 2a05?
+Answer ""yes"" or ""no"".",no
+475,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain dental surgeon office 2a04?
+Answer ""yes"" or ""no"".",no
+476,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain corridor 2cc3?
+Answer ""yes"" or ""no"".",no
+477,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain corridor 2cc2?
+Answer ""yes"" or ""no"".",no
+478,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain corridor 2ac3?
+Answer ""yes"" or ""no"".",no
+479,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain sec. office 2a03?
+Answer ""yes"" or ""no"".",no
+480,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain dipc decon 2c10?
+Answer ""yes"" or ""no"".",no
+481,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain w. staff toilet 2c08?
+Answer ""yes"" or ""no"".",no
+482,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain m. staff toilet 2c07?
+Answer ""yes"" or ""no"".",no
+483,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain jan. cl. 2c05?
+Answer ""yes"" or ""no"".",no
+484,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain consult. 2c03?
+Answer ""yes"" or ""no"".",no
+485,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain dtr support 2c01?
+Answer ""yes"" or ""no"".",no
+486,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain dental waiting 2a10?
+Answer ""yes"" or ""no"".",no
+487,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain x-ray alcove 2a12?
+Answer ""yes"" or ""no"".",no
+488,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain x-ray 2a12?
+Answer ""yes"" or ""no"".",no
+489,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain developing 2a13?
+Answer ""yes"" or ""no"".",no
+490,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain corridor 2ac4?
+Answer ""yes"" or ""no"".",no
+491,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain w. toilet 2c24?
+Answer ""yes"" or ""no"".",no
+492,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain dental waiting 2a11?
+Answer ""yes"" or ""no"".",no
+493,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain corridor 2ac5?
+Answer ""yes"" or ""no"".",no
+494,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows administrative area.
+Does this administrative area contain m. toilet 2c23?
+Answer ""yes"" or ""no"".",no
+495,17,17_Cutout 7.jpg,24,1_2_3,"The attached image shows nan.
+
+Does it contain administrative area?
+Answer ""yes"" or ""no"".",yes
+496,17,17_Cutout 7.jpg,24,1_2_3,"The attached image shows nan.
+
+Does it contain private zone?
+Answer ""yes"" or ""no"".",no
+497,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain stair 2as1?
+Answer ""yes"" or ""no"".",yes
+498,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain hk 2c11?
+Answer ""yes"" or ""no"".",yes
+499,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain corridor 2cc4?
+Answer ""yes"" or ""no"".",yes
+500,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain gen. dent. dtr #9 2c09?
+Answer ""yes"" or ""no"".",yes
+501,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain gen. dent. dtr #8 2c06?
+Answer ""yes"" or ""no"".",yes
+502,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain gen. dent. dtr #7 2c04?
+Answer ""yes"" or ""no"".",yes
+503,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain gen. dent. dtr 6 #2c02?
+Answer ""yes"" or ""no"".",yes
+504,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain gen. dent. dtr #5 2a09?
+Answer ""yes"" or ""no"".",yes
+505,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain gen. dent. dtr #4 2a08?
+Answer ""yes"" or ""no"".",yes
+506,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain oh dtr #3 2a07?
+Answer ""yes"" or ""no"".",yes
+507,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain oh dtr #2 2a06?
+Answer ""yes"" or ""no"".",yes
+508,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain oh dtr #1 2a05?
+Answer ""yes"" or ""no"".",yes
+509,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain dental surgeon office 2a04?
+Answer ""yes"" or ""no"".",yes
+510,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain corridor 2cc3?
+Answer ""yes"" or ""no"".",yes
+511,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain corridor 2cc2?
+Answer ""yes"" or ""no"".",yes
+512,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain corridor 2ac3?
+Answer ""yes"" or ""no"".",yes
+513,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain sec. office 2a03?
+Answer ""yes"" or ""no"".",yes
+514,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain dipc decon 2c10?
+Answer ""yes"" or ""no"".",yes
+515,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain w. staff toilet 2c08?
+Answer ""yes"" or ""no"".",yes
+516,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain m. staff toilet 2c07?
+Answer ""yes"" or ""no"".",yes
+517,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain jan. cl. 2c05?
+Answer ""yes"" or ""no"".",yes
+518,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain consult. 2c03?
+Answer ""yes"" or ""no"".",yes
+519,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain dtr support 2c01?
+Answer ""yes"" or ""no"".",yes
+520,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain dental waiting 2a10?
+Answer ""yes"" or ""no"".",yes
+521,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain x-ray alcove 2a12?
+Answer ""yes"" or ""no"".",yes
+522,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain x-ray 2a12?
+Answer ""yes"" or ""no"".",yes
+523,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain developing 2a13?
+Answer ""yes"" or ""no"".",yes
+524,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain corridor 2ac4?
+Answer ""yes"" or ""no"".",yes
+525,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain w. toilet 2c24?
+Answer ""yes"" or ""no"".",yes
+526,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain dental waiting 2a11?
+Answer ""yes"" or ""no"".",yes
+527,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain corridor 2ac5?
+Answer ""yes"" or ""no"".",yes
+528,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain m. toilet 2c23?
+Answer ""yes"" or ""no"".",yes
+529,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain corridor 2bc1?
+Answer ""yes"" or ""no"".",no
+530,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain corridor 2bc6?
+Answer ""yes"" or ""no"".",no
+531,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain waiting 2b11?
+Answer ""yes"" or ""no"".",no
+532,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain tech office 2b9?
+Answer ""yes"" or ""no"".",no
+533,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain tech office 2b7?
+Answer ""yes"" or ""no"".",no
+534,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain psych test 2b4?
+Answer ""yes"" or ""no"".",no
+535,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain jan. cl. 2b2?
+Answer ""yes"" or ""no"".",no
+536,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain corridor 2bc5?
+Answer ""yes"" or ""no"".",no
+537,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain office 2b01?
+Answer ""yes"" or ""no"".",no
+538,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain staff toilet 2b6?
+Answer ""yes"" or ""no"".",no
+539,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain w. toilet 2b5?
+Answer ""yes"" or ""no"".",no
+540,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain office / exam 2b8?
+Answer ""yes"" or ""no"".",no
+541,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain soil. utl. / trash 2b25?
+Answer ""yes"" or ""no"".",no
+542,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain bee tech 2b24?
+Answer ""yes"" or ""no"".",no
+543,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain comm. room 2b12?
+Answer ""yes"" or ""no"".",no
+544,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain reception 2b10?
+Answer ""yes"" or ""no"".",no
+545,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain corridor 2bc4?
+Answer ""yes"" or ""no"".",no
+546,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain bee tech 2b23?
+Answer ""yes"" or ""no"".",no
+547,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain electrical 2b13?
+Answer ""yes"" or ""no"".",no
+548,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain recs/forms storage 2b14?
+Answer ""yes"" or ""no"".",no
+549,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain wait / ergom 2b15?
+Answer ""yes"" or ""no"".",no
+550,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain cl.utl. / kitchenet 2b17?
+Answer ""yes"" or ""no"".",no
+551,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain office 2b19?
+Answer ""yes"" or ""no"".",no
+552,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain corridor 2bc3?
+Answer ""yes"" or ""no"".",no
+553,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain m. toilet 2b22?
+Answer ""yes"" or ""no"".",no
+554,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain stair 2bs2?
+Answer ""yes"" or ""no"".",no
+555,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain ph tech 2b16?
+Answer ""yes"" or ""no"".",no
+556,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain ph tech 2b18?
+Answer ""yes"" or ""no"".",no
+557,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain jan. cl. 2b20?
+Answer ""yes"" or ""no"".",no
+558,17,17_Cutout 7.jpg,23,1_2_3,"The attached image shows patient treatment area.
+Does this patient treatment area contain ph super 2b21?
+Answer ""yes"" or ""no"".",no
+559,17,17_Cutout 7.jpg,24,1_2_3,"The attached image shows nan.
+
+Does it contain patient treatment area?
+Answer ""yes"" or ""no"".",yes
+560,17,17_Cutout 7.jpg,24,1_2_3,"The attached image shows nan.
+
+Does it contain private zone?
+Answer ""yes"" or ""no"".",no
+561,9,9 Cutout 4 - Compositional view.jpg,11,1_2_1,"In the provided set of views (plan/elevation/section/3D view), identify the double door. Extract its dimensions as annotated across the views. Return a JSON object with keys: [""leaf width"", ""leaf height"", ""leaf depth""]. If a value is not shown, return null.
+
+Example:
+{
+  ""width"": { ""value"": 1200, ""unit"": ""mm"", ""source_view"": ""plan"" },
+  ""height"": { ""value"": 750, ""unit"": ""mm"", ""source_view"": ""elevation"" },
+  ""depth"": null
+}","{""leaf width"":{""value"":800,""unit"":""mm"",""source_view"":""plan""},""leaf height"":{""value"":2032,""unit"":""mm"",""source_view"":""section 2""},""leaf depth"":null}"
+562,9,9 Cutout 4 - Compositional view.jpg,11,1_2_1,"In the provided set of views (plan/elevation/section/3D view), identify the door to pediatric wts&msrs. Extract its dimensions as annotated across the views. Return a JSON object with keys: [""leaf width"", ""leaf height"", ""leaf depth""]. If a value is not shown, return null.
+
+Example:
+{
+  ""width"": { ""value"": 1200, ""unit"": ""mm"", ""source_view"": ""plan"" },
+  ""height"": { ""value"": 750, ""unit"": ""mm"", ""source_view"": ""elevation"" },
+  ""depth"": null
+}","{""leaf width"":{""value"":940,""unit"":""mm"",""source_view"":""plan""},""leaf height"":{""value"":2032,""unit"":""mm"",""source_view"":""section 1""},""leaf depth"":null}"
+563,10,10 Cutout 4 - Compositional view.jpg,11,1_2_1,"In the provided set of views (plan/elevation/section/3D view), identify the double door. Extract its dimensions as annotated across the views. Return a JSON object with keys: [""leaf width"", ""leaf height"", ""leaf depth""]. If a value is not shown, return null.
+
+Example:
+{
+  ""width"": { ""value"": 1200, ""unit"": ""mm"", ""source_view"": ""plan"" },
+  ""height"": { ""value"": 750, ""unit"": ""mm"", ""source_view"": ""elevation"" },
+  ""depth"": null
+}","{""leaf width"":{""value"":875,""unit"":""mm"",""source_view"":""plan""},""leaf height"":{""value"":2032,""unit"":""mm"",""source_view"":""section 2""},""leaf depth"":null}"
+564,10,10 Cutout 4 - Compositional view.jpg,11,1_2_1,"In the provided set of views (plan/elevation/section/3D view), identify the door to pediatric wts&msrs. Extract its dimensions as annotated across the views. Return a JSON object with keys: [""leaf width"", ""leaf height"", ""leaf depth""]. If a value is not shown, return null.
+
+Example:
+{
+  ""width"": { ""value"": 1200, ""unit"": ""mm"", ""source_view"": ""plan"" },
+  ""height"": { ""value"": 750, ""unit"": ""mm"", ""source_view"": ""elevation"" },
+  ""depth"": null
+}","{""leaf width"":{""value"":762,""unit"":""mm"",""source_view"":""plan""},""leaf height"":{""value"":2032,""unit"":""mm"",""source_view"":""section 1""},""leaf depth"":null}"
+565,11,11 Cutout 4 - Compositional view.jpg,11,1_2_1,"In the provided set of views (plan/elevation/section/3D view), identify the double door. Extract its dimensions as annotated across the views. Return a JSON object with keys: [""leaf width"", ""leaf height"", ""leaf depth""]. If a value is not shown, return null.
+
+Example:
+{
+  ""width"": { ""value"": 1200, ""unit"": ""mm"", ""source_view"": ""plan"" },
+  ""height"": { ""value"": 750, ""unit"": ""mm"", ""source_view"": ""elevation"" },
+  ""depth"": null
+}","{""leaf width"":{""value"":875,""unit"":""mm"",""source_view"":""plan""},""leaf height"":{""value"":2032,""unit"":""mm"",""source_view"":""section 2""},""leaf depth"":null}"
+566,11,11 Cutout 4 - Compositional view.jpg,11,1_2_1,"In the provided set of views (plan/elevation/section/3D view), identify the door to pediatric wts&msrs. Extract its dimensions as annotated across the views. Return a JSON object with keys: [""leaf width"", ""leaf height"", ""leaf depth""]. If a value is not shown, return null.
+
+Example:
+{
+  ""width"": { ""value"": 1200, ""unit"": ""mm"", ""source_view"": ""plan"" },
+  ""height"": { ""value"": 750, ""unit"": ""mm"", ""source_view"": ""elevation"" },
+  ""depth"": null
+}","{""leaf width"":{""value"":900,""unit"":""mm"",""source_view"":""plan""},""leaf height"":{""value"":2032,""unit"":""mm"",""source_view"":""section 1""},""leaf depth"":null}"
+567,14,14 Cutout 6 - Compositional view.jpg,11,1_2_1,"In the provided set of views (plan/elevation/section/3D view), identify the double door. Extract its dimensions as annotated across the views. Return a JSON object with keys: [""door width"", ""door leafs height"", ""depth""]. If a value is not shown, return null.
+
+Example:
+{
+  ""width"": { ""value"": 1200, ""unit"": ""mm"", ""source_view"": ""plan"" },
+  ""height"": { ""value"": 750, ""unit"": ""mm"", ""source_view"": ""elevation"" },
+  ""depth"": null
+}","{""door width"":{""value"":1350,""unit"":""mm"",""source_view"":""plan""},""door leafs height"":{""value"":2000,""unit"":""mm"",""source_view"":""section 2""},""depth"":null}"
+568,14,14 Cutout 6 - Compositional view.jpg,11,1_2_1,"In the provided set of views (plan/elevation/section/3D view), identify the shower curtain. Extract its dimensions as annotated across the views. Return a JSON object with keys: [""width"", ""height"", ""leaf depth""]. If a value is not shown, return null.
+
+Example:
+{
+  ""width"": { ""value"": 1200, ""unit"": ""mm"", ""source_view"": ""plan"" },
+  ""height"": { ""value"": 750, ""unit"": ""mm"", ""source_view"": ""elevation"" },
+  ""depth"": null
+}","{""width"":{""value"":1200,""unit"":""mm"",""source_view"":""plan""},""height"":{""value"":2000,""unit"":""mm"",""source_view"":""section 2""},""leaf depth"":{""value"":920,""unit"":""mm"",""source_view"":""plan""}}"
+569,14,14 Cutout 6 - Compositional view.jpg,11,1_2_1,"In the provided set of views (plan/elevation/section/3D view), identify the tip-up shower seat. Extract its dimensions as annotated across the views. Return a JSON object with keys: [""width"", ""adjustable height"", ""depth""]. If a value is not shown, return null.
+
+Example:
+{
+  ""width"": { ""value"": 1200, ""unit"": ""mm"", ""source_view"": ""plan"" },
+  ""height"": { ""value"": 750, ""unit"": ""mm"", ""source_view"": ""elevation"" },
+  ""depth"": null
+}","{""width"":{""value"":454,""unit"":""mm"",""source_view"":""plan""},""adjustable height"":{""unit"":""mm"",""source_view"":""section 1""},""depth"":{""value"":503,""unit"":""mm"",""source_view"":""Section 2""}}"
+570,14,14 Cutout 6 - Compositional view.jpg,11,1_2_1,"In the provided set of views (plan/elevation/section/3D view), identify the horizontal grabrails near shower seat. Extract its dimensions as annotated across the views. Return a JSON object with keys: [""width"", ""height"", ""depth""]. If a value is not shown, return null.
+
+Example:
+{
+  ""width"": { ""value"": 1200, ""unit"": ""mm"", ""source_view"": ""plan"" },
+  ""height"": { ""value"": 750, ""unit"": ""mm"", ""source_view"": ""elevation"" },
+  ""depth"": null
+}","{""width"":null,""height"":null,""depth"":{""value"":590,""unit"":""mm"",""source_view"":""Section 2""}}"
+571,14,14 Cutout 6 - Compositional view.jpg,11,1_2_1,"In the provided set of views (plan/elevation/section/3D view), identify the basin. Extract its dimensions as annotated across the views. Return a JSON object with keys: [""width"", ""position height"", ""depth""]. If a value is not shown, return null.
+
+Example:
+{
+  ""width"": { ""value"": 1200, ""unit"": ""mm"", ""source_view"": ""plan"" },
+  ""height"": { ""value"": 750, ""unit"": ""mm"", ""source_view"": ""elevation"" },
+  ""depth"": null
+}","{""width"":{""value"":577,""unit"":""mm"",""source_view"":""plan""},""position height"":{""value"":915,""unit"":""mm"",""source_view"":""section 1""},""depth"":null}"
+572,14,14 Cutout 6 - Compositional view.jpg,11,1_2_1,"In the provided set of views (plan/elevation/section/3D view), identify the verical handrail to the left of the basin. Extract its dimensions as annotated across the views. Return a JSON object with keys: [""distance from floor to the lowest handrail mounting"", ""height"", ""distance from the nearest wall to the centerline of the handrail""]. If a value is not shown, return null.
+
+Example:
+{
+  ""width"": { ""value"": 1200, ""unit"": ""mm"", ""source_view"": ""plan"" },
+  ""height"": { ""value"": 750, ""unit"": ""mm"", ""source_view"": ""elevation"" },
+  ""depth"": null
+}","{""distance from floor to the lowest handrail mounting"":{""value"":300,""unit"":""mm"",""source_view"":""section 1""},""height"":{""value"":1145,""unit"":""mm"",""source_view"":""section 1""},""distance from the nearest wall to the centerline of the handrail"":{""value"":355,""unit"":""mm"",""source_view"":""plan""}}"
+573,14,14 Cutout 6 - Compositional view.jpg,11,1_2_1,"In the provided set of views (plan/elevation/section/3D view), identify the vertical handrail in the shower. Extract its dimensions as annotated across the views. Return a JSON object with keys: [""distance from floor to the lowest handrail mounting"", ""height"", ""distance from the nearest wall to the centerline of the handrail""]. If a value is not shown, return null.
+
+Example:
+{
+  ""width"": { ""value"": 1200, ""unit"": ""mm"", ""source_view"": ""plan"" },
+  ""height"": { ""value"": 750, ""unit"": ""mm"", ""source_view"": ""elevation"" },
+  ""depth"": null
+}","{""distance from floor to the lowest handrail mounting"":{""value"":600,""unit"":""mm"",""source_view"":""section 1""},""height"":{""value"":1125,""unit"":""mm"",""source_view"":""section 1""},""distance from the nearest wall to the centerline of the handrail"":{""value"":495,""unit"":""mm"",""source_view"":""section 2""}}"
+574,15,15 Cutout 6 - Compositional view.jpg,11,1_2_1,"In the provided set of views (plan/elevation/section/3D view), identify the double door. Extract its dimensions as annotated across the views. Return a JSON object with keys: [""door width"", ""door leafs height"", ""depth""]. If a value is not shown, return null.
+
+Example:
+{
+  ""width"": { ""value"": 1200, ""unit"": ""mm"", ""source_view"": ""plan"" },
+  ""height"": { ""value"": 750, ""unit"": ""mm"", ""source_view"": ""elevation"" },
+  ""depth"": null
+}","{""door width"":{""value"":1350,""unit"":""mm"",""source_view"":""plan""},""door leafs height"":{""value"":2000,""unit"":""mm"",""source_view"":""section 2""},""depth"":null}"
+575,15,15 Cutout 6 - Compositional view.jpg,11,1_2_1,"In the provided set of views (plan/elevation/section/3D view), identify the shower curtain. Extract its dimensions as annotated across the views. Return a JSON object with keys: [""width"", ""height"", ""leaf depth""]. If a value is not shown, return null.
+
+Example:
+{
+  ""width"": { ""value"": 1200, ""unit"": ""mm"", ""source_view"": ""plan"" },
+  ""height"": { ""value"": 750, ""unit"": ""mm"", ""source_view"": ""elevation"" },
+  ""depth"": null
+}","{""width"":{""value"":1200,""unit"":""mm"",""source_view"":""plan""},""height"":{""value"":1829,""unit"":""mm"",""source_view"":""section 2""},""leaf depth"":{""value"":920,""unit"":""mm"",""source_view"":""plan""}}"
+576,15,15 Cutout 6 - Compositional view.jpg,11,1_2_1,"In the provided set of views (plan/elevation/section/3D view), identify the tip-up shower seat. Extract its dimensions as annotated across the views. Return a JSON object with keys: [""width"", ""height"", ""depth""]. If a value is not shown, return null.
+
+Example:
+{
+  ""width"": { ""value"": 1200, ""unit"": ""mm"", ""source_view"": ""plan"" },
+  ""height"": { ""value"": 750, ""unit"": ""mm"", ""source_view"": ""elevation"" },
+  ""depth"": null
+}","{""width"":{""value"":454,""unit"":""mm"",""source_view"":""plan""},""height"":{""unit"":""mm"",""source_view"":""section 2""},""depth"":{""value"":503,""unit"":""mm"",""source_view"":""Section 2""}}"
+577,15,15 Cutout 6 - Compositional view.jpg,11,1_2_1,"In the provided set of views (plan/elevation/section/3D view), identify the horizontal grabrails near shower seat. Extract its dimensions as annotated across the views. Return a JSON object with keys: [""width"", ""height"", ""depth""]. If a value is not shown, return null.
+
+Example:
+{
+  ""width"": { ""value"": 1200, ""unit"": ""mm"", ""source_view"": ""plan"" },
+  ""height"": { ""value"": 750, ""unit"": ""mm"", ""source_view"": ""elevation"" },
+  ""depth"": null
+}","{""width"":null,""height"":null,""depth"":{""value"":590,""unit"":""mm"",""source_view"":""Section 2""}}"
+578,15,15 Cutout 6 - Compositional view.jpg,11,1_2_1,"In the provided set of views (plan/elevation/section/3D view), identify the basin. Extract its dimensions as annotated across the views. Return a JSON object with keys: [""width"", ""position height"", ""depth""]. If a value is not shown, return null.
+
+Example:
+{
+  ""width"": { ""value"": 1200, ""unit"": ""mm"", ""source_view"": ""plan"" },
+  ""height"": { ""value"": 750, ""unit"": ""mm"", ""source_view"": ""elevation"" },
+  ""depth"": null
+}","{""width"":{""value"":577,""unit"":""mm"",""source_view"":""plan""},""position height"":{""value"":915,""unit"":""mm"",""source_view"":""section 1""},""depth"":null}"
+579,15,15 Cutout 6 - Compositional view.jpg,11,1_2_1,"In the provided set of views (plan/elevation/section/3D view), identify the verical handrail to the left of the basin. Extract its dimensions as annotated across the views. Return a JSON object with keys: [""distance from floor to the lowest handrail mounting"", ""height"", ""distance from the nearest wall to the centerline of the handrail""]. If a value is not shown, return null.
+
+Example:
+{
+  ""width"": { ""value"": 1200, ""unit"": ""mm"", ""source_view"": ""plan"" },
+  ""height"": { ""value"": 750, ""unit"": ""mm"", ""source_view"": ""elevation"" },
+  ""depth"": null
+}","{""distance from floor to the lowest handrail mounting"":{""value"":285,""unit"":""mm"",""source_view"":""section 1""},""height"":{""value"":1145,""unit"":""mm"",""source_view"":""section 1""},""distance from the nearest wall to the centerline of the handrail"":{""value"":355,""unit"":""mm"",""source_view"":""plan""}}"
+580,15,15 Cutout 6 - Compositional view.jpg,11,1_2_1,"In the provided set of views (plan/elevation/section/3D view), identify the vertical handrail in the shower. Extract its dimensions as annotated across the views. Return a JSON object with keys: [""distance from floor to the lowest handrail mounting"", ""height"", ""distance from the nearest wall to the centerline of the handrail""]. If a value is not shown, return null.
+
+Example:
+{
+  ""width"": { ""value"": 1200, ""unit"": ""mm"", ""source_view"": ""plan"" },
+  ""height"": { ""value"": 750, ""unit"": ""mm"", ""source_view"": ""elevation"" },
+  ""depth"": null
+}","{""distance from floor to the lowest handrail mounting"":{""value"":580,""unit"":""mm"",""source_view"":""section 1""},""height"":{""value"":1125,""unit"":""mm"",""source_view"":""section 1""},""distance from the nearest wall to the centerline of the handrail"":{""value"":495,""unit"":""mm"",""source_view"":""section 2""}}"

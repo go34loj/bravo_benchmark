@@ -1,0 +1,1126 @@
+generated_question_id,template_id,layer_id,scene_id,file_path,question_text,ground_truth_answer
+0,1,1_1_1,1,1 a plan view of a semi-abudant WC room.jpg,"Does this view contain a handrails? 
+Answer ""yes"" or ""no"".",yes
+1,1,1_1_1,1,1 a plan view of a semi-abudant WC room.jpg,"Does this view contain a toilet? 
+Answer ""yes"" or ""no"".",yes
+2,1,1_1_1,1,1 a plan view of a semi-abudant WC room.jpg,"Does this view contain a sink? 
+Answer ""yes"" or ""no"".",yes
+3,1,1_1_1,1,1 a plan view of a semi-abudant WC room.jpg,"Does this view contain a door? 
+Answer ""yes"" or ""no"".",yes
+4,1,1_1_1,1,1 a plan view of a semi-abudant WC room.jpg,"Does this view contain a wall? 
+Answer ""yes"" or ""no"".",yes
+5,1,1_1_1,1,1 a plan view of a semi-abudant WC room.jpg,"Does this view contain a paper towel dispenser? 
+Answer ""yes"" or ""no"".",yes
+6,1,1_1_1,1,1 a plan view of a semi-abudant WC room.jpg,"Does this view contain a service duct? 
+Answer ""yes"" or ""no"".",yes
+7,1,1_1_1,1,1 a plan view of a semi-abudant WC room.jpg,"Does this view contain a sanitary fixture? 
+Answer ""yes"" or ""no"".",yes
+8,1,1_1_1,1,1 a plan view of a semi-abudant WC room.jpg,"Does this view contain a grabrail? 
+Answer ""yes"" or ""no"".",yes
+9,1,1_1_1,1,1 a plan view of a semi-abudant WC room.jpg,"Does this view contain a curtain wall? 
+Answer ""yes"" or ""no"".",no
+10,1,1_1_1,1,1 a plan view of a semi-abudant WC room.jpg,"Does this view contain a horizontal bands? 
+Answer ""yes"" or ""no"".",no
+11,1,1_1_1,1,1 a plan view of a semi-abudant WC room.jpg,"Does this view contain a window? 
+Answer ""yes"" or ""no"".",no
+12,1,1_1_1,1,1 a plan view of a semi-abudant WC room.jpg,"Does this view contain a knife? 
+Answer ""yes"" or ""no"".",no
+13,1,1_1_1,2,2 a plan view of a semi-abudant WC room.jpg,"Does this view contain a handrails? 
+Answer ""yes"" or ""no"".",yes
+14,1,1_1_1,2,2 a plan view of a semi-abudant WC room.jpg,"Does this view contain a toilet? 
+Answer ""yes"" or ""no"".",yes
+15,1,1_1_1,2,2 a plan view of a semi-abudant WC room.jpg,"Does this view contain a sink? 
+Answer ""yes"" or ""no"".",yes
+16,1,1_1_1,2,2 a plan view of a semi-abudant WC room.jpg,"Does this view contain a door? 
+Answer ""yes"" or ""no"".",yes
+17,1,1_1_1,2,2 a plan view of a semi-abudant WC room.jpg,"Does this view contain a wall? 
+Answer ""yes"" or ""no"".",yes
+18,1,1_1_1,2,2 a plan view of a semi-abudant WC room.jpg,"Does this view contain a paper towel dispenser? 
+Answer ""yes"" or ""no"".",yes
+19,1,1_1_1,2,2 a plan view of a semi-abudant WC room.jpg,"Does this view contain a service duct? 
+Answer ""yes"" or ""no"".",yes
+20,1,1_1_1,2,2 a plan view of a semi-abudant WC room.jpg,"Does this view contain a sanitary fixture? 
+Answer ""yes"" or ""no"".",yes
+21,1,1_1_1,2,2 a plan view of a semi-abudant WC room.jpg,"Does this view contain a grabrail? 
+Answer ""yes"" or ""no"".",yes
+22,1,1_1_1,2,2 a plan view of a semi-abudant WC room.jpg,"Does this view contain a strove? 
+Answer ""yes"" or ""no"".",no
+23,1,1_1_1,2,2 a plan view of a semi-abudant WC room.jpg,"Does this view contain a man? 
+Answer ""yes"" or ""no"".",no
+24,1,1_1_1,2,2 a plan view of a semi-abudant WC room.jpg,"Does this view contain a window? 
+Answer ""yes"" or ""no"".",no
+25,1,1_1_1,2,2 a plan view of a semi-abudant WC room.jpg,"Does this view contain a human having a drink? 
+Answer ""yes"" or ""no"".",no
+26,1,1_1_1,3,3 double flat.jpg,"Does this view contain a toilet? 
+Answer ""yes"" or ""no"".",yes
+27,1,1_1_1,3,3 double flat.jpg,"Does this view contain a sink? 
+Answer ""yes"" or ""no"".",yes
+28,1,1_1_1,3,3 double flat.jpg,"Does this view contain a door? 
+Answer ""yes"" or ""no"".",yes
+29,1,1_1_1,3,3 double flat.jpg,"Does this view contain a wall? 
+Answer ""yes"" or ""no"".",yes
+30,1,1_1_1,3,3 double flat.jpg,"Does this view contain a staircase? 
+Answer ""yes"" or ""no"".",yes
+31,1,1_1_1,3,3 double flat.jpg,"Does this view contain a service duct? 
+Answer ""yes"" or ""no"".",yes
+32,1,1_1_1,3,3 double flat.jpg,"Does this view contain a sanitary fixture? 
+Answer ""yes"" or ""no"".",yes
+33,1,1_1_1,3,3 double flat.jpg,"Does this view contain a strove? 
+Answer ""yes"" or ""no"".",yes
+34,1,1_1_1,3,3 double flat.jpg,"Does this view contain a double bed? 
+Answer ""yes"" or ""no"".",yes
+35,1,1_1_1,3,3 double flat.jpg,"Does this view contain a single bed? 
+Answer ""yes"" or ""no"".",yes
+36,1,1_1_1,3,3 double flat.jpg,"Does this view contain a bedside table? 
+Answer ""yes"" or ""no"".",yes
+37,1,1_1_1,3,3 double flat.jpg,"Does this view contain a coffee table? 
+Answer ""yes"" or ""no"".",yes
+38,1,1_1_1,3,3 double flat.jpg,"Does this view contain a dining table? 
+Answer ""yes"" or ""no"".",yes
+39,1,1_1_1,3,3 double flat.jpg,"Does this view contain a plates? 
+Answer ""yes"" or ""no"".",yes
+40,1,1_1_1,3,3 double flat.jpg,"Does this view contain a knife? 
+Answer ""yes"" or ""no"".",yes
+41,1,1_1_1,3,3 double flat.jpg,"Does this view contain a fork? 
+Answer ""yes"" or ""no"".",yes
+42,1,1_1_1,3,3 double flat.jpg,"Does this view contain a chair? 
+Answer ""yes"" or ""no"".",yes
+43,1,1_1_1,3,3 double flat.jpg,"Does this view contain a wardrobe? 
+Answer ""yes"" or ""no"".",yes
+44,1,1_1_1,3,3 double flat.jpg,"Does this view contain a armchair? 
+Answer ""yes"" or ""no"".",yes
+45,1,1_1_1,3,3 double flat.jpg,"Does this view contain a plant? 
+Answer ""yes"" or ""no"".",yes
+46,1,1_1_1,3,3 double flat.jpg,"Does this view contain a humans? 
+Answer ""yes"" or ""no"".",yes
+47,1,1_1_1,3,3 double flat.jpg,"Does this view contain a reading human? 
+Answer ""yes"" or ""no"".",yes
+48,1,1_1_1,3,3 double flat.jpg,"Does this view contain a human having a drink? 
+Answer ""yes"" or ""no"".",yes
+49,1,1_1_1,3,3 double flat.jpg,"Does this view contain a woman? 
+Answer ""yes"" or ""no"".",yes
+50,1,1_1_1,3,3 double flat.jpg,"Does this view contain a man? 
+Answer ""yes"" or ""no"".",yes
+51,1,1_1_1,3,3 double flat.jpg,"Does this view contain a glazed curtain wall? 
+Answer ""yes"" or ""no"".",yes
+52,1,1_1_1,3,3 double flat.jpg,"Does this view contain a doorless portal? 
+Answer ""yes"" or ""no"".",yes
+53,1,1_1_1,3,3 double flat.jpg,"Does this view contain a curtain wall? 
+Answer ""yes"" or ""no"".",no
+54,1,1_1_1,3,3 double flat.jpg,"Does this view contain a facade flashing? 
+Answer ""yes"" or ""no"".",no
+55,1,1_1_1,3,3 double flat.jpg,"Does this view contain a floor finish? 
+Answer ""yes"" or ""no"".",no
+56,1,1_1_1,3,3 double flat.jpg,"Does this view contain a floor slabs? 
+Answer ""yes"" or ""no"".",no
+57,1,1_1_1,3,3 double flat.jpg,"Does this view contain a grabrail? 
+Answer ""yes"" or ""no"".",no
+58,1,1_1_1,3,3 double flat.jpg,"Does this view contain a handrails? 
+Answer ""yes"" or ""no"".",no
+59,1,1_1_1,3,3 double flat.jpg,"Does this view contain a horizontal bands? 
+Answer ""yes"" or ""no"".",no
+60,1,1_1_1,3,3 double flat.jpg,"Does this view contain a insulation? 
+Answer ""yes"" or ""no"".",no
+61,1,1_1_1,3,3 double flat.jpg,"Does this view contain a paper towel dispenser? 
+Answer ""yes"" or ""no"".",no
+62,1,1_1_1,3,3 double flat.jpg,"Does this view contain a wall finish? 
+Answer ""yes"" or ""no"".",no
+63,1,1_1_1,3,3 double flat.jpg,"Does this view contain a window? 
+Answer ""yes"" or ""no"".",no
+64,1,1_1_1,4,4 double flat.jpg,"Does this view contain a toilet? 
+Answer ""yes"" or ""no"".",yes
+65,1,1_1_1,4,4 double flat.jpg,"Does this view contain a sink? 
+Answer ""yes"" or ""no"".",yes
+66,1,1_1_1,4,4 double flat.jpg,"Does this view contain a door? 
+Answer ""yes"" or ""no"".",yes
+67,1,1_1_1,4,4 double flat.jpg,"Does this view contain a wall? 
+Answer ""yes"" or ""no"".",yes
+68,1,1_1_1,4,4 double flat.jpg,"Does this view contain a staircase? 
+Answer ""yes"" or ""no"".",yes
+69,1,1_1_1,4,4 double flat.jpg,"Does this view contain a service duct? 
+Answer ""yes"" or ""no"".",yes
+70,1,1_1_1,4,4 double flat.jpg,"Does this view contain a sanitary fixture? 
+Answer ""yes"" or ""no"".",yes
+71,1,1_1_1,4,4 double flat.jpg,"Does this view contain a strove? 
+Answer ""yes"" or ""no"".",yes
+72,1,1_1_1,4,4 double flat.jpg,"Does this view contain a double bed? 
+Answer ""yes"" or ""no"".",yes
+73,1,1_1_1,4,4 double flat.jpg,"Does this view contain a single bed? 
+Answer ""yes"" or ""no"".",yes
+74,1,1_1_1,4,4 double flat.jpg,"Does this view contain a bedside table? 
+Answer ""yes"" or ""no"".",yes
+75,1,1_1_1,4,4 double flat.jpg,"Does this view contain a coffee table? 
+Answer ""yes"" or ""no"".",yes
+76,1,1_1_1,4,4 double flat.jpg,"Does this view contain a dining table? 
+Answer ""yes"" or ""no"".",yes
+77,1,1_1_1,4,4 double flat.jpg,"Does this view contain a plates? 
+Answer ""yes"" or ""no"".",yes
+78,1,1_1_1,4,4 double flat.jpg,"Does this view contain a knife? 
+Answer ""yes"" or ""no"".",yes
+79,1,1_1_1,4,4 double flat.jpg,"Does this view contain a fork? 
+Answer ""yes"" or ""no"".",yes
+80,1,1_1_1,4,4 double flat.jpg,"Does this view contain a chair? 
+Answer ""yes"" or ""no"".",yes
+81,1,1_1_1,4,4 double flat.jpg,"Does this view contain a wardrobe? 
+Answer ""yes"" or ""no"".",yes
+82,1,1_1_1,4,4 double flat.jpg,"Does this view contain a armchair? 
+Answer ""yes"" or ""no"".",yes
+83,1,1_1_1,4,4 double flat.jpg,"Does this view contain a plant? 
+Answer ""yes"" or ""no"".",yes
+84,1,1_1_1,4,4 double flat.jpg,"Does this view contain a humans? 
+Answer ""yes"" or ""no"".",yes
+85,1,1_1_1,4,4 double flat.jpg,"Does this view contain a reading human? 
+Answer ""yes"" or ""no"".",yes
+86,1,1_1_1,4,4 double flat.jpg,"Does this view contain a human having a drink? 
+Answer ""yes"" or ""no"".",yes
+87,1,1_1_1,4,4 double flat.jpg,"Does this view contain a woman? 
+Answer ""yes"" or ""no"".",yes
+88,1,1_1_1,4,4 double flat.jpg,"Does this view contain a man? 
+Answer ""yes"" or ""no"".",yes
+89,1,1_1_1,4,4 double flat.jpg,"Does this view contain a glazed curtain wall? 
+Answer ""yes"" or ""no"".",yes
+90,1,1_1_1,4,4 double flat.jpg,"Does this view contain a doorless portal? 
+Answer ""yes"" or ""no"".",yes
+91,1,1_1_1,4,4 double flat.jpg,"Does this view contain a curtain wall? 
+Answer ""yes"" or ""no"".",no
+92,1,1_1_1,4,4 double flat.jpg,"Does this view contain a facade flashing? 
+Answer ""yes"" or ""no"".",no
+93,1,1_1_1,4,4 double flat.jpg,"Does this view contain a floor finish? 
+Answer ""yes"" or ""no"".",no
+94,1,1_1_1,4,4 double flat.jpg,"Does this view contain a floor slabs? 
+Answer ""yes"" or ""no"".",no
+95,1,1_1_1,4,4 double flat.jpg,"Does this view contain a grabrail? 
+Answer ""yes"" or ""no"".",no
+96,1,1_1_1,4,4 double flat.jpg,"Does this view contain a handrails? 
+Answer ""yes"" or ""no"".",no
+97,1,1_1_1,4,4 double flat.jpg,"Does this view contain a horizontal bands? 
+Answer ""yes"" or ""no"".",no
+98,1,1_1_1,4,4 double flat.jpg,"Does this view contain a insulation? 
+Answer ""yes"" or ""no"".",no
+99,1,1_1_1,4,4 double flat.jpg,"Does this view contain a paper towel dispenser? 
+Answer ""yes"" or ""no"".",no
+100,1,1_1_1,4,4 double flat.jpg,"Does this view contain a wall finish? 
+Answer ""yes"" or ""no"".",no
+101,1,1_1_1,4,4 double flat.jpg,"Does this view contain a window? 
+Answer ""yes"" or ""no"".",no
+102,1,1_1_1,5,5 Living_house - Facade fragment.jpg,"Does this view contain a wall? 
+Answer ""yes"" or ""no"".",yes
+103,1,1_1_1,5,5 Living_house - Facade fragment.jpg,"Does this view contain a window? 
+Answer ""yes"" or ""no"".",yes
+104,1,1_1_1,5,5 Living_house - Facade fragment.jpg,"Does this view contain a curtain wall? 
+Answer ""yes"" or ""no"".",yes
+105,1,1_1_1,5,5 Living_house - Facade fragment.jpg,"Does this view contain a floor slabs? 
+Answer ""yes"" or ""no"".",yes
+106,1,1_1_1,5,5 Living_house - Facade fragment.jpg,"Does this view contain a insulation? 
+Answer ""yes"" or ""no"".",yes
+107,1,1_1_1,5,5 Living_house - Facade fragment.jpg,"Does this view contain a floor finish? 
+Answer ""yes"" or ""no"".",yes
+108,1,1_1_1,5,5 Living_house - Facade fragment.jpg,"Does this view contain a wall finish? 
+Answer ""yes"" or ""no"".",yes
+109,1,1_1_1,5,5 Living_house - Facade fragment.jpg,"Does this view contain a horizontal bands? 
+Answer ""yes"" or ""no"".",yes
+110,1,1_1_1,5,5 Living_house - Facade fragment.jpg,"Does this view contain a facade flashing? 
+Answer ""yes"" or ""no"".",yes
+111,1,1_1_1,5,5 Living_house - Facade fragment.jpg,"Does this view contain a reading human? 
+Answer ""yes"" or ""no"".",no
+112,1,1_1_1,5,5 Living_house - Facade fragment.jpg,"Does this view contain a plant? 
+Answer ""yes"" or ""no"".",no
+113,1,1_1_1,5,5 Living_house - Facade fragment.jpg,"Does this view contain a human having a drink? 
+Answer ""yes"" or ""no"".",no
+114,1,1_1_1,5,5 Living_house - Facade fragment.jpg,"Does this view contain a service duct? 
+Answer ""yes"" or ""no"".",no
+115,1,1_1_1,6,6 Living_house - Facade fragment.jpg,"Does this view contain a wall? 
+Answer ""yes"" or ""no"".",yes
+116,1,1_1_1,6,6 Living_house - Facade fragment.jpg,"Does this view contain a window? 
+Answer ""yes"" or ""no"".",yes
+117,1,1_1_1,6,6 Living_house - Facade fragment.jpg,"Does this view contain a curtain wall? 
+Answer ""yes"" or ""no"".",yes
+118,1,1_1_1,6,6 Living_house - Facade fragment.jpg,"Does this view contain a floor slabs? 
+Answer ""yes"" or ""no"".",yes
+119,1,1_1_1,6,6 Living_house - Facade fragment.jpg,"Does this view contain a insulation? 
+Answer ""yes"" or ""no"".",yes
+120,1,1_1_1,6,6 Living_house - Facade fragment.jpg,"Does this view contain a floor finish? 
+Answer ""yes"" or ""no"".",yes
+121,1,1_1_1,6,6 Living_house - Facade fragment.jpg,"Does this view contain a wall finish? 
+Answer ""yes"" or ""no"".",yes
+122,1,1_1_1,6,6 Living_house - Facade fragment.jpg,"Does this view contain a horizontal bands? 
+Answer ""yes"" or ""no"".",yes
+123,1,1_1_1,6,6 Living_house - Facade fragment.jpg,"Does this view contain a facade flashing? 
+Answer ""yes"" or ""no"".",yes
+124,1,1_1_1,6,6 Living_house - Facade fragment.jpg,"Does this view contain a sink? 
+Answer ""yes"" or ""no"".",no
+125,1,1_1_1,6,6 Living_house - Facade fragment.jpg,"Does this view contain a grabrail? 
+Answer ""yes"" or ""no"".",no
+126,1,1_1_1,6,6 Living_house - Facade fragment.jpg,"Does this view contain a strove? 
+Answer ""yes"" or ""no"".",no
+127,1,1_1_1,6,6 Living_house - Facade fragment.jpg,"Does this view contain a sanitary fixture? 
+Answer ""yes"" or ""no"".",no
+128,1,1_1_1,7,7 Living_house - Facade fragment.jpg,"Does this view contain a wall? 
+Answer ""yes"" or ""no"".",yes
+129,1,1_1_1,7,7 Living_house - Facade fragment.jpg,"Does this view contain a window? 
+Answer ""yes"" or ""no"".",yes
+130,1,1_1_1,7,7 Living_house - Facade fragment.jpg,"Does this view contain a curtain wall? 
+Answer ""yes"" or ""no"".",yes
+131,1,1_1_1,7,7 Living_house - Facade fragment.jpg,"Does this view contain a floor slabs? 
+Answer ""yes"" or ""no"".",yes
+132,1,1_1_1,7,7 Living_house - Facade fragment.jpg,"Does this view contain a insulation? 
+Answer ""yes"" or ""no"".",yes
+133,1,1_1_1,7,7 Living_house - Facade fragment.jpg,"Does this view contain a floor finish? 
+Answer ""yes"" or ""no"".",yes
+134,1,1_1_1,7,7 Living_house - Facade fragment.jpg,"Does this view contain a wall finish? 
+Answer ""yes"" or ""no"".",yes
+135,1,1_1_1,7,7 Living_house - Facade fragment.jpg,"Does this view contain a horizontal bands? 
+Answer ""yes"" or ""no"".",yes
+136,1,1_1_1,7,7 Living_house - Facade fragment.jpg,"Does this view contain a facade flashing? 
+Answer ""yes"" or ""no"".",yes
+137,1,1_1_1,7,7 Living_house - Facade fragment.jpg,"Does this view contain a toilet? 
+Answer ""yes"" or ""no"".",no
+138,1,1_1_1,7,7 Living_house - Facade fragment.jpg,"Does this view contain a service duct? 
+Answer ""yes"" or ""no"".",no
+139,1,1_1_1,7,7 Living_house - Facade fragment.jpg,"Does this view contain a fork? 
+Answer ""yes"" or ""no"".",no
+140,1,1_1_1,7,7 Living_house - Facade fragment.jpg,"Does this view contain a wardrobe? 
+Answer ""yes"" or ""no"".",no
+141,1,1_1_1,8,8 Living_house - Facade fragment.jpg,"Does this view contain a wall? 
+Answer ""yes"" or ""no"".",yes
+142,1,1_1_1,8,8 Living_house - Facade fragment.jpg,"Does this view contain a window? 
+Answer ""yes"" or ""no"".",yes
+143,1,1_1_1,8,8 Living_house - Facade fragment.jpg,"Does this view contain a curtain wall? 
+Answer ""yes"" or ""no"".",yes
+144,1,1_1_1,8,8 Living_house - Facade fragment.jpg,"Does this view contain a floor slabs? 
+Answer ""yes"" or ""no"".",yes
+145,1,1_1_1,8,8 Living_house - Facade fragment.jpg,"Does this view contain a insulation? 
+Answer ""yes"" or ""no"".",yes
+146,1,1_1_1,8,8 Living_house - Facade fragment.jpg,"Does this view contain a floor finish? 
+Answer ""yes"" or ""no"".",yes
+147,1,1_1_1,8,8 Living_house - Facade fragment.jpg,"Does this view contain a wall finish? 
+Answer ""yes"" or ""no"".",yes
+148,1,1_1_1,8,8 Living_house - Facade fragment.jpg,"Does this view contain a horizontal bands? 
+Answer ""yes"" or ""no"".",yes
+149,1,1_1_1,8,8 Living_house - Facade fragment.jpg,"Does this view contain a facade flashing? 
+Answer ""yes"" or ""no"".",yes
+150,1,1_1_1,8,8 Living_house - Facade fragment.jpg,"Does this view contain a grabrail? 
+Answer ""yes"" or ""no"".",no
+151,1,1_1_1,8,8 Living_house - Facade fragment.jpg,"Does this view contain a door? 
+Answer ""yes"" or ""no"".",no
+152,1,1_1_1,8,8 Living_house - Facade fragment.jpg,"Does this view contain a human having a drink? 
+Answer ""yes"" or ""no"".",no
+153,1,1_1_1,8,8 Living_house - Facade fragment.jpg,"Does this view contain a man? 
+Answer ""yes"" or ""no"".",no
+154,2,1_1_1,1,1 a plan view of a semi-abudant WC room.jpg,"Find one or multiple entities of toilet in the attached view.
+Does toilet have the feature ""tank""?
+Answer ""yes"" or ""no"".",yes
+155,2,1_1_1,1,1 a plan view of a semi-abudant WC room.jpg,"Find one or multiple entities of toilet in the attached view.
+Does toilet have the feature ""set""?
+Answer ""yes"" or ""no"".",yes
+156,2,1_1_1,1,1 a plan view of a semi-abudant WC room.jpg,"Find one or multiple entities of toilet in the attached view.
+Does toilet have the feature ""lid""?
+Answer ""yes"" or ""no"".",yes
+157,2,1_1_1,1,1 a plan view of a semi-abudant WC room.jpg,"Find one or multiple entities of toilet in the attached view.
+Does toilet have the feature ""rim""?
+Answer ""yes"" or ""no"".",yes
+158,2,1_1_1,1,1 a plan view of a semi-abudant WC room.jpg,"Find one or multiple entities of handrails in the attached view.
+Does handrails have the feature ""facade system""?
+Answer ""yes"" or ""no"".",no
+159,2,1_1_1,1,1 a plan view of a semi-abudant WC room.jpg,"Find one or multiple entities of paper towel dispenser in the attached view.
+Does paper towel dispenser have the feature ""anchor dowel""?
+Answer ""yes"" or ""no"".",no
+160,2,1_1_1,2,2 a plan view of a semi-abudant WC room.jpg,"Find one or multiple entities of toilet in the attached view.
+Does toilet have the feature ""tank""?
+Answer ""yes"" or ""no"".",yes
+161,2,1_1_1,2,2 a plan view of a semi-abudant WC room.jpg,"Find one or multiple entities of toilet in the attached view.
+Does toilet have the feature ""set""?
+Answer ""yes"" or ""no"".",yes
+162,2,1_1_1,2,2 a plan view of a semi-abudant WC room.jpg,"Find one or multiple entities of toilet in the attached view.
+Does toilet have the feature ""lid""?
+Answer ""yes"" or ""no"".",yes
+163,2,1_1_1,2,2 a plan view of a semi-abudant WC room.jpg,"Find one or multiple entities of toilet in the attached view.
+Does toilet have the feature ""rim""?
+Answer ""yes"" or ""no"".",yes
+164,2,1_1_1,2,2 a plan view of a semi-abudant WC room.jpg,"Find one or multiple entities of sink in the attached view.
+Does sink have the feature ""drain hole""?
+Answer ""yes"" or ""no"".",yes
+165,2,1_1_1,2,2 a plan view of a semi-abudant WC room.jpg,"Find one or multiple entities of grabrail in the attached view.
+Does grabrail have the feature ""curtain wall""?
+Answer ""yes"" or ""no"".",no
+166,2,1_1_1,2,2 a plan view of a semi-abudant WC room.jpg,"Find one or multiple entities of door in the attached view.
+Does door have the feature ""facade system""?
+Answer ""yes"" or ""no"".",no
+167,2,1_1_1,3,3 double flat.jpg,"Find one or multiple entities of toilet in the attached view.
+Does toilet have the feature ""tank""?
+Answer ""yes"" or ""no"".",yes
+168,2,1_1_1,3,3 double flat.jpg,"Find one or multiple entities of single bed in the attached view.
+Does single bed have the feature ""pillow""?
+Answer ""yes"" or ""no"".",yes
+169,2,1_1_1,3,3 double flat.jpg,"Find one or multiple entities of single bed in the attached view.
+Does single bed have the feature ""blanket""?
+Answer ""yes"" or ""no"".",yes
+170,2,1_1_1,3,3 double flat.jpg,"Find one or multiple entities of single bed in the attached view.
+Does single bed have the feature ""headboard""?
+Answer ""yes"" or ""no"".",yes
+171,2,1_1_1,3,3 double flat.jpg,"Find one or multiple entities of double bed in the attached view.
+Does double bed have the feature ""pillow""?
+Answer ""yes"" or ""no"".",yes
+172,2,1_1_1,3,3 double flat.jpg,"Find one or multiple entities of double bed in the attached view.
+Does double bed have the feature ""headboard""?
+Answer ""yes"" or ""no"".",yes
+173,2,1_1_1,3,3 double flat.jpg,"Find one or multiple entities of armchair in the attached view.
+Does armchair have the feature ""backrest""?
+Answer ""yes"" or ""no"".",yes
+174,2,1_1_1,3,3 double flat.jpg,"Find one or multiple entities of sink in the attached view.
+Does sink have the feature ""tap""?
+Answer ""yes"" or ""no"".",yes
+175,2,1_1_1,3,3 double flat.jpg,"Find one or multiple entities of sink in the attached view.
+Does sink have the feature ""drain hole""?
+Answer ""yes"" or ""no"".",yes
+176,2,1_1_1,3,3 double flat.jpg,"Find one or multiple entities of strove in the attached view.
+Does strove have the feature ""strove burner""?
+Answer ""yes"" or ""no"".",yes
+177,2,1_1_1,3,3 double flat.jpg,"Find one or multiple entities of plant in the attached view.
+Does plant have the feature ""leaves""?
+Answer ""yes"" or ""no"".",yes
+178,2,1_1_1,3,3 double flat.jpg,"Find one or multiple entities of plant in the attached view.
+Does plant have the feature ""pot""?
+Answer ""yes"" or ""no"".",yes
+179,2,1_1_1,3,3 double flat.jpg,"Find one or multiple entities of stair in the attached view.
+Does stair have the feature ""stringer""?
+Answer ""yes"" or ""no"".",no
+180,2,1_1_1,3,3 double flat.jpg,"Find one or multiple entities of stair in the attached view.
+Does stair have the feature ""tread""?
+Answer ""yes"" or ""no"".",no
+181,2,1_1_1,3,3 double flat.jpg,"Find one or multiple entities of plant in the attached view.
+Does plant have the feature ""handrail""?
+Answer ""yes"" or ""no"".",no
+182,2,1_1_1,3,3 double flat.jpg,"Find one or multiple entities of glazed curtain wall in the attached view.
+Does glazed curtain wall have the feature ""floor slabs""?
+Answer ""yes"" or ""no"".",no
+183,2,1_1_1,3,3 double flat.jpg,"Find one or multiple entities of reading human in the attached view.
+Does reading human have the feature ""wheels""?
+Answer ""yes"" or ""no"".",no
+184,2,1_1_1,3,3 double flat.jpg,"Find one or multiple entities of man in the attached view.
+Does man have the feature ""rim""?
+Answer ""yes"" or ""no"".",no
+185,2,1_1_1,3,3 double flat.jpg,"Find one or multiple entities of sink in the attached view.
+Does sink have the feature ""pot""?
+Answer ""yes"" or ""no"".",no
+186,2,1_1_1,3,3 double flat.jpg,"Find one or multiple entities of knife in the attached view.
+Does knife have the feature ""structural wall""?
+Answer ""yes"" or ""no"".",no
+187,2,1_1_1,4,4 double flat.jpg,"Find one or multiple entities of toilet in the attached view.
+Does toilet have the feature ""tank""?
+Answer ""yes"" or ""no"".",yes
+188,2,1_1_1,4,4 double flat.jpg,"Find one or multiple entities of single bed in the attached view.
+Does single bed have the feature ""pillow""?
+Answer ""yes"" or ""no"".",yes
+189,2,1_1_1,4,4 double flat.jpg,"Find one or multiple entities of single bed in the attached view.
+Does single bed have the feature ""blanket""?
+Answer ""yes"" or ""no"".",yes
+190,2,1_1_1,4,4 double flat.jpg,"Find one or multiple entities of single bed in the attached view.
+Does single bed have the feature ""headboard""?
+Answer ""yes"" or ""no"".",yes
+191,2,1_1_1,4,4 double flat.jpg,"Find one or multiple entities of double bed in the attached view.
+Does double bed have the feature ""pillow""?
+Answer ""yes"" or ""no"".",yes
+192,2,1_1_1,4,4 double flat.jpg,"Find one or multiple entities of double bed in the attached view.
+Does double bed have the feature ""headboard""?
+Answer ""yes"" or ""no"".",yes
+193,2,1_1_1,4,4 double flat.jpg,"Find one or multiple entities of armchair in the attached view.
+Does armchair have the feature ""backrest""?
+Answer ""yes"" or ""no"".",yes
+194,2,1_1_1,4,4 double flat.jpg,"Find one or multiple entities of sink in the attached view.
+Does sink have the feature ""tap""?
+Answer ""yes"" or ""no"".",yes
+195,2,1_1_1,4,4 double flat.jpg,"Find one or multiple entities of sink in the attached view.
+Does sink have the feature ""drain hole""?
+Answer ""yes"" or ""no"".",yes
+196,2,1_1_1,4,4 double flat.jpg,"Find one or multiple entities of strove in the attached view.
+Does strove have the feature ""strove burner""?
+Answer ""yes"" or ""no"".",yes
+197,2,1_1_1,4,4 double flat.jpg,"Find one or multiple entities of plant in the attached view.
+Does plant have the feature ""leaves""?
+Answer ""yes"" or ""no"".",yes
+198,2,1_1_1,4,4 double flat.jpg,"Find one or multiple entities of plant in the attached view.
+Does plant have the feature ""pot""?
+Answer ""yes"" or ""no"".",yes
+199,2,1_1_1,4,4 double flat.jpg,"Find one or multiple entities of stair in the attached view.
+Does stair have the feature ""stringer""?
+Answer ""yes"" or ""no"".",no
+200,2,1_1_1,4,4 double flat.jpg,"Find one or multiple entities of stair in the attached view.
+Does stair have the feature ""tread""?
+Answer ""yes"" or ""no"".",no
+201,2,1_1_1,4,4 double flat.jpg,"Find one or multiple entities of bedside table in the attached view.
+Does bedside table have the feature ""window sill""?
+Answer ""yes"" or ""no"".",no
+202,2,1_1_1,4,4 double flat.jpg,"Find one or multiple entities of wall in the attached view.
+Does wall have the feature ""blanket""?
+Answer ""yes"" or ""no"".",no
+203,2,1_1_1,4,4 double flat.jpg,"Find one or multiple entities of woman in the attached view.
+Does woman have the feature ""mullions""?
+Answer ""yes"" or ""no"".",no
+204,2,1_1_1,4,4 double flat.jpg,"Find one or multiple entities of chair in the attached view.
+Does chair have the feature ""floor slabs""?
+Answer ""yes"" or ""no"".",no
+205,2,1_1_1,4,4 double flat.jpg,"Find one or multiple entities of double bed in the attached view.
+Does double bed have the feature ""wheels""?
+Answer ""yes"" or ""no"".",no
+206,2,1_1_1,4,4 double flat.jpg,"Find one or multiple entities of sink in the attached view.
+Does sink have the feature ""curtain wall""?
+Answer ""yes"" or ""no"".",no
+207,2,1_1_1,5,5 Living_house - Facade fragment.jpg,"Find one or multiple entities of elevation in the attached view.
+Does elevation have the feature ""wall""?
+Answer ""yes"" or ""no"".",no
+208,2,1_1_1,5,5 Living_house - Facade fragment.jpg,"Find one or multiple entities of elevation in the attached view.
+Does elevation have the feature ""window""?
+Answer ""yes"" or ""no"".",no
+209,2,1_1_1,5,5 Living_house - Facade fragment.jpg,"Find one or multiple entities of elevation in the attached view.
+Does elevation have the feature ""curtain wall""?
+Answer ""yes"" or ""no"".",no
+210,2,1_1_1,5,5 Living_house - Facade fragment.jpg,"Find one or multiple entities of elevation in the attached view.
+Does elevation have the feature ""facade flashing""?
+Answer ""yes"" or ""no"".",no
+211,2,1_1_1,5,5 Living_house - Facade fragment.jpg,"Find one or multiple entities of section in the attached view.
+Does section have the feature ""floor slabs""?
+Answer ""yes"" or ""no"".",no
+212,2,1_1_1,5,5 Living_house - Facade fragment.jpg,"Find one or multiple entities of section in the attached view.
+Does section have the feature ""wall""?
+Answer ""yes"" or ""no"".",no
+213,2,1_1_1,5,5 Living_house - Facade fragment.jpg,"Find one or multiple entities of section in the attached view.
+Does section have the feature ""structural wall""?
+Answer ""yes"" or ""no"".",no
+214,2,1_1_1,5,5 Living_house - Facade fragment.jpg,"Find one or multiple entities of section in the attached view.
+Does section have the feature ""insulation""?
+Answer ""yes"" or ""no"".",no
+215,2,1_1_1,5,5 Living_house - Facade fragment.jpg,"Find one or multiple entities of section in the attached view.
+Does section have the feature ""window/curtain wall""?
+Answer ""yes"" or ""no"".",no
+216,2,1_1_1,5,5 Living_house - Facade fragment.jpg,"Find one or multiple entities of section in the attached view.
+Does section have the feature ""floor finish""?
+Answer ""yes"" or ""no"".",no
+217,2,1_1_1,5,5 Living_house - Facade fragment.jpg,"Find one or multiple entities of section in the attached view.
+Does section have the feature ""wall finish""?
+Answer ""yes"" or ""no"".",no
+218,2,1_1_1,5,5 Living_house - Facade fragment.jpg,"Find one or multiple entities of section in the attached view.
+Does section have the feature ""horizontal bands""?
+Answer ""yes"" or ""no"".",no
+219,2,1_1_1,5,5 Living_house - Facade fragment.jpg,"Find one or multiple entities of horizontal bands in the attached view.
+Does horizontal bands have the feature ""bracket""?
+Answer ""yes"" or ""no"".",yes
+220,2,1_1_1,5,5 Living_house - Facade fragment.jpg,"Find one or multiple entities of horizontal bands in the attached view.
+Does horizontal bands have the feature ""anchor dowel""?
+Answer ""yes"" or ""no"".",yes
+221,2,1_1_1,5,5 Living_house - Facade fragment.jpg,"Find one or multiple entities of horizontal bands in the attached view.
+Does horizontal bands have the feature ""vertical guide""?
+Answer ""yes"" or ""no"".",yes
+222,2,1_1_1,5,5 Living_house - Facade fragment.jpg,"Find one or multiple entities of horizontal bands in the attached view.
+Does horizontal bands have the feature ""facade panel""?
+Answer ""yes"" or ""no"".",yes
+223,2,1_1_1,5,5 Living_house - Facade fragment.jpg,"Find one or multiple entities of horizontal bands in the attached view.
+Does horizontal bands have the feature ""self-tapping screw""?
+Answer ""yes"" or ""no"".",yes
+224,2,1_1_1,5,5 Living_house - Facade fragment.jpg,"Find one or multiple entities of horizontal bands in the attached view.
+Does horizontal bands have the feature ""window sill""?
+Answer ""yes"" or ""no"".",yes
+225,2,1_1_1,5,5 Living_house - Facade fragment.jpg,"Find one or multiple entities of curtain wall in the attached view.
+Does curtain wall have the feature ""frames""?
+Answer ""yes"" or ""no"".",yes
+226,2,1_1_1,5,5 Living_house - Facade fragment.jpg,"Find one or multiple entities of curtain wall in the attached view.
+Does curtain wall have the feature ""mullions""?
+Answer ""yes"" or ""no"".",yes
+227,2,1_1_1,5,5 Living_house - Facade fragment.jpg,"Find one or multiple entities of curtain wall in the attached view.
+Does curtain wall have the feature ""panels""?
+Answer ""yes"" or ""no"".",yes
+228,2,1_1_1,5,5 Living_house - Facade fragment.jpg,"Find one or multiple entities of facade flashing in the attached view.
+Does facade flashing have the feature ""self-tapping screw""?
+Answer ""yes"" or ""no"".",no
+229,2,1_1_1,5,5 Living_house - Facade fragment.jpg,"Find one or multiple entities of insulation in the attached view.
+Does insulation have the feature ""panels""?
+Answer ""yes"" or ""no"".",no
+230,2,1_1_1,5,5 Living_house - Facade fragment.jpg,"Find one or multiple entities of horizontal bands in the attached view.
+Does horizontal bands have the feature ""facade system""?
+Answer ""yes"" or ""no"".",no
+231,2,1_1_1,5,5 Living_house - Facade fragment.jpg,"Find one or multiple entities of insulation in the attached view.
+Does insulation have the feature ""backrest""?
+Answer ""yes"" or ""no"".",no
+232,2,1_1_1,5,5 Living_house - Facade fragment.jpg,"Find one or multiple entities of floor finish in the attached view.
+Does floor finish have the feature ""bracket""?
+Answer ""yes"" or ""no"".",no
+233,2,1_1_1,5,5 Living_house - Facade fragment.jpg,"Find one or multiple entities of horizontal bands in the attached view.
+Does horizontal bands have the feature ""lid""?
+Answer ""yes"" or ""no"".",no
+234,2,1_1_1,5,5 Living_house - Facade fragment.jpg,"Find one or multiple entities of wall finish in the attached view.
+Does wall finish have the feature ""facade system""?
+Answer ""yes"" or ""no"".",no
+235,2,1_1_1,5,5 Living_house - Facade fragment.jpg,"Find one or multiple entities of wall finish in the attached view.
+Does wall finish have the feature ""blanket""?
+Answer ""yes"" or ""no"".",no
+236,2,1_1_1,5,5 Living_house - Facade fragment.jpg,"Find one or multiple entities of wall in the attached view.
+Does wall have the feature ""leaves""?
+Answer ""yes"" or ""no"".",no
+237,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of elevation in the attached view.
+Does elevation have the feature ""wall""?
+Answer ""yes"" or ""no"".",no
+238,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of elevation in the attached view.
+Does elevation have the feature ""window""?
+Answer ""yes"" or ""no"".",no
+239,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of elevation in the attached view.
+Does elevation have the feature ""curtain wall""?
+Answer ""yes"" or ""no"".",no
+240,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of elevation in the attached view.
+Does elevation have the feature ""facade flashing""?
+Answer ""yes"" or ""no"".",no
+241,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of section in the attached view.
+Does section have the feature ""floor slabs""?
+Answer ""yes"" or ""no"".",no
+242,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of section in the attached view.
+Does section have the feature ""wall""?
+Answer ""yes"" or ""no"".",no
+243,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of section in the attached view.
+Does section have the feature ""structural wall""?
+Answer ""yes"" or ""no"".",no
+244,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of section in the attached view.
+Does section have the feature ""insulation""?
+Answer ""yes"" or ""no"".",no
+245,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of section in the attached view.
+Does section have the feature ""window/curtain wall""?
+Answer ""yes"" or ""no"".",no
+246,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of section in the attached view.
+Does section have the feature ""floor finish""?
+Answer ""yes"" or ""no"".",no
+247,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of section in the attached view.
+Does section have the feature ""wall finish""?
+Answer ""yes"" or ""no"".",no
+248,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of section in the attached view.
+Does section have the feature ""horizontal bands""?
+Answer ""yes"" or ""no"".",no
+249,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of horizontal bands in the attached view.
+Does horizontal bands have the feature ""bracket""?
+Answer ""yes"" or ""no"".",yes
+250,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of horizontal bands in the attached view.
+Does horizontal bands have the feature ""anchor dowel""?
+Answer ""yes"" or ""no"".",yes
+251,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of horizontal bands in the attached view.
+Does horizontal bands have the feature ""vertical guide""?
+Answer ""yes"" or ""no"".",yes
+252,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of horizontal bands in the attached view.
+Does horizontal bands have the feature ""facade panel""?
+Answer ""yes"" or ""no"".",yes
+253,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of horizontal bands in the attached view.
+Does horizontal bands have the feature ""self-tapping screw""?
+Answer ""yes"" or ""no"".",yes
+254,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of horizontal bands in the attached view.
+Does horizontal bands have the feature ""window sill""?
+Answer ""yes"" or ""no"".",yes
+255,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of curtain wall in the attached view.
+Does curtain wall have the feature ""frames""?
+Answer ""yes"" or ""no"".",yes
+256,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of curtain wall in the attached view.
+Does curtain wall have the feature ""mullions""?
+Answer ""yes"" or ""no"".",yes
+257,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of curtain wall in the attached view.
+Does curtain wall have the feature ""panels""?
+Answer ""yes"" or ""no"".",yes
+258,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of plan view in the attached view.
+Does plan view have the feature ""window""?
+Answer ""yes"" or ""no"".",no
+259,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of plan view in the attached view.
+Does plan view have the feature ""curtain wall""?
+Answer ""yes"" or ""no"".",no
+260,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of plan view in the attached view.
+Does plan view have the feature ""facade system""?
+Answer ""yes"" or ""no"".",no
+261,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of plan view in the attached view.
+Does plan view have the feature ""floor finish layers""?
+Answer ""yes"" or ""no"".",no
+262,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of facade system in the attached view.
+Does facade system have the feature ""bracket""?
+Answer ""yes"" or ""no"".",no
+263,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of facade system in the attached view.
+Does facade system have the feature ""anchor dowel""?
+Answer ""yes"" or ""no"".",no
+264,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of facade system in the attached view.
+Does facade system have the feature ""vertical guide""?
+Answer ""yes"" or ""no"".",no
+265,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of facade system in the attached view.
+Does facade system have the feature ""facade panel""?
+Answer ""yes"" or ""no"".",no
+266,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of facade system in the attached view.
+Does facade system have the feature ""self-tapping screw""?
+Answer ""yes"" or ""no"".",no
+267,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of facade system in the attached view.
+Does facade system have the feature ""window sill""?
+Answer ""yes"" or ""no"".",no
+268,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of floor finish in the attached view.
+Does floor finish have the feature ""tap""?
+Answer ""yes"" or ""no"".",no
+269,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of wall in the attached view.
+Does wall have the feature ""wall finish""?
+Answer ""yes"" or ""no"".",no
+270,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of floor finish in the attached view.
+Does floor finish have the feature ""horizontal bands""?
+Answer ""yes"" or ""no"".",no
+271,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of facade flashing in the attached view.
+Does facade flashing have the feature ""pillow""?
+Answer ""yes"" or ""no"".",no
+272,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of curtain wall in the attached view.
+Does curtain wall have the feature ""tap""?
+Answer ""yes"" or ""no"".",no
+273,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of facade flashing in the attached view.
+Does facade flashing have the feature ""mullions""?
+Answer ""yes"" or ""no"".",no
+274,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of floor slabs in the attached view.
+Does floor slabs have the feature ""facade panel""?
+Answer ""yes"" or ""no"".",no
+275,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of horizontal bands in the attached view.
+Does horizontal bands have the feature ""leaves""?
+Answer ""yes"" or ""no"".",no
+276,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of floor slabs in the attached view.
+Does floor slabs have the feature ""lid""?
+Answer ""yes"" or ""no"".",no
+277,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of window in the attached view.
+Does window have the feature ""vertical guide""?
+Answer ""yes"" or ""no"".",no
+278,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of window in the attached view.
+Does window have the feature ""tap""?
+Answer ""yes"" or ""no"".",no
+279,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of facade flashing in the attached view.
+Does facade flashing have the feature ""handrail""?
+Answer ""yes"" or ""no"".",no
+280,2,1_1_1,6,6 Living_house - Facade fragment.jpg,"Find one or multiple entities of window in the attached view.
+Does window have the feature ""armrests""?
+Answer ""yes"" or ""no"".",no
+281,2,1_1_1,7,7 Living_house - Facade fragment.jpg,"Find one or multiple entities of elevation in the attached view.
+Does elevation have the feature ""wall""?
+Answer ""yes"" or ""no"".",no
+282,2,1_1_1,7,7 Living_house - Facade fragment.jpg,"Find one or multiple entities of elevation in the attached view.
+Does elevation have the feature ""window""?
+Answer ""yes"" or ""no"".",no
+283,2,1_1_1,7,7 Living_house - Facade fragment.jpg,"Find one or multiple entities of elevation in the attached view.
+Does elevation have the feature ""curtain wall""?
+Answer ""yes"" or ""no"".",no
+284,2,1_1_1,7,7 Living_house - Facade fragment.jpg,"Find one or multiple entities of elevation in the attached view.
+Does elevation have the feature ""facade flashing""?
+Answer ""yes"" or ""no"".",no
+285,2,1_1_1,7,7 Living_house - Facade fragment.jpg,"Find one or multiple entities of section in the attached view.
+Does section have the feature ""floor slabs""?
+Answer ""yes"" or ""no"".",no
+286,2,1_1_1,7,7 Living_house - Facade fragment.jpg,"Find one or multiple entities of section in the attached view.
+Does section have the feature ""wall""?
+Answer ""yes"" or ""no"".",no
+287,2,1_1_1,7,7 Living_house - Facade fragment.jpg,"Find one or multiple entities of section in the attached view.
+Does section have the feature ""structural wall""?
+Answer ""yes"" or ""no"".",no
+288,2,1_1_1,7,7 Living_house - Facade fragment.jpg,"Find one or multiple entities of section in the attached view.
+Does section have the feature ""insulation""?
+Answer ""yes"" or ""no"".",no
+289,2,1_1_1,7,7 Living_house - Facade fragment.jpg,"Find one or multiple entities of section in the attached view.
+Does section have the feature ""window/curtain wall""?
+Answer ""yes"" or ""no"".",no
+290,2,1_1_1,7,7 Living_house - Facade fragment.jpg,"Find one or multiple entities of section in the attached view.
+Does section have the feature ""floor finish""?
+Answer ""yes"" or ""no"".",no
+291,2,1_1_1,7,7 Living_house - Facade fragment.jpg,"Find one or multiple entities of section in the attached view.
+Does section have the feature ""wall finish""?
+Answer ""yes"" or ""no"".",no
+292,2,1_1_1,7,7 Living_house - Facade fragment.jpg,"Find one or multiple entities of section in the attached view.
+Does section have the feature ""horizontal bands""?
+Answer ""yes"" or ""no"".",no
+293,2,1_1_1,7,7 Living_house - Facade fragment.jpg,"Find one or multiple entities of horizontal bands in the attached view.
+Does horizontal bands have the feature ""bracket""?
+Answer ""yes"" or ""no"".",yes
+294,2,1_1_1,7,7 Living_house - Facade fragment.jpg,"Find one or multiple entities of horizontal bands in the attached view.
+Does horizontal bands have the feature ""anchor dowel""?
+Answer ""yes"" or ""no"".",yes
+295,2,1_1_1,7,7 Living_house - Facade fragment.jpg,"Find one or multiple entities of horizontal bands in the attached view.
+Does horizontal bands have the feature ""vertical guide""?
+Answer ""yes"" or ""no"".",yes
+296,2,1_1_1,7,7 Living_house - Facade fragment.jpg,"Find one or multiple entities of horizontal bands in the attached view.
+Does horizontal bands have the feature ""facade panel""?
+Answer ""yes"" or ""no"".",yes
+297,2,1_1_1,7,7 Living_house - Facade fragment.jpg,"Find one or multiple entities of horizontal bands in the attached view.
+Does horizontal bands have the feature ""self-tapping screw""?
+Answer ""yes"" or ""no"".",yes
+298,2,1_1_1,7,7 Living_house - Facade fragment.jpg,"Find one or multiple entities of horizontal bands in the attached view.
+Does horizontal bands have the feature ""window sill""?
+Answer ""yes"" or ""no"".",yes
+299,2,1_1_1,7,7 Living_house - Facade fragment.jpg,"Find one or multiple entities of curtain wall in the attached view.
+Does curtain wall have the feature ""frames""?
+Answer ""yes"" or ""no"".",yes
+300,2,1_1_1,7,7 Living_house - Facade fragment.jpg,"Find one or multiple entities of curtain wall in the attached view.
+Does curtain wall have the feature ""mullions""?
+Answer ""yes"" or ""no"".",yes
+301,2,1_1_1,7,7 Living_house - Facade fragment.jpg,"Find one or multiple entities of curtain wall in the attached view.
+Does curtain wall have the feature ""panels""?
+Answer ""yes"" or ""no"".",yes
+302,2,1_1_1,7,7 Living_house - Facade fragment.jpg,"Find one or multiple entities of facade flashing in the attached view.
+Does facade flashing have the feature ""integrated basin""?
+Answer ""yes"" or ""no"".",no
+303,2,1_1_1,7,7 Living_house - Facade fragment.jpg,"Find one or multiple entities of facade flashing in the attached view.
+Does facade flashing have the feature ""facade flashing""?
+Answer ""yes"" or ""no"".",no
+304,2,1_1_1,7,7 Living_house - Facade fragment.jpg,"Find one or multiple entities of floor finish in the attached view.
+Does floor finish have the feature ""pillow""?
+Answer ""yes"" or ""no"".",no
+305,2,1_1_1,7,7 Living_house - Facade fragment.jpg,"Find one or multiple entities of wall finish in the attached view.
+Does wall finish have the feature ""floor finish""?
+Answer ""yes"" or ""no"".",no
+306,2,1_1_1,7,7 Living_house - Facade fragment.jpg,"Find one or multiple entities of horizontal bands in the attached view.
+Does horizontal bands have the feature ""curtain wall""?
+Answer ""yes"" or ""no"".",no
+307,2,1_1_1,7,7 Living_house - Facade fragment.jpg,"Find one or multiple entities of wall in the attached view.
+Does wall have the feature ""window/curtain wall""?
+Answer ""yes"" or ""no"".",no
+308,2,1_1_1,7,7 Living_house - Facade fragment.jpg,"Find one or multiple entities of wall finish in the attached view.
+Does wall finish have the feature ""blanket""?
+Answer ""yes"" or ""no"".",no
+309,2,1_1_1,7,7 Living_house - Facade fragment.jpg,"Find one or multiple entities of window in the attached view.
+Does window have the feature ""headboard""?
+Answer ""yes"" or ""no"".",no
+310,2,1_1_1,7,7 Living_house - Facade fragment.jpg,"Find one or multiple entities of insulation in the attached view.
+Does insulation have the feature ""mullions""?
+Answer ""yes"" or ""no"".",no
+311,2,1_1_1,8,8 Living_house - Facade fragment.jpg,"Find one or multiple entities of elevation in the attached view.
+Does elevation have the feature ""wall""?
+Answer ""yes"" or ""no"".",no
+312,2,1_1_1,8,8 Living_house - Facade fragment.jpg,"Find one or multiple entities of elevation in the attached view.
+Does elevation have the feature ""window""?
+Answer ""yes"" or ""no"".",no
+313,2,1_1_1,8,8 Living_house - Facade fragment.jpg,"Find one or multiple entities of elevation in the attached view.
+Does elevation have the feature ""curtain wall""?
+Answer ""yes"" or ""no"".",no
+314,2,1_1_1,8,8 Living_house - Facade fragment.jpg,"Find one or multiple entities of elevation in the attached view.
+Does elevation have the feature ""facade flashing""?
+Answer ""yes"" or ""no"".",no
+315,2,1_1_1,8,8 Living_house - Facade fragment.jpg,"Find one or multiple entities of section in the attached view.
+Does section have the feature ""floor slabs""?
+Answer ""yes"" or ""no"".",no
+316,2,1_1_1,8,8 Living_house - Facade fragment.jpg,"Find one or multiple entities of section in the attached view.
+Does section have the feature ""wall""?
+Answer ""yes"" or ""no"".",no
+317,2,1_1_1,8,8 Living_house - Facade fragment.jpg,"Find one or multiple entities of section in the attached view.
+Does section have the feature ""structural wall""?
+Answer ""yes"" or ""no"".",no
+318,2,1_1_1,8,8 Living_house - Facade fragment.jpg,"Find one or multiple entities of section in the attached view.
+Does section have the feature ""insulation""?
+Answer ""yes"" or ""no"".",no
+319,2,1_1_1,8,8 Living_house - Facade fragment.jpg,"Find one or multiple entities of section in the attached view.
+Does section have the feature ""window/curtain wall""?
+Answer ""yes"" or ""no"".",no
+320,2,1_1_1,8,8 Living_house - Facade fragment.jpg,"Find one or multiple entities of section in the attached view.
+Does section have the feature ""floor finish""?
+Answer ""yes"" or ""no"".",no
+321,2,1_1_1,8,8 Living_house - Facade fragment.jpg,"Find one or multiple entities of section in the attached view.
+Does section have the feature ""wall finish""?
+Answer ""yes"" or ""no"".",no
+322,2,1_1_1,8,8 Living_house - Facade fragment.jpg,"Find one or multiple entities of section in the attached view.
+Does section have the feature ""horizontal bands""?
+Answer ""yes"" or ""no"".",no
+323,2,1_1_1,8,8 Living_house - Facade fragment.jpg,"Find one or multiple entities of horizontal bands in the attached view.
+Does horizontal bands have the feature ""bracket""?
+Answer ""yes"" or ""no"".",yes
+324,2,1_1_1,8,8 Living_house - Facade fragment.jpg,"Find one or multiple entities of horizontal bands in the attached view.
+Does horizontal bands have the feature ""anchor dowel""?
+Answer ""yes"" or ""no"".",yes
+325,2,1_1_1,8,8 Living_house - Facade fragment.jpg,"Find one or multiple entities of horizontal bands in the attached view.
+Does horizontal bands have the feature ""vertical guide""?
+Answer ""yes"" or ""no"".",yes
+326,2,1_1_1,8,8 Living_house - Facade fragment.jpg,"Find one or multiple entities of horizontal bands in the attached view.
+Does horizontal bands have the feature ""facade panel""?
+Answer ""yes"" or ""no"".",yes
+327,2,1_1_1,8,8 Living_house - Facade fragment.jpg,"Find one or multiple entities of horizontal bands in the attached view.
+Does horizontal bands have the feature ""self-tapping screw""?
+Answer ""yes"" or ""no"".",yes
+328,2,1_1_1,8,8 Living_house - Facade fragment.jpg,"Find one or multiple entities of horizontal bands in the attached view.
+Does horizontal bands have the feature ""window sill""?
+Answer ""yes"" or ""no"".",yes
+329,2,1_1_1,8,8 Living_house - Facade fragment.jpg,"Find one or multiple entities of curtain wall in the attached view.
+Does curtain wall have the feature ""frames""?
+Answer ""yes"" or ""no"".",yes
+330,2,1_1_1,8,8 Living_house - Facade fragment.jpg,"Find one or multiple entities of curtain wall in the attached view.
+Does curtain wall have the feature ""mullions""?
+Answer ""yes"" or ""no"".",yes
+331,2,1_1_1,8,8 Living_house - Facade fragment.jpg,"Find one or multiple entities of curtain wall in the attached view.
+Does curtain wall have the feature ""panels""?
+Answer ""yes"" or ""no"".",yes
+332,2,1_1_1,8,8 Living_house - Facade fragment.jpg,"Find one or multiple entities of horizontal bands in the attached view.
+Does horizontal bands have the feature ""lid""?
+Answer ""yes"" or ""no"".",no
+333,2,1_1_1,8,8 Living_house - Facade fragment.jpg,"Find one or multiple entities of facade flashing in the attached view.
+Does facade flashing have the feature ""frames""?
+Answer ""yes"" or ""no"".",no
+334,2,1_1_1,8,8 Living_house - Facade fragment.jpg,"Find one or multiple entities of floor finish in the attached view.
+Does floor finish have the feature ""headboard""?
+Answer ""yes"" or ""no"".",no
+335,2,1_1_1,8,8 Living_house - Facade fragment.jpg,"Find one or multiple entities of window in the attached view.
+Does window have the feature ""floor finish""?
+Answer ""yes"" or ""no"".",no
+336,2,1_1_1,8,8 Living_house - Facade fragment.jpg,"Find one or multiple entities of facade flashing in the attached view.
+Does facade flashing have the feature ""armrests""?
+Answer ""yes"" or ""no"".",no
+337,2,1_1_1,8,8 Living_house - Facade fragment.jpg,"Find one or multiple entities of floor finish in the attached view.
+Does floor finish have the feature ""window/curtain wall""?
+Answer ""yes"" or ""no"".",no
+338,2,1_1_1,8,8 Living_house - Facade fragment.jpg,"Find one or multiple entities of horizontal bands in the attached view.
+Does horizontal bands have the feature ""floor finish""?
+Answer ""yes"" or ""no"".",no
+339,2,1_1_1,8,8 Living_house - Facade fragment.jpg,"Find one or multiple entities of wall finish in the attached view.
+Does wall finish have the feature ""horizontal bands""?
+Answer ""yes"" or ""no"".",no
+340,2,1_1_1,8,8 Living_house - Facade fragment.jpg,"Find one or multiple entities of curtain wall in the attached view.
+Does curtain wall have the feature ""armrests""?
+Answer ""yes"" or ""no"".",no
+341,4,1_1_1,3,3 double flat.jpg,"In the attached view, one or more floor in WC are shown.  What is the material of the  floor in WC? Choose one: ""linoleum"", ""terazzo"", ""tiles"", or ""marble""",tiles
+342,4,1_1_1,3,3 double flat.jpg,"In the attached view, one or more floor in child bedroom are shown.  What is the material of the  floor in child bedroom? Choose one: ""lino"", ""ceramic tiles"", ""laminate"", or ""carpet""",laminate
+343,4,1_1_1,3,3 double flat.jpg,"In the attached view, one or more floor in quest bedroom are shown.  What is the material of the  floor in quest bedroom? Choose one: ""lino"", ""parquet"", ""tiles"", or ""hardwood""",parquet
+344,4,1_1_1,4,4 double flat.jpg,"In the attached view, one or more floor in WC are shown.  What is the material of the  floor in WC? Choose one: ""marble"", ""terazzo"", ""tiles"", or ""slate""",tiles
+345,4,1_1_1,4,4 double flat.jpg,"In the attached view, one or more floor in child bedroom are shown.  What is the material of the  floor in child bedroom? Choose one: ""carpet"", ""vinyl"", ""parquet"", or ""slate""",parquet
+346,4,1_1_1,4,4 double flat.jpg,"In the attached view, one or more floor in guest bedroom are shown.  What is the material of the  floor in quest bedroom? Choose one: ""carpet"", ""vinyl"", ""laminate"", or ""linoleum""",laminate
+347,4,1_1_1,5,5 Living_house - Facade fragment.jpg,"In the attached view, one or more floor slabs are shown.  What is the material of the  floor slabs? Choose one: ""prestressed concrete"", ""reinforced concrete"", ""steel"", or ""wood""",reinforced concrete
+348,4,1_1_1,5,5 Living_house - Facade fragment.jpg,"In the attached view, one or more facade flashing are shown.  What is the material of the  facade flashing? Choose one: ""fiber cement panel"", ""galvanized steel"", ""porcelain stoneware panels"", or ""clinker panels""",galvanized steel
+349,4,1_1_1,5,5 Living_house - Facade fragment.jpg,"In the attached view, one or more insulation are shown.  What is the material of the  insulation? Choose one: ""polyurethane foam"", ""extruded polystyrene"", ""mineral wool"", or ""expanded polystyren""",mineral wool
+350,4,1_1_1,5,5 Living_house - Facade fragment.jpg,"In the attached view, one or more structural wall are shown.  What is the material of the  structural wall? Choose one: ""precast concrete wall panel"", ""cmu"", ""reinforced concrete"", or ""calcium silicate block""",reinforced concrete
+351,4,1_1_1,5,5 Living_house - Facade fragment.jpg,"In the attached view, one or more curtain wall panels are shown.  What is the material of the translucent curtain wall panels? Choose one: ""solid polycarbonate"", ""acrylic"", ""glass"", or ""coloured glass""",glass
+352,4,1_1_1,5,5 Living_house - Facade fragment.jpg,"In the attached view, one or more window are shown.  What is the material of the  window? Choose one: ""extruded acrylic sheet"", ""glass"", ""polycarbonate"", or ""blue glass""",glass
+353,4,1_1_1,5,5 Living_house - Facade fragment.jpg,"In the attached view, one or more leveling screed are shown.  What is the material of the  leveling screed? Choose one: ""polymer-modified cementitious screed"", ""anhydrite screed"", ""cement-sand screed"", or ""calcium sulfate screed""",cement-sand screed
+354,4,1_1_1,6,6 Living_house - Facade fragment.jpg,"In the attached view, one or more floor slabs are shown.  What is the material of the  floor slabs? Choose one: ""steel"", ""reinforced concrete"", ""prestressed concrete"", or ""carpet""",reinforced concrete
+355,4,1_1_1,6,6 Living_house - Facade fragment.jpg,"In the attached view, one or more facade flashing are shown.  What is the material of the  facade flashing? Choose one: ""sheet metal"", ""clinker"", ""ceramic tiles"", or ""fiber cement panels""",ceramic tiles
+356,4,1_1_1,6,6 Living_house - Facade fragment.jpg,"In the attached view, one or more insulation are shown.  What is the material of the  insulation? Choose one: ""polyurethane foam"", ""extruded polystyrene"", ""mineral wool"", or ""polyurethane foam""",mineral wool
+357,4,1_1_1,6,6 Living_house - Facade fragment.jpg,"In the attached view, one or more structural wall are shown.  What is the material of the  structural wall? Choose one: ""cross-laminated timber"", ""stone"", ""reinforced concrete"", or ""precast concrete""",reinforced concrete
+358,4,1_1_1,6,6 Living_house - Facade fragment.jpg,"In the attached view, one or more curtain wall panels are shown.  What is the material of the curtain wall panels? Choose one: ""wood"", ""plastic"", ""glass"", or ""multiwall polycarbonate""",glass
+359,4,1_1_1,6,6 Living_house - Facade fragment.jpg,"In the attached view, one or more transparent window infill are shown.  What is the material of the  transparent window infill? Choose one: ""acrylic"", ""coloured blue gleass"", ""glass"", or ""polymethyl methacrylate""",glass
+360,4,1_1_1,6,6 Living_house - Facade fragment.jpg,"In the attached view, one or more load-bearing structure are shown.  What is the material of the  load-bearing structure? Choose one: ""cross-laminated timber"", ""reinforced concrete slab"", ""metal"", or ""steel""",reinforced concrete slab
+361,4,1_1_1,6,6 Living_house - Facade fragment.jpg,"In the attached view, one or more hydroisolation are shown.  What is the material of the  hydroisolation? Choose one: ""bentonite"", ""self-adhesive bituminous membrane"", ""rubberized felt waterproofing"", or ""acrylic""",rubberized felt waterproofing
+362,4,1_1_1,6,6 Living_house - Facade fragment.jpg,"In the attached view, one or more leveling screed are shown.  What is the material of the  leveling screed? Choose one: ""anhydrite screed"", ""calcium sulfate screed"", ""cement-sand screed"", or ""fast-drying screed""",cement-sand screed
+363,4,1_1_1,6,6 Living_house - Facade fragment.jpg,"In the attached view, one or more bonding layer are shown.  What is the material of the  bonding layer? Choose one: ""thin-set mortar"", ""tile adhesive"", ""epoxy"", or ""reaction resin""",tile adhesive
+364,4,1_1_1,6,6 Living_house - Facade fragment.jpg,"In the attached view, one or more floor finish are shown.  What is the material of the  floor finish? Choose one: ""laminate"", ""linoleum"", ""ceramic tile"", or ""stone""",ceramic tile
+365,4,1_1_1,7,7 Living_house - Facade fragment.jpg,"In the attached view, one or more floor slabs are shown.  What is the material of the  floor slabs? Choose one: ""steel"", ""metal"", ""reinforced concrete"", or ""prestressed concrete""",reinforced concrete
+366,4,1_1_1,7,7 Living_house - Facade fragment.jpg,"In the attached view, one or more facade flashing are shown.  What is the material of the  facade flashing? Choose one: ""porcelain stoneware panels"", ""sheet metal"", ""fiber cement panels"", or ""marble""",Sheet metal
+367,4,1_1_1,7,7 Living_house - Facade fragment.jpg,"In the attached view, one or more insulation are shown.  What is the material of the  insulation? Choose one: ""expanded polystyrene"", ""mineral wool"", ""extruded polystyrene"", or ""fabric""",mineral wool
+368,4,1_1_1,7,7 Living_house - Facade fragment.jpg,"In the attached view, one or more structural wall are shown.  What is the material of the  structural wall? Choose one: ""timber"", ""precast concrete"", ""reinforced concrete"", or ""steel""",reinforced concrete
+369,4,1_1_1,7,7 Living_house - Facade fragment.jpg,"In the attached view, one or more curtain wall panels are shown.  What is the material of the  curtain wall panels? Choose one: ""polycarbonate"", ""acrylic sheet"", ""glass"", or ""coloured glass""",glass
+370,4,1_1_1,7,7 Living_house - Facade fragment.jpg,"In the attached view, one or more window are shown.  What is the material of the  window? Choose one: ""leather"", ""glass"", ""stone"", or ""tiles""",glass
+371,4,1_1_1,7,7 Living_house - Facade fragment.jpg,"In the attached view, one or more leveling screed are shown.  What is the material of the  leveling screed? Choose one: ""latex-modified levelling screede"", ""carpet"", ""cement-sand screed"", or ""fast-drying screed""",cement-sand screed
+372,4,1_1_1,8,8 Living_house - Facade fragment.jpg,"In the attached view, one or more floor slabs are shown.  What is the material of the  floor slabs? Choose one: ""prestressed concrete"", ""reinforced concrete"", ""stone"", or ""tiles""",reinforced concrete
+373,4,1_1_1,8,8 Living_house - Facade fragment.jpg,"In the attached view, one or more facade flashing are shown.  What is the material of the  facade flashing? Choose one: ""paper"", ""galvanized steel"", ""clinker"", or ""porcelain stoneware panels""",galvanized steel
+374,4,1_1_1,8,8 Living_house - Facade fragment.jpg,"In the attached view, one or more insulation are shown.  What is the material of the  insulation? Choose one: ""expanded polystyrene"", ""mineral wool"", ""carpet"", or ""polyurethane foam""",mineral wool
+375,4,1_1_1,8,8 Living_house - Facade fragment.jpg,"In the attached view, one or more structural wall are shown.  What is the material of the  structural wall? Choose one: ""prestressed concrete"", ""reinforced concrete"", ""timber"", or ""metal""",reinforced concrete
+376,4,1_1_1,8,8 Living_house - Facade fragment.jpg,"In the attached view, one or more curtain wall panels are shown.  What is the material of the  curtain wall panels? Choose one: ""acrylic"", ""glass"", ""blue glass"", or ""polycarbonate""",glass
+377,4,1_1_1,8,8 Living_house - Facade fragment.jpg,"In the attached view, one or more window are shown.  What is the material of the  window? Choose one: ""polycarbonate"", ""acrylic"", ""glass"", or ""marble""",glass
+378,4,1_1_1,8,8 Living_house - Facade fragment.jpg,"In the attached view, one or more leveling screed are shown.  What is the material of the  leveling screed? Choose one: ""anhydrite screed"", ""calcium sulfate screed"", ""cement-sand screed"", or ""carpet""",cement-sand screed
+379,5,1_1_1,2,2 a plan view of a semi-abudant WC room.jpg,"Look at the paper towel dispenser in the attached view. What is main color of this  paper towel dispenser?
+Answer with a single color word.",turquoise
+380,5,1_1_1,4,4 double flat.jpg,"Look at the child bedroom objects in the attached view. What is main color of this  child bedroom objects?
+Answer with a single color word.",blue
+381,5,1_1_1,5,5 Living_house - Facade fragment.jpg,"Look at the facade panel in the attached view. What is main color of this  facade panel?
+Answer with a single color word.",olive
+382,5,1_1_1,6,6 Living_house - Facade fragment.jpg,"Look at the facade panel in the attached view. What is main color of this  facade panel?
+Answer with a single color word.",olive
+383,5,1_1_1,7,7 Living_house - Facade fragment.jpg,"Look at the facade panel in the attached view. What is main color of this  facade panel?
+Answer with a single color word.",green
+384,5,1_1_1,8,8 Living_house - Facade fragment.jpg,"Look at the facade panel in the attached view. What is main color of this  facade panel?
+Answer with a single color word.",green
+385,7,1_1_1,3,3 double flat.jpg,"The pillow in child bedroom in the attached view has a specific texture.
+What is the texture of this object? Choose one: ""fluffy"", ""soft"", ""rough"", or ""striped""",soft
+386,7,1_1_1,4,4 double flat.jpg,"The pillow on a single bed in the attached view has a specific texture.
+What is the texture of this object? Choose one: ""fluffy"", ""soft"", ""patterned"", or ""hard""",soft
+387,7,1_1_1,5,5 Living_house - Facade fragment.jpg,"The curtain wall panels in the attached view has a specific texture.
+What is the texture of this object? Choose one: ""soft"", ""glossy"", ""wrinkled"", or ""fluffy""",glossy
+388,7,1_1_1,5,5 Living_house - Facade fragment.jpg,"The insulation in the attached view has a specific texture.
+What is the texture of this object? Choose one: ""bumpy"", ""dense angled lines"", ""wrinkled"", or ""smooth""",dense angled lines
+389,7,1_1_1,6,6 Living_house - Facade fragment.jpg,"The curtain wall panels in the attached view has a specific texture.
+What is the texture of this object? Choose one: ""hard"", ""patterned"", ""glossy"", or ""shiny""",glossy
+390,7,1_1_1,6,6 Living_house - Facade fragment.jpg,"The insulation in the attached view has a specific texture.
+What is the texture of this object? Choose one: ""hard"", ""glossy"", ""dense angled lines"", or ""soft""",dense angled lines
+391,7,1_1_1,7,7 Living_house - Facade fragment.jpg,"The curtain wall panels in the attached view has a specific texture.
+What is the texture of this object? Choose one: ""matte"", ""glossy"", ""shiny"", or ""bumpy""",glossy
+392,7,1_1_1,7,7 Living_house - Facade fragment.jpg,"The insulation in the attached view has a specific texture.
+What is the texture of this object? Choose one: ""hard"", ""glossy"", ""dense angled lines"", or ""wrinkled""",dense angled lines
+393,7,1_1_1,8,8 Living_house - Facade fragment.jpg,"The curtain wall panels in the attached view has a specific texture.
+What is the texture of this object? Choose one: ""patterned"", ""matte"", ""glossy"", or ""fluffy""",glossy
+394,7,1_1_1,8,8 Living_house - Facade fragment.jpg,"The insulation in the attached view has a specific texture.
+What is the texture of this object? Choose one: ""shiny"", ""smooth"", ""Diagonal hatching"", or ""striped""",Diagonal hatching
+395,8,1_1_2,1,1 a plan view of a semi-abudant WC room.jpg,"The attached image shows a scene of a semi-ambulant  WC room. Does it contain any text?
+
+Answer ""yes"" or ""no"".",yes
+396,8,1_1_2,2,2 a plan view of a semi-abudant WC room.jpg,"The attached image shows a scene of a semi-ambulant  WC room. Does it contain any text?
+
+Answer ""yes"" or ""no"".",yes
+397,8,1_1_2,3,3 double flat.jpg,"The attached image shows a scene of a two-story apartment. Does it contain any text?
+
+Answer ""yes"" or ""no"".",yes
+398,8,1_1_2,4,4 double flat.jpg,"The attached image shows a scene of a two-story apartment. Does it contain any text?
+
+Answer ""yes"" or ""no"".",yes
+399,8,1_1_2,5,5 Living_house - Facade fragment.jpg,"The attached image shows a scene of a multi-story residential building. Does it contain any text?
+
+Answer ""yes"" or ""no"".",yes
+400,8,1_1_2,6,6 Living_house - Facade fragment.jpg,"The attached image shows a scene of a multi-story residential building. Does it contain any text?
+
+Answer ""yes"" or ""no"".",yes
+401,8,1_1_2,7,7 Living_house - Facade fragment.jpg,"The attached image shows a scene of a multi-story residential building. Does it contain any text?
+
+Answer ""yes"" or ""no"".",yes
+402,8,1_1_2,8,8 Living_house - Facade fragment.jpg,"The attached image shows a scene of a multi-story residential building. Does it contain any text?
+
+Answer ""yes"" or ""no"".",yes
+403,8,1_1_2,9,9 Cutout 4 - Compositional view.jpg,"The attached image shows a scene of a pediatric rooms in a dental clinic. Does it contain any text?
+
+Answer ""yes"" or ""no"".",yes
+404,8,1_1_2,10,10 Cutout 4 - Compositional view.jpg,"The attached image shows a scene of a pediatric rooms in a dental clinic. Does it contain any text?
+
+Answer ""yes"" or ""no"".",yes
+405,8,1_1_2,11,11 Cutout 4 - Compositional view.jpg,"The attached image shows a scene of a pediatric rooms in a dental clinic. Does it contain any text?
+
+Answer ""yes"" or ""no"".",yes
+406,8,1_1_2,12,12 Cutout 5.jpg,"The attached image shows a scene of a trolley access shower room  in a medical building. Does it contain any text?
+
+Answer ""yes"" or ""no"".",yes
+407,8,1_1_2,13,13 Cutout 5.jpg,"The attached image shows a scene of a trolley access shower room  in a medical building. Does it contain any text?
+
+Answer ""yes"" or ""no"".",yes
+408,8,1_1_2,14,14 Cutout 6 - Compositional view.jpg,"The attached image shows a scene of a shower room in a medical building. Does it contain any text?
+
+Answer ""yes"" or ""no"".",yes
+409,8,1_1_2,15,15 Cutout 6 - Compositional view.jpg,"The attached image shows a scene of a shower room in a medical building. Does it contain any text?
+
+Answer ""yes"" or ""no"".",yes
+410,8,1_1_2,18,18 Cutout 8.jpg,"The attached image shows a scene of a dental waiting area. Does it contain any text?
+
+Answer ""yes"" or ""no"".",yes
+411,8,1_1_2,19,19_Cutout 8.jpg,"The attached image shows a scene of a dental waiting area. Does it contain any text?
+
+Answer ""yes"" or ""no"".",yes
+412,8,1_1_2,20,20 Cutout 8 - Compositional view.jpg,"The attached image shows a scene of a dental waiting area. Does it contain any text?
+
+Answer ""yes"" or ""no"".",yes
+413,8,1_1_2,21,21 Cutout 1 - Compositional view.jpg,"The attached image shows a scene of a semi-ambulant  WC room. Does it contain any text?
+
+Answer ""yes"" or ""no"".",yes
+414,8,1_1_2,22,22 Cutout 9 - Compositional view.jpg,"The attached image shows a scene of a a cutout of second floor in a dental clinic. Does it contain any text?
+
+Answer ""yes"" or ""no"".",yes
+415,8,1_1_2,23,23 Second Floor_Cutout 9.jpg,"The attached image shows a scene of a a cutout of second floor plan in a dental clinic. Does it contain any text?
+
+Answer ""yes"" or ""no"".",yes
+416,8,1_1_2,24,24 Cutout 10 - Compositional view.jpg,"The attached image shows a scene of a a cutout of first floor plan in a dental clinic. Does it contain any text?
+
+Answer ""yes"" or ""no"".",yes
+417,8,1_1_2,25,25 Cutout 10 - Compositional view.jpg,"The attached image shows a scene of a a cutout of first floor plan in a dental clinic. Does it contain any text?
+
+Answer ""yes"" or ""no"".",yes
+418,8,1_1_2,26,26 a plan view of a semi-abudant WC room.jpg,"The attached image shows a scene of a semi-ambulant  WC room. Does it contain any text?
+
+Answer ""yes"" or ""no"".",yes
+419,10,1_1_2,1,1 a plan view of a semi-abudant WC room.jpg,"The attached picture contains some text.
+
+Please write down all the text you see in the picture including digits.","TOILET, 1D26; 975; 1181; 974; Cutout 1; 1"
+420,10,1_1_2,2,2 a plan view of a semi-abudant WC room.jpg,"The attached picture contains some text.
+
+Please write down all the text you see in the picture including digits.","TOILET, 1D26; 975"
+421,10,1_1_2,3,3 double flat.jpg,"The attached picture contains some text.
+
+Please write down all the text you see in the picture including digits.","Child bedroom, 14 m²; Guest bedroom, 24 m²; Guest WC, 2 m²; WC, 5 m²; Living room, 51 m²; Kitchen, 5 m²"
+422,10,1_1_2,4,4 double flat.jpg,"The attached picture contains some text.
+
+Please write down all the text you see in the picture including digits.","Child bedroom, 14 m²; Guest bedroom, 24 m²; Guest WC, 2 m²; WC, 5 m²; Living room, 51 m²; Kitchen, 5 m²"
+423,10,1_1_2,5,5 Living_house - Facade fragment.jpg,"The attached picture contains some text.
+
+Please write down all the text you see in the picture including digits.","ventilated facade panels, air, reinforced concrete structure, 250 mm; 200"
+424,10,1_1_2,6,6 Living_house - Facade fragment.jpg,"The attached picture contains some text.
+
+Please write down all the text you see in the picture including digits.","reinforced concrete slab, 200 mm, 2 layers of polyethylene film, cement-sand screed, 20 mm, rubberized felt waterproofing, 20 mm, cement-sand screed, 20 mm, bonding layer of tile adhesive, ceramic tile, 10 mm"
+425,10,1_1_2,7,7 Living_house - Facade fragment.jpg,"The attached picture contains some text.
+
+Please write down all the text you see in the picture including digits.",mesh-reinforced plaster
+426,10,1_1_2,8,8 Living_house - Facade fragment.jpg,"The attached picture contains some text.
+
+Please write down all the text you see in the picture including digits.","reinforced concrete slab, 300 mm, Waterproofing, 20 mm, cement-sand screed, 20 mm, sound insulation, adhesive compound, laminate flooring, 12 mm"
+427,10,1_1_2,14,14 Cutout 6 - Compositional view.jpg,"The attached picture contains some text.
+
+Please write down all the text you see in the picture including digits.","600 mm, 900}};text={""shower curtain mm"
+428,10,1_1_2,15,15 Cutout 6 - Compositional view.jpg,"The attached picture contains some text.
+
+Please write down all the text you see in the picture including digits.","600 mm, 900 mm; shower curtain"
+429,12,1_1_2,1,1 a plan view of a semi-abudant WC room.jpg,"The image shows a room tag(s). What does it say?
+
+Answer with the exact word(s) or abbreviation.","TOILET, 1D26"
+430,12,1_1_2,2,2 a plan view of a semi-abudant WC room.jpg,"The image shows a room tag(s). What does it say?
+
+Answer with the exact word(s) or abbreviation.","TOILET, 1D26"
+431,12,1_1_2,3,3 double flat.jpg,"The image shows a room tag(s). What does it say?
+
+Answer with the exact word(s) or abbreviation.","Child bedroom, 14 m²; Guest bedroom, 24 m²; Guest WC, 2 m²; WC, 5 m²; Living room, 51 m²; Kitchen, 5 m²"
+432,12,1_1_2,4,4 double flat.jpg,"The image shows a room tag(s). What does it say?
+
+Answer with the exact word(s) or abbreviation.","Child bedroom, 14 m²"
+433,12,1_1_2,5,5 Living_house - Facade fragment.jpg,"The image shows a layer tag(s). What does it say?
+
+Answer with the exact word(s) or abbreviation.","ventilated facade panels, air, reinforced concrete structure, 250 mm"
+434,12,1_1_2,6,6 Living_house - Facade fragment.jpg,"The image shows a layer tag(s). What does it say?
+
+Answer with the exact word(s) or abbreviation.","reinforced concrete slab, 200 mm, 2 layers of polyethylene film, cement-sand screed, 20 mm, rubberized felt waterproofing, 20 mm, cement-sand screed, 20 mm, bonding layer of tile adhesive, ceramic tile, 10 mm"
+435,12,1_1_2,7,7 Living_house - Facade fragment.jpg,"The image shows a layer tag(s). What does it say?
+
+Answer with the exact word(s) or abbreviation.",mesh-reinforced plaster
+436,12,1_1_2,8,8 Living_house - Facade fragment.jpg,"The image shows a layer tag(s). What does it say?
+
+Answer with the exact word(s) or abbreviation.","reinforced concrete slab, 300 mm, Waterproofing, 20 mm, cement-sand screed, 20 mm, sound insulation, adhesive compound, laminate flooring, 12 mm"
+437,9,1_1_2,1,1 a plan view of a semi-abudant WC room.jpg,"The annotation in the attached view shows a dimension associated with door. What numeric value is written there?
+
+Answer with digits only.",975
+438,9,1_1_2,1,1 a plan view of a semi-abudant WC room.jpg,"The annotation in the attached view shows a dimension associated with the distance between the edge of the sink and a wall opposite to it. What numeric value is written there?
+
+Answer with digits only.",1181
+439,9,1_1_2,1,1 a plan view of a semi-abudant WC room.jpg,"The annotation in the attached view shows a dimension associated with the distance between the toilet and the edge of the open door. What numeric value is written there?
+
+Answer with digits only.",974
+440,9,1_1_2,2,2 a plan view of a semi-abudant WC room.jpg,"The annotation in the attached view shows a dimension associated with door. What numeric value is written there?
+
+Answer with digits only.",975
+441,9,1_1_2,14,14 Cutout 6 - Compositional view.jpg,"The annotation in the attached view shows a dimension associated with mirror. What numeric value is written there?
+
+Answer with digits only.",600
+442,9,1_1_2,15,15 Cutout 6 - Compositional view.jpg,"The annotation in the attached view shows a dimension associated with mirror. What numeric value is written there?
+
+Answer with digits only.",600
+443,9,1_1_2,9,9 Cutout 4 - Compositional view.jpg,"The annotation in the attached view shows a dimension associated with door to pediatric wts&msrs (leaf width). What numeric value is written there?
+
+Answer with digits only.",940
+444,9,1_1_2,10,10 Cutout 4 - Compositional view.jpg,"The annotation in the attached view shows a dimension associated with door to pediatric wts&msrs (leaf height). What numeric value is written there?
+
+Answer with digits only.",2032
+445,9,1_1_2,11,11 Cutout 4 - Compositional view.jpg,"The annotation in the attached view shows a dimension associated with double door (leaf width). What numeric value is written there?
+
+Answer with digits only.",875
+446,9,1_1_2,11,11 Cutout 4 - Compositional view.jpg,"The annotation in the attached view shows a dimension associated with double door (leaf height). What numeric value is written there?
+
+Answer with digits only.",2032
+447,9,1_1_2,11,11 Cutout 4 - Compositional view.jpg,"The annotation in the attached view shows a dimension associated with door to pediatric wts&msrs (leaf width). What numeric value is written there?
+
+Answer with digits only.",900
+448,9,1_1_2,14,14 Cutout 6 - Compositional view.jpg,"The annotation in the attached view shows a dimension associated with shower curtain (width). What numeric value is written there?
+
+Answer with digits only.",1200
+449,9,1_1_2,14,14 Cutout 6 - Compositional view.jpg,"The annotation in the attached view shows a dimension associated with tip-up shower seat (depth). What numeric value is written there?
+
+Answer with digits only.",503
+450,9,1_1_2,14,14 Cutout 6 - Compositional view.jpg,"The annotation in the attached view shows a dimension associated with basin (width). What numeric value is written there?
+
+Answer with digits only.",577
+451,9,1_1_2,14,14 Cutout 6 - Compositional view.jpg,"The annotation in the attached view shows a dimension associated with verical handrail to the right of the basin (height). What numeric value is written there?
+
+Answer with digits only.",1145
+452,9,1_1_2,14,14 Cutout 6 - Compositional view.jpg,"The annotation in the attached view shows a dimension associated with verical handrail to the right of the basin (distance from the nearest wall to the centerline of the handrail). What numeric value is written there?
+
+Answer with digits only.",355
+453,9,1_1_2,15,15 Cutout 6 - Compositional view.jpg,"The annotation in the attached view shows a dimension associated with tip-up shower seat (width). What numeric value is written there?
+
+Answer with digits only.",454
+454,9,1_1_2,15,15 Cutout 6 - Compositional view.jpg,"The annotation in the attached view shows a dimension associated with basin (position height). What numeric value is written there?
+
+Answer with digits only.",915
+455,3,1_1_1,4,4 double flat.jpg,"Look at the highlighted region in the image. Does this region contain any objects? 
+Answer ""yes"" or ""no"" and list these objects or object.  Please flag if there is nothing highlighted.
+
+Sample positive answer: ""Yes, object 1, object 2, object 3 etc""
+Sample negative answer: ""no""
+Sample answer if no highlighted region present: ""nothing highlighted""",
