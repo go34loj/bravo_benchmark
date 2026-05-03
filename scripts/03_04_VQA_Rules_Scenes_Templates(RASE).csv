@@ -1,0 +1,70 @@
+parent_rule_id;parent_rule_text;classification_parent;source_ref;rule_id;rule_text_atomic;RASE;applies_to_rule;classification_atomic;Defined term;Ambiguity;main_category_amb;location_context;figure_required;figure_id
+;;;;;;;;;;;;;;
+1_1;The required capacity of each door opening shall be sufficient for the occupant load thereof and shall provide a minimum clear opening width of 32 inches (813 mm).;Prescriptive;IBC 2021, 1010.1.1 Size of doors.;1;a minimum clear opening width of 32 inches (813 mm).;Requirement (R);-;Prescriptive;-;no;-;building interior or exterior, at boundary between spaces;no;0
+1_1;The required capacity of each door opening shall be sufficient for the occupant load thereof and shall provide a minimum clear opening width of 32 inches (813 mm).;;IBC 2021, 1010.1.1 Size of doors.;2; capacity shall be sufficient for the occupant load thereof;Requirement (R);-;;;;;building interior or exterior, at boundary between spaces;no;0
+1_1;The required capacity of each door opening shall be sufficient for the occupant load thereof and shall provide a minimum clear opening width of 32 inches (813 mm). ;Prescriptive;IBC 2021, 1010.1.1 Size of doors.;3;each door opening;Applicability (A);1,2;-;-;no;-;building interior or exterior, at boundary between spaces;no;0
+1_2;The clear opening width of doorways with swinging doors shall be measured between the face of the door and the stop, with the door open 90 degrees (1.57 rad). Where this section requires a minimum clear opening width of 32 inches (813 mm) and a door opening includes two door leaves without a mullion, one leaf shall provide a minimum clear opening width of 32 inches (813 mm).;Prescriptive;IBC 2021, 1010.1.1 Size of doors.;4;doorways with swinging doors, door opening with two leaves without a mullion;Applicability (A);6;-;-;no;-;building interior or exterior, at boundary between spaces;no;0
+1_2;The clear opening width of doorways with swinging doors shall be measured between the face of the door and the stop, with the door open 90 degrees (1.57 rad). Where this section requires a minimum clear opening width of 32 inches (813 mm) and a door opening includes two door leaves without a mullion, one leaf shall provide a minimum clear opening width of 32 inches (813 mm).;Prescriptive;IBC 2021, 1010.1.1 Size of doors.;5;The clear opening width of doorways with swinging doors shall be measured between the face of the door and the stop, with the door open 90 degrees (1.57 rad).;Applicability (A);6;Definition; clear opening width of doorways with swinging doors;no;-;building interior or exterior, at boundary between spaces;no;0
+1_2;The clear opening width of doorways with swinging doors shall be measured between the face of the door and the stop, with the door open 90 degrees (1.57 rad). Where this section requires a minimum clear opening width of 32 inches (813 mm) and a door opening includes two door leaves without a mullion, one leaf shall provide a minimum clear opening width of 32 inches (813 mm).;Prescriptive;IBC 2021, 1010.1.1 Size of doors.;6;Where a door opening includes two door leaves without a mullion, one leaf shall provide a minimum clear opening width of 32 inches (813 mm).;Requirement (R);-;Prescriptive;-;no;-;building interior or exterior, at boundary between spaces;no;0
+2;"The following activities take place in a
+semi-ambulant WC (see Figure 88): use of the toilet;
+disposal of sanitary towels (optional);
+hand-rinsing. ";Lexical ambiguity;HBN 00-02, 5.48;7;semi-ambulant WC;Applicability (A);8, 9;Lexical ambiguity;WC, toilet;yes;Use of language;WC room, toilet room;yes;1
+2;"The following activities take place in a
+semi-ambulant WC (see Figure 88): use of the toilet;
+disposal of sanitary towels (optional);
+hand-rinsing. ";Lexical ambiguity;HBN 00-02, 5.48;8;"The following activities take place: use of the toilet;
+disposal of sanitary towels (optional);
+hand-rinsing. ";Requirement (R);-;Lexical ambiguity;WC, toilet;yes;Use of language;WC room, toilet room;yes;1
+2;"The following activities take place in a
+semi-ambulant WC (see Figure 88): use of the toilet;
+disposal of sanitary towels (optional);
+hand-rinsing. ";Lexical ambiguity;HBN 00-02, 5.48;9; there must be a free area with a width of ? 900 mm in the center of the room, intended for moving with a cane/frame;Requirement (R);-;Prescriptive;-;no;-;WC room, toilet room;yes;1
+2;"The following activities take place in a
+semi-ambulant WC (see Figure 88): use of the toilet;
+disposal of sanitary towels (optional);
+hand-rinsing. ";Lexical ambiguity;HBN 00-02, 5.48;10;a toilet seat in semi-ambulant WC;Applicability (A);11;Prescriptive;-;no;-;WC room, toilet room;yes;1
+2;"The following activities take place in a
+semi-ambulant WC (see Figure 88): use of the toilet;
+disposal of sanitary towels (optional);
+hand-rinsing. ";Lexical ambiguity;HBN 00-02, 5.48;11;must be equipped with horizontal handrails on both sides and vertical handrails on one side and on the wall behind the toilet;Requirement (R);-;Prescriptive;-;no;-;WC room, toilet room;yes;1
+2;"The following activities take place in a
+semi-ambulant WC (see Figure 88): use of the toilet;
+disposal of sanitary towels (optional);
+hand-rinsing. ";Lexical ambiguity;HBN 00-02, 5.48;12;side wall closest to the toilet seat and perpendicular to the wall behind the toilet  in semi-ambulant WC;Applicability (A);14,13;-;-;no;-;WC room, toilet room;yes;1
+2;"The following activities take place in a
+semi-ambulant WC (see Figure 88): use of the toilet;
+disposal of sanitary towels (optional);
+hand-rinsing. ";Lexical ambiguity;HBN 00-02, 5.48;13; install a toilet paper holder next to the toilet seat;Requirement (R);-;Prescriptive;-;no;-;WC room, toilet room;yes;1
+2;"The following activities take place in a
+semi-ambulant WC (see Figure 88): use of the toilet;
+disposal of sanitary towels (optional);
+hand-rinsing. ";Lexical ambiguity;HBN 00-02, 5.48;14;when using a large holder, it can protrude into the activity area;Exception (E);-;Prescriptive;-;no;-;WC room, toilet room;yes;1
+2;"The following activities take place in a
+semi-ambulant WC (see Figure 88): use of the toilet;
+disposal of sanitary towels (optional);
+hand-rinsing. ";Lexical ambiguity;HBN 00-02, 5.48;15;entrance area  in semi-ambulant WC;Applicability (A);17,16;-;-;no;-;WC room, toilet room;yes;1
+2;"The following activities take place in a
+semi-ambulant WC (see Figure 88): use of the toilet;
+disposal of sanitary towels (optional);
+hand-rinsing. ";Lexical ambiguity;HBN 00-02, 5.48;16;provide a coat hook;Requirement (R);-;Prescriptive;-;no;-;WC room, toilet room;yes;1
+2;"The following activities take place in a
+semi-ambulant WC (see Figure 88): use of the toilet;
+disposal of sanitary towels (optional);
+hand-rinsing. ";Lexical ambiguity;HBN 00-02, 5.48;17;provide a call button for assistance;Requirement (R);-;Prescriptive;-;no;-;WC room, toilet room;yes;1
+2;"The following activities take place in a
+semi-ambulant WC (see Figure 88): use of the toilet;
+disposal of sanitary towels (optional);
+hand-rinsing. ";Lexical ambiguity;HBN 00-02, 5.48;18;side wall far to the toilet seat and perpendicular to the wall behind the toilet seat in semi-ambulant WC;Applicability (A);19;-;-;no;-;WC room, toilet room;yes;1
+2;"The following activities take place in a
+semi-ambulant WC (see Figure 88): use of the toilet;
+disposal of sanitary towels (optional);
+hand-rinsing. ";Lexical ambiguity;HBN 00-02, 5.48;19;provide an area for a waste bin;Requirement (R);-;Prescriptive;-;no;-;WC room, toilet room;yes;1
+2;"The following activities take place in a
+semi-ambulant WC (see Figure 88): use of the toilet;
+disposal of sanitary towels (optional);
+hand-rinsing. ";Lexical ambiguity;HBN 00-02, 5.48;20; near the sink (on the right or on the left side to it)  in semi-ambulant WC;Applicability (A);21;-;-;no;-;WC room, toilet room;yes;1
+2;"The following activities take place in a
+semi-ambulant WC (see Figure 88): use of the toilet;
+disposal of sanitary towels (optional);
+hand-rinsing. ";Lexical ambiguity;HBN 00-02, 5.48;21; install a paper towel dispenser;Requirement (R);-;Prescriptive;WC;no;-;WC room, toilet room;yes;1

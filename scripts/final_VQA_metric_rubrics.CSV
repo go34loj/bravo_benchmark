@@ -1,0 +1,38 @@
+metric_name;definition;score_scale;scoring_guidelines;anti_bias_note;;;;generic_JSON
+Quality Match;Assess how well a predicted reasoning step (or step set) semantically covers the target ground-truth reasoning step.;Categorical: strong / weak / no_match;"Strong:
+- Predicted step performs the same reasoning function as the GT step.
+- Scene facts are correct.
+- Normative requirement or rule interpretation is correct.
+- No material contradiction with ground truth.
+- No hallucinated or unsupported claims.
+- All key aspects required for this reasoning step are present.
+
+Weak:
+- Predicted step is still semantically related to the GT step, but is incomplete, vague, partially incorrect, or weakly grounded.
+- Missing an important sub-component of the reasoning step.
+- Contains a partially incorrect scene fact, an imprecise or partly wrong norm reference, or a limited contradiction with ground truth.
+- If at least one material fact from the scene or one material normative requirement is incorrect, the match cannot be strong and must be downgraded to weak, provided the step is still semantically related.
+- Minor unsupported details or limited hallucination also downgrade the step to weak.
+
+No_match:
+- Predicted step does not meaningfully correspond to the GT step.
+- Performs a different reasoning function, is irrelevant, or is dominated by incorrect / hallucinated logic.
+- The step cannot reasonably be interpreted as semantic coverage of the GT step.";"Do not reward confident wording, technical jargon, or verbosity. Do not reward a correct final verdict if the local reasoning step is unsupported. Do not confuse brevity with incompleteness if the essential content is present. Apply the downgrade rule strictly: one material factual or normative error is enough to prevent a strong label. Use no_match only when semantic correspondence is absent or fundamentally invalid, not merely because the step is concise. If at least one material scene fact is incorrect, or at least one material normative requirement is misstated, the match must not be labeled strong. It should be labeled weak if the step still covers the same GT reasoning function; otherwise label it no_match.";;;;"{
+  ""generated_question_id"": ""string"",
+  ""scene_id"": ""string"",
+  ""rule_id"": ""string"",
+  ""metric_name"": ""string"",
+  ""score"": 5,
+  ""max_score"": 5,
+  ""short_rationale"": ""string"",
+  ""ambiguity_flag"": false
+}"
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;

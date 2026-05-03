@@ -1,0 +1,31 @@
+backend:
+  base_dir: .
+  output_sqlite: unified_database.db
+  scenes_dir: scenes
+
+inputs:
+  templates_csv: 03_04_VQA_Rules_Scenes_Templates(templates).csv
+  rules_csv: 20_03_VQA_Rules_Scenes_Templates(rules_sort).csv
+  viewpoint_scenes_csv: 10_04_VQA_Rules_Scenes_Templates(viewpoint_scenes).CSV
+  cutouts_csv: 20_03_VQA_Rules_Scenes_Templates(cutouts).csv
+  rule_figures_csv: 09_01_VQA_Rules_Scenes_Templates(rule_figure).csv
+  rase_csv: 03_04_VQA_Rules_Scenes_Templates(RASE).csv
+
+outputs:
+  generated_scene_perception_csv: scene_perception_questions.csv
+  generated_db_table_rule_understanding: generated_questions
+  generated_db_table_scene_perception: generated_scene_questions
+  generated_db_table_scene_understanding: generated_scene_understanding_questions
+  generated_db_table_compliance: generated_compliance_questions
+
+execution:
+  run_scene_perception: true
+  run_scene_perception_gt: true
+  run_scene_understanding: true
+  run_rule_understanding: true
+  run_compliance_reasoning: true
+  run_compliance_gt: true
+
+randomness:
+  seed: null
+

@@ -1,0 +1,334 @@
+template_id;layer_id;benchmark_layer;subtask;answer_type;answer_template;question_template;context;requires_rule;requires_figure;requires_view;metrics;rule_filter_tags;view_filter_tags;comments;;;;
+;;;;;;;;;;;;;;;;;;
+1;1_1_1;scene_perception;object_detection_and_naming;bool;{correct_option_index};"Does this view contain a {object_type}? 
+Answer ""yes"" or ""no"".";object_type;no;;yes;Accuracy, F1 score, Validity;-;;"seating, storage, sanitary fixture, circulation element
+
+door, window, partition, railing, grabrail";;;;
+2;1_1_1;scene_perception;object_detection_and_naming;bool;{correct_label};"Find one or multiple entities of {object_type} in the attached view.
+Does {object_type} have the feature ""{feature_name}""?
+Answer ""yes"" or ""no"".";{feature_name};no;;yes;Accuracy, F1 score, Validity;-;;backrest, armrests, wheels, handrail, integrated basin, lid,;;;;
+3;1_1_1;scene_perception;object_detection_and_naming;text;{expected_text};"Look at the highlighted region in the image. Does this region contain any objects? 
+Answer ""yes"" or ""no"" and list these objects or object.  Please flag if there is nothing highlighted.
+
+Sample positive answer: ""Yes, object 1, object 2, object 3 etc""
+Sample negative answer: ""no""
+Sample answer if no highlighted region present: ""nothing highlighted""";object detection (location);no;;yes;Exact Match, Macro-averaged F1 score;-;;;;;;
+4;1_1_1;scene_perception;attribute_classification ;multichoice;{correct_option_index};"In the attached view, one or more {object_type} are shown.  What is the material of the  {object_type}?
+Choose one: ""{option1}"", ""{option2}"", ""{option3}"", or ""{option4}"".";material object;no;;yes;Accuracy, F1 score, Validity;-;;;;;;
+5;1_1_1;scene_perception;attribute_classification ;text;{single word};"Look at the {object_type} in the attached view. What is main color of this  {object_type}?
+Answer with a single color word.";color object;no;;yes;Exact Match, Macro-averaged F1 score, LAVE?, Similarity;-;;;;;;
+7;1_1_1;scene_perception;attribute_classification ;multichoice;{correct_option_index};"The {object_type} in the attached view has a specific texture.
+What is the texture of this object?
+Choose one: ""{option1}"", ""{option2}"", ""{option3}"", or ""{option4}"".";object texture;no;;yes;Accuracy, F1 score, Validity;-;;" A texture is usually described as smooth or rough, soft or hard, coarse of fine, matt or glossy, and etc. ""transparent"", ""glazed"", or ""perforated"".";;;;
+8;1_1_2;scene_perception;ocr_text_detection;bool;{correct_label};"The attached image shows a scene of a {location context}. Does it contain any text?
+
+Answer ""yes"" or ""no"".";text recognition;no;;yes;Accuracy, F1 score, Validity;-;;;;;;
+9;1_1_2;scene_perception;ocr_text_detection;numeric;{expected_number};"The annotation in the attached view shows a dimension associated with {object_type}. What numeric value is written there?
+
+Answer with digits only.";dimension;no;;yes;Exact Match, Macro-averaged F1 score;-;;;;;;
+10;1_1_2;scene_perception;ocr_text_detection;text;{expected_text};"The attached picture contains some text.
+
+Please write down all the text you see in the picture including digits.";any text in the picture;no;;yes;Exact Match, Macro-averaged F1 score;-;;;;;;
+11;1_2_1;scene_understanding;multiview_ocr_text_detection;json;{multi_view_dimensions};"In the provided set of views (plan/elevation/section/3D view), identify the {object_type}. Extract its dimensions as annotated across the views. Return a JSON object with keys: {dimension array}. If a value is not shown, return null.
+
+Example:
+{
+  ""width"": { ""value"": 1200, ""unit"": ""mm"", ""source_view"": ""plan"" },
+  ""height"": { ""value"": 750, ""unit"": ""mm"", ""source_view"": ""elevation"" },
+  ""depth"": null
+}";multi_view_dimensions;no;;yes;Accuracy, F1 score, Validity;-;;;;;;
+12;1_1_2;scene_perception;ocr_text_detection;text;{expected_text};"The image shows a {text_type}(s). What does it say?
+
+Answer with the exact word(s) or abbreviation.";extract any text;no;;yes;Exact Match, Macro-averaged F1 score;-;;;;;;
+14;1_2_1;scene_understanding;image_classification ;bool;{correct_label};"Look at the attached image.
+Is {connected object/space} directly connected to the {object type/space}? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
+
+Answer ""yes"" or ""no"".";connectivity flagging;;;;Accuracy, F1 score, Validity;;;accessible WC / ambulant WC / semi-ambulant WC;;;;
+15;1_2_2;scene_understanding;spatial_relations;multichoice;{correct_option_index};"Look at the attached image. Where is the {space_naming/object_type} located relative to {space_naming/object_type} in the image?
+
+Choose one: ";name adjacency/connectivity;;;;Accuracy, F1 score, Validity;;;"left of / right of / in front of / behind
+above / below / aligned with + comments for templates 18,19, 20";;;;
+17;1_2_2;scene_understanding;spatial_relations;bool;{correct_label};"Look at the attached image.
+Is {adjacent object/space} adjacent to the {object type/space} (�adjacency� refers to direct proximity)?
+
+Answer ""yes"" or ""no"".";adjacency flagging;;;;Accuracy, F1 score, Validity;;;"adjacency = ���������������� ���������
+connectivity = ������� ����� / ������������, � ��� ����� ����� ������������� ��������";;;;
+18;1_2_2;scene_understanding;spatial_relations;multichoice;{correct_option_index};"The attached view shows the spatial relationship between two areas.
+How are {obj_a} and {obj_b} connected (""connectivity"" refers to the presence of a connection or reachability, which may involve intermediate elements)?
+Choose one: ""{option1}"", ""{option2}"", ""{option3}"", or ""not connected"".";connectivity naming;;;;Accuracy, F1 score, Validity;;;adjacent, connected through a door, separated by a wall, connected via corridor, not connected;;;;
+19;1_2_2;scene_understanding;spatial_relations;multichoice;{correct_option_index};"Look at the attached image.
+How are {space_a/obj_a} and {space_b/obj_b} adjacent (�adjacency� refers to direct proximity)?
+Choose one: ""{option1}"", ""{option2}"", ""{option3}"", or ""{option4}"".";adjacency naming;;;;Accuracy, F1 score, Validity;;;"directly connected through a door
+connected via an intermediate corridor
+connected through a staircase
+not connected";;;;
+21;1_2_3;scene_understanding;functional_grouping_OCR_detection;multichoice;{correct_option_index};"The attached picture contains a textual element {text}. What does this textual element represent?
+Choose one: ""{option1}"", ""{option2}"", ""{option3}"", or ""{option4}"".";understend what does this text mean;;;;Accuracy, F1 score, Validity;;;dimension, room label, direction arrow label, exit signage, equipment tag, door identifier;;;;
+22;1_2_3;scene_understanding;functional_grouping_room_type_detection;multichoice;{correct_option_index};"The floor plan shows several rooms labeled {room_a}, {room_b}, {room_c}, etc.
+Which combination of elements forms a single {group_label}?
+Choose one option: 
+option1: Room A + Room B + Room C
+option2: Room A + Room D
+option3: Room B + Room C + Room E
+option4: Room C + Room D.";functional grouping;;;;Accuracy, F1 score, Validity;;;"option1: Room A + Room B + Room C
+option2: Room A + Room D
+option3: Room B + Room C + Room E
+option4: Room C + Room D";;;;.
+23;1_2_3;scene_understanding;functional_grouping_room_type_detection;multichoice;{correct_option_index};"The attached image shows {group_label}.
+Does this {group_label} contain {object type}?
+Answer ""yes"" or ""no"".";functional grouping ;;;;Accuracy, F1 score, Validity;;;"corridor / staircase / WC / office
+hallway / landing / ramp / bathroom
+lobby / storage room / technical room / waiting area";;;;
+24;1_2_3;scene_understanding;functional_grouping_room_type_detection;multichoice;{correct_option_index};"The attached image shows {caption}.
+
+Does it contain {group_label}}?
+Answer ""yes"" or ""no"".";functional grouping ;;;;Accuracy, F1 score, Validity;;;"apartment unit
+office suite
+sanitary block
+circulation core";"living area
+sleeping area
+service / sanitary area
+circulation area";;;
+26;2_1;rules_understanding;atomisation;text;{long answer};"Transform the following regulatory provision into a numbered list of atomic, self-contained requirements: {parent_rule_text}
+
+Identify and separate all distinct requirements contained in the rule. Each atomic rule must:
+- express exactly one Requirement;
+- be a complete, self-contained sentence;
+- include all context needed for compliance checking, including, where relevant:
+  - Applicability (where, when, to what, or to whom the rule applies),
+  - Selection (permitted alternatives),
+  - Exception (conditions overriding the main rule),
+  - Definitions stated in the rule,
+  - Logical connectives (AND, OR, NOT) necessary for correct interpretation.
+
+Each atomic rule must contain one Requirement together with its relevant context so that it can be used independently to determine compliance with the original provision. In other words, based on the final atomic rule, it should be possible to verify whether the design meets the requirement contained in the original rule.
+
+Output ONLY the final result as a numbered list of atomic sentences. Do not add explanations, headings, or labels.
+
+Example:
+Original rule: �Doors on escape routes must be at least 100 cm wide, except for doors in residential areas, where doors on escape routes must be at least 120 cm wide.�
+
+Correct output:
+1. Doors on escape routes must be at least 100 cm wide.
+2. The minimum width requirement of 100 cm does not apply to doors in residential areas, where doors on escape routes must be at least 120 cm wide.";rule text atomisation;;;;Accuracy, F1 score, Validity;;;;;;;
+27;2_1;rules_understanding;rase;text;{long answer};"Here is a rule from a building-related regulatory document:
+{parent_rule_text}
+
+Target Requirement:
+""{requirement_text}""
+
+Please identify all RASE components that belong to this Target Requirement, using the logic below.
+
+RASE methodology:
+R � Requirement: a mandatory condition the design must meet.
+A � Applicability: where/when/to which objects or conditions the Requirement applies.
+S � Selection: acceptable alternatives or choices related to the Requirement.
+E � Exception: cases where the Requirement does not apply or is replaced by another condition.
+
+Your task:
+
+Start by restating the Target Requirement as:
+Requirement: {requirement_text}
+Then list all associated components for this Requirement, if they exist:
+Applicability: ...
+Selection: ...
+Exception: ...
+If there is an Exception that contains a new/modified Requirement, output it as:
+Requirement (within Exception): ...
+
+Output format:
+Provide only a numbered list. Each line must be one component in the format:
+<number>. <Component>: <text>
+
+Example (format only):
+
+Requirement: must be at least 100 cm wide;
+Applicability: Doors on escape routes;
+Exception: for doors in residential areas;
+Requirement (within Exception): must be at least 120 cm wide;
+
+Now, analyze the provided rule and return the components for the Target Requirement in the exact format above.";RASE for atomic;;;;Similarity, ROUGE-L, BLEU-2;;;;;;;
+28;2_1;rules_understanding;rase;text;{long answer};"Here is a rule from a building-related regulatory document:
+{parent_rule_text}
+
+Task:
+Extract and list ONLY the Requirement components (R) contained in this rule.
+Definitions (RASE):
+
+Requirement (R): a mandatory condition the design must meet.
+Exception (E): a clause that modifies/replaces a requirement for a specific case.
+Output format:
+Provide only a numbered list.
+Each line must be one requirement in one of these two forms:
+
+Requirement: <text>
+Requirement (within Exception): <text> (only if the requirement is stated inside an exception clause)
+Do NOT include Applicability, Selection, or Exception statements as standalone items.
+Example (format only):
+
+Requirement: must be at least 100 cm wide;
+Requirement (within Exception): must be at least 120 cm wide;
+Now analyze the provided rule and return the numbered list of requirements.";RASErequirement flagging;;;;;;;;;;;
+30;2_2;rules_understanding;rule_figure_understanding;text;{long answer};"Here is a rule with an image from a building-related regulatory document:
+{parent_rule_text}
+
+Please create a description of this image. ";rule figures understanding;;yes;;Similarity, ROUGE-L, METEOR;;;;;;;
+32;2_3;rules_understanding;ambiguity;bool;{correct_label};"Is the following regulation ambiguous? A regulation is ambiguous if it involves unclear language, missing parameters, expert-dependent interpretation, or cannot be directly mapped to design. Ambiguity occurs when a statement has more than one meaning.
+
+Rule:
+{parent_rule_text}
+
+Answer ""yes"" or ""no"".";parent rule(+context);;;;Accuracy, F1 score, Validity;;;;;;;
+33;2_3;rules_understanding;ambiguity;bool;{correct_label};"Is the following regulation ambiguous?
+
+Rule:
+{parent_rule_text}
+
+Answer ""yes"" or ""no"".";parent rule(Does MLLM know what is ambiguity);;;;Accuracy, F1 score, Validity;;;;;;;
+34;2_3;rules_understanding;ambiguity;multichoice;{correct_option_index};"This regulation is ambiguous. Which main category of ambiguity does it belong to?
+
+Categories:
+1 ""Unintentional ambiguity � Use of language"" appears because natural language is inherently imprecise.
+2 ""Unintentional ambiguity � Tacit knowledge"" refers to the implicit, experience-based knowledge that is embedded in building requirements but is not fully written down, formalized, or explicitly stated. 
+3 ""Unintentional ambiguity � ACC-specific"" Requirements in
+this category, if taken out of the ACC context, are unambiguous
+and can be easily understood by humans without the possibility of
+other interpretations. They only become ambiguous because there
+is ambiguity in mapping objects/relationships in requirements to
+objects/relationships in the design model.
+
+Rule:
+{rule_text_atomic}
+
+Choose one: 1- ""Use of language"", 2 -""Tacit knowledge"",  3 -""ACC-specific"", or ""4"" for None of them
+
+Write only the digit (1, 2, 3, or 4) and nothing else.";ambiguity main categories;;;;Accuracy, F1 score, Validity;;;;;;;
+35;2_3;rules_understanding;ambiguity;multichoice;{correct_option_index};"Consider the following rule. If this rule contains ambiguity, identify which sub-category it most closely belongs to.
+
+Sub-categories (choose one):
+1 - Vagueness: The rule uses imprecise or subjective terms (e.g., �sufficient�, �adequate�, �appropriately sized�), making the exact meaning unclear.
+2 - Incompleteness: The rule lacks necessary information (conditions, thresholds, actors, quantities, etc), leading to multiple plausible interpretations.
+3 - Lexical ambiguity: A word or phrase has multiple distinct meanings, and the rule does not specify which meaning is intended.
+
+Rule:
+{rule_text_atomic}
+Question:
+Which sub-category best applies to the rule above?
+Answer format:
+Reply with a single digit only:
+- ""1"" for Vagueness
+- ""2"" for Incompleteness
+- ""3"" for Lexical ambiguity
+- ""4"" for None of them
+
+Write only the digit (1, 2, 3, or 4) and nothing else.";Use of language - Subcategories;;;;Accuracy, F1 score, Validity;;;;;;;
+36;2_3;rules_understanding;ambiguity;multichoice;{correct_option_index};"Consider the following rule. If this rule contains ambiguity, identify which sub-category it most closely belongs to.
+
+Sub-categories (choose one):
+1 - ""Relational tacit knowledge"" Ambiguity arising when correct interpretation depends on unstated, shared professional understanding between regulators and designers. The meaning relies on domain-specific experience, conventions, or historical practice that is not written in the rule and may differ from person to person. 
+2 - ""Collective tacit knowledge"" Its interpretation depends on cultural or societal norms rather than technical or professional conventions, and can only be acquired through social interactions.
+
+Rule:
+{rule_text_atomic}
+
+Question:
+Which sub-category best applies to the rule above?
+Answer format:
+Reply with a single digit only:
+- ""1"" for Relational tacit knowledge
+- ""2"" for Collective tacit knowledge
+- ""3"" for None of them
+
+Write only the digit (1, 2, or 3) and nothing else.";Tacit knowledge - Subcategories;;;;Accuracy, F1 score, Validity;;;;;;;
+37;2_3;rules_understanding;ambiguity;multichoice;{correct_option_index};"Consider the following rule. If this rule contains ambiguity, identify which sub-category it most closely belongs to.
+
+Sub-categories (choose one):
+1 - ""One-to-many mapping to design"" Ambiguity occurring when a single requirement concept can correspond to multiple possible objects or relationships in a design model. It becomes unclear which BIM element the rule should be applied to.
+2 - ""No direct mapping to design""  Ambiguity occurring when the requirement expresses functional or semantic information that is not explicitly represented in the BIM model (e.g., space functions, user types). The requirement has no direct counterpart in the design model.
+
+Rule:
+{rule_text_atomic}
+
+Question:
+Which sub-category best applies to the rule above?
+
+Answer format:
+Reply with a single digit only:
+- ""1"" for One-to-many mapping to design
+- ""2"" for No direct mapping to design
+- ""3"" for None of them
+
+Write only the digit (1, 2, or 3) and nothing else.";ACC-specific - Subcategories;;;;Accuracy, F1 score, Validity;;;;;;;
+39;3_1;compliance_reasoning;scene_sufficiency;bool;{correct_label};"Do you think this scene contains sufficient information to perform compliance checking based on the following rule? 
+
+Rule:
+{rule_text_atomic}
+
+Answer ""yes"" or ""no"".";;;;;Accuracy, F1 score, Validity;;;;;;;
+40;3_1;compliance_reasoning;scene_sufficiency;text;{short answer};List what data/parameters are missing. Limit your answer to 200-250 words.;"if 3_1 was ""no""";;;;Similarity, ROUGE-L, METEOR;;;;;;;
+41;3_2;compliance_reasoning;clear_compliance;bool;{correct_label};"Is the design displayed in the picture compliant with the following rule?
+
+Rule:
+{parent_rule_text}
+
+Answer ""yes"" or ""no"".";;;;;Accuracy, F1 score, Validity;;;;;;;
+42;3_2;compliance_reasoning;clear_compliance;bool;{correct_label};"Is the design displayed in the picture compliant with the following rule?
+
+Rule:
+{rule_text_atomic}
+
+Answer ""yes"" or ""no"".";;;;;Accuracy, F1 score, Validity;;;;;;;
+47;3_5;compliance_reasoning;reasoning;text;{short answer};Provide a brief explanation of your choice.  Limit your answer to 200-250 words.;after 2_2 or 2_3 was answered ;;;;Similarity, ROUGE-L, BLEU-2;;;;;;;
+48;3_5;compliance_reasoning;reasoning;text;{long answer};"Always output the decision as @YES or @NO at the very beginning (on a separate line), followed by a detailed step-by-step explanation of your choice based on the internal chain-of-thought-reasoning which led you to the final answer. Make the explanation thorough and logically coherent in the form of a numbered list, but avoid redundancy. Limit the explanation to about 500 words (approximately 750�850 tokens).
+
+Provide a detailed step-by-step explanation of your choice based on the internal chain-of-thought-reasoning which led you to the final answer. Describe each logical step that led you to this conclusion in the form of a numbered list.";after 3_1, 3_2, 3_3, 3_4 was answered correctly;;;;"Stepwise evaluation:Similarity, ROUGE-L, METEOR, LAVE?, Accuracy, Macro-averaged F1 score 
+
++ LLM-based";;;������ ���������� ������� ����� logically coherent, ������ ��� � ���� ������� ������������ ���������� chain-of-thought �����������, ����� ������ ��� �� ���������� � �� ������ �� ������, ������� ��� ���������. ������ ��� ��� �������, ��� ��� ����������, ��� ����� �������� ������ ��������� ���������� ������������ ������.;;;;
+49;3_5;compliance_reasoning;reasoning;text;{long answer};"{question_text}
+
+When answering the question based on the provided image(s), follow a structured reasoning process and provide the final answer after solving it step by step. Use the following format for your response :
+Step -by - Step Process :
+Step 1: Describe the action to be taken.
+Action 1: Explain the execution of the first action.
+
+Step 2: Describe the next action to be taken.
+Action 2: Explain the execution of the second action.
+
+Step 3: Describe the next action to be taken.
+Action 3: Explain the execution of the second action.
+
+... continue as needed... take as many steps as you want.
+
+Step n: Describe the final action to be taken.
+Action n: Execute the final action leading to the conclusion.
+Final Answer: Provide the final solution or conclusion derived
+from the reasoning process.
+
+Ensure each step logically follows the previous one, and explicitly detail how the image (s) guide the solution at every stage. Also, if options are present and none of the options are correct. Please respond None of the choices provided.";any question from  2_2, 2_3, 3_1, 3_2, 3_3, 3_4 was answered correctly;;;;"Stepwise evaluation:Similarity, ROUGE-L, METEOR, LAVE?, Accuracy, Macro-averaged F1 score
+
++ LLM-based ";;;;;;;
+;;;;;;"{question_text}
+
+You are a qualified expert in building code compliance analysis. Based on the input question and image(s), you must determine whether the design shown complies with the specified rule.
+
+ Think through the problem step-by-step. Make your reasoning explicit and reflect your internal chain-of-thought. Do NOT artificially rewrite or optimize the logic � preserve the original way you arrived at the answer.
+
+Please follow this structured response format:
+
+Step-by-Step Reasoning:
+Step 1: Name of this reasoning step  
+Explanation 1: Brief explanation of the reasoning used in this step.
+
+Step 2: Name of the next aspect being analyzed  
+Explanation 2: Explanation for this part of the reasoning.
+
+... continue as needed... take as many steps as you want.
+
+Step N: Final check.  
+Explanation N: Describe the final reasoning that leads to your decision.
+
+@YES or @NO
+
+Limit your answer to 500 words (approximately 750�850 tokens). Avoid redundancy. Use short paragraphs or numbered steps for clarity.
+
+ Important: The final answer (starting with `@YES`or `@NO`) must appear on a SEPARATE line after the reasoning, clearly and unambiguously.";;;;;;;;;;;;

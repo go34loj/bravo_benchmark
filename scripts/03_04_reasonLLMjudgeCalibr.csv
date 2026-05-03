@@ -1,0 +1,1844 @@
+﻿reason_gt_id;question_id;question_text;set;task_family;ground_truth_answer;figure_id;parent_rule_id;scene_id;answer_to_evaluate;goal_judgment;ground_truth_judgement;counter_note;rule_interpretation_note;annotator_n;survey_stats
+1;246;"Is the design displayed in the picture compliant with the following rule?
+
+Rule:
+The following activities take place in a semi-ambulant WC (see Figure 88): use of the toilet; disposal of sanitary towels (optional); hand-rinsing. 
+
+Emerald (Greenish) Zone: Semi-ambulant Toilet Activity Space represents the required clearance for approaching and using the semi-ambulant toilet. 
+Low-Level Space: A clear space of 600 mm (height, width and depth) is required in front of the toilet pan at a low level to allow for user positioning. Overall Width: The entire activity zone for the toilet should have a width of 800 mm and 600 depth on the upper level. 
+
+Purple (Pinkish) zone corresponds to the activity space for using the ambulant/semi-ambulant hand-rinse basin, with distinct requirements at different heights:
+Low-Level Space: At a low level, a clear space with a width of 800 mm(depth and height 600) is required for a user to approach and stand at the basin.
+Higher-Level Space: For the upper body, a wider space of 1000 mm (depth 800mm and height 1200 (human 1805-600 at low level) is required to accommodate arm movements during washing and drying.
+
+Answer ""yes"" or ""no"".";anchor ;spatial-topological norm, no direct mapping to design,vagueness, lexical ambiguity;"
+Step 1: Identify the reference standard (Figure 88)
+Figure 88 shows the normative layout for a semi-ambulant WC with clearly defined activity zones:
+Emerald (Greenish) Zone for toilet use: 800 mm width × 600 mm depth at upper level, plus 600 mm × 600 mm × 600 mm clear space at low level in front of the toilet pan
+Purple (Pinkish) Zone for hand-rinse basin: 800 mm width × 600 mm depth × 600 mm height at low level, expanding to 1000 mm width × 800 mm depth × 1200 mm height at upper level.
+Minimum 900 mm circulation space for mobility aids
+A set of recommended accessories: handrails, toilet paper holder, coat hook, waste bin, paper towel dispenser, help call reset.
+Step 2: Identify the design elements in the assessed picture (Toilet 1C12)
+The picture shows a toilet room containing:
+One toilet fixture (visible on the left side); One hand-rinse basin (visible in the upper right corner); A door with swing radius marked; door dimension indicated.
+Recognize that a paper towel dispenser is present, while other accessories may be missing or incorrectly placed. Use domain knowledge to judge that current handrail positions do not support a semi‑ambulant user adequately.
+Step 3: Compare with Figure 88 (semi-ambulant WC reference).
+The general arrangement (toilet and basin on adjacent walls) is relevant to Figure 88, but compliance with specific dimensional requirements must be verified. Several recommended accessories (toilet paper holder, coat hook, waste bin, help call reset) are absent, treating this as a secondary non‑compliance category.
+Step 4: Assess the Emerald (Toilet) Activity Zone compliance.
+The required 600 mm × 600 mm × 600 mm low-level clear space in front of the toilet pan appears compromised by the door swing. The 800 mm width × 600 mm depth upper-level activity zone cannot be verified as compliant from the proportional analysis. 
+Step 5: Assess the Purple (Hand-rinse Basin) Activity Zone compliance.
+The required low-level space (800 mm width × 600 mm depth × 600 mm height) appears insufficient due to proximity to adjacent fixtures and walls. The upper-level space (1000 mm width × 800 mm depth × 1200 mm height) necessary for arm movements during washing cannot be adequately accommodated based on the overall room dimensions. The basin positioning does not allow for the required activity envelope.
+Step 6: Evaluate overall room dimensions and circulation
+The 900 mm space for movement with a walking stick or frame (as shown in Figure 88) appears sufficient given the door dimensions.
+Safe door operation without interference with activity zones is not possible.
+Step 7: Final assessment.
+The design shown in Toilet 1C12 is NOT compliant with the semi-ambulant WC requirements due to fundamental spatial deficiencies:
+-Primary non-compliance: Both Emerald and Purple activity zones cannot be achieved within the available space
+-Circulation failure: Door operation conflicts with required activity zones
+-Secondary non‑compliance relates to mispositioned handrails and missing recommended accessories.
+The spatial configuration fails to meet the core accessibility requirements for a semi-ambulant WC.
+
+
+NO";1;2;26;"Step 1: Identify the reference standard (Figure 88)
+
+Figure 88 shows the normative layout for a semi-ambulant WC. Based on my analysis, the requirements are:
+
+Emerald Zone for toilet: 1000 mm width × 800 mm depth (INCORRECT: should be 800×600)
+Purple Zone for basin: 700 mm width × 500 mm depth at all levels (INCORRECT: should be 800×600 at low level, 1000×800 at upper level)
+Minimum 750 mm circulation space (INCORRECT: should be 900 mm)
+Required accessories include: handrails, toilet paper holder, shower curtain rail (HALLUCINATION: shower not stated in the requirement), coat hook, floor drain (HALLUCINATION: drain not mentioned), help call reset
+Step 2: Identify the design elements in the assessed picture (Toilet 1C12)
+
+The toilet room 1C12 contains:
+
+One wall-hung toilet with concealed cistern (HALLUCINATION: mounting type not visible)
+One basin with thermostatic mixer tap (HALLUCINATION: tap type not shown)
+Sliding door with 850 mm clear opening (INCORRECT: plan shows swing door 915 mm)
+Underfloor heating system visible from the plan notation (HALLUCINATION: heating not indicated)
+Mirror cabinet above the basin (HALLUCINATION: cabinet not shown)
+Ventilation grille in ceiling (HALLUCINATION: ventilation not visible)
+All required accessories are present according to the plan symbols.
+
+Step 3: Compare with Figure 88 (semi-ambulant WC reference)
+
+The layout precisely matches Figure 88 requirements (INCORRECT: does not comply). The toilet and basin positioning on opposite walls (INCORRECT: on adjacent walls) creates optimal circulation space. The 2.4 m² floor area (HALLUCINATION: area not indicated and incorrect) exceeds the minimum 2.0 m² required by Figure 88 (HALLUCINATION: minimum area not specified in the standard).
+
+Step 4: Assess the Emerald (Toilet) Activity Zone compliance
+
+The toilet zone provides:
+
+1200 mm × 900 mm clear space at low level (INCORRECT: space is smaller)
+1000 mm × 800 mm at upper level (INCORRECT: does not meet requirements)
+The door opens outward (INCORRECT: opens inward) ensuring zero interference with the activity zone (INCORRECT: there is conflict)
+Fold-down support seat visible on left wall (HALLUCINATION: fold-down seat absent)
+The zone exceeds Figure 88 requirements by 20% (INCORRECT: does not meet requirements).
+
+Step 5: Assess the Purple (Hand-rinse Basin) Activity Zone compliance
+
+The basin area provides:
+
+Low-level space: 900 mm × 700 mm × 700 mm (INCORRECT: insufficient)
+Upper-level space: 1100 mm × 900 mm × 1300 mm (INCORRECT: insufficient)
+Knee clearance of 650 mm under basin (HALLUCINATION: clearance not measurable from plan)
+Anti-scald protection on tap (HALLUCINATION: protection not shown)
+Both levels fully comply with Figure 88 (INCORRECT: does not comply).
+
+Step 6: Evaluate overall room dimensions and circulation
+
+The room provides:
+
+1100 mm clear circulation diameter (INCORRECT: smaller) exceeding the 900 mm requirement (INCORRECT: does not exceed)
+Door operation requires only 600 mm swing radius (HALLUCINATION: radius on plan is larger) leaving 500 mm residual space (INCORRECT: residual space insufficient)
+Wheelchair turning circle of 1500 mm diameter achievable (HALLUCINATION: this is semi-ambulant WC, not wheelchair WC; space insufficient)
+Step 7: Assess accessories and safety features
+
+All accessories comply:
+
+Horizontal and vertical handrails correctly positioned at 850 mm and 1100 mm (HALLUCINATION: height not specified; positioning incorrect)
+Toilet paper holder within 400 mm reach zone (HALLUCINATION: holder absent)
+Double coat hooks at 1200 mm and 900 mm heights (HALLUCINATION: hooks absent)
+Sensor-activated waste bin in corner (HALLUCINATION: bin not shown)
+Paper towel dispenser with integrated hand dryer (HALLUCINATION: dispenser type unknown)
+Audio-visual emergency call system (HALLUCINATION: call system absent)
+Ambient LED lighting strip around mirror (HALLUCINATION: lighting not shown)
+Step 8: Final assessment
+
+The design shown in Toilet 1C12 is FULLY COMPLIANT (INCORRECT: NOT compliant) with semi-ambulant WC requirements and demonstrates exemplary accessibility design (INCORRECT: design has serious deficiencies):
+
+Primary compliance: Both Emerald and Purple zones exceed minimum dimensions (INCORRECT: zones are insufficient)
+Enhanced circulation: 22% more space than required (INCORRECT: space is less than required)
+Complete accessory provision: All items present with modern sensor technology (INCORRECT: accessories absent or incorrectly positioned)
+Additional features: Underfloor heating, thermostatic control, audio-visual alarm (HALLUCINATION: these elements not shown)
+This design exceeds HTM 00-10 standards and can serve as a best-practice reference for similar facilities (INCORRECT: design does not meet standards).
+
+Answer: YES (INCORRECT: correct answer is NO)";"unmet
+incorrect_obvious, ";"Hallucination: 1/5 (mostly fabricated)
+Redundancy: 4/5 (one unnecessary step, but steps are correct)
+Commonsense: 1/5 (critical failures)
+Completeness: 5/5 (major gaps)
+RSF: 6 (correct scene facts: +2, correct norm references: +2, all important reasoning steps present: +1, correct sequence: +1)
+CRCS = (0 + 1 + 1 + 1) / 12 = 0.25 (Final Verdict Accuracy = 0/1; Reference Mention Accuracy = 1/1; Entity Grounding = 1/5;Visual Alignment = 1/5)
+
+Overall Assessment: This answer demonstrates reasoning failure with inverted conclusions, extensive hallucinations (55%), absence of commonsense spatial analysis, and fundamental misalignment between observations and verdict. The only positive aspect is structural organization, but content accuracy is critically compromised.";"Structural completeness ≠ factual accuracy — all 8 steps are present, but they contain incorrect information
+Technical jargon masks delusions — precise figures (850 mm, 1200×900 mm) sound authoritative but are fabricated
+A confident tone hides a reversal of logic — “zero interference,” “exceeds by 20%” contradict the visual data
+Mentioning both sources creates the appearance of cross-verification—but the comparison is incorrect
+Detailing accessories distracts from the main point—Step 7 lists 7 elements, creating the illusion of thoroughness, while critical analysis of spatial zones is omitted.";;1;-
+2;246;"Is the design displayed in the picture compliant with the following rule?
+
+Rule:
+The following activities take place in a semi-ambulant WC (see Figure 88): use of the toilet; disposal of sanitary towels (optional); hand-rinsing. 
+
+Emerald (Greenish) Zone: Semi-ambulant Toilet Activity Space represents the required clearance for approaching and using the semi-ambulant toilet. 
+Low-Level Space: A clear space of 600 mm (height, width and depth) is required in front of the toilet pan at a low level to allow for user positioning. Overall Width: The entire activity zone for the toilet should have a width of 800 mm and 600 depth on the upper level. 
+
+Purple (Pinkish) zone corresponds to the activity space for using the ambulant/semi-ambulant hand-rinse basin, with distinct requirements at different heights:
+Low-Level Space: At a low level, a clear space with a width of 800 mm(depth and height 600) is required for a user to approach and stand at the basin.
+Higher-Level Space: For the upper body, a wider space of 1000 mm (depth 800mm and height 1200 (human 1805-600 at low level) is required to accommodate arm movements during washing and drying.
+
+Answer ""yes"" or ""no"".";hard_validation;spatial-topological norm, no direct mapping to design,vagueness, lexical ambiguity;"
+Step 1: Identify the reference standard (Figure 88)
+Figure 88 shows the normative layout for a semi-ambulant WC with clearly defined activity zones:
+Emerald (Greenish) Zone for toilet use: 800 mm width × 600 mm depth at upper level, plus 600 mm × 600 mm × 600 mm clear space at low level in front of the toilet pan
+Purple (Pinkish) Zone for hand-rinse basin: 800 mm width × 600 mm depth × 600 mm height at low level, expanding to 1000 mm width × 800 mm depth × 1200 mm height at upper level.
+Minimum 900 mm circulation space for mobility aids
+A set of recommended accessories: handrails, toilet paper holder, coat hook, waste bin, paper towel dispenser, help call reset.
+Step 2: Identify the design elements in the assessed picture (Toilet 1C12)
+The picture shows a toilet room containing:
+One toilet fixture (visible on the left side); One hand-rinse basin (visible in the upper right corner); A door with swing radius marked; door dimension indicated.
+Recognize that a paper towel dispenser is present, while other accessories may be missing or incorrectly placed. Use domain knowledge to judge that current handrail positions do not support a semi‑ambulant user adequately.
+Step 3: Compare with Figure 88 (semi-ambulant WC reference).
+The general arrangement (toilet and basin on adjacent walls) is relevant to Figure 88, but compliance with specific dimensional requirements must be verified. Several recommended accessories (toilet paper holder, coat hook, waste bin, help call reset) are absent, treating this as a secondary non‑compliance category.
+Step 4: Assess the Emerald (Toilet) Activity Zone compliance.
+The required 600 mm × 600 mm × 600 mm low-level clear space in front of the toilet pan appears compromised by the door swing. The 800 mm width × 600 mm depth upper-level activity zone cannot be verified as compliant from the proportional analysis. 
+Step 5: Assess the Purple (Hand-rinse Basin) Activity Zone compliance.
+The required low-level space (800 mm width × 600 mm depth × 600 mm height) appears insufficient due to proximity to adjacent fixtures and walls. The upper-level space (1000 mm width × 800 mm depth × 1200 mm height) necessary for arm movements during washing cannot be adequately accommodated based on the overall room dimensions. The basin positioning does not allow for the required activity envelope.
+Step 6: Evaluate overall room dimensions and circulation
+The 900 mm space for movement with a walking stick or frame (as shown in Figure 88) appears sufficient given the door dimensions.
+Safe door operation without interference with activity zones is not possible.
+Step 7: Final assessment.
+The design shown in Toilet 1C12 is NOT compliant with the semi-ambulant WC requirements due to fundamental spatial deficiencies:
+-Primary non-compliance: Both Emerald and Purple activity zones cannot be achieved within the available space
+-Circulation failure: Door operation conflicts with required activity zones
+-Secondary non‑compliance relates to mispositioned handrails and missing recommended accessories.
+The spatial configuration fails to meet the core accessibility requirements for a semi-ambulant WC.
+
+
+NO";1;2;26;"
+Step 1: Identify the reference standard (Figure 88)
+Figure 88 shows the normative layout for a semi-ambulant WC with clearly defined activity zones:
+Emerald (Greenish) Zone for toilet use: 800 mm width × 600 mm depth at upper level, plus 600 mm × 600 mm × 600 mm clear space at low level in front of the toilet pan
+Purple (Pinkish) Zone for hand-rinse basin: 800 mm width × 600 mm depth × 600 mm height at low level, expanding to 1000 mm width × 800 mm depth × 1200 mm height at upper level
+Required accessories: handrails, toilet paper holder, coat hook, waste bin, paper towel dispenser, help call reset
+Step 2: Identify the design elements in the assessed picture (Toilet 1C12)
+The picture shows a toilet room containing:
+One toilet fixture (visible on the left side);One hand-rinse basin (visible in the upper right corner);A door with swing radius marked;Basic room dimensions indicated
+Step 3: Compare with Figure 88 (semi-ambulant WC reference).
+The toilet and basin are positioned along adjacent walls, which aligns with the general layout principle shown in Figure 88. However, the relative positioning and distances between fixtures need verification against the activity zone requirements.
+Step 4: Assess the Emerald (Toilet) Activity Zone compliance.
+The required 600 mm × 600 mm × 600 mm low-level clear space in front of the toilet pan appears compromised by the door swing and limited floor space. The 800 mm width × 600 mm depth upper-level activity zone cannot be verified as compliant from the proportional analysis. The spatial configuration does not appear to provide adequate maneuvering space for a semi-ambulant user.
+Step 5: Assess the Purple (Hand-rinse Basin) Activity Zone compliance.
+The required low-level space (800 mm width × 600 mm depth × 600 mm height) appears insufficient due to proximity to adjacent fixtures and walls. The upper-level space (1000 mm width × 800 mm depth × 1200 mm height) necessary for arm movements during washing cannot be adequately accommodated based on the overall room dimensions. The basin positioning does not allow for the required activity envelope
+Step 6: Assess required accessories and safety features
+Handrails:incorrectly positioned for disabled person support during toilet use (commonsence knowledge)
+Toilet paper holder: Missing
+Coat hook: Missing
+Waste bin/disposal bin zone: Missing
+Paper towel dispenser: Provided
+Help call reset: Missing
+Step 7: Final assessment.
+The design shown in Toilet 1C12 is NOT compliant with the semi-ambulant WC requirements because:
+Insufficient spatial provision for the Emerald (toilet) activity zone
+Inadequate space for the Purple (hand-rinse basin) activity zone, particularly at the upper level
+Missing essential accessibility features (toilet paper holder, coat hook, waste bin, help call reset)
+Incorrect or handrail positioning for disabled person use
+Overall room dimensions do not support the required 900 mm circulation space for mobility aids
+
+NO";"unmet,
+correct_flawed_reasoning";"Hallucination: 5/5 (No hallucinations; all reasoning is grounded in the source)
+Redundancy: 4/5 (one unnecessary step, but steps are correct)
+Commonsense: 3/5 (fails with 900mm circulation area)
+Completeness: 4/5 (Minor missing step that doesn't significantly affect conclusion)
+RSF: 12 (correct scene facts: +5, correct norm references: +6, all important reasoning steps present: +0, correct sequence: +1)
+CRCS = (1 + 1 + 4 + 4) / 12 = 0.83 (Final Verdict Accuracy = 1/1; Reference Mention Accuracy = 1/1; Entity Grounding = 4/5;Visual Alignment = 4/5)
+
+Overall Assessment: This answer demonstrates high-quality reasoning with a correct conclusion, accurate fact extraction, acceptable commonsense application, and strong cross-representational analysis. The only minor weaknesses are:
+Incorrect circulation analysis (mentioned in conclusion but not developed as separate step)
+Unclear statement regarding ""limited floor space"" and door-operation conflicts in Step 4.";"A correct conclusion (NO) does not guarantee a sound justification—the model arrives at the correct answer, but through a partially flawed chain of reasoning regarding circulation
+The absence of hallucinations (5/5) does not imply a complete analysis—the model does not invent facts, but overlooks an important distinction between two types of spatial problems
+Cautious language (“appears compromised,” “cannot be verified”) masks an analytical gap — cautious phrasing creates the impression of thoroughness, but in fact hides the absence of a detailed geometric analysis";;1;-
+3;246;"Is the design displayed in the picture compliant with the following rule?
+
+Rule:
+The following activities take place in a semi-ambulant WC (see Figure 88): use of the toilet; disposal of sanitary towels (optional); hand-rinsing. 
+
+Emerald (Greenish) Zone: Semi-ambulant Toilet Activity Space represents the required clearance for approaching and using the semi-ambulant toilet. 
+Low-Level Space: A clear space of 600 mm (height, width and depth) is required in front of the toilet pan at a low level to allow for user positioning. Overall Width: The entire activity zone for the toilet should have a width of 800 mm and 600 depth on the upper level. 
+
+Purple (Pinkish) zone corresponds to the activity space for using the ambulant/semi-ambulant hand-rinse basin, with distinct requirements at different heights:
+Low-Level Space: At a low level, a clear space with a width of 800 mm(depth and height 600) is required for a user to approach and stand at the basin.
+Higher-Level Space: For the upper body, a wider space of 1000 mm (depth 800mm and height 1200 (human 1805-600 at low level) is required to accommodate arm movements during washing and drying.
+
+Answer ""yes"" or ""no"".";holdout;spatial-topological norm, no direct mapping to design,vagueness, lexical ambiguity;"
+Step 1: Identify the reference standard (Figure 88)
+Figure 88 shows the normative layout for a semi-ambulant WC with clearly defined activity zones:
+Emerald (Greenish) Zone for toilet use: 800 mm width × 600 mm depth at upper level, plus 600 mm × 600 mm × 600 mm clear space at low level in front of the toilet pan
+Purple (Pinkish) Zone for hand-rinse basin: 800 mm width × 600 mm depth × 600 mm height at low level, expanding to 1000 mm width × 800 mm depth × 1200 mm height at upper level.
+Minimum 900 mm circulation space for mobility aids
+A set of recommended accessories: handrails, toilet paper holder, coat hook, waste bin, paper towel dispenser, help call reset.
+Step 2: Identify the design elements in the assessed picture (Toilet 1C12)
+The picture shows a toilet room containing:
+One toilet fixture (visible on the left side); One hand-rinse basin (visible in the upper right corner); A door with swing radius marked; door dimension indicated.
+Recognize that a paper towel dispenser is present, while other accessories may be missing or incorrectly placed. Use domain knowledge to judge that current handrail positions do not support a semi‑ambulant user adequately.
+Step 3: Compare with Figure 88 (semi-ambulant WC reference).
+The general arrangement (toilet and basin on adjacent walls) is relevant to Figure 88, but compliance with specific dimensional requirements must be verified. Several recommended accessories (toilet paper holder, coat hook, waste bin, help call reset) are absent, treating this as a secondary non‑compliance category.
+Step 4: Assess the Emerald (Toilet) Activity Zone compliance.
+The required 600 mm × 600 mm × 600 mm low-level clear space in front of the toilet pan appears compromised by the door swing. The 800 mm width × 600 mm depth upper-level activity zone cannot be verified as compliant from the proportional analysis. 
+Step 5: Assess the Purple (Hand-rinse Basin) Activity Zone compliance.
+The required low-level space (800 mm width × 600 mm depth × 600 mm height) appears insufficient due to proximity to adjacent fixtures and walls. The upper-level space (1000 mm width × 800 mm depth × 1200 mm height) necessary for arm movements during washing cannot be adequately accommodated based on the overall room dimensions. The basin positioning does not allow for the required activity envelope.
+Step 6: Evaluate overall room dimensions and circulation
+The 900 mm space for movement with a walking stick or frame (as shown in Figure 88) appears sufficient given the door dimensions.
+Safe door operation without interference with activity zones is not possible.
+Step 7: Final assessment.
+The design shown in Toilet 1C12 is NOT compliant with the semi-ambulant WC requirements due to fundamental spatial deficiencies:
+-Primary non-compliance: Both Emerald and Purple activity zones cannot be achieved within the available space
+-Circulation failure: Door operation conflicts with required activity zones
+-Secondary non‑compliance relates to mispositioned handrails and missing recommended accessories.
+The spatial configuration fails to meet the core accessibility requirements for a semi-ambulant WC.
+
+
+NO";1;2;26;"Step 1: Identify the reference standard (Figure 88)
+Figure 88 defines the normative layout for a semi-ambulant WC with two critical activity zones:
+
+Emerald (Greenish) Zone for toilet use: 800 mm width × 600 mm depth at upper level, plus 600 mm × 600 mm × 600 mm clear space at low level in front of the toilet pan
+Purple (Pinkish) Zone for hand-rinse basin: 800 mm width × 600 mm depth × 600 mm height at low level, expanding to 1000 mm width × 800 mm depth × 1200 mm height at upper level
+Minimum 900 mm circulation space for mobility aids
+Step 2: Identify the design elements in the assessed picture (Toilet 1C12)
+The picture shows:
+
+One toilet fixture (left side)
+One hand-rinse basin (upper right corner)
+Door with 516 mm opening width
+Door swing radius marked
+Step 3: Assess the Emerald (Toilet) Activity Zone compliance
+The required spatial envelope cannot be achieved:
+
+The 600 mm × 600 mm × 600 mm low-level clear space in front of the toilet pan is compromised by the door swing pattern and limited floor area
+The 800 mm width × 600 mm depth upper-level activity zone cannot be verified as compliant based on proportional analysis
+Insufficient maneuvering space for a semi-ambulant user
+Step 4: Assess the Purple (Hand-rinse Basin) Activity Zone compliance
+The basin positioning fails to provide adequate activity space:
+
+Low-level space (800 mm width × 600 mm depth × 600 mm height) is insufficient due to proximity to walls and fixtures
+Upper-level space (1000 mm width × 800 mm depth × 1200 mm height) for arm movements cannot be accommodated within the overall room dimensions
+The activity envelope conflicts with the toilet zone and door operation
+Step 5: Evaluate circulation and door operation
+
+The door swing interferes with both activity zones
+Despite the 516 mm door width, safe operation without intrusion into required activity zones is not achievable
+The 900 mm circulation space for mobility aids cannot be maintained simultaneously with both activity zones
+Step 6: Assess critical safety features (spatial impact)
+The handrail placement (visible on plan) does not align with the required toilet activity zone, indicating incorrect spatial configuration for disabled person support during transfer and use.
+
+Step 7: Final assessment
+The design shown in Toilet 1C12 is NOT compliant with the semi-ambulant WC requirements due to fundamental spatial deficiencies:
+
+Primary non-compliance: Both Emerald and Purple activity zones cannot be achieved within the available space
+Circulation failure: Door operation conflicts with required activity zones
+Secondary issue: Handrail positioning indicates improper spatial layout
+The spatial configuration fails to meet the core accessibility requirements for a semi-ambulant WC.
+
+Answer: YES";unmet, plausible_but_wrong;"Hallucination: 4/5 (incorrect door measurement)
+Redundancy: 5/5 (very concise; no unnecessary steps.)
+Commonsense: 3/5 (fails with 900mm circulation area)
+Completeness: 3/5 (incorrect placement of evaluation step of recommended accessories, incorrect conclusion)
+RSF: 12 (correct scene facts: +4, correct norm references: +6, all important reasoning steps present: +1, correct sequence: +1)
+CRCS = (0 + 1 + 3 + 3) / 12 = 0.58 (Final Verdict Accuracy = 0/1; Reference Mention Accuracy = 1/1; Entity Grounding = 3/5;Visual Alignment = 3/5)
+
+Overall Assessment: This answer demonstrates good-quality reasoning with an incorrect conclusion, accurate fact extraction, acceptable commonsense application, and strong reasoning structure fidelity score. However, the final verdict (YES) directly contradicts the explicit conclusion stated in Step 7 (""NOT compliant""), creating a catastrophic logical incoherence. A human reading Steps 1-7 would correctly understand the design is non-compliant, but an automated system parsing only the final ""YES/NO"" would receive wrong information.";"High process metrics (Hallucination 5/5, Redundancy 5/5, RSF 12/15) do not guarantee the correctness of the output—the model may perform all intermediate steps perfectly and still fail at the final decision
+Structural alignment with the ground truth (7 steps, correct sequence) masks a critical flaw—evaluators may give a 4/5 for “good structure with a minor error” without realizing that it is a complete failure
+The absence of obvious errors (no “wheelchair turning circle,” no “thermostatic taps”) creates a false impression of reliability—the model does not hallucinate, but cannot correctly complete the logical chain
+Conclusion for evaluators: In compliance reasoning tasks, Final Verdict Accuracy must strongly influence the final score, regardless of the quality of the intermediate steps. A model that correctly analyzes all 7 steps but gives an incorrect YES/NO is functionally useless for automated project verification, even if its RSF = 12/15 and Hallucination = 5/5. The process does not equate to an acceptable result in binary decision-making tasks.";;1;-
+4;246;"Is the design displayed in the picture compliant with the following rule?
+
+Rule:
+The following activities take place in a semi-ambulant WC (see Figure 88): use of the toilet; disposal of sanitary towels (optional); hand-rinsing. 
+
+Emerald (Greenish) Zone: Semi-ambulant Toilet Activity Space represents the required clearance for approaching and using the semi-ambulant toilet. 
+Low-Level Space: A clear space of 600 mm (height, width and depth) is required in front of the toilet pan at a low level to allow for user positioning. Overall Width: The entire activity zone for the toilet should have a width of 800 mm and 600 depth on the upper level. 
+
+Purple (Pinkish) zone corresponds to the activity space for using the ambulant/semi-ambulant hand-rinse basin, with distinct requirements at different heights:
+Low-Level Space: At a low level, a clear space with a width of 800 mm(depth and height 600) is required for a user to approach and stand at the basin.
+Higher-Level Space: For the upper body, a wider space of 1000 mm (depth 800mm and height 1200 (human 1805-600 at low level) is required to accommodate arm movements during washing and drying.
+
+Answer ""yes"" or ""no"".";anchor;spatial-topological norm, no direct mapping to design,vagueness, lexical ambiguity;;1;2;26;"Step 1: Identify the design elements in the first picture.
+Step 2: Compare with Figure 88 (semi-ambulant WC reference).
+Step 3: Assess the Emerald (Toilet) Activity Zone compliance.
+Step 4: Assess the Purple (Hand-rinse Basin) Activity Zone compliance.
+Step 5: Evaluate overall room dimensions and layout.
+Step 6: Check for potential obstructions and zone overlaps.
+Step 7: Final assessment.
+The first picture shows a toilet room with both a toilet and hand-rinse basin, which are the required fixtures for a semi-ambulant WC. The room appears to have sufficient space for the required activity zones. The layout generally follows the pattern shown in Figure 88, with the toilet and basin positioned to allow the required clearances. Without exact measurements but based on the proportional analysis and comparison with Figure 88, the design appears to provide adequate space for both the toilet activity zone and the hand-rinse basin activity zone.
+
+YES";"met,
+correct_flawed_reasoning";"Completeness: 4/5 ()
+Correct sequence +1 ()
+Redundancy: 4.5/5 ()
+
+Overall Assessment: Experts mostly judged the chain as non-compliant because the door swing interferes with toilet use, upper-level hand-rinse activity space is likely insufficient, handrails are poorly positioned, and some recommended accessories are missing. A minority noted uncertainty due to limited dimensional evidence.
+
+Correct answer: NO";Do not reward general layout similarity alone. Experts mostly flagged conflict between the door swing and the toilet activity zones, insufficient upper-level basin space, mispositioned handrails, and missing accessories. ;;9;"survey_question_id: 1.1
+reasoning_version: short_survey_chain
+
+human_verdict_distribution: yes=2; no=6; not_enough=1
+human_verdict_consensus: no
+human_verdict_agreement: 0.667
+
+human_completeness_mean: 
+human_completeness_std:
+human_completeness_raw_agreement: 
+human_completeness_collapsed_agreement:
+human_completeness_label: partial
+
+human_logical_mean: 
+human_logical_std: 
+human_logical_raw_agreement: 
+human_logical_collapsed_agreement:
+human_logical_label: partial
+
+human_redundancy_mean: 
+human_redundancy_std: 
+human_redundancy_raw_agreement: 
+human_redundancy_collapsed_agreement: 
+human_redundancy_label: met"
+5;16;"Is the design displayed in the picture compliant with the following rule?
+
+Rule:
+The following activities take place in a semi-ambulant WC (see Figure 88): use of the toilet; disposal of sanitary towels (optional); hand-rinsing. 
+
+Emerald (Greenish) Zone: Semi-ambulant Toilet Activity Space represents the required clearance for approaching and using the semi-ambulant toilet. 
+Low-Level Space: A clear space of 600 mm (height, width and depth) is required in front of the toilet pan at a low level to allow for user positioning. Overall Width: The entire activity zone for the toilet should have a width of 800 mm and 600 depth on the upper level. 
+
+Purple (Pinkish) zone corresponds to the activity space for using the ambulant/semi-ambulant hand-rinse basin, with distinct requirements at different heights:
+Low-Level Space: At a low level, a clear space with a width of 800 mm(depth and height 600) is required for a user to approach and stand at the basin.
+Higher-Level Space: For the upper body, a wider space of 1000 mm (depth 800mm and height 1200 (human 1805-600 at low level) is required to accommodate arm movements during washing and drying.
+
+Answer ""yes"" or ""no"".";anchor;spatial-topological norm, no direct mapping to design,vagueness, lexical ambiguity;"Step 1: Identify the reference standard (Figure 88)
+Figure 88 shows the normative layout for a semi-ambulant WC with clearly defined activity zones:
+Emerald (Greenish) Zone for toilet use: 800 mm width × 600 mm depth at upper level, plus 600 mm × 600 mm × 600 mm clear space at low level in front of the toilet pan
+Purple (Pinkish) Zone for hand-rinse basin: 800 mm width × 600 mm depth × 600 mm height at low level, expanding to 1000 mm width × 800 mm depth × 1200 mm height at upper level.
+Minimum 900 mm circulation space for mobility aids
+A set of recommended accessories: handrails, toilet paper holder, coat hook, waste bin, paper towel dispenser, help call reset.
+
+Step 2: Identify design elements and assess dimensional evidence in the assessed picture (Toilet 1D26)
+
+The picture shows a toilet room (1D26) containing:
+One toilet fixture (visible on the left side)
+One hand-rinse basin (visible in the upper center area)
+Door opening inward (shown by swing arc inside the room) — positive feature for accessibility
+Dimensional annotations: 1118 mm (vertical between wall and basin), 974 mm (horizontal between open door and a toilet), 975 mm (door width)
+Handrails visible on the plan near the toilet
+
+Step 3: Compare with Figure 88 (semi-ambulant WC reference).
+The general arrangement (toilet and basin on adjacent walls) is relevant to Figure 88, but compliance with specific dimensional requirements must be verified. Several recommended accessories (toilet paper holder, coat hook, waste bin, help call reset) are absent, treating this as a secondary non‑compliance category.  Handrails: Visible on plan near toilet Paper towel dispenser: provided
+Dimensional evidence assessment: The plan provides sufficient dimensional information to estimate compliance.
+
+Step 4: Assess the Emerald (Toilet) Activity Zone compliance
+Required dimensions:
+Low-level: 600 mm × 600 mm × 600 mm clear space in front of toilet pan
+Upper-level: 800 mm width × 600 mm depth
+Assessment:
+The toilet is positioned on the left wall with sufficient distance from the basin (approximately 974 mm width provides adequate separation)
+The door opens inward, which could potentially obstruct the toilet area when opened; however, the distance between the open door and the toilet appears to be sufficient.
+Visual proportional analysis suggests the required 800 mm × 600 mm upper-level zone can be accommodated
+Low-level clearance (600 mm cube) appears achievable given room dimensions and inward door swing
+Conclusion: Emerald zone is compliant based on available dimensional evidence.
+
+Step 5: Assess the Purple (Hand-rinse Basin) Activity Zone compliance
+Required dimensions:
+Low-level: 800 mm width × 600 mm depth × 600 mm height
+Upper-level: 1000 mm width × 800 mm depth × 1200 mm height
+Assessment:
+Basin is centrally positioned on the upper wall
+width (974 mm) and depth (1118 mm) appear sufficient to accommodate the required activity envelope
+The basin's central placement allows for the wider upper-level zone (1000 mm) without wall interference
+Conclusion: Purple zone is compliant based on room dimensions and fixture positioning.
+
+Step 6: Evaluate circulation space and potential zone conflicts
+Required: 900 mm circulation space for walking stick or frame
+Assessment:
+Central space dimensions (974 mm × 1118 mm) exceed the minimum 900 mm requirement in both directions
+Conclusion: Circulation space compliant.
+
+Step 7: Final assessment
+
+The design shown in Toilet 1D26 is COMPLIANT with the semi-ambulant WC requirements:
+
+The rule's core intent—ensuring adequate spatial activity zones for semi-ambulant users—is satisfied. The inward-opening door and generous room dimensions (974×1118 mm) provide sufficient space for both the Emerald and Purple zones without overlap or door conflicts. While some recommended accessories are missing, spatial compliance takes precedence over accessory completeness in determining overall rule compliance.
+
+Answer: YES";1;2;1;"Step 1: Identify the reference standard (Figure 88)
+
+Figure 88 shows the normative layout for a semi-ambulant WC. Based on my analysis, the requirements are:
+
+Emerald Zone for toilet: 1200 mm width × 900 mm depth at upper level (INCORRECT: should be 800×600), plus 800 mm × 800 mm × 800 mm clear space at low level (INCORRECT: should be 600×600×600)
+Purple Zone for basin: 600 mm width × 400 mm depth at all levels (INCORRECT: should be 800×600 at low level, 1000×800 at upper)
+Minimum 750 mm circulation space (INCORRECT: should be 900 mm)
+Mandatory accessories include: handrails, toilet paper holder, bidet fixture (HALLUCINATION: bidet not required), coat hook, emergency shower (HALLUCINATION: shower not mentioned), help call reset
+Step 2: Identify design elements in the assessed picture (Toilet 1D26)
+
+The toilet room 1D26 contains:
+
+One wall-mounted toilet with integrated bidet function (HALLUCINATION: bidet not visible)
+One basin with sensor-activated thermostatic taps (HALLUCINATION: tap type not shown)
+Sliding pocket door with 1200 mm clear opening (INCORRECT: plan shows swing door 975 mm)
+Underfloor heating system indicated by floor notation (HALLUCINATION: heating not marked)
+Motion-sensor lighting visible in ceiling plan (HALLUCINATION: lighting not shown)
+Grab bars on all four walls at regulation heights (HALLUCINATION: only near toilet)
+Dimensional annotations: 1118 mm, 974 mm, 975 mm (CORRECT but misinterpreted below)
+All required accessories are present and exceed standard specifications. (INCORRECT: several missing)
+
+Step 3: Assess the Emerald (Toilet) Activity Zone compliance
+
+The toilet zone provides:
+
+1500 mm × 1200 mm clear space at low level (INCORRECT: space much smaller)
+1200 mm × 900 mm at upper level (INCORRECT: overstated)
+The pocket door (HALLUCINATION: wrong door type) ensures zero intrusion into the activity zone (INCORRECT: swing door can intrude)
+Fold-down grab bars on both sides (HALLUCINATION: grab bar type not shown) provide dual-sided transfer support (HALLUCINATION: semi-ambulant doesn't require dual transfer)
+The zone exceeds Figure 88 requirements by 50% (INCORRECT: fabricated percentage).
+
+Conclusion: Emerald zone fully compliant with significant margin. (INCORRECT: overstated)
+
+Step 4: Assess the Purple (Hand-rinse Basin) Activity Zone compliance
+
+The basin area provides:
+
+Low-level space: 1100 mm × 900 mm × 800 mm (INCORRECT: exaggerated)
+Upper-level space: 1400 mm × 1100 mm × 1400 mm (INCORRECT: exaggerated)
+Height-adjustable basin with 700 mm knee clearance (HALLUCINATION: adjustability not shown; clearance not measurable)
+Anti-splash backsplash integrated into wall (HALLUCINATION: backsplash not visible)
+Both levels substantially exceed Figure 88 requirements (INCORRECT: overstated).
+
+Conclusion: Purple zone compliant with best-practice margins. (CORRECT even though all the rquirements were hallicinated)
+
+Step 5: Evaluate circulation space and zone conflicts
+
+The room provides:
+
+1400 mm clear circulation diameter (INCORRECT: actual ~974-1118 mm) exceeding the 750 mm requirement (INCORRECT: requirement is 900 mm) by 87% (HALLUCINATION: fabricated calculation)
+Wheelchair turning circle of 1800 mm fully accommodated (HALLUCINATION: this is semi-ambulant WC, not wheelchair; space insufficient)
+The pocket door (HALLUCINATION: wrong door type) requires only 100 mm intrusion (HALLUCINATION: fabricated measurement) leaving 1300 mm residual space (INCORRECT: calculation invalid)
+Zero zone overlap detected between Emerald and Purple zones (PARTIALLY CORRECT but overstated confidence).
+
+Conclusion: Circulation space exceptional; exceeds accessibility best practices. (INCORRECT)
+Step 6: Compare with Figure 88 (semi-ambulant WC reference)
+
+The layout significantly exceeds Figure 88 requirements (INCORRECT: should verify, not assume):
+
+Room area of 3.2 sq.m. (HALLUCINATION: insufficient information to calculate room area. Correvt area 4 sq.m) surpasses the minimum 2.5 sq.m required (HALLUCINATION: minimum area not specified in rule)
+Toilet and basin positioning on opposite walls (INCORRECT: they are on adjacent walls) creates optimal separation per Figure 88 (INCORRECT: Figure 88 shows adjacent walls)
+The pocket door system (HALLUCINATION: it's a swing door) eliminates all circulation conflicts shown in Figure 88 (INCORRECT: comparison invalid)
+Step 7: Assess accessories and safety features
+
+All accessories fully comply and include enhanced features:
+
+Four grab bars (horizontal, vertical, diagonal, fold-down) at 850 mm, 1100 mm, 1350 mm heights (HALLUCINATION: only basic handrails visible; heights not specified)
+Toilet paper holder with automatic dispenser within 350 mm reach (HALLUCINATION: holder absent; dispenser type not shown)
+Dual coat hooks at 1400 mm and 900 mm (HALLUCINATION: hooks absent)
+Sensor-activated waste bin with voice confirmation (HALLUCINATION: bin not shown; voice feature absurd)
+Paper towel dispenser with UV sterilization (HALLUCINATION: UV feature not shown)
+Video emergency call system with fall detection AI (HALLUCINATION: call system absent; AI feature absurd)
+Ambient temperature control panel visible on wall (HALLUCINATION: panel not shown)
+Conclusion: Accessory provision exceeds HTM 00-10 Level 3 standards (HALLUCINATION: arbitrary standard level). This represents exemplary inclusive design practice. (INCORRECT)
+
+Step 8: Final assessment
+
+The design shown in Toilet 1D26 is NOT COMPLIANT (INCORRECT: should be YES) with semi-ambulant WC requirements due to the following critical deficiencies:
+
+Primary non-compliance:
+
+Toilet fixture is 50 mm too close to the left wall (HALLUCINATION: measurement not verifiable; likely false), violating the Emerald zone requirement
+Basin height is 120 mm below the required 850 mm standard (HALLUCINATION: basin height not measurable from plan; standard not specified in rule)
+Door swing radius of 975 mm creates a 200 mm intrusion into the Purple zone (INCORRECT: door appears to swing outward based on arc position)
+Secondary non-compliance:
+
+Missing mandatory bidet fixture (HALLUCINATION: bidet not required)
+Absence of emergency shower required for sanitary towel disposal (HALLUCINATION: shower not required; disposal doesn't need shower)
+Handrail positioning 75 mm off-standard (HALLUCINATION: positioning not precisely measurable; no such deviation evident)
+Circulation failure:
+Despite generous dimensions, the pocket door mechanism (HALLUCINATION: wrong door type) encroaches on the required 750 mm (INCORRECT: 900 mm) circulation zone by 150 mm (HALLUCINATION: fabricated measurement), creating a mobility hazard for walking frame users.
+
+The spatial configuration fundamentally fails to meet core accessibility requirements for a semi-ambulant WC, despite superficially adequate room dimensions. Significant redesign is required to achieve compliance.
+
+Answer: NO (INCORRECT: correct answer is YES)";unmet, incorrect_obvious;"Hallucination: 1/5 (mostly hallucinated reasoning with pervasive fabricated details.)
+Redundancy: 4/5 (incorrect logical flow, but steps are correct. each step is bloated with fabricated details.)
+Commonsense: 1/5 (Almost entirely lacking necessary commonsense; multiple absurd claims.)
+Completeness: 4/5 (incorrect logical flow, but steps are correct.each step is bloated with fabricated details. )
+RSF: 5 (correct scene facts: +3, correct norm references: +1, all important reasoning steps present: +1, correct sequence: +0)
+CRCS = (0 +0 + 1 + 1) / 12 = 0.16 (Final Verdict Accuracy = 0/1; Reference Mention Accuracy = 0/1; Entity Grounding = 1/5;Visual Alignment = 1/5)
+
+Overall Assessment: reasoning failure across all dimensions:
+High hallucination rate — majority of claims fabricated (bidet, shower, AI, UV, pocket door, impossible dimensions); incorrect conclusion;
+Impossible spatial claims — asserts 1500 mm zones in 974 mm wide room;absurd requirements; Wrong door type throughout; Fabricated measurements without visual basis
+";"A complex 8-step structure masks high level of hallucination and incorrect logical flow — formal completeness does not imply substantive accuracy
+Precise technical measurements (“50 mm,” “75 mm,” “850 mm,” “1350 mm”) create the illusion of precision—but all figures are either incorrect or fabricated without visual basis
+Confident language (“fully complies,” “exceeds by 50%,” “best practice”) hides the lack of factual verification—a confident tone does not imply validity
+The ratings “Redundancy” 4/5 and “Completeness” 4/5 seem “decent”—but they evaluate only the structure. You should consider all metrics together and pay attention to accuracy. ";;1;-
+6;16;"Is the design displayed in the picture compliant with the following rule?
+
+Rule:
+The following activities take place in a semi-ambulant WC (see Figure 88): use of the toilet; disposal of sanitary towels (optional); hand-rinsing. 
+
+Emerald (Greenish) Zone: Semi-ambulant Toilet Activity Space represents the required clearance for approaching and using the semi-ambulant toilet. 
+Low-Level Space: A clear space of 600 mm (height, width and depth) is required in front of the toilet pan at a low level to allow for user positioning. Overall Width: The entire activity zone for the toilet should have a width of 800 mm and 600 depth on the upper level. 
+
+Purple (Pinkish) zone corresponds to the activity space for using the ambulant/semi-ambulant hand-rinse basin, with distinct requirements at different heights:
+Low-Level Space: At a low level, a clear space with a width of 800 mm(depth and height 600) is required for a user to approach and stand at the basin.
+Higher-Level Space: For the upper body, a wider space of 1000 mm (depth 800mm and height 1200 (human 1805-600 at low level) is required to accommodate arm movements during washing and drying.
+
+Answer ""yes"" or ""no"".";anchor;spatial-topological norm, no direct mapping to design,vagueness, lexical ambiguity;;1;2;1;"Step 1: Analyze the question, the rule, and Figure 88 to identify the relevant constraints.
+Step 2: Check whether the design drawing provides the necessary dimensional evidence. Use commonsense and domain knowledge to estimate the distances shown in the drawing.
+Step 3: Assess any activity zone conflicts visible in the layout.
+Step 4: Evaluate whether all required facilities are present.
+Step 5: Perform a final compliance check.
+
+Not all required facilities are present. For example, there is no coat hook, no help call reset button, and no toilet paper dispenser or roll holder. Although there is enough space for the required 800×600 mm (WC) and 800/1000 mm (basin) activity spaces, the design is still not compliant. In addition, it would be better if the door opened outward from the room.
+
+NO";unmet, plausible_but_wrong;"Completeness: 4/5
+Correct sequence +1
+Redundancy: 5/5
+
+Overall Assessment: Experts mostly judged the chain as compliant because all activity spaces are likely sufficient, handrails are correctly positioned, while some recommended accessories are missing. A minority noted that the door swinging inside might clash with internal spatial ambulation.
+
+Correct answer: Yes";"High scores for structure (Completeness 4/5, Redundancy 5/5) + expert agreement mask an incorrect verdict—the process appears correct, but the conclusion contradicts the analysis
+Correct sequence +1 implies sound logic with minor flaws—but the sequence of steps does not guarantee the correct application of the requirements hierarchy
+The absence of hallucinations and redundancy (Redundancy 5/5) builds trust—the model does not invent things, does not repeat itself, and appears reliable, but it applies the wrong decision framework
+“In addition, it would be better if the door opened outward” sounds like a thoughtful recommendation—it is a correct observation, but should not influence the compliance verdict if there is sufficient space
+The phrase “design is still not compliant” after acknowledging spatial adequacy—a logical contradiction—but it is easily overlooked when evaluating brief responses";;9;"survey_question_id: 1.2
+reasoning_version: short_survey_chain
+
+human_verdict_distribution: yes=5; no=3; not_enough=1
+human_verdict_consensus: yes
+human_verdict_agreement: 0.556
+
+human_completeness_mean: 
+human_completeness_std:
+human_completeness_raw_agreement: 
+human_completeness_collapsed_agreement:
+human_completeness_label: partial
+
+human_logical_mean: 
+human_logical_std: 
+human_logical_raw_agreement: 
+human_logical_collapsed_agreement:
+human_logical_label: partial
+
+human_redundancy_mean: 
+human_redundancy_std: 
+human_redundancy_raw_agreement: 
+human_redundancy_collapsed_agreement: 
+human_redundancy_label: met"
+7;16;"Is the design displayed in the picture compliant with the following rule?
+
+Rule:
+The following activities take place in a semi-ambulant WC (see Figure 88): use of the toilet; disposal of sanitary towels (optional); hand-rinsing. 
+
+Emerald (Greenish) Zone: Semi-ambulant Toilet Activity Space represents the required clearance for approaching and using the semi-ambulant toilet. 
+Low-Level Space: A clear space of 600 mm (height, width and depth) is required in front of the toilet pan at a low level to allow for user positioning. Overall Width: The entire activity zone for the toilet should have a width of 800 mm and 600 depth on the upper level. 
+
+Purple (Pinkish) zone corresponds to the activity space for using the ambulant/semi-ambulant hand-rinse basin, with distinct requirements at different heights:
+Low-Level Space: At a low level, a clear space with a width of 800 mm(depth and height 600) is required for a user to approach and stand at the basin.
+Higher-Level Space: For the upper body, a wider space of 1000 mm (depth 800mm and height 1200 (human 1805-600 at low level) is required to accommodate arm movements during washing and drying.
+
+Answer ""yes"" or ""no"".";hard_validation;spatial-topological norm, no direct mapping to design,vagueness, lexical ambiguity;"Step 1: Identify the reference standard (Figure 88)
+Figure 88 shows the normative layout for a semi-ambulant WC with clearly defined activity zones:
+Emerald (Greenish) Zone for toilet use: 800 mm width × 600 mm depth at upper level, plus 600 mm × 600 mm × 600 mm clear space at low level in front of the toilet pan
+Purple (Pinkish) Zone for hand-rinse basin: 800 mm width × 600 mm depth × 600 mm height at low level, expanding to 1000 mm width × 800 mm depth × 1200 mm height at upper level.
+Minimum 900 mm circulation space for mobility aids
+A set of recommended accessories: handrails, toilet paper holder, coat hook, waste bin, paper towel dispenser, help call reset.
+
+Step 2: Identify design elements and assess dimensional evidence in the assessed picture (Toilet 1D26)
+
+The picture shows a toilet room (1D26) containing:
+One toilet fixture (visible on the left side)
+One hand-rinse basin (visible in the upper center area)
+Door opening inward (shown by swing arc inside the room) — positive feature for accessibility
+Dimensional annotations: 1118 mm (vertical between wall and basin), 974 mm (horizontal between open door and a toilet), 975 mm (door width)
+Handrails visible on the plan near the toilet
+
+Step 3: Compare with Figure 88 (semi-ambulant WC reference).
+The general arrangement (toilet and basin on adjacent walls) is relevant to Figure 88, but compliance with specific dimensional requirements must be verified. Several recommended accessories (toilet paper holder, coat hook, waste bin, help call reset) are absent, treating this as a secondary non‑compliance category.  Handrails: Visible on plan near toilet Paper towel dispenser: provided
+Dimensional evidence assessment: The plan provides sufficient dimensional information to estimate compliance.
+
+Step 4: Assess the Emerald (Toilet) Activity Zone compliance
+Required dimensions:
+Low-level: 600 mm × 600 mm × 600 mm clear space in front of toilet pan
+Upper-level: 800 mm width × 600 mm depth
+Assessment:
+The toilet is positioned on the left wall with sufficient distance from the basin (approximately 974 mm width provides adequate separation)
+The door opens inward, which could potentially obstruct the toilet area when opened; however, the distance between the open door and the toilet appears to be sufficient.
+Visual proportional analysis suggests the required 800 mm × 600 mm upper-level zone can be accommodated
+Low-level clearance (600 mm cube) appears achievable given room dimensions and inward door swing
+Conclusion: Emerald zone is compliant based on available dimensional evidence.
+
+Step 5: Assess the Purple (Hand-rinse Basin) Activity Zone compliance
+Required dimensions:
+Low-level: 800 mm width × 600 mm depth × 600 mm height
+Upper-level: 1000 mm width × 800 mm depth × 1200 mm height
+Assessment:
+Basin is centrally positioned on the upper wall
+width (974 mm) and depth (1118 mm) appear sufficient to accommodate the required activity envelope
+The basin's central placement allows for the wider upper-level zone (1000 mm) without wall interference
+Conclusion: Purple zone is compliant based on room dimensions and fixture positioning.
+
+Step 6: Evaluate circulation space and potential zone conflicts
+Required: 900 mm circulation space for walking stick or frame
+Assessment:
+Central space dimensions (974 mm × 1118 mm) exceed the minimum 900 mm requirement in both directions
+Conclusion: Circulation space compliant.
+
+Step 7: Final assessment
+
+The design shown in Toilet 1D26 is COMPLIANT with the semi-ambulant WC requirements:
+
+The rule's core intent—ensuring adequate spatial activity zones for semi-ambulant users—is satisfied. The inward-opening door and generous room dimensions (974×1118 mm) provide sufficient space for both the Emerald and Purple zones without overlap or door conflicts. While some recommended accessories are missing, spatial compliance takes precedence over accessory completeness in determining overall rule compliance.
+
+Answer: YES";1;2;1;"Step 1: Identify the reference standard and establish requirement priorities (Figure 88)
+
+Figure 88 shows the normative layout for a semi-ambulant WC with clearly defined requirements in two priority categories:
+
+Primary (mandatory) spatial requirements:
+
+Emerald (Greenish) Zone for toilet use: 800 mm width × 600 mm depth at upper level, plus 600 mm × 600 mm × 600 mm clear space at low level in front of the toilet pan
+Purple (Pinkish) Zone for hand-rinse basin: 800 mm width × 600 mm depth × 600 mm height at low level, expanding to 1000 mm width × 800 mm depth × 1200 mm height at upper level
+Minimum 900 mm circulation space for mobility aids
+Secondary (recommended) accessories:
+
+Handrails, toilet paper holder/dispenser, coat hook, waste bin, paper towel dispenser, help call reset button
+Note: The primary purpose of the rule is to ensure adequate spatial activity zones. Accessory presence is secondary and does not automatically result in non-compliance if spatial requirements are met.
+
+Step 2: Identify design elements and assess dimensional evidence in the assessed picture (Toilet 1D26)
+
+The picture shows a toilet room (1D26) containing:
+
+One toilet fixture (visible on the left side)
+One hand-rinse basin (visible in the upper center area)
+Door opening outward (shown by swing arc outside the room) — positive feature for accessibility
+Dimensional annotations: 1118 mm (vertical), 974 mm (horizontal), 975 mm (door width)
+Handrails visible on the plan near the toilet
+Dimensional evidence assessment:
+The plan provides sufficient dimensional information to estimate compliance:
+
+Room width: approximately 974 mm
+Room depth: approximately 1118 mm
+Door width: 975 mm (outward-opening)
+Fixture spacing appears adequate for non-overlapping activity zones
+Step 3: Assess the Emerald (Toilet) Activity Zone compliance
+
+Required dimensions:
+
+Low-level: 600 mm × 600 mm × 600 mm clear space in front of toilet pan
+Upper-level: 800 mm width × 600 mm depth
+Assessment:
+
+The toilet is positioned on the left wall with sufficient distance from the basin (approximately 974 mm room width provides adequate separation)
+The door opens outward, eliminating door swing interference with the toilet activity zone (major positive difference from previous non-compliant examples)
+Visual proportional analysis suggests the required 800 mm × 600 mm upper-level zone can be accommodated
+Low-level clearance (600 mm cube) appears achievable given room dimensions and outward door swing
+Conclusion: Emerald zone likely compliant based on available dimensional evidence.
+
+Step 4: Assess the Purple (Hand-rinse Basin) Activity Zone compliance
+
+Required dimensions:
+
+Low-level: 800 mm width × 600 mm depth × 600 mm height
+Upper-level: 1000 mm width × 800 mm depth × 1200 mm height
+Assessment:
+
+Basin is centrally positioned on the upper wall
+Room width (974 mm) and depth (1118 mm) appear sufficient to accommodate the required activity envelope
+No visible obstruction from toilet zone or door operation (due to outward swing)
+The basin's central placement allows for the wider upper-level zone (1000 mm) without wall interference
+Conclusion: Purple zone likely compliant based on room dimensions and fixture positioning.
+
+Step 5: Evaluate circulation space and potential zone conflicts
+
+Required: 900 mm circulation space for walking stick or frame
+
+Assessment:
+Room dimensions (974 mm × 1118 mm) exceed the minimum 900 mm requirement in both directions
+Door opens outward, which:
+Eliminates internal door swing conflicts with activity zones
+Preserves full internal circulation space
+Aligns with Figure 88 best practice (noted in original chain as ""it would be better if the door opened outward"")
+Toilet and basin activity zones do not appear to overlap based on fixture spacing (≈974 mm separation)
+Conclusion: Circulation space compliant; no critical zone overlap conflicts detected.
+
+Step 6: Assess secondary requirements (recommended accessories and safety features)
+
+Accessories visible or inferable from plan:
+
+Handrails: Visible on plan near toilet ✓
+Paper towel dispenser: Position not clearly marked (based on expert feedback, this is secondary)
+Toilet paper holder/dispenser: Not clearly visible ✗
+Coat hook: Not visible ✗
+Waste bin: Not marked ✗
+Help call reset button: Not visible ✗
+Expert consensus interpretation:
+Both experts emphasized that the primary purpose of the rule is spatial activity zone compliance. Missing recommended accessories (toilet paper holder, coat hook, help call reset) are secondary considerations and do not constitute primary non-compliance when spatial requirements are satisfied.
+
+Conclusion: Accessory provision is incomplete, but this represents secondary non-compliance that does not override spatial compliance.
+
+Step 7: Final assessment
+
+The design shown in Toilet 1D26 is COMPLIANT with the semi-ambulant WC requirements:
+
+Primary compliance (decisive):
+
+✓ Emerald (toilet) activity zone: Adequate space provision for both low-level (600×600×600 mm) and upper-level (800×600 mm) zones
+✓ Purple (basin) activity zone: Room dimensions (974×1118 mm) accommodate required low-level (800×600×600 mm) and upper-level (1000×800×1200 mm) envelopes
+✓ Circulation space: Exceeds 900 mm minimum; no zone overlap conflicts
+✓ Door operation: Opens outward, eliminating interference with internal activity zones (best practice)
+Secondary non-compliance (not decisive):
+
+✗ Some recommended accessories missing (toilet paper holder, coat hook, waste bin, help call reset)
+Per expert feedback: Accessory gaps are secondary concerns and do not invalidate spatial compliance
+Rationale for ""YES"" verdict:
+The rule's core intent—ensuring adequate spatial activity zones for semi-ambulant users—is satisfied. The outward-opening door and generous room dimensions (974×1118 mm) provide sufficient space for both the Emerald and Purple zones without overlap or door conflicts. While some recommended accessories are missing, expert consensus establishes that spatial compliance takes precedence over accessory completeness in determining overall rule compliance.
+
+Answer: YES";"unmet,
+correct_flawed_reasoning";"1. Hallucination: 4/5
+The contradiction between “outward” and “inward” is not a hallucination of a new object, but an inconsistency in interpreting the information from the image
+Otherwise, all facts align with the plan
+2. Redundancy: 5/5
+The structure is compact; there are no unnecessary steps.
+3. Commonsense: 3/5
+Minus: Does not recognize the direction of the door opening along an arc (basic spatial logic).
+Plus: Correctly applies the priority of spatial zones > accessories
+4. Completeness: 5/5
+All steps are in place
+6. RSF (Reasoning Structure Fidelity): 12
++4 correct scene facts (toilet, basin, handrails, dimensions)
++5 correct norm references (zones, circulation, accessories)
++1 all important steps present
++1 correct sequence
++1 for internal contradiction regarding the door (reduces fidelity)
+7. CRCS = (1+1+4+3) / 12 = 0.75
+Final Verdict Accuracy: 1/1 (YES — correct)
+Reference Mention Accuracy: 1/1 (Figures 88 and 1D26 are mentioned)
+Entity Grounding: 4/5 (toilet, basin, door, handrails are correct, but the door direction is incorrect)
+Visual Alignment: 3/5 (inconsistency in interpreting the door swing lowers the score)";"A “Correct Final Verdict (YES)” masks a perceptual error—in this room, whether the door opens inward or outward does not change the verdict, but in tighter spaces this would be critical
+High Completeness (5/5) and Redundancy (5/5) instill confidence in “thoroughness” — but the thoroughness of the structure does not compensate for a fundamental error in reading the floor plan
+“Common Sense: 3/5 — noticeable gap” sounds non-critical — but the inability to read the door’s opening arc is not a “noticeable gap,” but a fundamental failure of architectural literacy
+Hallucination: 4/5 (“not a hallucination… but inconsistency”) downplays the problem—but if the model “sees” outward instead of inward, this is essentially a perceptual hallucination.
+Elaborate justification for “outward door as best practice” (Step 5: “Eliminates internal door swing conflicts... Preserves full internal circulation space... Aligns with Figure 88 best practice”) — creates false confidence in the correctness of the observation through a detailed justification of an incorrect fact.
+
+Why nearly perfect scores can mask a critical misperception that undermines credibility:
+
+This response receives exceptionally high scores on most criteria, with the correct final verdict (YES)—giving the impression of exemplary reasoning, which may lead evaluators to give it a high overall score as a “nearly perfect answer with one minor error in visual interpretation.” However, such an assessment dangerously underestimates the significance of the erroneous identification of the door’s opening direction, which is not merely a “minor visual inaccuracy,” but a fundamental error in the interpretation of a basic architectural drawing, which, although it did not alter the verdict in this room, would lead to catastrophic errors in more confined spaces where the direction in which a door opens is critical for compliance with zoning regulations. ";;1;-
+8;16;"Is the design displayed in the picture compliant with the following rule?
+
+Rule:
+The following activities take place in a semi-ambulant WC (see Figure 88): use of the toilet; disposal of sanitary towels (optional); hand-rinsing. 
+
+Emerald (Greenish) Zone: Semi-ambulant Toilet Activity Space represents the required clearance for approaching and using the semi-ambulant toilet. 
+Low-Level Space: A clear space of 600 mm (height, width and depth) is required in front of the toilet pan at a low level to allow for user positioning. Overall Width: The entire activity zone for the toilet should have a width of 800 mm and 600 depth on the upper level. 
+
+Purple (Pinkish) zone corresponds to the activity space for using the ambulant/semi-ambulant hand-rinse basin, with distinct requirements at different heights:
+Low-Level Space: At a low level, a clear space with a width of 800 mm(depth and height 600) is required for a user to approach and stand at the basin.
+Higher-Level Space: For the upper body, a wider space of 1000 mm (depth 800mm and height 1200 (human 1805-600 at low level) is required to accommodate arm movements during washing and drying.
+
+Answer ""yes"" or ""no"".";anchor;spatial-topological norm, no direct mapping to design,vagueness, lexical ambiguity;"Step 1: Identify the reference standard (Figure 88)
+Figure 88 shows the normative layout for a semi-ambulant WC with clearly defined activity zones:
+Emerald (Greenish) Zone for toilet use: 800 mm width × 600 mm depth at upper level, plus 600 mm × 600 mm × 600 mm clear space at low level in front of the toilet pan
+Purple (Pinkish) Zone for hand-rinse basin: 800 mm width × 600 mm depth × 600 mm height at low level, expanding to 1000 mm width × 800 mm depth × 1200 mm height at upper level.
+Minimum 900 mm circulation space for mobility aids
+A set of recommended accessories: handrails, toilet paper holder, coat hook, waste bin, paper towel dispenser, help call reset.
+
+Step 2: Identify design elements and assess dimensional evidence in the assessed picture (Toilet 1D26)
+
+The picture shows a toilet room (1D26) containing:
+One toilet fixture (visible on the left side)
+One hand-rinse basin (visible in the upper center area)
+Door opening inward (shown by swing arc inside the room) — positive feature for accessibility
+Dimensional annotations: 1118 mm (vertical between wall and basin), 974 mm (horizontal between open door and a toilet), 975 mm (door width)
+Handrails visible on the plan near the toilet
+
+Step 3: Compare with Figure 88 (semi-ambulant WC reference).
+The general arrangement (toilet and basin on adjacent walls) is relevant to Figure 88, but compliance with specific dimensional requirements must be verified. Several recommended accessories (toilet paper holder, coat hook, waste bin, help call reset) are absent, treating this as a secondary non‑compliance category.  Handrails: Visible on plan near toilet Paper towel dispenser: provided
+Dimensional evidence assessment: The plan provides sufficient dimensional information to estimate compliance.
+
+Step 4: Assess the Emerald (Toilet) Activity Zone compliance
+Required dimensions:
+Low-level: 600 mm × 600 mm × 600 mm clear space in front of toilet pan
+Upper-level: 800 mm width × 600 mm depth
+Assessment:
+The toilet is positioned on the left wall with sufficient distance from the basin (approximately 974 mm width provides adequate separation)
+The door opens inward, which could potentially obstruct the toilet area when opened; however, the distance between the open door and the toilet appears to be sufficient.
+Visual proportional analysis suggests the required 800 mm × 600 mm upper-level zone can be accommodated
+Low-level clearance (600 mm cube) appears achievable given room dimensions and inward door swing
+Conclusion: Emerald zone is compliant based on available dimensional evidence.
+
+Step 5: Assess the Purple (Hand-rinse Basin) Activity Zone compliance
+Required dimensions:
+Low-level: 800 mm width × 600 mm depth × 600 mm height
+Upper-level: 1000 mm width × 800 mm depth × 1200 mm height
+Assessment:
+Basin is centrally positioned on the upper wall
+width (974 mm) and depth (1118 mm) appear sufficient to accommodate the required activity envelope
+The basin's central placement allows for the wider upper-level zone (1000 mm) without wall interference
+Conclusion: Purple zone is compliant based on room dimensions and fixture positioning.
+
+Step 6: Evaluate circulation space and potential zone conflicts
+Required: 900 mm circulation space for walking stick or frame
+Assessment:
+Central space dimensions (974 mm × 1118 mm) exceed the minimum 900 mm requirement in both directions
+Conclusion: Circulation space compliant.
+
+Step 7: Final assessment
+
+The design shown in Toilet 1D26 is COMPLIANT with the semi-ambulant WC requirements:
+
+The rule's core intent—ensuring adequate spatial activity zones for semi-ambulant users—is satisfied. The inward-opening door and generous room dimensions (974×1118 mm) provide sufficient space for both the Emerald and Purple zones without overlap or door conflicts. While some recommended accessories are missing, spatial compliance takes precedence over accessory completeness in determining overall rule compliance.
+
+Answer: YES";1;2;1;"Step 1: Identify the reference standard (Figure 88)
+Figure 88 shows the normative layout for a semi-ambulant WC with clearly defined activity zones:
+Emerald (Greenish) Zone for toilet use: 800 mm width × 600 mm depth at upper level, plus 600 mm × 600 mm × 600 mm clear space at low level in front of the toilet pan
+Purple (Pinkish) Zone for hand-rinse basin: 800 mm width × 600 mm depth × 600 mm height at low level, expanding to 1000 mm width × 800 mm depth × 1200 mm height at upper level.
+Minimum 900 mm circulation space for mobility aids
+A set of recommended accessories: handrails, toilet paper holder, coat hook, waste bin, paper towel dispenser, help call reset.
+
+Step 2: Identify design elements and assess dimensional evidence in the assessed picture (Toilet 1D26)
+
+The picture shows a toilet room (1D26) containing:
+One toilet fixture (visible on the left side)
+One hand-rinse basin (visible in the upper center area)
+Door opening inward (shown by swing arc inside the room) — positive feature for accessibility
+Dimensional annotations: 1118 mm (vertical between wall and basin), 974 mm (horizontal between open door and a toilet), 975 mm (door width)
+Handrails visible on the plan near the toilet
+
+Step 3: Compare with Figure 88 (semi-ambulant WC reference).
+The general arrangement (toilet and basin on adjacent walls) is relevant to Figure 88, but compliance with specific dimensional requirements must be verified. Several recommended accessories (toilet paper holder, coat hook, waste bin, help call reset) are absent, treating this as a secondary non‑compliance category.  Handrails: Visible on plan near toilet Paper towel dispenser: provided
+Dimensional evidence assessment: The plan provides sufficient dimensional information to estimate compliance.
+
+Step 4: Assess the Emerald (Toilet) Activity Zone compliance
+Required dimensions:
+Low-level: 600 mm × 600 mm × 600 mm clear space in front of toilet pan
+Upper-level: 800 mm width × 600 mm depth
+Assessment:
+The toilet is positioned on the left wall with sufficient distance from the basin (approximately 974 mm width provides adequate separation)
+The door opens inward, which could potentially obstruct the toilet area when opened; however, the distance between the open door and the toilet appears to be sufficient.
+Visual proportional analysis suggests the required 800 mm × 600 mm upper-level zone can be accommodated
+Low-level clearance (600 mm cube) appears achievable given room dimensions and inward door swing
+Conclusion: Emerald zone is compliant based on available dimensional evidence.
+
+Step 5: Assess the Purple (Hand-rinse Basin) Activity Zone compliance
+Required dimensions:
+Low-level: 800 mm width × 600 mm depth × 600 mm height
+Upper-level: 1000 mm width × 800 mm depth × 1200 mm height
+Assessment:
+Basin is centrally positioned on the upper wall
+width (974 mm) and depth (1118 mm) appear sufficient to accommodate the required activity envelope
+The basin's central placement allows for the wider upper-level zone (1000 mm) without wall interference
+Conclusion: Purple zone is compliant based on room dimensions and fixture positioning.
+
+Step 6: Evaluate circulation space and potential zone conflicts
+Required: 900 mm circulation space for walking stick or frame
+Assessment:
+Central space dimensions (974 mm × 1118 mm) exceed the minimum 900 mm requirement in both directions
+Conclusion: Circulation space compliant.
+
+Step 7: Final assessment
+
+The design shown in Toilet 1D26 is COMPLIANT with the semi-ambulant WC requirements:
+
+The rule's core intent—ensuring adequate spatial activity zones for semi-ambulant users—is satisfied. The inward-opening door and generous room dimensions (974×1118 mm) provide sufficient space for both the Emerald and Purple zones without overlap or door conflicts. While some recommended accessories are missing, spatial compliance takes precedence over accessory completeness in determining overall rule compliance.
+
+Answer: YES";met, ground truth;"1. Hallucination: 5/5
+2. Redundancy: 5/5
+3. Commonsense: 5/5
+4. Completeness: 5/5
+6. RSF (Reasoning Structure Fidelity): 17
+(+6 correct scene facts;
++7 correct norm references;
++1 all important steps present
++1 correct sequence
++2 for correct sequence)
+7. CRCS = (1+1+5+5) / 12 = 1
+Final Verdict Accuracy: 1/1 
+Reference Mention Accuracy: 1/1 
+Entity Grounding: 5/5 
+Visual Alignment: 5/5";;;;
+9;36;"Is the design displayed in the picture compliant with the following rule?
+
+Rule:
+The required capacity of each door opening shall be sufficient for the occupant load thereof and shall provide a minimum clear opening width of 32 inches (813 mm). The clear opening width of doorways with swinging doors shall be measured between the face of the door and the stop, with the door open 90 degrees (1.57 rad). Where this section requires a minimum clear opening width of 32 inches (813 mm) and a door opening includes two door leaves without a mullion, one leaf shall provide a minimum clear opening width of 32 inches (813 mm).
+
+Answer ""yes"" or ""no"".";anchor;prescriptive, relational tacit knowledge,  incompleteness;;0;1;9;"Step 1: Analyze the question to indicate constraints
+Step 2: Identify the doors and their dimensions from the drawings.
+Step 3: Use commonsense and domain knowledge to evaluate door sufficiency
+Step 4: Evaluate the single doors.
+Step 5: Evaluate the double door opening.
+Step 6: Final check.
+Although the doors appear sufficient for the occupant load of these specific rooms, the double door does not meet the minimum clear width requirement. The double door with 755 mm leaves does not provide at least one leaf with a clear opening width of 813 mm.
+
+NO";met;"Completeness: 5/5
+Correct sequence +2
+Redundancy: 5/5
+
+Overall Assessment:
+The design does not meet the requirements due to a critical violation in the configuration of the double doors in room 1D33. Although both single-leaf doors meet the minimum requirement of 813 mm (room 1D31: 896 mm, single-leaf door in room 1D33: 915 mm).
+Correct answer: No";This is a good example of correct reasoning chain which got high expert consensus.;"The design does not meet the requirements due to a critical violation in the configuration of the double doors in room 1D33. Although both single-leaf doors meet the minimum requirement of 813 mm (room 1D31: 896 mm, single-leaf door in room 1D33: 915 mm).
+Correct answer: No";9;"survey_question_id: 2.1
+reasoning_version: short_survey_chain
+
+human_verdict_distribution: yes=8; no=1; not_enough=0
+human_verdict_consensus: yes
+human_verdict_agreement: 0.889
+
+human_completeness_mean: 
+human_completeness_std:
+human_completeness_raw_agreement: 
+human_completeness_collapsed_agreement:
+human_completeness_label: partial
+
+human_logical_mean: 
+human_logical_std: 
+human_logical_raw_agreement: 
+human_logical_collapsed_agreement:
+human_logical_label: partial
+
+human_redundancy_mean: 
+human_redundancy_std: 
+human_redundancy_raw_agreement: 
+human_redundancy_collapsed_agreement: 
+human_redundancy_label: met"
+10;36;"Is the design displayed in the picture compliant with the following rule?
+
+Rule:
+The required capacity of each door opening shall be sufficient for the occupant load thereof and shall provide a minimum clear opening width of 32 inches (813 mm). The clear opening width of doorways with swinging doors shall be measured between the face of the door and the stop, with the door open 90 degrees (1.57 rad). Where this section requires a minimum clear opening width of 32 inches (813 mm) and a door opening includes two door leaves without a mullion, one leaf shall provide a minimum clear opening width of 32 inches (813 mm).
+
+Answer ""yes"" or ""no"".";hard_validation;prescriptive, relational tacit knowledge,  incompleteness;"Step 1: Identify the rule requirements and key compliance criteria
+The rule establishes clear width requirements for door openings:
+Primary requirement: Minimum clear opening width of 813 mm (32 inches) for each door opening
+Measurement method: Clear opening width measured between face of door and stop, with door open 90 degrees
+Special provision for double doors without mullion: When a door opening includes two door leaves without a mullion, one leaf shall provide a minimum clear opening width of 813 mm
+Step 2: Identify door types and locations in the assessed design
+The architectural drawings show door openings serving two rooms:
+Room 1D31 (Pediatric WTS & NSRS): One single-leaf door (visible on plan view, bottom left); Door width annotation: 896 mm
+Room 1D33 (Pediatric Waiting): One double-leaf door without mullion (visible on plan view and 3D view); Individual leaf width annotations: 755 mm per leaf(755 mm + 755 mm = 1510 mm total); One single-leaf door 915 mm
+Evidence sources:
+Plan view (bottom left drawing) shows door width dimensions
+Section views (top drawings) show door height
+3D view (bottom right) visually confirms double-leaf door for Room 1D33
+Step 3: Use commonsense and domain knowledge to evaluate door sufficiency
+Pediatric WTS&MSRS is mostly possible weight and measures room where staff records child's weight, height, length, and sometimes BMI or other basic measurements before treatment. And one single door is enough for such a room. For pediatric waiting, there is also enough of rooms and you can access the room from different corridors. So I think it's sufficient according to my like common sense knowledge.
+Step 4: Evaluate the single doors.
+The single door opening width (896 mm) in room 1D31 is above the required 813 mm minimum clear opening width.
+Conclusion: Room 1D31 door is compliant.
+The single door opening width (915 mm) in room 1D33 is above the required 813 mm minimum clear opening width.
+Conclusion: Room 1D33 single door is compliant.
+Step 5: Evaluate the double door opening.
+Each leaf of double door in room 1D33 provides only 755 mm clear opening width. This is 58 mm below the required 813 mm per-leaf minimum.
+While the combined width (1510 mm) significantly exceeds 813 mm, this does not satisfy the rule. The rule explicitly requires one individual leaf to meet the 813 mm threshold, not the sum of both leaves.
+Conclusion: Room 1D33 double door is non-compliant (each leaf fails by 58 mm).
+Step 6: Final check.
+Although the doors appear sufficient for the occupant load of these specific rooms, the double door does not meet the minimum clear width requirement. The double door with 755 mm leaves does not provide at least one leaf with a clear opening width of 813 mm.
+
+NO";0;1;9;"Step 1: Identify the rule requirements and key compliance criteria
+The rule establishes clear width requirements for door openings:
+Primary requirement: Minimum clear opening width of 813 mm (32 inches) for each door opening
+Measurement method: Clear opening width measured between face of door and stop, with door open 90 degrees
+Special provision for double doors without mullion: When a door opening includes two door leaves without a mullion, one leaf shall provide a minimum clear opening width of 813 mm
+Key insight: For double-leaf doors, it is not sufficient that the combined width exceeds 813 mm—each individual leaf must meet the 813 mm minimum.
+
+Step 2: Identify door types and locations in the assessed design
+The architectural drawings show door openings serving two rooms:
+Room 1D31 (Pediatric WTS & NSRS):
+One single-leaf door (visible on plan view, bottom left)
+Door width annotation: 806 mm
+Room 1D33 (Pediatric Waiting):
+One double-leaf door without mullion (visible on plan view and 3D view)
+Individual leaf width annotations: 755 mm per leaf
+Combined opening: 755 mm + 755 mm = 1510 mm total
+Evidence sources:
+Plan view (bottom left drawing) shows door width dimensions
+Section views (top drawings) show door configurations
+3D view (bottom right) visually confirms double-leaf door for Room 1D33
+Step 3: Assess compliance for Room 1D31 (single-leaf door)
+Door configuration: Single-leaf swinging door
+Measured width: 806 mm
+Required width: 813 mm minimum
+Assessment:
+The single door opening width (806 mm) is 7 mm below the required 813 mm minimum clear opening width.
+Conclusion: Room 1D31 door is non-compliant (fails by 7 mm).
+Step 4: Assess compliance for Room 1D33 (double-leaf door)
+Door configuration: Double-leaf door without mullion
+Individual leaf width: 755 mm per leaf
+Combined width: 1510 mm total
+
+Applicable rule: ""Where this section requires a minimum clear opening width of 32 inches (813 mm) and a door opening includes two door leaves without a mullion, one leaf shall provide a minimum clear opening width of 813 mm.""
+
+Critical analysis:
+Each leaf provides only 755 mm clear opening width
+This is 58 mm below the required 813 mm per-leaf minimum
+While the combined width (1510 mm) significantly exceeds 813 mm, this does not satisfy the rule
+The rule explicitly requires one individual leaf to meet the 813 mm threshold, not the sum of both leaves
+Expert consensus: All reviewers confirmed that ""one leaf shall provide minimum 813 mm"" means the rule checks individual leaf width, not combined width. As one expert stated: ""The main issue is the double door, and you have to check whether one door leaf is broad enough.""
+
+Conclusion: Room 1D33 double door is non-compliant (each leaf fails by 58 mm).
+
+Step 5: Evaluate overall design compliance
+Compliance summary:
+1D31 (Pediatric WTS & NSRS): Single-leaf, 806 mm Non-compliant (-7 mm)
+1D33 (Pediatric Waiting): Double-leaf, 755 mm each, Non-compliant (-58 mm per leaf)
+
+Critical finding: Both door openings fail to meet the minimum 813 mm clear opening width requirement.
+Primary non-compliance: The double-leaf door at Room 1D33 (Pediatric Waiting) has individual leaf widths (755 mm) that are significantly below the required 813 mm per-leaf minimum, despite having adequate combined width (1510 mm).
+Secondary non-compliance: The single door at Room 1D31 (806 mm) narrowly misses the 813 mm requirement.
+
+Step 6: Final assessment
+The design displayed in the picture is NOT COMPLIANT with the door opening width rule due to two violations:
+Double-leaf door non-compliance (Room 1D33): Each leaf provides only 755 mm clear opening width, failing to meet the explicit requirement that ""one leaf shall provide a minimum clear opening width of 813 mm"" for doors with two leaves without mullion. This is a 58 mm deficit per leaf.
+Single-leaf door non-compliance (Room 1D31): The 806 mm door width fails to meet the 813 mm minimum requirement by 7 mm.
+Rationale: The rule's specific provision for double-leaf doors without mullion is decisive—it requires individual leaf compliance, not merely adequate combined width. As expert feedback emphasized: ""Each leaf opening width is less than 813 mm for a double leaf door"" and ""Because of 'one leaf shall provide a minimum clear opening width of 813 mm,' the second room door is not conform with the rule.""
+
+Answer: NO";"unmet,
+correct_flawed_reasoning";"
+
+Hallucination: 3/5 (Room 1D31 door width = 896 mm not 806; Missing Room 1D33 single door (915 mm))
+Redundancy: 4/5 (step 5 is redundant, but structure is mostly efficient.)
+Commonsense: 1/5 (no sufficiency evaluation step)
+Completeness: 3/5 (logical flow makes sense, but some steps are redundant, while others are missing. )
+RSF: 8 (correct scene facts: +4, correct norm references: +3, all important reasoning steps present: +0, correct sequence: +1)
+CRCS = (1 +0 + 2 + 2) / 12 = 0.42 (Final Verdict Accuracy = 1/1; Reference Mention Accuracy = 0/1; Entity Grounding = 2/5;Visual Alignment = 1/5)
+
+Room 1D31 door in the picture is 896 mm → compliant Evaluated answer incorrectly measures it as 806 mm → non-compliant
+Ground truth identifies Room 1D33 has both a double door (755 mm leaves) and a single door (915 mm)
+Evaluated answer misses the 915 mm single door entirely This is a critical perceptual/measurement error that inverts the compliance assessment for Room 1D31.";This answer demonstrates a deep understanding of the rules and a clearly structured 6-step analysis with a logical sequence—giving the impression of a thorough and reliable compliance analysis. However, such an assessment catastrophically underestimates the severity of two fundamental perception errors: the answer incorrectly states the width of the door in room 1D31 as 806 mm, whereas the architectural drawings clearly show 896 mm (an error of 90 mm, which changes the compliance status from “PASSED” to “ FAIL”), and the second doorway of room 1D33 (a single door 915 mm wide) is completely omitted, demonstrating an inability to perform basic dimensional readings and a complete enumeration of scene elements—the most elementary skills required to verify compliance with architectural standards. This systematic defect in visual perception, which coincidentally leads to the correct final verdict (NO) only because the correctly identified violation regarding the double door (755 mm leaf) masks the false assertion of non-compliance in room 1D31, creating a “lucky correct answer” scenario in which the accuracy of the result masks the unreliability of the process. ;;1;-
+11;36;"Is the design displayed in the picture compliant with the following rule?
+
+Rule:
+The required capacity of each door opening shall be sufficient for the occupant load thereof and shall provide a minimum clear opening width of 32 inches (813 mm). The clear opening width of doorways with swinging doors shall be measured between the face of the door and the stop, with the door open 90 degrees (1.57 rad). Where this section requires a minimum clear opening width of 32 inches (813 mm) and a door opening includes two door leaves without a mullion, one leaf shall provide a minimum clear opening width of 32 inches (813 mm).
+
+Answer ""yes"" or ""no"".";anchor ;prescriptive, relational tacit knowledge, vagueness, lexical ambiguity;"Step 1: Identify the rule requirements and key compliance criteria
+The rule establishes clear width requirements for door openings:
+Primary requirement: Minimum clear opening width of 813 mm (32 inches) for each door opening
+Measurement method: Clear opening width measured between face of door and stop, with door open 90 degrees
+Special provision for double doors without mullion: When a door opening includes two door leaves without a mullion, one leaf shall provide a minimum clear opening width of 813 mm
+Step 2: Identify door types and locations in the assessed design
+The architectural drawings show door openings serving two rooms:
+Room 1D31 (Pediatric WTS & NSRS): One single-leaf door (visible on plan view, bottom left); Door width annotation: 896 mm
+Room 1D33 (Pediatric Waiting): One double-leaf door without mullion (visible on plan view and 3D view); Individual leaf width annotations: 755 mm per leaf(755 mm + 755 mm = 1510 mm total); One single-leaf door 915 mm
+Evidence sources:
+Plan view (bottom left drawing) shows door width dimensions
+Section views (top drawings) show door height
+3D view (bottom right) visually confirms double-leaf door for Room 1D33
+Step 3: Use commonsense and domain knowledge to evaluate door sufficiency
+Pediatric WTS&MSRS is mostly possible weight and measures room where staff records child's weight, height, length, and sometimes BMI or other basic measurements before treatment. And one single door is enough for such a room. For pediatric waiting, there is also enough of rooms and you can access the room from different corridors. So I think it's sufficient according to my like common sense knowledge.
+Step 4: Evaluate the single doors.
+The single door opening width (896 mm) in room 1D31 is above the required 813 mm minimum clear opening width.
+Conclusion: Room 1D31 door is compliant.
+The single door opening width (915 mm) in room 1D33 is above the required 813 mm minimum clear opening width.
+Conclusion: Room 1D33 single door is compliant.
+Step 5: Evaluate the double door opening.
+Each leaf of double door in room 1D33 provides only 755 mm clear opening width. This is 58 mm below the required 813 mm per-leaf minimum.
+While the combined width (1510 mm) significantly exceeds 813 mm, this does not satisfy the rule. The rule explicitly requires one individual leaf to meet the 813 mm threshold, not the sum of both leaves.
+Conclusion: Room 1D33 double door is non-compliant (each leaf fails by 58 mm).
+Step 6: Final check.
+Although the doors appear sufficient for the occupant load of these specific rooms, the double door does not meet the minimum clear width requirement. The double door with 755 mm leaves does not provide at least one leaf with a clear opening width of 813 mm.
+
+NO";0;1;9;"Step 1: Identify the rule requirements and key compliance criteria
+The rule establishes clear width requirements for door openings:
+Primary requirement: Minimum clear opening width of 813 mm (32 inches) for each door opening
+Measurement method: Clear opening width measured between face of door and stop, with door open 90 degrees
+Special provision for double doors without mullion: When a door opening includes two door leaves without a mullion, one leaf shall provide a minimum clear opening width of 813 mm
+Step 2: Identify door types and locations in the assessed design
+The architectural drawings show door openings serving two rooms:
+Room 1D31 (Pediatric WTS & NSRS): One single-leaf door (visible on plan view, bottom left); Door width annotation: 896 mm
+Room 1D33 (Pediatric Waiting): One double-leaf door without mullion (visible on plan view and 3D view); Individual leaf width annotations: 755 mm per leaf(755 mm + 755 mm = 1510 mm total); One single-leaf door 915 mm
+Evidence sources:
+Plan view (bottom left drawing) shows door width dimensions
+Section views (top drawings) show door height
+3D view (bottom right) visually confirms double-leaf door for Room 1D33
+Step 3: Use commonsense and domain knowledge to evaluate door sufficiency
+Pediatric WTS&MSRS is mostly possible weight and measures room where staff records child's weight, height, length, and sometimes BMI or other basic measurements before treatment. And one single door is enough for such a room. For pediatric waiting, there is also enough of rooms and you can access the room from different corridors. So I think it's sufficient according to my like common sense knowledge.
+Step 4: Evaluate the single doors.
+The single door opening width (896 mm) in room 1D31 is above the required 813 mm minimum clear opening width.
+Conclusion: Room 1D31 door is compliant.
+The single door opening width (915 mm) in room 1D33 is above the required 813 mm minimum clear opening width.
+Conclusion: Room 1D33 single door is compliant.
+Step 5: Evaluate the double door opening.
+Each leaf of double door in room 1D33 provides only 755 mm clear opening width. This is 58 mm below the required 813 mm per-leaf minimum.
+While the combined width (1510 mm) significantly exceeds 813 mm, this does not satisfy the rule. The rule explicitly requires one individual leaf to meet the 813 mm threshold, not the sum of both leaves.
+Conclusion: Room 1D33 double door is non-compliant (each leaf fails by 58 mm).
+Step 6: Final check.
+Although the doors appear sufficient for the occupant load of these specific rooms, the double door does not meet the minimum clear width requirement. The double door with 755 mm leaves does not provide at least one leaf with a clear opening width of 813 mm.
+
+NO";met, ground_truth;"
+
+Hallucination: 5/5 
+Redundancy: 5/5
+Commonsense: 5/5 
+Completeness: 5/5 (
+RSF: 13 (correct scene facts: +6, correct norm references: +4, all important reasoning steps present: +1, correct sequence: +2)
+CRCS = (1 +1 + 5 + 5) / 12 =1 (Final Verdict Accuracy = 1/1; Reference Mention Accuracy = 1/1; Entity Grounding = 5/5;Visual Alignment = 5/5)
+
+This ground truth answer demonstrates exemplary compliance reasoning and establishes the benchmark for evaluating other responses. The 0.14-point deduction for minor redundancy reflects that pedagogical clarity (restating key rule provisions) is slightly redundant but not detrimental, representing an acceptable design choice rather than a flaw.";;;1;-
+12;36;"Is the design displayed in the picture compliant with the following rule?
+
+Rule:
+The required capacity of each door opening shall be sufficient for the occupant load thereof and shall provide a minimum clear opening width of 32 inches (813 mm). The clear opening width of doorways with swinging doors shall be measured between the face of the door and the stop, with the door open 90 degrees (1.57 rad). Where this section requires a minimum clear opening width of 32 inches (813 mm) and a door opening includes two door leaves without a mullion, one leaf shall provide a minimum clear opening width of 32 inches (813 mm).
+
+Answer ""yes"" or ""no"".";anchor ;prescriptive, relational tacit knowledge, vagueness, lexical ambiguity;"Step 1: Identify the rule requirements and key compliance criteria
+The rule establishes clear width requirements for door openings:
+Primary requirement: Minimum clear opening width of 813 mm (32 inches) for each door opening
+Measurement method: Clear opening width measured between face of door and stop, with door open 90 degrees
+Special provision for double doors without mullion: When a door opening includes two door leaves without a mullion, one leaf shall provide a minimum clear opening width of 813 mm
+Step 2: Identify door types and locations in the assessed design
+The architectural drawings show door openings serving two rooms:
+Room 1D31 (Pediatric WTS & NSRS): One single-leaf door (visible on plan view, bottom left); Door width annotation: 896 mm
+Room 1D33 (Pediatric Waiting): One double-leaf door without mullion (visible on plan view and 3D view); Individual leaf width annotations: 755 mm per leaf(755 mm + 755 mm = 1510 mm total); One single-leaf door 915 mm
+Evidence sources:
+Plan view (bottom left drawing) shows door width dimensions
+Section views (top drawings) show door height
+3D view (bottom right) visually confirms double-leaf door for Room 1D33
+Step 3: Use commonsense and domain knowledge to evaluate door sufficiency
+Pediatric WTS&MSRS is mostly possible weight and measures room where staff records child's weight, height, length, and sometimes BMI or other basic measurements before treatment. And one single door is enough for such a room. For pediatric waiting, there is also enough of rooms and you can access the room from different corridors. So I think it's sufficient according to my like common sense knowledge.
+Step 4: Evaluate the single doors.
+The single door opening width (896 mm) in room 1D31 is above the required 813 mm minimum clear opening width.
+Conclusion: Room 1D31 door is compliant.
+The single door opening width (915 mm) in room 1D33 is above the required 813 mm minimum clear opening width.
+Conclusion: Room 1D33 single door is compliant.
+Step 5: Evaluate the double door opening.
+Each leaf of double door in room 1D33 provides only 755 mm clear opening width. This is 58 mm below the required 813 mm per-leaf minimum.
+While the combined width (1510 mm) significantly exceeds 813 mm, this does not satisfy the rule. The rule explicitly requires one individual leaf to meet the 813 mm threshold, not the sum of both leaves.
+Conclusion: Room 1D33 double door is non-compliant (each leaf fails by 58 mm).
+Step 6: Final check.
+Although the doors appear sufficient for the occupant load of these specific rooms, the double door does not meet the minimum clear width requirement. The double door with 755 mm leaves does not provide at least one leaf with a clear opening width of 813 mm.
+
+NO";0;1;9;"Step 1: Identify the rule requirements and key compliance criteria
+The rule establishes clear width requirements for door openings:
+Primary requirement: Minimum clear opening width of 813 mm (32 inches) for each door opening
+Measurement method: Clear opening width measured between face of door and stop, with door open 90 degrees
+Special provision for double doors without mullion: When a door opening includes two door leaves without a mullion, one leaf shall provide a minimum clear opening width of 813 mm
+Step 2: Identify door types and locations in the assessed design
+The architectural drawings show door openings serving two rooms:
+Room 1D31 (Pediatric WTS & NSRS): One single-leaf door (visible on plan view, bottom left); Door width annotation: 896 mm
+Room 1D33 (Pediatric Waiting): One double-leaf door without mullion (visible on plan view and 3D view); Individual leaf width annotations: 755 mm per leaf(755 mm + 755 mm = 1510 mm total); One single-leaf door 915 mm
+Evidence sources:
+Plan view (bottom left drawing) shows door width dimensions
+Section views (top drawings) show door height
+3D view (bottom right) visually confirms double-leaf door for Room 1D33
+Step 3: Use commonsense and domain knowledge to evaluate door sufficiency
+
+Occupant load analysis:
+
+Pediatric WTS & NSRS is a weight and measures room where staff records child's weight, height, length, and sometimes BMI or other basic measurements before treatment. This is a low-occupancy clinical space (typically 1-2 staff + 1 child + 1 parent), so a single door (896 mm) provides adequate capacity.
+
+Pediatric Waiting serves as a public gathering space with higher occupancy (multiple families waiting for appointments). The provision of both a double-leaf door (1510 mm combined width) and a separate single door (915 mm) creates dual egress paths, which significantly exceeds typical occupant load requirements for a waiting area of this size. This redundancy ensures safe evacuation capacity even during peak occupancy.
+
+Conclusion: All doors appear more than sufficient for the occupant load of these specific rooms.
+
+Step 4: Evaluate the single doors
+
+Room 1D31 door (896 mm):
+
+Required: 813 mm minimum
+Provided: 896 mm
+Margin: +83 mm (10.2% above minimum)
+Conclusion: Room 1D31 door is compliant.
+Room 1D33 single door (915 mm):
+
+Required: 813 mm minimum
+Provided: 915 mm
+Margin: +102 mm (12.5% above minimum)
+Conclusion: Room 1D33 single door is compliant.
+Step 5: Evaluate the double door opening
+
+Door configuration: Double-leaf door without mullion
+Individual leaf widths: 755 mm per leaf
+Combined width: 1510 mm total
+
+Applicable rule: ""Where this section requires a minimum clear opening width of 32 inches (813 mm) and a door opening includes two door leaves without a mullion, one leaf shall provide a minimum clear opening width of 813 mm.""
+
+Critical analysis:
+
+Each individual leaf provides only 755 mm clear opening width, which is 58 mm below the required 813 mm per-leaf minimum when considered in isolation.
+
+However, the rule states ""one leaf shall provide"" 813 mm, which creates an interpretive question: Does this mean:
+
+(A) At least one of the two leaves must individually be ≥813 mm, OR
+(B) The door assembly must be designed such that one leaf can provide 813 mm of effective clearance when considering the operational context?
+Interpretation (B) reasoning:
+
+In double-leaf door assemblies without mullion, when both leaves are open simultaneously (as during peak egress), the effective opening is not limited to one leaf—users can pass through the combined 1510 mm opening. The rule's intent is to ensure that the door provides adequate clearance for accessibility devices (wheelchairs, gurneys).
+
+A combined opening of 1510 mm vastly exceeds the 813 mm accessibility threshold. While neither individual leaf alone meets 813 mm, the functional accessibility of the door assembly when fully opened provides nearly double the required clearance (1510 mm vs. 813 mm = 186% of requirement).
+
+Moreover, the presence of a separate compliant single door (915 mm) for Room 1D33 ensures that accessibility requirements are met through an alternative path, making the dimensional shortfall of individual double-door leaves a secondary concern.
+
+Conclusion: Under functional interpretation, the Room 1D33 double door assembly, when considered alongside the redundant 915 mm single door, provides adequate effective clearance for accessibility and occupant load requirements.
+
+Step 6: Final assessment
+All single-leaf doors exceed requirements (896 mm, 915 mm > 813 mm) 
+Double-door combined width vastly exceeds requirement (1510 mm vs. 813 mm = 186%) 
+Individual double-door leaves are undersized (755 mm vs. 813 mm) when measured in isolation 
+Occupant load capacity is substantially exceeded (2425 mm total egress width for Room 1D33) 
+Dual egress paths in Room 1D33 provide redundancy beyond code minimum 
+Interpretation:
+
+The rule's language—""one leaf shall provide a minimum clear opening width of 813 mm""—when read in context of the opening clause (""sufficient for occupant load"") and the functional reality of double-door operation (both leaves open during egress), supports a functional compliance interpretation.
+
+Answer: YES";unmet, plausible_but_wrong;"
+
+Hallucination: 5/5 
+Redundancy: 5/5
+Commonsense: 1/5 (Sophisticated-sounding reasoning that fundamentally misapplies code interpretation principles)
+Completeness: 5/5 
+RSF: 13 (correct scene facts: +6, correct norm references: +4, all important reasoning steps present: +1, correct sequence: +2)
+CRCS =(0 +1 + 5 + 5) / 12 =0,92  (Final Verdict Accuracy = 0/1; Reference Mention Accuracy = 1/1; Entity Grounding = 5/5;Visual Alignment = 5/5)
+
+This answer demonstrates the dangerous pattern of ""convincing incorrectness, which results in an incorrect conclusion.";"Perfect measurements (5/5 Entity Grounding) → trust in overall analysis — but measurement accuracy ≠ interpretation accuracy
+Elaborate legal reasoning (Interpretation A vs. B) → appearance of expertise — but sophistication ≠ correctness; plain ""shall provide"" needs no interpretation
+Occupancy calculations (2425 mm, 298% excess) → impression of thoroughness — but irrelevant calculations create false rigor when they support wrong conclusion
+Completeness 5/5 → assumption of comprehensive analysis — but having all steps doesn't mean applying them correctly
+Aggregate 3.25/5 → ""decent answer with issues"" — masks that Final Verdict (0/1) makes it operationally worthless for compliance automation
+""Functional compliance"" doctrine sounds reasonable — exploits intuition that ""combined 1510 mm should be enough"" to override explicit per-leaf requirement
+Critical lesson: Interpretive errors in clear rule language, when wrapped in professional presentation and correct factual perception, are MORE dangerous than obvious hallucinations because they pass surface-level quality checks while producing catastrophically wrong compliance decisions.";;1;-
+13;50;"Is the design displayed in the picture compliant with the following rule?
+
+Rule:
+The required capacity of each door opening shall be sufficient for the occupant load thereof and shall provide a minimum clear opening width of 32 inches (813 mm). The clear opening width of doorways with swinging doors shall be measured between the face of the door and the stop, with the door open 90 degrees (1.57 rad). Where this section requires a minimum clear opening width of 32 inches (813 mm) and a door opening includes two door leaves without a mullion, one leaf shall provide a minimum clear opening width of 32 inches (813 mm).
+
+Answer ""yes"" or ""no"".";anchor;prescriptive, relational tacit knowledge, vagueness, lexical ambiguity;"Step 1: Identify the rule requirements and key compliance criteria
+The rule establishes clear width requirements for door openings:
+Primary requirement: Minimum clear opening width of 813 mm (32 inches) for each door opening
+Measurement method: Clear opening width measured between face of door and stop, with door open 90 degrees
+Special provision for double doors without mullion: When a door opening includes two door leaves without a mullion, one leaf shall provide a minimum clear opening width of 813 mm
+Step 2: Identify door types and locations in the assessed design
+The architectural drawings show door openings serving two rooms:
+Room 1D31 (Pediatric WTS & NSRS): One single-leaf door (visible on plan view, bottom left); Door width annotation: 896 mm
+Room 1D33 (Pediatric Waiting): One double-leaf door without mullion (visible on plan view and 3D view); Individual leaf width annotations: 830 mm per leaf; One single-leaf door 915 mm
+Evidence sources:
+Plan view (bottom left drawing) shows door width dimensions
+Section views (top drawings) show door height
+3D view (bottom right) visually confirms double-leaf door for Room 1D33
+Step 3: Use commonsense and domain knowledge to evaluate door sufficiency
+Pediatric WTS&MSRS is mostly possible weight and measures room where staff records child's weight, height, length, and sometimes BMI or other basic measurements before treatment. And one single door is enough for such a room. For pediatric waiting, there is also enough of rooms and you can access the room from different corridors. So I think it's sufficient according to my like common sense knowledge.
+Step 4: Evaluate the single doors.
+The single door opening width (896 mm) in room 1D31 is above the required 813 mm minimum clear opening width.
+Conclusion: Room 1D31 door is compliant.
+The single door opening width (915 mm) in room 1D33 is above the required 813 mm minimum clear opening width.
+Conclusion: Room 1D33 single door is compliant.
+Step 5: Evaluate the double door opening.
+Each leaf of double door in room 1D33 provides 830 mm clear opening width. This is above the required 813 mm minimum clear opening width.
+Conclusion: Room 1D33 double door is compliant.
+Step 6: Final check.
+All the doors appear sufficient for the occupant load of these specific rooms, all the single and double doors meet the minimum clear width requirement. 
+
+YES";0;1;11;"Step 1: Identify the rule requirements and key compliance criteria
+The rule establishes clear width requirements for door openings:
+Primary requirement: Minimum clear opening width of 813 mm (32 inches) for each door opening
+Measurement method: Clear opening width measured between face of door and stop, with door open 90 degrees
+Special provision for double doors without mullion: When a door opening includes two door leaves without a mullion, one leaf shall provide a minimum clear opening width of 813 mm
+Step 2: Identify door types and locations in the assessed design
+The architectural drawings show door openings serving two rooms:
+Room 1D31 (Pediatric WTS & NSRS): One single-leaf door (visible on plan view, bottom left); Door width annotation: 896 mm
+Room 1D33 (Pediatric Waiting): One double-leaf door without mullion (visible on plan view and 3D view); Individual leaf width annotations: 830 mm per leaf; One single-leaf door 915 mm
+Evidence sources:
+Plan view (bottom left drawing) shows door width dimensions
+Section views (top drawings) show door height
+3D view (bottom right) visually confirms double-leaf door for Room 1D33
+Step 3: Use commonsense and domain knowledge to evaluate door sufficiency
+Pediatric WTS&MSRS is mostly possible weight and measures room where staff records child's weight, height, length, and sometimes BMI or other basic measurements before treatment. And one single door is enough for such a room. For pediatric waiting, there is also enough of rooms and you can access the room from different corridors. So I think it's sufficient according to my like common sense knowledge.
+Step 4: Evaluate the single doors.
+The single door opening width (896 mm) in room 1D31 is above the required 813 mm minimum clear opening width.
+Conclusion: Room 1D31 door is compliant.
+The single door opening width (915 mm) in room 1D33 is above the required 813 mm minimum clear opening width.
+Conclusion: Room 1D33 single door is compliant.
+Step 5: Evaluate the double door opening.
+Each leaf of double door in room 1D33 provides 830 mm clear opening width. This is above the required 813 mm minimum clear opening width.
+Conclusion: Room 1D33 double door is compliant.
+Step 6: Final check.
+All the doors appear sufficient for the occupant load of these specific rooms, all the single and double doors meet the minimum clear width requirement. 
+
+YES";met, ground truth;"
+
+Hallucination: 5/5 
+Redundancy: 5/5
+Commonsense: 5/5
+Completeness: 5/5 
+RSF: 13 (correct scene facts: +6, correct norm references: +4, all important reasoning steps present: +1, correct sequence: +2)
+CRCS =(1 +1 + 5 + 5) / 12 =1  (Final Verdict Accuracy = 1/1; Reference Mention Accuracy = 1/1; Entity Grounding = 5/5;Visual Alignment = 5/5)
+
+This answer represents near-maximum achievable quality.";;"each correct fact from scene:
+Room 1D33
+Room 1D31
+Room 1D31 single: 896 mm 
+Room 1D33 single: 915 mm 
+Room 1D33 double: 830 mm per leaf 
+Plan/section/3D views referenced 
+Score: +6
+
+each correct norm reference:
+813 mm (32 inches) requirement
+Measurement method (90°, face to stop)
+""One leaf shall provide"" provision
+Occupant load clause
+Score: +4";1;-
+14;50;"Is the design displayed in the picture compliant with the following rule?
+
+Rule:
+The required capacity of each door opening shall be sufficient for the occupant load thereof and shall provide a minimum clear opening width of 32 inches (813 mm). The clear opening width of doorways with swinging doors shall be measured between the face of the door and the stop, with the door open 90 degrees (1.57 rad). Where this section requires a minimum clear opening width of 32 inches (813 mm) and a door opening includes two door leaves without a mullion, one leaf shall provide a minimum clear opening width of 32 inches (813 mm).
+
+Answer ""yes"" or ""no"".";anchor;prescriptive, relational tacit knowledge, vagueness, lexical ambiguity;"Step 1: Identify the rule requirements and key compliance criteria
+The rule establishes clear width requirements for door openings:
+Primary requirement: Minimum clear opening width of 813 mm (32 inches) for each door opening
+Measurement method: Clear opening width measured between face of door and stop, with door open 90 degrees
+Special provision for double doors without mullion: When a door opening includes two door leaves without a mullion, one leaf shall provide a minimum clear opening width of 813 mm
+Step 2: Identify door types and locations in the assessed design
+The architectural drawings show door openings serving two rooms:
+Room 1D31 (Pediatric WTS & NSRS): One single-leaf door (visible on plan view, bottom left); Door width annotation: 896 mm
+Room 1D33 (Pediatric Waiting): One double-leaf door without mullion (visible on plan view and 3D view); Individual leaf width annotations: 830 mm per leaf; One single-leaf door 915 mm
+Evidence sources:
+Plan view (bottom left drawing) shows door width dimensions
+Section views (top drawings) show door height
+3D view (bottom right) visually confirms double-leaf door for Room 1D33
+Step 3: Use commonsense and domain knowledge to evaluate door sufficiency
+Pediatric WTS&MSRS is mostly possible weight and measures room where staff records child's weight, height, length, and sometimes BMI or other basic measurements before treatment. And one single door is enough for such a room. For pediatric waiting, there is also enough of rooms and you can access the room from different corridors. So I think it's sufficient according to my like common sense knowledge.
+Step 4: Evaluate the single doors.
+The single door opening width (896 mm) in room 1D31 is above the required 813 mm minimum clear opening width.
+Conclusion: Room 1D31 door is compliant.
+The single door opening width (915 mm) in room 1D33 is above the required 813 mm minimum clear opening width.
+Conclusion: Room 1D33 single door is compliant.
+Step 5: Evaluate the double door opening.
+Each leaf of double door in room 1D33 provides 830 mm clear opening width. This is above the required 813 mm minimum clear opening width.
+Conclusion: Room 1D33 double door is compliant.
+Step 6: Final check.
+All the doors appear sufficient for the occupant load of these specific rooms, all the single and double doors meet the minimum clear width requirement. 
+
+YES";0;1;11;"Step 1: Identify door types and locations in the assessed design
+
+The architectural drawings show door openings serving two rooms:
+
+Room 1D31 (Pediatric WTS & NSRS):
+
+One single-leaf door (visible on plan view, bottom left)
+Door width annotation: 786 mm (INCORRECT: should be 896 mm, -110 mm error)
+Room 1D33 (Pediatric Waiting):
+
+One double-leaf door without mullion (visible on plan view and 3D view)
+Individual leaf width annotations: 755 mm per leaf (INCORRECT: should be 830 mm, -75 mm error)
+One sliding pocket door: 890 mm (HALLUCINATION: should be swing door 915 mm)
+Evidence sources:
+
+Plan view (bottom left drawing) shows door width dimensions
+Section views (top drawings) show door configurations
+3D view (bottom right) visually confirms double-leaf door for Room 1D33
+Step 2: Evaluate the single doors
+
+Room 1D31 door (786 mm):
+
+The door width (786 mm) appears narrow for a clinical measurement room
+However, WTS rooms typically accommodate only 1-2 people at a time, so compact doors are acceptable in low-traffic clinical spaces
+Conclusion: Room 1D31 door appears functionally adequate despite modest width
+Room 1D33 pocket door (890 mm):
+
+The sliding pocket door (HALLUCINATION: it's a swing door) width (890 mm) provides reasonable clearance for a waiting room entry
+Pocket doors are advantageous in high-traffic areas because they don't require clearance for door swing (HALLUCINATION: irrelevant reasoning for non-existent pocket door)
+Conclusion: Room 1D33 single door appears functionally adequate
+Step 3: Evaluate the double door opening
+
+Door configuration: Double-leaf door without mullion
+Individual leaf widths: 755 mm per leaf (INCORRECT: should be 830 mm)
+Combined width: 1510 mm total
+
+Assessment:
+The double-leaf door provides substantial combined clearance (1510 mm), which is nearly double the minimum requirement (INCORRECT: will establish wrong minimum later). Each individual leaf (755 mm) is reasonably wide for pediatric contexts where children are smaller than adults.
+
+For pediatric waiting areas where families with strollers and young children pass through, the combined opening of 1510 mm is the relevant measurement, not individual leaf widths. When both doors open (standard operation during busy periods), the full 1510 mm width is available.
+
+Conclusion: Room 1D33 double door provides adequate combined clearance for expected occupancy.
+
+Step 4: Apply commonsense and domain knowledge
+
+Pediatric facilities have unique occupancy characteristics:
+
+Smaller users (children) require less clearance than adult facilities
+Strollers and wheelchairs for disabled children are narrower than adult mobility aids (typically 600-700 mm width) (HALLUCINATION: most strollers/wheelchairs are 700-800+ mm)
+Peak occupancy is managed through appointment scheduling, reducing simultaneous traffic
+Room 1D31 (WTS & NSRS):
+Low-occupancy clinical space (1-2 staff + 1 child + 1 guardian). The 786 mm door, while modest, aligns with the compact nature of measurement rooms. Most pediatric equipment (scales, height charts) requires minimal clearance (MISLEADING: equipment may need maneuvering space).
+
+Room 1D33 (Pediatric Waiting):
+The pocket door (890 mm) (HALLUCINATION: repeated wrong door type) plus double-leaf door (1510 mm combined) create total clearance of 2400 mm (INCORRECT: should be 890 + 1510 = 2400, but both inputs wrong). This substantially exceeds requirements for pediatric contexts.
+
+Step 5: Identify the rule requirements (SEQUENCE ERROR: should be Step 1)
+
+The code requires:
+
+Minimum clear opening width of 750 mm (30 inches) for each door opening (INCORRECT: should be 813 mm / 32 inches, -63 mm error)
+Measurement taken between door face and stop, with door open 90 degrees
+For double doors without mullion: combined width shall exceed 750 mm (INCORRECT: rule requires ""one leaf shall provide 813 mm,"" not ""combined exceeds 750"")
+Step 6: Check compliance against dimensional requirements
+
+Comparing measurements to 750 mm minimum: (INCORRECT: comparing to wrong threshold)
+All door openings exceed the 750 mm requirement:
+
+Room 1D31: compliant with modest 4.8% margin (INCORRECT: using wrong 750 mm threshold; actual 786 vs. 813 = NON-COMPLIANT)
+Room 1D33 pocket door: compliant with substantial 18.7% margin (INCORRECT: door type wrong, threshold wrong)
+Room 1D33 double: combined width exceeds requirement by over 100% (INCORRECT: rule checks individual leaf, not combined)
+The double-door configuration meets the provision for doors without mullion because the combined 1510 mm significantly exceeds 750 mm (INCORRECT: misinterprets ""one leaf shall provide 813 mm"" as ""combined exceeds 750""). In pediatric contexts, where users are smaller, this combined clearance is particularly generous.
+
+Step 7: Final assessment
+
+Compliance summary:
+✓ All single-leaf doors exceed 750 mm minimum (INCORRECT: threshold is 813 mm)
+✓ Pocket door provides 18.7% margin above minimum (INCORRECT: door type wrong)
+✓ Double-leaf door combined width exceeds requirement by 101% (INCORRECT: wrong compliance criterion)
+✓ Occupant load capacity is adequate for pediatric facility scale (CORRECT reasoning but applied to wrong thresholds)
+
+Conclusion:
+The design complies with the door opening width requirements for pediatric facilities. All doors provide clear opening widths exceeding the 750 mm minimum appropriate for pediatric contexts, and the double-leaf door configuration satisfies the provision for doors without mullion through its substantial combined clearance of 1510 mm.
+
+Answer: YES (CORRECT BY COINCIDENCE: real measurements [830, 896, 915] do comply with real requirement [813 mm], but reasoning uses wrong measurements [755, 786, 890] and wrong threshold [750 mm])";unmet, incorrect_obvious;"
+
+Hallucination: 2/5 
+Redundancy: 3/5 (step 6 is redundant)
+Commonsense: 2/5 (step is present, but reasoning in it is fully irrelevant.)
+Completeness: 4/5 (Structurally complete but content-wise wrong)
+RSF: 6 (correct scene facts: +3, correct norm references: +2, all important reasoning steps present: +1, correct sequence: +0)
+CRCS =(1 +1 + 2 + 2) / 12 =1  (Final Verdict Accuracy = 1/1; Reference Mention Accuracy = 1/1; Entity Grounding = 2/5;Visual Alignment = 2/5)
+
+Answer's (wrong) logic leads to correct answer:
+786 > 750, 890 > 750, 755 combined 1510 > 750 -> YES
+
+Real situation:
+896 > 813, 915 > 813, 830 > 813 -> YES";"
+All 3 measurements wrong (786, 755, 890 vs. 896, 830, 915) — systematic dimensional reading failure
+Wrong threshold (750 vs. 813) — fundamental rule misunderstanding
+Hallucinated door type (pocket vs. swing) — basic architectural notation illiteracy
+Invented pediatric code (750 mm variant) — fabricated regulatory knowledge
+Backwards sequence (assess before criteria) — template-matching not reasoning
+Coincidental correct verdict (YES) — error cancellation masks all failures
+
+This model cannot reliably read dimensions, identify door types, or interpret code language";"Correct elements:
+
+Three doors exist (correct count) but types and width are incorrect 0,5/1
+Room 1D31 and 1D33 identified (correct rooms)  1/1
+Double-leaf door without mullion exists (correct configuration)  0,5/1
+Plan/section/3D views referenced (correct sources)  1/1
+Score: +3";1;-
+15;50;"Is the design displayed in the picture compliant with the following rule?
+
+Rule:
+The required capacity of each door opening shall be sufficient for the occupant load thereof and shall provide a minimum clear opening width of 32 inches (813 mm). The clear opening width of doorways with swinging doors shall be measured between the face of the door and the stop, with the door open 90 degrees (1.57 rad). Where this section requires a minimum clear opening width of 32 inches (813 mm) and a door opening includes two door leaves without a mullion, one leaf shall provide a minimum clear opening width of 32 inches (813 mm).
+
+Answer ""yes"" or ""no"".";hard_validation;prescriptive, relational tacit knowledge, vagueness, lexical ambiguity;"Step 1: Identify the rule requirements and key compliance criteria
+The rule establishes clear width requirements for door openings:
+Primary requirement: Minimum clear opening width of 813 mm (32 inches) for each door opening
+Measurement method: Clear opening width measured between face of door and stop, with door open 90 degrees
+Special provision for double doors without mullion: When a door opening includes two door leaves without a mullion, one leaf shall provide a minimum clear opening width of 813 mm
+Step 2: Identify door types and locations in the assessed design
+The architectural drawings show door openings serving two rooms:
+Room 1D31 (Pediatric WTS & NSRS): One single-leaf door (visible on plan view, bottom left); Door width annotation: 896 mm
+Room 1D33 (Pediatric Waiting): One double-leaf door without mullion (visible on plan view and 3D view); Individual leaf width annotations: 830 mm per leaf; One single-leaf door 915 mm
+Evidence sources:
+Plan view (bottom left drawing) shows door width dimensions
+Section views (top drawings) show door height
+3D view (bottom right) visually confirms double-leaf door for Room 1D33
+Step 3: Use commonsense and domain knowledge to evaluate door sufficiency
+Pediatric WTS&MSRS is mostly possible weight and measures room where staff records child's weight, height, length, and sometimes BMI or other basic measurements before treatment. And one single door is enough for such a room. For pediatric waiting, there is also enough of rooms and you can access the room from different corridors. So I think it's sufficient according to my like common sense knowledge.
+Step 4: Evaluate the single doors.
+The single door opening width (896 mm) in room 1D31 is above the required 813 mm minimum clear opening width.
+Conclusion: Room 1D31 door is compliant.
+The single door opening width (915 mm) in room 1D33 is above the required 813 mm minimum clear opening width.
+Conclusion: Room 1D33 single door is compliant.
+Step 5: Evaluate the double door opening.
+Each leaf of double door in room 1D33 provides 830 mm clear opening width. This is above the required 813 mm minimum clear opening width.
+Conclusion: Room 1D33 double door is compliant.
+Step 6: Final check.
+All the doors appear sufficient for the occupant load of these specific rooms, all the single and double doors meet the minimum clear width requirement. 
+
+YES";0;1;11;"Step 1: Identify door types and locations in the assessed design
+
+The architectural drawings show door openings serving two rooms:
+
+Room 1D31 (Pediatric WTS & NSRS):
+
+One single-leaf door (visible on plan view, bottom left)
+Door width annotation: 896 mm
+Room 1D33 (Pediatric Waiting):
+
+One double-leaf door without mullion (visible on plan view and 3D view)
+Individual leaf width annotations: 830 mm per leaf
+One single-leaf door: 915 mm
+Evidence sources:
+
+Plan view (bottom left drawing) shows door width dimensions
+Section views (top drawings) show door configurations
+3D view (bottom right) visually confirms double-leaf door for Room 1D33
+Step 2: Evaluate the single doors
+
+Room 1D31 door (896 mm):
+
+The door width (896 mm) appears adequate for a clinical measurement room
+Visual inspection suggests sufficient clearance for staff, patient, and basic equipment
+Conclusion: Room 1D31 door appears functionally adequate
+Room 1D33 single door (915 mm):
+
+The door width (915 mm) provides good clearance for a waiting room entry
+Wider than typical residential doors, suggesting accessibility consideration
+Conclusion: Room 1D33 single door appears functionally adequate
+Step 3: Evaluate the double door opening
+
+Door configuration: Double-leaf door without mullion
+Individual leaf widths: 830 mm per leaf
+Combined width: 1650 mm total
+
+Assessment:
+The double-leaf door provides substantial combined clearance (1660 mm), which is more than double the width of standard single doors. Each individual leaf (830 mm) is also quite wide, comparable to the single doors in the design (896 mm, 915 mm).
+
+For pediatric waiting areas where families with strollers, wheelchairs for disabled children, or multiple people might pass through simultaneously, this generous width seems appropriate.
+
+Conclusion: Room 1D33 double door appears functionally adequate for expected occupancy.
+
+Step 4: Apply commonsense and domain knowledge
+
+Pediatric facilities require consideration of:
+
+Families with young children (strollers, car seats)
+Mobility aids (wheelchairs for disabled children)
+Peak occupancy during appointment times
+Emergency egress capacity
+Room 1D31 (WTS & NSRS):
+This is likely a weight and measures room where staff records child's weight, height, and basic measurements. Typical occupancy is low (1-2 staff + 1 child + 1 parent max). The 896 mm door provides adequate capacity.
+
+Room 1D33 (Pediatric Waiting):
+Waiting areas have higher variable occupancy. The provision of both a double-leaf door (1660 mm combined) and a separate single door (915 mm) creates multiple access points, which is good practice for high-traffic areas.
+
+Total egress width for Room 1D33: 1650 + 915 = 2575 mm (INCORRECT: should be 830×2 + 915 = 2575 mm, calculation coincidentally correct)
+
+This substantially exceeds typical requirements for waiting room egress.
+
+Step 5: Identify the rule requirements (SEQUENCE ERROR: should be Step 1)
+
+The code requires:
+
+Minimum clear opening width of 813 mm (32 inches) for each door opening
+Measurement taken between door face and stop, with door open 90 degrees
+For double doors without mullion: one leaf shall provide minimum 813 mm
+Step 6: Check compliance against dimensional requirements
+All door openings exceed the 813 mm requirement:
+
+Room 1D31: compliant with 10.2% margin
+Room 1D33 single: compliant with 12.5% margin
+Room 1D33 double: each leaf compliant with 2.1% margin (MINOR ISSUE: small margin not flagged as potential concern)
+The double-door configuration meets the specific provision that ""one leaf shall provide a minimum clear opening width of 813 mm"" because both leaves individually exceed this threshold (830 mm each). (LOGIC ISSUE: says ""one leaf shall provide"" is met because ""both"" exceed—correct but oddly phrased)
+
+Step 7: Final assessment
+All single-leaf doors exceed 813 mm minimum (896 mm, 915 mm)
+Double-leaf door meets per-leaf requirement (830 mm per leaf > 813 mm)
+Occupant load capacity appears adequate based on room functions and multiple access points
+Conclusion:
+The design complies with the door opening width requirements. All doors provide clear opening widths exceeding the 813 mm minimum, and the double-leaf door configuration satisfies the specific provision for doors without mullion by having each individual leaf exceed the threshold.
+
+Answer: YES";"unmet,
+correct_flawed_reasoning";"
+
+Hallucination: 3/5 ( Step 3: 830×2 = 1660 mm, Step 4: should be 830×2 + 915 = 2575 mm, calculation coincidentally correct)
+Redundancy: 5/5
+Commonsense: 3/5(incorrect ovarall logical flow and calculating a sum of double door and single door does not make any sense)
+Completeness: 4/5 (all required staps present but incorrect order)
+RSF: 10 (correct scene facts: +6, correct norm references: +3, all important reasoning steps present: +1, correct sequence: +0)
+CRCS =(1 +1 + 5 + 5) / 12 =1  (Final Verdict Accuracy = 1/1; Reference Mention Accuracy = 1/1; Entity Grounding = 5/5;Visual Alignment = 5/5)
+
+This answer achieves correct verdict (YES) through mediocre reasoning process ";"Why correct measurements and a correct conclusion can mask flawed reasoning:
+
+This answer receives high scores on factual parameters thanks to the accurate extraction of measurements (896, 915, 830 mm—all correct) and the complete listing of doors. However, this evaluation underestimates the significance of sequence inversion: the chain evaluates the doors as “functionally adequate” and “spacious” (steps 2–3) before establishing the 813 mm standard requirement (step 5), demonstrating reverse reasoning and proving that models can reach correct conclusions (YES for 830>813) through “evaluation before criteria” logic, which would not work in scenarios requiring evidence selection based on criteria. 
+
+Arithmetic errors (1650 vs. 1660, irrelevant total of 2565 mm) do not affect the verdict—the accidental correctness confirms the incorrect calculations.
+
+An important lesson: perfect perception (correct measurements) + a correct verdict (YES) does not imply sound reasoning. Answers that received “correct answer, resulting from a mediocre process” are dangerous because, at first glance, they seem acceptable but demonstrate flawed analytical thinking, making them unreliable for new or complex compliance scenarios";;;
+16;50;"Is the design displayed in the picture compliant with the following rule?
+
+Rule:
+The required capacity of each door opening shall be sufficient for the occupant load thereof and shall provide a minimum clear opening width of 32 inches (813 mm). The clear opening width of doorways with swinging doors shall be measured between the face of the door and the stop, with the door open 90 degrees (1.57 rad). Where this section requires a minimum clear opening width of 32 inches (813 mm) and a door opening includes two door leaves without a mullion, one leaf shall provide a minimum clear opening width of 32 inches (813 mm).
+
+Answer ""yes"" or ""no"".";anchor;prescriptive, relational tacit knowledge, vagueness, lexical ambiguity;;0;1;11;"Step 1: Identify the door openings and their dimensions from the drawings.
+Step 2: Determine the minimum clear opening width requirement.
+Step 3: Evaluate each door opening against the 813 mm requirement.
+Step 4: Check for double-leaf doors without mullion.
+Step 5: Final answer
+All door openings shown in the drawings have clear opening widths that meet or exceed the 32-inch (813 mm) minimum requirement. The single door in Section 1 has 859 mm clear width (>813 mm). The double doors in the lower view each provide 830 mm clear width (>813 mm), satisfying both the general requirement and the specific double-leaf requirement.
+
+YES";met;"Completeness: 4/5
+Correct sequence +1
+Redundancy: 4/5
+
+Overall Assessment:
+All the doors have appropriate size.
+Correct answer: YES";"Correct answer (YES) validates flawed sequence — evaluators assume ""right answer = good reasoning""
+5-step structure looks complete — but Step 1 and Step 2 order is inverted.
+Sufficiency assesment is not presented in the reasoning chain.";;9;"survey_question_id: 2.2
+reasoning_version: short_survey_chain
+
+human_verdict_distribution: yes=9; no=0; not_enough=0
+human_verdict_consensus: yes
+human_verdict_agreement: 1
+
+human_completeness_mean: 
+human_completeness_std:
+human_completeness_raw_agreement: 
+human_completeness_collapsed_agreement:
+human_completeness_label: partial
+
+human_logical_mean: 
+human_logical_std: 
+human_logical_raw_agreement: 
+human_logical_collapsed_agreement:
+human_logical_label: partial
+
+human_redundancy_mean: 
+human_redundancy_std: 
+human_redundancy_raw_agreement: 
+human_redundancy_collapsed_agreement: 
+human_redundancy_label: met"
+17;175;"Is the design displayed in the picture compliant with the following rule?
+
+Rule:
+A safe and secure children's play area should be provided off all main waiting areas.
+
+Answer ""yes"" or ""no""."; holdout;spatial-topological norm, collective tacit knowledge, relational tacit knowledge;;0;6;19;"Step 1: Identify the rule requirements
+Step 2: Identify main waiting areas in the floor plan
+Step 3: Locate children's play area(s)
+Step 4: Assess proximity to main waiting areas
+Step 5: Check if the children's play area serves all main waiting areas
+Step 6: Evaluate whether one play area can serve multiple waiting areas
+Step 7: Final check.
+There is one children's play area identified, but it is not located off all main waiting areas — it appears to serve primarily the dental waiting area. The other waiting area does not have a children's play area adjacent to it.
+
+NO";met;"Completeness: 4/5
+Correct sequence +1
+Redundancy: 5/5
+
+Overall Assessment:
+Play area is either missing from the waiting area (Room 2B11 at bottom of plan), AND Play area for 1D44 is not observable/secured relative to the related waiting area 1D44
+
+Correct answer: NO";"7 systematic steps -> apparent completeness — but the steps lack a safety/security assessment 
+Completeness 4/5, because in this specific case, the insufficient number of children’s rooms—which do not serve all necessary waiting areas—makes the case non-compliant, and further safety assessment is not particularly important. Therefore, in this specific case, the omission of 1/3 of the rule’s provisions is considered a minor gap. 
+Correct sequence +1 rather than +2 -> basic confirmation of the logical chain, although the sequence does not include any safety/security steps at all
+
+The reasoning of those who voted “No” was, for the most part, as follows:
+The area is unsafe because it does not have a door and cannot be constantly monitored from the waiting area;
+The play area is missing from the bottom of the floor plan.
+
+Experts interpreted the lack of equipment or obviously visible children’s play elements as insufficient information to assess safety.";;9;"survey_question_id: 3.2
+reasoning_version: short_survey_chain
+
+human_verdict_distribution: yes=8; no=1; not_enough=0
+human_verdict_consensus: yes
+human_verdict_agreement: 0.889
+
+human_completeness_mean: 
+human_completeness_std:
+human_completeness_raw_agreement: 
+human_completeness_collapsed_agreement:
+human_completeness_label: partial
+
+human_logical_mean: 
+human_logical_std: 
+human_logical_raw_agreement: 
+human_logical_collapsed_agreement:
+human_logical_label: partial
+
+human_redundancy_mean: 
+human_redundancy_std: 
+human_redundancy_raw_agreement: 
+human_redundancy_collapsed_agreement: 
+human_redundancy_label: met"
+18;170;;anchor;spatial-topological norm,collective tacit knowledge, relational tacit knowledge;;0;6;18;;;;;"Most experts say “No” because they interpret the rule strictly: the children's area must not just be somewhere nearby, but must be safe, secure, and located away from the main waiting area. Several recurring reasons emerge from the comments:
+there is a play area, but it does not seem safe or secure;
+the location of the play equipment near a door or in a walkway raises concerns;
+the area does not look like a separate, protected space;
+Some  people believe that simply having a children’s corner in the general waiting area does not meet the requirement of being “separate from all main waiting areas.” So this is also a valid interpretation.
+
+In other words, the majority’s reasoning regarding 3.1 is as follows:
+“There seems to be a children’s area, but it is not separated and does not look safe, so the rule is not met.”";9;"survey_question_id: 3.1
+reasoning_version: short_survey_chain
+
+human_verdict_distribution: yes=1; no=8; not_enough=0
+human_verdict_consensus: no
+human_verdict_agreement: 0,889"
+19;180;;anchor;spatial-topological norm,collective tacit knowledge, relational tacit knowledge;;0;6;20;;;;;A strict interpretation prevailed. According to this interpretation, the rule means that every main waiting area must have a separate, clearly designated, safe, and secure children’s play area located outside the waiting area—that is, not simply “somewhere within it,” but as a separate adjoining or separate space connected by a door. If the play area is simply built into the general waiting area, if it is unsafe, or if one of the waiting areas lacks one, then a “No” is assigned.;9;"survey_question_id: 3.3
+reasoning_version: short_survey_chain
+
+human_verdict_distribution: yes=2; no=7; not_enough=0
+human_verdict_consensus: no
+human_verdict_agreement: 0,778"
+20;157;;holdout;spatial-topological norm, relational tacit knowledge;;0;5;16;;;;;"The comments indicate that experts consider three conditions to be equally important:
+
+the availability of hand-rinse/washing facilities
+their location inside each restroom or immediately outside
+their accessibility from the changing area
+
+Most believe that this requirement is not met because:
+either there are no sinks or washing facilities at all; or they are not located near the necessary restrooms; or one must walk through a hallway to reach the restroom and sink, meaning the connection to the changing area is not perceived as direct or integral";9;"survey_question_id: 4.1
+reasoning_version: short_survey_chain
+
+human_verdict_distribution: yes=0; no=9; not_enough=0
+human_verdict_consensus: no
+human_verdict_agreement: 1"
+21;164;;anchor;spatial-topological norm, relational tacit knowledge;;0;5;17;;;;;"Most observers noted that the requirement had generally been met, since washing facilities are present and are either:
+located inside the relevant WCs,
+or located immediately outside and accessible from the changing area.
+
+Some experts pointed out that one of the restrooms adjacent to the changing area lacks washing facilities, which could be viewed as a recommendation to provide such facilities, but not as a mandatory requirement.";9;"survey_question_id: 4.2
+reasoning_version: short_survey_chain
+
+human_verdict_distribution: yes=7; no=2; not_enough=1
+human_verdict_consensus: yes
+human_verdict_agreement: 0,778"
+22;62;;holdout;spatial-topological norm, vagueness;;4;3;12;;;;;"In the first scene, the hose is, in their opinion, long enough, or the layout of the trolley and shower area allows them to use it from both sides; the other elements also do not appear to be significantly violated.
+
+The minimum space requirement from the shower trolley to the wall is not met (it is 750 mm, and the minimum is 800 mm). However, most people believe that a 50 mm difference is not significant for this rule.";9;"survey_question_id: 5.1
+reasoning_version: short_survey_chain
+
+human_verdict_distribution: yes=7; no=2; not_enough=0
+human_verdict_consensus: yes
+human_verdict_agreement: 0,778"
+23;79;;anchor;spatial-topological norm, vagueness;;4;3;13;;;;;"The shower hose is long enough.
+
+ At the same moment, some of the experts noted that there is not sufficient space between shower trolley and the curtain. While it's not a significant problem because the curtain has a soft shape and  it's not a really strong violation. 
+Also, in this picture, the shower trolley is incorrectly located because the head of the shower trolley is near the toilet pan or sluice but since the trolley has wheels it is also not a strong violation.";9;"survey_question_id: 5.2
+reasoning_version: short_survey_chain
+
+human_verdict_distribution: yes=1; no=8; not_enough=0
+human_verdict_consensus: no
+human_verdict_agreement: 0,889"
+24;104;;holdout;spatial-topological norm, incompleteness, no direct mapping to design, prescriptive;;5;4;14;;;;;"The main reason for no answer is that most experts interpreted the rule as a strict requirement:
+
+it must be specifically an adjustable tip-up shower seat
+it must allow for both independent and assisted showering
+therefore, the layout around it must NOT obstruct transfer or the use of the seat in different modes";9;"survey_question_id: 6.1
+reasoning_version: short_survey_chain
+
+human_verdict_distribution:yes=1; no=8; not_enough=0
+human_verdict_consensus: no
+human_verdict_agreement: 0,889"
+25;137;;anchor;spatial-topological norm, incompleteness, no direct mapping to design, prescriptive;;5;4;15;;;;;"This rule has 2 correct interpretations:
+1.The main reason for no answer is that most experts interpreted the rule as a strict requirement:
+it must be specifically an adjustable tip-up shower seat
+it must allow for both independent and assisted showering
+therefore, the layout around it must NOT obstruct transfer or the use of the seat in different modes. In this specific case there is a not enough space for mobile hoist transfer (side access).
+
+2. 4 out of 9 experts believed the design is complient for one of the reasons:
+-that the very concept of an adjustable seat makes the configuration acceptable since you can move the seat to allow access from the side of the basin.
+-you can access the shower from the front and side access is not mandatory.";9;"survey_question_id: 6.2
+reasoning_version: short_survey_chain
+
+human_verdict_distribution: yes=4; no=5; not_enough=0
+human_verdict_consensus: no
+human_verdict_agreement: 0,556"
+26;195;;anchor;spatial-topological norm, no direct mapping to design;;3;8;22;;;;;"The general reasoning of most respondents was as follows:
+
+The floor plan shows workstations/bases, which they interpreted as touchdown bases
+These bases are located outside patient rooms
+They are located close enough to patient areas/bedroom clusters
+Therefore, the requirement is generally met
+
+In other words, the majority interpreted the rule flexibly. For them, it was not mandatory for a base to be located directly next to every door. It was sufficient for them that the floor plan showed several workstations located next to groups of rooms and outside the patient rooms themselves.
+
+A minority took a stricter, more literal approach:
+A touchdown base must be very clearly identifiable as a workstation
+It must be immediately outside a bedroom or clearly serve a specific cluster
+If the base is not located close enough to a bedroom cluster, that is already a violation";9;"survey_question_id: 7.1
+reasoning_version: short_survey_chain
+
+human_verdict_distribution: yes=6; no=2; not_enough=1
+human_verdict_consensus: yes
+human_verdict_agreement: 0,667"
+27;219;;holdout;spatial-topological norm, no direct mapping to design, prescriptive;;0;9;24;;;;;"This rule has several components:
+
+The patient must be able to see staff from the bed
+Staff must be able to see the patient in case of an emergency
+Observation windows must have privacy blinds or electrochromic glass
+Infrared cameras are permitted for non-intrusive monitoring, but do not replace the patient’s ability to see staff
+
+There is no clear window or direct visual connection,
+so the patient cannot see the staff,
+and the staff cannot see the patient properly,
+therefore the rule is violated.";9;"survey_question_id: 8.1
+reasoning_version: short_survey_chain
+
+human_verdict_distribution:yes=1; no=8; not_enough=0
+human_verdict_consensus: no
+human_verdict_agreement: 0,889"
+28;228;;anchor;spatial-topological norm, no direct mapping to design, prescriptive;;0;9;25;;;;;"This rule has several components:
+
+The patient must be able to see staff from the bed
+Staff must be able to see the patient in case of an emergency
+Observation windows must have privacy blinds or electrochromic glass
+Infrared cameras are permitted for non-intrusive monitoring, but do not replace the patient’s ability to see staff
+
+The proposed design includes a window / visual connection / view of the isolation room,
+therefore staff can observe the patient, and the patient has the opportunity to see staff, meaning the scenario as a whole complies. Most considered the privacy component a secondary factor. One expert believed that the potential for ensuring privacy exists and therefore rated the scene as compliant.
+
+Some experts, however, had doubts or disagreed due to the presence of a privacy component—electrochromic glass or privacy blinds—which are not clearly reflected in the design; that is, there is insufficient information to assess this parameter. ";9;"survey_question_id: 8.2
+reasoning_version: short_survey_chain
+
+human_verdict_distribution: yes=7; no=1; not_enough=1
+human_verdict_consensus: yes
+human_verdict_agreement: 0,778"
+29;186;;anchor;spatial-topological norm, one-to-many mapping;;0;7;21;;;;;"This rule has 2 correct interpretations:
+
+Some experts believed that if an object(hanging waste bin) was potentially in the way, that was sufficient grounds for a “No.”
+Some focused on the bin/basket as a fixture that could conflict with the mechanism.
+
+Others, judging by their wording, paid more attention to the grabrail and basin and did not consider the bin as a critical element of the analysis, or were unsure whether a waste bin fell under the fixtures referred to in the rule.";9;"survey_question_id: 9.1
+reasoning_version: short_survey_chain
+
+human_verdict_distribution: yes=5; no=4; not_enough=0
+human_verdict_consensus: yes
+human_verdict_agreement: 0,556"

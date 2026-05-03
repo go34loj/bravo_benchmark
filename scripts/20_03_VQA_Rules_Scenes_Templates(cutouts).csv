@@ -1,0 +1,12 @@
+cutout_id;file_path;cutout_title;subtask_ids;parent_rule_id;compliant;semantic_tags;scenegraph_path (optional);picture repres (just for understanding)
+1;C:\Users\ritaMZ\OneDrive - TUM\MasterThesis\Scene2Compliance Thesis\dataset\dental_clinic\arcIFC.RVT;semi-ambulant WC ;1_1_1, 1_1_2;2, 7;;;;Bild
+2;C:\Users\ritaMZ\OneDrive - TUM\MasterThesis\Scene2Compliance Thesis\dataset\viewpoints\work files;flat;1_1_1, 1_1_2;;;;;
+3;C:\Users\ritaMZ\OneDrive - TUM\MasterThesis\Scene2Compliance Thesis\dataset\viewpoints\work files;facade fragment;1_1_1, 1_1_2;;;;;
+4;C:\Users\ritaMZ\OneDrive - TUM\MasterThesis\Scene2Compliance Thesis\dataset\dental_clinic\arcIFC.RVT;two rooms in dental clinic with different doors;3_1, 3_5;1;;;;
+5;C:\Users\ritaMZ\OneDrive - TUM\MasterThesis\Scene2Compliance Thesis\dataset\dental_clinic\arcIFC.RVT;;;3;;;;
+6;C:\Users\ritaMZ\OneDrive - TUM\MasterThesis\Scene2Compliance Thesis\dataset\dental_clinic\arcIFC.RVT;;;4;;;;
+7;C:\Users\ritaMZ\OneDrive - TUM\MasterThesis\Scene2Compliance Thesis\dataset\dental_clinic\arcIFC.RVT;;;5;;;;
+8;C:\Users\ritaMZ\OneDrive - TUM\MasterThesis\Scene2Compliance Thesis\dataset\dental_clinic\arcIFC.RVT;;;6;;;;
+9;C:\Users\ritaMZ\OneDrive - TUM\MasterThesis\Scene2Compliance Thesis\dataset\dental_clinic\arcIFC.RVT;;;8;;;;
+10;C:\Users\ritaMZ\OneDrive - TUM\MasterThesis\Scene2Compliance Thesis\dataset\dental_clinic\arcIFC.RVT;;;9;;;;
+11;C:\Users\ritaMZ\OneDrive - TUM\MasterThesis\Scene2Compliance Thesis\dataset\dental_clinic\arcIFC.RVT;;;2;;;;
