@@ -1,17 +1,22 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
+import sys
+from pathlib import Path
+
+if __package__ is None or __package__ == "":
+    sys.path.append(str(Path(__file__).resolve().parents[1]))
 import random
 import re
 from typing import Dict, List, Optional, Sequence, Tuple
 
 try:
-    from utils.data_model import SceneRecord, TemplateConfig
+    from utils.data_access_layer.data_model import SceneRecord, TemplateConfig
 except ImportError:
-    from backend.utils.data_access_layer.data_model import SceneRecord, TemplateConfig
+    from data_access_layer.data_model import SceneRecord, TemplateConfig
 try:
-    from utils.data_parsers import _extract_placeholders, _normalize_key, parse_multi_view_dimensions, parse_viewpoint_text
+    from utils.data_access_layer.data_parsers import _extract_placeholders, _normalize_key, parse_multi_view_dimensions, parse_viewpoint_text
 except ImportError:
-    from backend.utils.data_access_layer.data_parsers import _extract_placeholders, _normalize_key, parse_multi_view_dimensions, parse_viewpoint_text
+    from data_access_layer.data_parsers import _extract_placeholders, _normalize_key, parse_multi_view_dimensions, parse_viewpoint_text
 
 ROUTE_STATIC = "STATIC"
 ROUTE_OBJ_BOOL = "OBJ_BOOL"

@@ -18,7 +18,7 @@ SUBCATEGORY_MAPPING = {
 
 # ---------- Schema utilities ----------
 
-def add_correct_answer_column(cursor):
+def add_ground_truth_answer_column(cursor):
     try:
         cursor.execute(
             "ALTER TABLE generated_questions ADD COLUMN ground_truth_answer TEXT"
@@ -146,7 +146,7 @@ def main():
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
 
-    add_correct_answer_column(cursor)
+    add_ground_truth_answer_column(cursor)
 
     update_boolean_answers(cursor)
     update_multichoice_main_categories(cursor)
@@ -155,7 +155,7 @@ def main():
     conn.commit()
     conn.close()
 
-    print("✔ correct_answer successfully generated")
+    print("✔ ground_truth_answer successfully generated")
 
 
 if __name__ == "__main__":

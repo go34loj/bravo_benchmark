@@ -8,12 +8,10 @@ from typing import Optional
 import pandas as pd
 
 
-DEFAULT_DATASET_DIR = Path(
-    r"C:\Users\ritaMZ\WebstormProjects\thesis\backend\notebooks\dataset"
-)
-DEFAULT_DB_PATH = Path(
-    r"C:\Users\ritaMZ\WebstormProjects\thesis\backend\unified_database.db"
-)
+SCRIPT_DIR = Path(__file__).resolve().parent
+REPO_ROOT = SCRIPT_DIR.parents[2]
+DEFAULT_DATASET_DIR = REPO_ROOT / "dataset"
+DEFAULT_DB_PATH = REPO_ROOT / "scripts" / "unified_database.db"
 
 DB_TABLES = [
     "generated_compliance_questions",
@@ -214,7 +212,7 @@ def _print_db_template_stats(db_path: Path) -> None:
                 print(f"{table}: template_id column not found, skipping.")
                 continue
 
-            gt_col = _resolve_db_column(cursor, table, ["ground_truth_answer", "correct_answer"])
+            gt_col = _resolve_db_column(cursor, table, ["ground_truth_answer"])
             figure_col = None
             layer_col = None
             if table.lower() == "generated_questions":

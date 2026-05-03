@@ -1,5 +1,10 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
+import sys
+from pathlib import Path
+
+if __package__ is None or __package__ == "":
+    sys.path.append(str(Path(__file__).resolve().parents[1]))
 """
 Generate ground-truth boolean answers for generated_compliance_questions.
 
@@ -14,9 +19,9 @@ from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Sequence, Tuple
 
 try:
-    from utils.data_parsers import normalize_id, parse_requires_rule
+    from utils.data_access_layer.data_parsers import normalize_id, parse_requires_rule
 except ImportError:
-    from backend.utils.data_access_layer.data_parsers import normalize_id, parse_requires_rule
+    from data_access_layer.data_parsers import normalize_id, parse_requires_rule
 
 
 def _normalize_key(value: str) -> str:
@@ -195,7 +200,7 @@ def _build_parent_to_atomic_map(
 
 def _parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Generate correct_answer for generated_compliance_questions.",
+        description="Generate ground_truth_answer for generated_compliance_questions.",
     )
     default_db = Path(__file__).resolve().parent.parent / "unified_database.db"
     parser.add_argument(
@@ -256,7 +261,7 @@ def main() -> None:
             label="rules",
         )
 
-        _ensure_column(conn, questions_table, "correct_answer")
+        _ensure_column(conn, questions_table, "ground_truth_answer")
 
         not_compliant_map = _build_not_compliant_map(conn, scenes_table, scenes_cols)
         not_sufficient_map = _build_not_sufficient_map(conn, scenes_table, scenes_cols)
@@ -371,7 +376,7 @@ def main() -> None:
 
         if updates:
             conn.executemany(
-                f"UPDATE {questions_table} SET correct_answer = ? WHERE {id_col} = ?",
+                f"UPDATE {questions_table} SET ground_truth_answer = ? WHERE {id_col} = ?",
                 updates,
             )
             conn.commit()
@@ -417,3 +422,6 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+
+

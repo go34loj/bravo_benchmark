@@ -1,5 +1,10 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
+import sys
+from pathlib import Path
+
+if __package__ is None or __package__ == "":
+    sys.path.append(str(Path(__file__).resolve().parents[1]))
 """
 Utilities for Scene Understanding QA generation.
 
@@ -10,11 +15,11 @@ from typing import Dict, Iterable, List, Optional, Tuple
 import pandas as pd
 
 try:
-    from utils.data_model import SceneUnderstandingRecord, TemplateConfig
-    from utils.data_parsers import _normalize_key, _normalize_text, _resolve_column, parse_scene_relations
+    from utils.data_access_layer.data_model import SceneUnderstandingRecord, TemplateConfig
+    from utils.data_access_layer.data_parsers import _normalize_key, _normalize_text, _resolve_column, parse_scene_relations
 except ImportError:
-    from backend.utils.data_access_layer.data_model import SceneUnderstandingRecord, TemplateConfig
-    from backend.utils.data_access_layer.data_parsers import _normalize_key, _normalize_text, _resolve_column, parse_scene_relations
+    from data_access_layer.data_model import SceneUnderstandingRecord, TemplateConfig
+    from data_access_layer.data_parsers import _normalize_key, _normalize_text, _resolve_column, parse_scene_relations
 
 
 CONNECTIVITY_CONTEXT = "connectivity flagging"
@@ -40,7 +45,7 @@ def generate_functional_grouping_rows(
     try:
         from utils.sc_underst_QA_func_group_gen import generate_functional_grouping_rows as _gen
     except ImportError:
-        from backend.utils.sc_underst_QA_func_group_gen import generate_functional_grouping_rows as _gen
+        from sc_underst_QA_func_group_gen import generate_functional_grouping_rows as _gen
     return _gen(
         templates_df=templates_df,
         scenes=scenes,
@@ -60,7 +65,7 @@ def generate_multiview_dimension_rows(
     try:
         from utils.scen_unders_OCR_QA_gen import generate_multiview_dimension_rows as _gen
     except ImportError:
-        from backend.utils.scen_unders_OCR_QA_gen import generate_multiview_dimension_rows as _gen
+        from scen_unders_OCR_QA_gen import generate_multiview_dimension_rows as _gen
     return _gen(
         templates_df=templates_df,
         viewpoint_df=viewpoint_df,

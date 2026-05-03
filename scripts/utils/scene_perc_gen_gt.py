@@ -1,5 +1,10 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
+import sys
+from pathlib import Path
+
+if __package__ is None or __package__ == "":
+    sys.path.append(str(Path(__file__).resolve().parents[1]))
 import argparse
 import random
 import re
@@ -8,11 +13,11 @@ from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Set, Tuple
 
 try:
-    from utils.data_model import TemplateConfig
+    from utils.data_access_layer.data_model import TemplateConfig
 except ImportError:
-    from backend.utils.data_access_layer.data_model import TemplateConfig
+    from data_access_layer.data_model import TemplateConfig
 try:
-    from utils.data_parsers import (
+    from utils.data_access_layer.data_parsers import (
         _clean_label,
         _clean_material_map,
         _normalize_key,
@@ -26,7 +31,7 @@ try:
         parse_viewpoint_text,
     )
 except ImportError:
-    from backend.utils.data_access_layer.data_parsers import (
+    from data_access_layer.data_parsers import (
         _clean_label,
         _clean_material_map,
         _normalize_key,
@@ -54,7 +59,7 @@ try:
         route_scene_perception_template,
     )
 except ImportError:
-    from backend.utils.scene_perc_router import (
+    from scene_perc_router import (
         ROUTE_FEATURE_BOOL,
         ROUTE_MATERIAL_COLOR_TEXTURE,
         ROUTE_OBJ_BOOL,

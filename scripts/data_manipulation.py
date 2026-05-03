@@ -1,11 +1,11 @@
-"""
+﻿"""
 Data manipulation script for VQA Rules Scenes Templates dataset.
 
 This script handles data transformations and linking between different CSV files.
 
 Usage:
     # Link ambiguous rules to templates
-    python backend/data_manipulation.py \
+    python scripts/data_manipulation.py \
         --templates "xx_xx_VQA_Rules_Scenes_Templates(templates).csv" \
         --rules "xx_xx_VQA_Rules_Scenes_Templates(Rules_sort).csv" \
         --output "templates_updated.csv"
@@ -23,14 +23,14 @@ from typing import Optional
 import pandas as pd
 
 try:
-    from backend.utils.data_access_layer.data_parsers import (
+    from utils.data_access_layer.data_parsers import (
         _normalize_scene_id,
         _resolve_column,
         format_template_id_list,
         parse_template_id_list,
     )
 except ImportError:
-    from data_parsers import (
+    from data_access_layer.data_parsers import (
         _normalize_scene_id,
         _resolve_column,
         format_template_id_list,
@@ -605,8 +605,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--scenes-dir",
         type=Path,
-        default=script_dir / "scenes",
-        help="Directory containing scene images (default: backend/scenes).",
+        default=script_dir.parent / "dataset" / "BIM_design_scenes",
+        help="Directory containing scene images (default: ../dataset/BIM_design_scenes).",
     )
     return parser.parse_args()
 
@@ -634,9 +634,10 @@ def main() -> None:
             add_text_recognition_templates_to_viewpoints(args.viewpoints, args.templates)
         print("\nOK Data manipulation completed successfully!")
     except Exception as e:
-        print(f"\n✗ Error during data manipulation: {e}")
+        print(f"\nError during data manipulation: {e}")
         raise
 
 
 if __name__ == "__main__":
     main()
+

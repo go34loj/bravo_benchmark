@@ -49,7 +49,7 @@ Answer ""yes"" or ""no"".";connectivity flagging;;;;Accuracy, F1 score, Validity
 Choose one: ";name adjacency/connectivity;;;;Accuracy, F1 score, Validity;;;"left of / right of / in front of / behind
 above / below / aligned with + comments for templates 18,19, 20";;;;
 17;1_2_2;scene_understanding;spatial_relations;bool;{correct_label};"Look at the attached image.
-Is {adjacent object/space} adjacent to the {object type/space} (ï¿½adjacencyï¿½ refers to direct proximity)?
+Is {adjacent object/space} adjacent to the {object type/space} (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".";adjacency flagging;;;;Accuracy, F1 score, Validity;;;"adjacency = ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 connectivity = ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ / ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½";;;;
@@ -57,7 +57,7 @@ connectivity = ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ / ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï
 How are {obj_a} and {obj_b} connected (""connectivity"" refers to the presence of a connection or reachability, which may involve intermediate elements)?
 Choose one: ""{option1}"", ""{option2}"", ""{option3}"", or ""not connected"".";connectivity naming;;;;Accuracy, F1 score, Validity;;;adjacent, connected through a door, separated by a wall, connected via corridor, not connected;;;;
 19;1_2_2;scene_understanding;spatial_relations;multichoice;{correct_option_index};"Look at the attached image.
-How are {space_a/obj_a} and {space_b/obj_b} adjacent (ï¿½adjacencyï¿½ refers to direct proximity)?
+How are {space_a/obj_a} and {space_b/obj_b} adjacent (""adjacency"" refers to direct proximity)?
 Choose one: ""{option1}"", ""{option2}"", ""{option3}"", or ""{option4}"".";adjacency naming;;;;Accuracy, F1 score, Validity;;;"directly connected through a door
 connected via an intermediate corridor
 connected through a staircase
@@ -188,9 +188,9 @@ Answer ""yes"" or ""no"".";parent rule(Does MLLM know what is ambiguity);;;;Accu
 34;2_3;rules_understanding;ambiguity;multichoice;{correct_option_index};"This regulation is ambiguous. Which main category of ambiguity does it belong to?
 
 Categories:
-1 ""Unintentional ambiguity ï¿½ Use of language"" appears because natural language is inherently imprecise.
-2 ""Unintentional ambiguity ï¿½ Tacit knowledge"" refers to the implicit, experience-based knowledge that is embedded in building requirements but is not fully written down, formalized, or explicitly stated. 
-3 ""Unintentional ambiguity ï¿½ ACC-specific"" Requirements in
+1 ""Unintentional ambiguity - Use of language"" appears because natural language is inherently imprecise.
+2 ""Unintentional ambiguity - Tacit knowledge"" refers to the implicit, experience-based knowledge that is embedded in building requirements but is not fully written down, formalized, or explicitly stated.
+3 ""Unintentional ambiguity - ACC-specific"" Requirements in
 this category, if taken out of the ACC context, are unambiguous
 and can be easily understood by humans without the possibility of
 other interpretations. They only become ambiguous because there
@@ -206,7 +206,7 @@ Write only the digit (1, 2, 3, or 4) and nothing else.";ambiguity main categorie
 35;2_3;rules_understanding;ambiguity;multichoice;{correct_option_index};"Consider the following rule. If this rule contains ambiguity, identify which sub-category it most closely belongs to.
 
 Sub-categories (choose one):
-1 - Vagueness: The rule uses imprecise or subjective terms (e.g., ï¿½sufficientï¿½, ï¿½adequateï¿½, ï¿½appropriately sizedï¿½), making the exact meaning unclear.
+1 - Vagueness: The rule uses imprecise or subjective terms (e.g., ""sufficient"", ""adequate"", ""appropriately sized""), making the exact meaning unclear.
 2 - Incompleteness: The rule lacks necessary information (conditions, thresholds, actors, quantities, etc), leading to multiple plausible interpretations.
 3 - Lexical ambiguity: A word or phrase has multiple distinct meanings, and the rule does not specify which meaning is intended.
 
@@ -279,7 +279,7 @@ Rule:
 
 Answer ""yes"" or ""no"".";;;;;Accuracy, F1 score, Validity;;;;;;;
 47;3_5;compliance_reasoning;reasoning;text;{short answer};Provide a brief explanation of your choice.  Limit your answer to 200-250 words.;after 2_2 or 2_3 was answered ;;;;Similarity, ROUGE-L, BLEU-2;;;;;;;
-48;3_5;compliance_reasoning;reasoning;text;{long answer};"Always output the decision as @YES or @NO at the very beginning (on a separate line), followed by a detailed step-by-step explanation of your choice based on the internal chain-of-thought-reasoning which led you to the final answer. Make the explanation thorough and logically coherent in the form of a numbered list, but avoid redundancy. Limit the explanation to about 500 words (approximately 750ï¿½850 tokens).
+48;3_5;compliance_reasoning;reasoning;text;{long answer};"Always output the decision as @YES or @NO at the very beginning (on a separate line), followed by a detailed step-by-step explanation of your choice based on the internal chain-of-thought-reasoning which led you to the final answer. Make the explanation thorough and logically coherent in the form of a numbered list, but avoid redundancy. Limit the explanation to about 500 words (approximately 750-850 tokens).
 
 Provide a detailed step-by-step explanation of your choice based on the internal chain-of-thought-reasoning which led you to the final answer. Describe each logical step that led you to this conclusion in the form of a numbered list.";after 3_1, 3_2, 3_3, 3_4 was answered correctly;;;;"Stepwise evaluation:Similarity, ROUGE-L, METEOR, LAVE?, Accuracy, Macro-averaged F1 score 
 

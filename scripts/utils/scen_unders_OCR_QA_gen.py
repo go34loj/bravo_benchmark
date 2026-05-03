@@ -1,5 +1,10 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
+import sys
+from pathlib import Path
+
+if __package__ is None or __package__ == "":
+    sys.path.append(str(Path(__file__).resolve().parents[1]))
 """
 MultiView Dimensions generation for Scene Understanding QA.
 """
@@ -11,11 +16,11 @@ from typing import Dict, List, Optional
 import pandas as pd
 
 try:
-    from utils.data_model import TemplateConfig
-    from utils.data_parsers import _normalize_text, _resolve_column, parse_multi_view_dimensions
+    from utils.data_access_layer.data_model import TemplateConfig
+    from utils.data_access_layer.data_parsers import _normalize_text, _resolve_column, parse_multi_view_dimensions
 except ImportError:
-    from backend.utils.data_access_layer.data_model import TemplateConfig
-    from backend.utils.data_access_layer.data_parsers import (
+    from data_access_layer.data_model import TemplateConfig
+    from utils.data_access_layer.data_parsers import (
         _normalize_text,
         _resolve_column,
         parse_multi_view_dimensions,

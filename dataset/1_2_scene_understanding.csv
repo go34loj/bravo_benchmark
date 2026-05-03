@@ -1,4 +1,4 @@
-generated_question_id,scene_id,file_path,template_id,layer_id,question_text,ground_truth_answer
+﻿generated_question_id,scene_id,file_path,template_id,layer_id,question_text,ground_truth_answer
 0,3,3 double flat.jpg,14,1_2_1,"Look at the attached image.
 Is guest bedroom directly connected to the child bedroom? For this task, ""direct connectivity"" means that the two elements are reachable from one another either directly or through at most one intermediate node.
 
@@ -620,815 +620,815 @@ Is dipc clean 2c12 directly connected to the dental waiting 1d49? For this task,
 
 Answer ""yes"" or ""no"".",no
 155,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is guest bedroom adjacent to the child bedroom (�adjacency� refers to direct proximity)?
+Is guest bedroom adjacent to the child bedroom (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 156,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is wc adjacent to the child bedroom (�adjacency� refers to direct proximity)?
+Is wc adjacent to the child bedroom (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 157,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is corridor adjacent to the child bedroom (�adjacency� refers to direct proximity)?
+Is corridor adjacent to the child bedroom (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 158,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is child bedroom adjacent to the wc (�adjacency� refers to direct proximity)?
+Is child bedroom adjacent to the wc (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 159,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is guest wc adjacent to the wc (�adjacency� refers to direct proximity)?
+Is guest wc adjacent to the wc (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 160,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is corridor adjacent to the wc (�adjacency� refers to direct proximity)?
+Is corridor adjacent to the wc (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 161,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is service duct adjacent to the wc (�adjacency� refers to direct proximity)?
+Is service duct adjacent to the wc (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 162,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is corridor adjacent to the guest bedroom (�adjacency� refers to direct proximity)?
+Is corridor adjacent to the guest bedroom (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 163,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is child bedroom adjacent to the guest bedroom (�adjacency� refers to direct proximity)?
+Is child bedroom adjacent to the guest bedroom (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 164,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is public zone adjacent to the guest bedroom (�adjacency� refers to direct proximity)?
+Is public zone adjacent to the guest bedroom (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 165,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is living room adjacent to the guest wc (�adjacency� refers to direct proximity)?
+Is living room adjacent to the guest wc (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 166,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is wc adjacent to the guest wc (�adjacency� refers to direct proximity)?
+Is wc adjacent to the guest wc (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 167,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is entrance area adjacent to the guest wc (�adjacency� refers to direct proximity)?
+Is entrance area adjacent to the guest wc (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 168,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is guest bedroom adjacent to the living room (�adjacency� refers to direct proximity)?
+Is guest bedroom adjacent to the living room (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 169,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is entrance area adjacent to the living room (�adjacency� refers to direct proximity)?
+Is entrance area adjacent to the living room (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 170,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is kitchen adjacent to the living room (�adjacency� refers to direct proximity)?
+Is kitchen adjacent to the living room (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 171,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is guest wc adjacent to the living room (�adjacency� refers to direct proximity)?
+Is guest wc adjacent to the living room (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 172,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is private zone adjacent to the living room (�adjacency� refers to direct proximity)?
+Is private zone adjacent to the living room (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 173,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is living room adjacent to the kitchen (�adjacency� refers to direct proximity)?
+Is living room adjacent to the kitchen (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 174,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is public zone adjacent to the private zone (�adjacency� refers to direct proximity)?
+Is public zone adjacent to the private zone (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 175,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is private zone adjacent to the public zone (�adjacency� refers to direct proximity)?
+Is private zone adjacent to the public zone (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 176,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is sink adjacent to the toilet (�adjacency� refers to direct proximity)?
+Is sink adjacent to the toilet (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 177,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is wall adjacent to the toilet (�adjacency� refers to direct proximity)?
+Is wall adjacent to the toilet (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 178,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is bath adjacent to the toilet (�adjacency� refers to direct proximity)?
+Is bath adjacent to the toilet (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 179,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is wall adjacent to the door (�adjacency� refers to direct proximity)?
+Is wall adjacent to the door (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 180,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is wall adjacent to the doorless portal (�adjacency� refers to direct proximity)?
+Is wall adjacent to the doorless portal (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 181,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is door adjacent to the doorless portal (�adjacency� refers to direct proximity)?
+Is door adjacent to the doorless portal (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 182,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is living room adjacent to the doorless portal (�adjacency� refers to direct proximity)?
+Is living room adjacent to the doorless portal (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 183,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is wall adjacent to the staircase (�adjacency� refers to direct proximity)?
+Is wall adjacent to the staircase (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 184,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is dining table adjacent to the staircase (�adjacency� refers to direct proximity)?
+Is dining table adjacent to the staircase (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 185,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is glazed curtain wall adjacent to the staircase (�adjacency� refers to direct proximity)?
+Is glazed curtain wall adjacent to the staircase (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 186,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is door adjacent to the staircase (�adjacency� refers to direct proximity)?
+Is door adjacent to the staircase (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 187,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is living room adjacent to the staircase (�adjacency� refers to direct proximity)?
+Is living room adjacent to the staircase (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 188,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is guest bedroom adjacent to the staircase (�adjacency� refers to direct proximity)?
+Is guest bedroom adjacent to the staircase (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 189,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is toilet adjacent to the bath (�adjacency� refers to direct proximity)?
+Is toilet adjacent to the bath (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 190,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is sink adjacent to the bath (�adjacency� refers to direct proximity)?
+Is sink adjacent to the bath (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 191,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is wall adjacent to the bath (�adjacency� refers to direct proximity)?
+Is wall adjacent to the bath (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 192,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is wall adjacent to the stove (�adjacency� refers to direct proximity)?
+Is wall adjacent to the stove (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 193,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is sink adjacent to the stove (�adjacency� refers to direct proximity)?
+Is sink adjacent to the stove (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 194,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is wall adjacent to the double bed (�adjacency� refers to direct proximity)?
+Is wall adjacent to the double bed (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 195,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is bedside table adjacent to the double bed (�adjacency� refers to direct proximity)?
+Is bedside table adjacent to the double bed (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 196,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is guest bedroom adjacent to the double bed (�adjacency� refers to direct proximity)?
+Is guest bedroom adjacent to the double bed (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 197,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is wardrobe adjacent to the double bed (�adjacency� refers to direct proximity)?
+Is wardrobe adjacent to the double bed (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 198,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is bedside tablewall adjacent to the single bed (�adjacency� refers to direct proximity)?
+Is bedside tablewall adjacent to the single bed (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 199,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is wardrobe adjacent to the single bed (�adjacency� refers to direct proximity)?
+Is wardrobe adjacent to the single bed (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 200,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is child bedroom adjacent to the single bed (�adjacency� refers to direct proximity)?
+Is child bedroom adjacent to the single bed (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 201,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is double bed adjacent to the bedside table (�adjacency� refers to direct proximity)?
+Is double bed adjacent to the bedside table (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 202,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is wall adjacent to the bedside table (�adjacency� refers to direct proximity)?
+Is wall adjacent to the bedside table (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 203,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is floor adjacent to the bedside table (�adjacency� refers to direct proximity)?
+Is floor adjacent to the bedside table (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 204,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is armchair adjacent to the coffee table (�adjacency� refers to direct proximity)?
+Is armchair adjacent to the coffee table (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 205,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is chair adjacent to the coffee table (�adjacency� refers to direct proximity)?
+Is chair adjacent to the coffee table (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 206,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is living room adjacent to the coffee table (�adjacency� refers to direct proximity)?
+Is living room adjacent to the coffee table (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 207,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is chair adjacent to the dining table (�adjacency� refers to direct proximity)?
+Is chair adjacent to the dining table (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 208,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is cabinet adjacent to the dining table (�adjacency� refers to direct proximity)?
+Is cabinet adjacent to the dining table (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 209,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is staircase adjacent to the dining table (�adjacency� refers to direct proximity)?
+Is staircase adjacent to the dining table (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 210,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is plates adjacent to the dining table (�adjacency� refers to direct proximity)?
+Is plates adjacent to the dining table (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 211,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is forks adjacent to the dining table (�adjacency� refers to direct proximity)?
+Is forks adjacent to the dining table (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 212,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is knifes adjacent to the dining table (�adjacency� refers to direct proximity)?
+Is knifes adjacent to the dining table (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 213,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is living room adjacent to the dining table (�adjacency� refers to direct proximity)?
+Is living room adjacent to the dining table (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 214,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is dining table adjacent to the plates (�adjacency� refers to direct proximity)?
+Is dining table adjacent to the plates (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 215,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is fork adjacent to the plates (�adjacency� refers to direct proximity)?
+Is fork adjacent to the plates (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 216,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is knife adjacent to the plates (�adjacency� refers to direct proximity)?
+Is knife adjacent to the plates (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 217,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is plates adjacent to the knife (�adjacency� refers to direct proximity)?
+Is plates adjacent to the knife (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 218,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is fork adjacent to the knife (�adjacency� refers to direct proximity)?
+Is fork adjacent to the knife (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 219,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is dining table adjacent to the knife (�adjacency� refers to direct proximity)?
+Is dining table adjacent to the knife (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 220,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is plates adjacent to the fork (�adjacency� refers to direct proximity)?
+Is plates adjacent to the fork (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 221,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is knife adjacent to the fork (�adjacency� refers to direct proximity)?
+Is knife adjacent to the fork (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 222,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is dining table adjacent to the fork (�adjacency� refers to direct proximity)?
+Is dining table adjacent to the fork (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 223,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is dining table adjacent to the chair (�adjacency� refers to direct proximity)?
+Is dining table adjacent to the chair (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 224,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is coffee table adjacent to the armchair (�adjacency� refers to direct proximity)?
+Is coffee table adjacent to the armchair (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 225,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is living room adjacent to the armchair (�adjacency� refers to direct proximity)?
+Is living room adjacent to the armchair (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 226,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is chair adjacent to the armchair (�adjacency� refers to direct proximity)?
+Is chair adjacent to the armchair (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 227,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is woman adjacent to the armchair (�adjacency� refers to direct proximity)?
+Is woman adjacent to the armchair (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 228,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is man adjacent to the armchair (�adjacency� refers to direct proximity)?
+Is man adjacent to the armchair (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 229,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is single bed adjacent to the wardrobe (�adjacency� refers to direct proximity)?
+Is single bed adjacent to the wardrobe (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 230,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is wall adjacent to the wardrobe (�adjacency� refers to direct proximity)?
+Is wall adjacent to the wardrobe (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 231,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is child bedroom adjacent to the wardrobe (�adjacency� refers to direct proximity)?
+Is child bedroom adjacent to the wardrobe (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 232,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is living room adjacent to the plant (�adjacency� refers to direct proximity)?
+Is living room adjacent to the plant (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 233,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is woman adjacent to the plant (�adjacency� refers to direct proximity)?
+Is woman adjacent to the plant (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 234,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is living room adjacent to the humans (�adjacency� refers to direct proximity)?
+Is living room adjacent to the humans (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 235,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is armchair adjacent to the humans (�adjacency� refers to direct proximity)?
+Is armchair adjacent to the humans (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 236,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is coffee table adjacent to the humans (�adjacency� refers to direct proximity)?
+Is coffee table adjacent to the humans (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 237,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is armchair adjacent to the reading human (�adjacency� refers to direct proximity)?
+Is armchair adjacent to the reading human (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 238,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is coffee table adjacent to the reading human (�adjacency� refers to direct proximity)?
+Is coffee table adjacent to the reading human (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 239,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is armchair adjacent to the human having a drink (�adjacency� refers to direct proximity)?
+Is armchair adjacent to the human having a drink (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 240,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is coffee table adjacent to the human having a drink (�adjacency� refers to direct proximity)?
+Is coffee table adjacent to the human having a drink (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 241,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is armchair adjacent to the man (�adjacency� refers to direct proximity)?
+Is armchair adjacent to the man (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 242,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is woman adjacent to the man (�adjacency� refers to direct proximity)?
+Is woman adjacent to the man (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 243,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is living room adjacent to the man (�adjacency� refers to direct proximity)?
+Is living room adjacent to the man (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 244,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is wall adjacent to the glazed curtain wall (�adjacency� refers to direct proximity)?
+Is wall adjacent to the glazed curtain wall (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 245,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is living room adjacent to the glazed curtain wall (�adjacency� refers to direct proximity)?
+Is living room adjacent to the glazed curtain wall (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 246,12,12 Cutout 5.jpg,17,1_2_2,"Look at the attached image.
-Is wall adjacent to the toilet (�adjacency� refers to direct proximity)?
+Is wall adjacent to the toilet (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 247,12,12 Cutout 5.jpg,17,1_2_2,"Look at the attached image.
-Is shower curtain adjacent to the toilet (�adjacency� refers to direct proximity)?
+Is shower curtain adjacent to the toilet (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 248,12,12 Cutout 5.jpg,17,1_2_2,"Look at the attached image.
-Is handrails adjacent to the toilet (�adjacency� refers to direct proximity)?
+Is handrails adjacent to the toilet (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 249,12,12 Cutout 5.jpg,17,1_2_2,"Look at the attached image.
-Is wall adjacent to the sink (�adjacency� refers to direct proximity)?
+Is wall adjacent to the sink (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 250,12,12 Cutout 5.jpg,17,1_2_2,"Look at the attached image.
-Is door adjacent to the sink (�adjacency� refers to direct proximity)?
+Is door adjacent to the sink (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 251,12,12 Cutout 5.jpg,17,1_2_2,"Look at the attached image.
-Is paper towel dispenser adjacent to the sink (�adjacency� refers to direct proximity)?
+Is paper towel dispenser adjacent to the sink (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 252,12,12 Cutout 5.jpg,17,1_2_2,"Look at the attached image.
-Is toilet pan or sluice adjacent to the shower trolley (�adjacency� refers to direct proximity)?
+Is toilet pan or sluice adjacent to the shower trolley (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 253,12,12 Cutout 5.jpg,17,1_2_2,"Look at the attached image.
-Is wall adjacent to the shower trolley (�adjacency� refers to direct proximity)?
+Is wall adjacent to the shower trolley (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 254,12,12 Cutout 5.jpg,17,1_2_2,"Look at the attached image.
-Is shower curtain adjacent to the shower trolley (�adjacency� refers to direct proximity)?
+Is shower curtain adjacent to the shower trolley (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 255,12,12 Cutout 5.jpg,17,1_2_2,"Look at the attached image.
-Is shower adjacent to the shower trolley (�adjacency� refers to direct proximity)?
+Is shower adjacent to the shower trolley (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 256,12,12 Cutout 5.jpg,17,1_2_2,"Look at the attached image.
-Is wall adjacent to the door (�adjacency� refers to direct proximity)?
+Is wall adjacent to the door (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 257,12,12 Cutout 5.jpg,17,1_2_2,"Look at the attached image.
-Is corridor adjacent to the door (�adjacency� refers to direct proximity)?
+Is corridor adjacent to the door (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 258,12,12 Cutout 5.jpg,17,1_2_2,"Look at the attached image.
-Is toilet adjacent to the floor (�adjacency� refers to direct proximity)?
+Is toilet adjacent to the floor (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 259,12,12 Cutout 5.jpg,17,1_2_2,"Look at the attached image.
-Is sink adjacent to the floor (�adjacency� refers to direct proximity)?
+Is sink adjacent to the floor (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 260,12,12 Cutout 5.jpg,17,1_2_2,"Look at the attached image.
-Is shower trolley adjacent to the floor (�adjacency� refers to direct proximity)?
+Is shower trolley adjacent to the floor (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 261,12,12 Cutout 5.jpg,17,1_2_2,"Look at the attached image.
-Is toilet pan or sluice adjacent to the floor (�adjacency� refers to direct proximity)?
+Is toilet pan or sluice adjacent to the floor (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 262,12,12 Cutout 5.jpg,17,1_2_2,"Look at the attached image.
-Is walls adjacent to the floor (�adjacency� refers to direct proximity)?
+Is walls adjacent to the floor (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",yes
 263,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is private zone adjacent to the guest wc (�adjacency� refers to direct proximity)?
+Is private zone adjacent to the guest wc (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 264,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is private zone adjacent to the kitchen (�adjacency� refers to direct proximity)?
+Is private zone adjacent to the kitchen (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 265,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is entrance area adjacent to the kitchen (�adjacency� refers to direct proximity)?
+Is entrance area adjacent to the kitchen (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 266,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is guest bedroom adjacent to the wc (�adjacency� refers to direct proximity)?
+Is guest bedroom adjacent to the wc (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 267,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is corridor adjacent to the guest wc (�adjacency� refers to direct proximity)?
+Is corridor adjacent to the guest wc (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 268,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is guestwc adjacent to the kitchen (�adjacency� refers to direct proximity)?
+Is guestwc adjacent to the kitchen (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 269,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is living room adjacent to the wc (�adjacency� refers to direct proximity)?
+Is living room adjacent to the wc (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 270,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is corridor adjacent to the kitchen (�adjacency� refers to direct proximity)?
+Is corridor adjacent to the kitchen (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 271,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is child bedroom adjacent to the living room (�adjacency� refers to direct proximity)?
+Is child bedroom adjacent to the living room (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 272,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is living room adjacent to the guest bedroom (�adjacency� refers to direct proximity)?
+Is living room adjacent to the guest bedroom (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 273,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is public zone adjacent to the wc (�adjacency� refers to direct proximity)?
+Is public zone adjacent to the wc (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 274,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is kitchen adjacent to the guest wc (�adjacency� refers to direct proximity)?
+Is kitchen adjacent to the guest wc (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 275,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is living room adjacent to the child bedroom (�adjacency� refers to direct proximity)?
+Is living room adjacent to the child bedroom (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 276,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is public zone adjacent to the child bedroom (�adjacency� refers to direct proximity)?
+Is public zone adjacent to the child bedroom (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 277,3,3 double flat.jpg,17,1_2_2,"Look at the attached image.
-Is wc adjacent to the guest bedroom (�adjacency� refers to direct proximity)?
+Is wc adjacent to the guest bedroom (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 278,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is gen. dent. dtr #8 2c06 adjacent to the hk 2c11 (�adjacency� refers to direct proximity)?
+Is gen. dent. dtr #8 2c06 adjacent to the hk 2c11 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 279,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is sec. office 2a03 adjacent to the dental surgeon office 2a04 (�adjacency� refers to direct proximity)?
+Is sec. office 2a03 adjacent to the dental surgeon office 2a04 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 280,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is corridor 2ac5 adjacent to the sec. office 2a03 (�adjacency� refers to direct proximity)?
+Is corridor 2ac5 adjacent to the sec. office 2a03 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 281,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is dipc decon 2c10 adjacent to the w. staff toilet 2c08 (�adjacency� refers to direct proximity)?
+Is dipc decon 2c10 adjacent to the w. staff toilet 2c08 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 282,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is gen. dent. dtr #8 2c06 adjacent to the w. staff toilet 2c08 (�adjacency� refers to direct proximity)?
+Is gen. dent. dtr #8 2c06 adjacent to the w. staff toilet 2c08 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 283,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is corridor 2ac2 adjacent to the touchdown base 2c01 (�adjacency� refers to direct proximity)?
+Is corridor 2ac2 adjacent to the touchdown base 2c01 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 284,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is corridor 2ac2 adjacent to the stair 2as1 (�adjacency� refers to direct proximity)?
+Is corridor 2ac2 adjacent to the stair 2as1 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 285,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is m. staff toilet 2c07 adjacent to the hk 2c11 (�adjacency� refers to direct proximity)?
+Is m. staff toilet 2c07 adjacent to the hk 2c11 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 286,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is corridor 2cc2 adjacent to the m. staff toilet 2c07 (�adjacency� refers to direct proximity)?
+Is corridor 2cc2 adjacent to the m. staff toilet 2c07 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 287,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is m. staff toilet 2c07 adjacent to the w. staff toilet 2c08 (�adjacency� refers to direct proximity)?
+Is m. staff toilet 2c07 adjacent to the w. staff toilet 2c08 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 288,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is corridor 2ac4 adjacent to the dental waiting 1d49 (�adjacency� refers to direct proximity)?
+Is corridor 2ac4 adjacent to the dental waiting 1d49 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 289,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is touchdown base 2c01 adjacent to the consult. 2c03 (�adjacency� refers to direct proximity)?
+Is touchdown base 2c01 adjacent to the consult. 2c03 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 290,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is gen. dent. dtr #6 2c02 adjacent to the consult. 2c03 (�adjacency� refers to direct proximity)?
+Is gen. dent. dtr #6 2c02 adjacent to the consult. 2c03 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 291,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is gen. dent. dtr #8 2c06 adjacent to the dipc decon 2c10 (�adjacency� refers to direct proximity)?
+Is gen. dent. dtr #8 2c06 adjacent to the dipc decon 2c10 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 292,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is corridor 2cc3 adjacent to the m. staff toilet 2c07 (�adjacency� refers to direct proximity)?
+Is corridor 2cc3 adjacent to the m. staff toilet 2c07 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 293,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is corridor 2ac4 adjacent to the sec. office 2a03 (�adjacency� refers to direct proximity)?
+Is corridor 2ac4 adjacent to the sec. office 2a03 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 294,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is corridor 2cc2 adjacent to the touchdown base 2c01 (�adjacency� refers to direct proximity)?
+Is corridor 2cc2 adjacent to the touchdown base 2c01 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 295,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is super office 2a02 adjacent to the sec. office 2a03 (�adjacency� refers to direct proximity)?
+Is super office 2a02 adjacent to the sec. office 2a03 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 296,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is corridor 2ac1 adjacent to the stair 2as1 (�adjacency� refers to direct proximity)?
+Is corridor 2ac1 adjacent to the stair 2as1 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 297,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is corridor 2cc1 adjacent to the w. staff toilet 2c08 (�adjacency� refers to direct proximity)?
+Is corridor 2cc1 adjacent to the w. staff toilet 2c08 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 298,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is corridor 2ac4 adjacent to the dental surgeon office 2a04 (�adjacency� refers to direct proximity)?
+Is corridor 2ac4 adjacent to the dental surgeon office 2a04 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 299,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is gen. dent. dtr #4 2a08 adjacent to the dental waiting 1d49 (�adjacency� refers to direct proximity)?
+Is gen. dent. dtr #4 2a08 adjacent to the dental waiting 1d49 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 300,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is oh dtr 3 2a07 adjacent to the dental waiting 1d49 (�adjacency� refers to direct proximity)?
+Is oh dtr 3 2a07 adjacent to the dental waiting 1d49 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 301,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is corridor 2cc4 adjacent to the gen. dent. dtr #9 2c09 (�adjacency� refers to direct proximity)?
+Is corridor 2cc4 adjacent to the gen. dent. dtr #9 2c09 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 302,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is admin 2a14 adjacent to the sec. office 2a03 (�adjacency� refers to direct proximity)?
+Is admin 2a14 adjacent to the sec. office 2a03 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 303,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is dipc decon 2c10 adjacent to the m. staff toilet 2c07 (�adjacency� refers to direct proximity)?
+Is dipc decon 2c10 adjacent to the m. staff toilet 2c07 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 304,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is gen. dent. dtr #8 2c06 adjacent to the m. staff toilet 2c07 (�adjacency� refers to direct proximity)?
+Is gen. dent. dtr #8 2c06 adjacent to the m. staff toilet 2c07 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 305,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is corridor 1d45 adjacent to the consult. 2c03 (�adjacency� refers to direct proximity)?
+Is corridor 1d45 adjacent to the consult. 2c03 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 306,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is corridor 2cc1 adjacent to the dipc decon 2c10 (�adjacency� refers to direct proximity)?
+Is corridor 2cc1 adjacent to the dipc decon 2c10 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 307,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is jan.cl. 2c05 adjacent to the consult. 2c03 (�adjacency� refers to direct proximity)?
+Is jan.cl. 2c05 adjacent to the consult. 2c03 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 308,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is hk 2c11 adjacent to the m. staff toilet 2c07 (�adjacency� refers to direct proximity)?
+Is hk 2c11 adjacent to the m. staff toilet 2c07 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 309,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is dental waiting 1d44 adjacent to the stair 2as1 (�adjacency� refers to direct proximity)?
+Is dental waiting 1d44 adjacent to the stair 2as1 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 310,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is corridor 2cc4 adjacent to the hk 2c11 (�adjacency� refers to direct proximity)?
+Is corridor 2cc4 adjacent to the hk 2c11 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 311,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is corridor 2cc3 adjacent to the hk 2c11 (�adjacency� refers to direct proximity)?
+Is corridor 2cc3 adjacent to the hk 2c11 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 312,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is gen. dent. dtr #9 2c09 adjacent to the m. staff toilet 2c07 (�adjacency� refers to direct proximity)?
+Is gen. dent. dtr #9 2c09 adjacent to the m. staff toilet 2c07 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 313,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is touchdown base 1d54 adjacent to the dental waiting 1d49 (�adjacency� refers to direct proximity)?
+Is touchdown base 1d54 adjacent to the dental waiting 1d49 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 314,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is corridor 2cc4 adjacent to the w. staff toilet 2c08 (�adjacency� refers to direct proximity)?
+Is corridor 2cc4 adjacent to the w. staff toilet 2c08 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 315,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is corridor 2cc3 adjacent to the w. staff toilet 2c08 (�adjacency� refers to direct proximity)?
+Is corridor 2cc3 adjacent to the w. staff toilet 2c08 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 316,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is lounge 2cc22 adjacent to the w. staff toilet 2c08 (�adjacency� refers to direct proximity)?
+Is lounge 2cc22 adjacent to the w. staff toilet 2c08 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 317,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is x-ray alcove 2a12-a adjacent to the dental waiting 1d49 (�adjacency� refers to direct proximity)?
+Is x-ray alcove 2a12-a adjacent to the dental waiting 1d49 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 318,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is corridor 2cc3 adjacent to the consult. 2c03 (�adjacency� refers to direct proximity)?
+Is corridor 2cc3 adjacent to the consult. 2c03 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 319,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is corridor 2cc4 adjacent to the dipc decon 2c10 (�adjacency� refers to direct proximity)?
+Is corridor 2cc4 adjacent to the dipc decon 2c10 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 320,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is corridor 2cc3 adjacent to the dipc decon 2c10 (�adjacency� refers to direct proximity)?
+Is corridor 2cc3 adjacent to the dipc decon 2c10 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 321,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is corridor 2ac2 adjacent to the dental waiting 1d49 (�adjacency� refers to direct proximity)?
+Is corridor 2ac2 adjacent to the dental waiting 1d49 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 322,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is corridor 1d45 adjacent to the touchdown base 2c01 (�adjacency� refers to direct proximity)?
+Is corridor 1d45 adjacent to the touchdown base 2c01 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 323,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is corridor 2cc5 adjacent to the hk 2c11 (�adjacency� refers to direct proximity)?
+Is corridor 2cc5 adjacent to the hk 2c11 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 324,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is corridor 2cc1 adjacent to the gen. dent. dtr #9 2c09 (�adjacency� refers to direct proximity)?
+Is corridor 2cc1 adjacent to the gen. dent. dtr #9 2c09 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 325,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is dipc clean 2c12 adjacent to the hk 2c11 (�adjacency� refers to direct proximity)?
+Is dipc clean 2c12 adjacent to the hk 2c11 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 326,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is deep decon 2c10 adjacent to the gen. dent. dtr #9 2c09 (�adjacency� refers to direct proximity)?
+Is deep decon 2c10 adjacent to the gen. dent. dtr #9 2c09 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 327,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is gen. dent. dtr #7 2c04 adjacent to the consult. 2c03 (�adjacency� refers to direct proximity)?
+Is gen. dent. dtr #7 2c04 adjacent to the consult. 2c03 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 328,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is jan.cl. 2c05 adjacent to the touchdown base 2c01 (�adjacency� refers to direct proximity)?
+Is jan.cl. 2c05 adjacent to the touchdown base 2c01 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 329,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is gen. dent. dtr #9 2c09 adjacent to the hk 2c11 (�adjacency� refers to direct proximity)?
+Is gen. dent. dtr #9 2c09 adjacent to the hk 2c11 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 330,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is hk 2c11 adjacent to the w. staff toilet 2c08 (�adjacency� refers to direct proximity)?
+Is hk 2c11 adjacent to the w. staff toilet 2c08 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 331,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is gen. dent. dtr #9 2c09 adjacent to the w. staff toilet 2c08 (�adjacency� refers to direct proximity)?
+Is gen. dent. dtr #9 2c09 adjacent to the w. staff toilet 2c08 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 332,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is corridor 2cc4 adjacent to the m. staff toilet 2c07 (�adjacency� refers to direct proximity)?
+Is corridor 2cc4 adjacent to the m. staff toilet 2c07 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 333,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is oh dtr #1 2a05 adjacent to the sec. office 2a03 (�adjacency� refers to direct proximity)?
+Is oh dtr #1 2a05 adjacent to the sec. office 2a03 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 334,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is corridor 2cc1 adjacent to the hk 2c11 (�adjacency� refers to direct proximity)?
+Is corridor 2cc1 adjacent to the hk 2c11 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 335,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is corridor 2cc2 adjacent to the dental waiting 1d49 (�adjacency� refers to direct proximity)?
+Is corridor 2cc2 adjacent to the dental waiting 1d49 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 336,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is corridor 1d57 adjacent to the dental waiting 1d49 (�adjacency� refers to direct proximity)?
+Is corridor 1d57 adjacent to the dental waiting 1d49 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 337,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is corridor 2cc2 adjacent to the gen. dent. dtr #9 2c09 (�adjacency� refers to direct proximity)?
+Is corridor 2cc2 adjacent to the gen. dent. dtr #9 2c09 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 338,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is oh dtr 2 2a06 adjacent to the dental waiting 1d49 (�adjacency� refers to direct proximity)?
+Is oh dtr 2 2a06 adjacent to the dental waiting 1d49 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 339,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is m. staff toilet 2c07 adjacent to the dipc decon 2c10 (�adjacency� refers to direct proximity)?
+Is m. staff toilet 2c07 adjacent to the dipc decon 2c10 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 340,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is hk 2c11 adjacent to the dipc decon 2c10 (�adjacency� refers to direct proximity)?
+Is hk 2c11 adjacent to the dipc decon 2c10 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 341,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is corridor 2cc3 adjacent to the gen. dent. dtr #9 2c09 (�adjacency� refers to direct proximity)?
+Is corridor 2cc3 adjacent to the gen. dent. dtr #9 2c09 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 342,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is gen. dent. dtr #5 2a09 adjacent to the dental waiting 1d49 (�adjacency� refers to direct proximity)?
+Is gen. dent. dtr #5 2a09 adjacent to the dental waiting 1d49 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 343,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is corridor 2cc3 adjacent to the touchdown base 2c01 (�adjacency� refers to direct proximity)?
+Is corridor 2cc3 adjacent to the touchdown base 2c01 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 344,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is gen. dent. dtr #9 2c09 adjacent to the dipc decon 2c10 (�adjacency� refers to direct proximity)?
+Is gen. dent. dtr #9 2c09 adjacent to the dipc decon 2c10 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 345,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is dental waiting adjacent to the touchdown base 2c01 (�adjacency� refers to direct proximity)?
+Is dental waiting adjacent to the touchdown base 2c01 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 346,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is library/conf. room 2a01 adjacent to the sec. office 2a03 (�adjacency� refers to direct proximity)?
+Is library/conf. room 2a01 adjacent to the sec. office 2a03 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 347,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is super office 2a02 adjacent to the dental surgeon office 2a04 (�adjacency� refers to direct proximity)?
+Is super office 2a02 adjacent to the dental surgeon office 2a04 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 348,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is gen. dent. dtr #7 2c04 adjacent to the touchdown base 2c01 (�adjacency� refers to direct proximity)?
+Is gen. dent. dtr #7 2c04 adjacent to the touchdown base 2c01 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 349,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is gen. dent. dtr #8 2c06 adjacent to the gen. dent. dtr #9 2c09 (�adjacency� refers to direct proximity)?
+Is gen. dent. dtr #8 2c06 adjacent to the gen. dent. dtr #9 2c09 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 350,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is gen. dent. dtr #6 2c02 adjacent to the touchdown base 2c01 (�adjacency� refers to direct proximity)?
+Is gen. dent. dtr #6 2c02 adjacent to the touchdown base 2c01 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 351,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is corridor 2cc2 adjacent to the consult. 2c03 (�adjacency� refers to direct proximity)?
+Is corridor 2cc2 adjacent to the consult. 2c03 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 352,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is dental surgeon office 2a04 adjacent to the sec. office 2a03 (�adjacency� refers to direct proximity)?
+Is dental surgeon office 2a04 adjacent to the sec. office 2a03 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 353,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is consult. 2c03 adjacent to the touchdown base 2c01 (�adjacency� refers to direct proximity)?
+Is consult. 2c03 adjacent to the touchdown base 2c01 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 354,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is m. staff toilet 2c07 adjacent to the gen. dent. dtr #9 2c09 (�adjacency� refers to direct proximity)?
+Is m. staff toilet 2c07 adjacent to the gen. dent. dtr #9 2c09 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 355,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is hk 2c11 adjacent to the gen. dent. dtr #9 2c09 (�adjacency� refers to direct proximity)?
+Is hk 2c11 adjacent to the gen. dent. dtr #9 2c09 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 356,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is corridor 2cc1 adjacent to the m. staff toilet 2c07 (�adjacency� refers to direct proximity)?
+Is corridor 2cc1 adjacent to the m. staff toilet 2c07 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 357,22,22 Cutout 9 - Compositional view.jpg,17,1_2_2,"Look at the attached image.
-Is dipc decon 2c10 adjacent to the hk 2c11 (�adjacency� refers to direct proximity)?
+Is dipc decon 2c10 adjacent to the hk 2c11 (""adjacency"" refers to direct proximity)?
 
 Answer ""yes"" or ""no"".",no
 358,3,3 double flat.jpg,23,1_2_3,"The attached image shows private zone.
@@ -2216,3 +2216,4 @@ Example:
   ""height"": { ""value"": 750, ""unit"": ""mm"", ""source_view"": ""elevation"" },
   ""depth"": null
 }","{""distance from floor to the lowest handrail mounting"":{""value"":580,""unit"":""mm"",""source_view"":""section 1""},""height"":{""value"":1125,""unit"":""mm"",""source_view"":""section 1""},""distance from the nearest wall to the centerline of the handrail"":{""value"":495,""unit"":""mm"",""source_view"":""section 2""}}"
+

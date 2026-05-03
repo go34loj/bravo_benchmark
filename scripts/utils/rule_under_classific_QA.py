@@ -1,5 +1,10 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
+import sys
+from pathlib import Path
+
+if __package__ is None or __package__ == "":
+    sys.path.append(str(Path(__file__).resolve().parents[1]))
 import argparse
 import sqlite3
 from pathlib import Path
@@ -8,18 +13,18 @@ from typing import Dict, List, Optional, Tuple
 import pandas as pd
 
 try:
-    from utils.data_parsers import detect_rule_text_placeholder, normalize_id, _resolve_column, parse_requires_rule
+    from utils.data_access_layer.data_parsers import detect_rule_text_placeholder, normalize_id, _resolve_column, parse_requires_rule
 except ImportError:
-    from backend.utils.data_access_layer.data_parsers import (
+    from data_access_layer.data_parsers import (
         detect_rule_text_placeholder,
         normalize_id,
         _resolve_column,
         parse_requires_rule,
     )
 try:
-    from utils.file_operations import load_csv
+    from utils.data_access_layer.file_operations import load_csv
 except ImportError:
-    from backend.utils.data_access_layer.file_operations import load_csv
+    from data_access_layer.file_operations import load_csv
 
 TEMPLATE_COLUMNS_TO_KEEP = (
     "template_id",
@@ -826,7 +831,7 @@ def parse_args() -> argparse.Namespace:
         "--db",
         type=Path,
         default=default_db,
-        help="Path to unified_database.db (default: backend/unified_database.db)",
+        help="Path to unified_database.db (default: scripts/unified_database.db)",
     )
     parser.add_argument(
         "--csv",
@@ -867,3 +872,6 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+
+

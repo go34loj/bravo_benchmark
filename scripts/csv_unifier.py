@@ -1,4 +1,4 @@
-"""
+﻿"""
 Generates questions by injecting rule text into templates.
 """
 
@@ -24,8 +24,8 @@ from utils.scene_underst_QA_gen import (
     generate_multiview_dimension_rows,
     load_scene_understanding_scenes,
 )
-from backend.utils.data_access_layer.database_utils import print_database_summary
-from backend.utils.data_access_layer.file_operations import detect_csv_files, load_csv
+from utils.data_access_layer.database_utils import print_database_summary
+from utils.data_access_layer.file_operations import detect_csv_files, load_csv
 from utils.scene_perc_gen_gt import update_ground_truth as update_scene_perc_ground_truth
 from utils.database_schema import ensure_schema, setup_connection, validate_integrity
 
@@ -72,9 +72,11 @@ def _prepare_df_for_table(df: pd.DataFrame) -> pd.DataFrame:
 
 def _ensure_table_columns(conn, table_name: str, columns: list[str]) -> None:
     info = conn.execute(f'PRAGMA table_info({_quote_ident(table_name)})').fetchall()
-    existing = {row[1] for row in info}
+    existing = {str(row[1]) for row in info}
+    existing_norm = {name.strip().lower() for name in existing}
     for col in columns:
-        if col in existing:
+        col_norm = str(col).strip().lower()
+        if col in existing or col_norm in existing_norm:
             continue
         col_type = "INTEGER" if col == "generated_question_id" else "TEXT"
         conn.execute(f'ALTER TABLE {_quote_ident(table_name)} ADD COLUMN {_quote_ident(col)} {col_type}')
@@ -226,6 +228,29 @@ def create_database(
 
             if run_compliance_reasoning:
                 print("\nGenerating compliance reasoning questions...")
+                _ensure_table_columns(
+                    conn,
+                    "generated_compliance_questions",
+                    [
+                        "generated_question_id",
+                        "scene_id",
+                        "file_path",
+                        "template_id",
+                        "question_text",
+                        "rule_id",
+                        "rule_text_atomic_used",
+                        "parent_rule_id",
+                        "parent_rule_text_used",
+                        "classification",
+                        "ambiguity",
+                        "classification_parent",
+                        "rule_figure_required",
+                        "rule_figure_id",
+                        "figure_path",
+                        "ground_truth_answer",
+                        "answer_type",
+                    ],
+                )
                 compliance_count = generate_compliance_questions(
                     conn=conn,
                     table_name="generated_compliance_questions",
@@ -285,7 +310,7 @@ def parse_args() -> argparse.Namespace:
         "--config",
         type=Path,
         default=script_dir / "config.yaml",
-        help="Path to backend YAML config (default: backend/config.yaml).",
+        help="Path to pipeline YAML config (default: scripts/config.yaml).",
     )
     parser.add_argument(
         "--templates",
@@ -300,16 +325,18 @@ def parse_args() -> argparse.Namespace:
         help="Path to rules CSV file. Default: auto-detect latest *Rules_sort*.csv",
     )
     parser.add_argument(
+        "--scripts-dir",
         "--backend-dir",
+        dest="backend_dir",
         type=Path,
         default=script_dir,
-        help="Backend directory to search for CSV files (default: script directory).",
+        help="Scripts directory to search for CSV files (default: script directory).",
     )
     parser.add_argument(
         "--output-sqlite",
         type=Path,
         default=script_dir / "unified_database.db",
-        help="Output SQLite database path (default: backend/unified_database.db).",
+        help="Output SQLite database path (default: scripts/unified_database.db).",
     )
     parser.add_argument(
         "--figures",
@@ -365,13 +392,17 @@ def main() -> None:
     args = parse_args()
     config = load_yaml_config(args.config)
 
+    scripts_cfg = config.get("scripts", {})
     backend_cfg = config.get("backend", {})
+    pipeline_cfg = scripts_cfg if scripts_cfg else backend_cfg
     inputs_cfg = config.get("inputs", {})
     execution_cfg = config.get("execution", {})
     randomness_cfg = config.get("randomness", {})
 
-    cfg_base_dir = _cfg_path(Path(__file__).parent, backend_cfg.get("base_dir")) if backend_cfg else None
+    cfg_base_dir = _cfg_path(Path(__file__).parent, pipeline_cfg.get("base_dir")) if pipeline_cfg else None
     cfg_backend_dir = cfg_base_dir if cfg_base_dir else args.backend_dir
+    cfg_scenes_dir = _cfg_path(cfg_backend_dir, pipeline_cfg.get("scenes_dir")) if pipeline_cfg else None
+    scenes_dir = cfg_scenes_dir if cfg_scenes_dir else (cfg_backend_dir / "scenes")
 
     csv_files = detect_csv_files(cfg_backend_dir)
 
@@ -385,7 +416,7 @@ def main() -> None:
             templates_path = csv_files["templates"]
         else:
             print(f"Templates not found in {args.backend_dir}")
-            print("Use --templates or add templates_updated.csv to backend directory")
+            print("Use --templates or add templates_updated.csv to scripts directory")
             return
 
     if args.rules:
@@ -398,7 +429,7 @@ def main() -> None:
             rules_path = csv_files["rules"]
         else:
             print(f"Rules not found in {args.backend_dir}")
-            print("Use --rules or add *Rules_sort*.csv to backend directory")
+            print("Use --rules or add *Rules_sort*.csv to scripts directory")
             return
 
     if args.figures:
@@ -433,7 +464,7 @@ def main() -> None:
 
     output_sqlite = args.output_sqlite
     if output_sqlite == Path(__file__).parent / "unified_database.db":
-        cfg_output = _cfg_path(cfg_backend_dir, backend_cfg.get("output_sqlite")) if backend_cfg else None
+        cfg_output = _cfg_path(cfg_backend_dir, pipeline_cfg.get("output_sqlite")) if pipeline_cfg else None
         if cfg_output:
             output_sqlite = cfg_output
 
@@ -459,7 +490,7 @@ def main() -> None:
         output_sqlite=output_sqlite,
         figures_path=figures_path,
         scene_scenes_path=scene_scenes_path,
-        scenes_dir=cfg_backend_dir / "scenes",
+        scenes_dir=scenes_dir,
         cutouts_path=cutouts_path,
         run_scene_perception=run_scene_perception,
         run_scene_understanding=run_scene_understanding,
@@ -473,3 +504,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

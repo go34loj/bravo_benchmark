@@ -1,5 +1,10 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
+import sys
+from pathlib import Path
+
+if __package__ is None or __package__ == "":
+    sys.path.append(str(Path(__file__).resolve().parents[1]))
 import sqlite3
 from pathlib import Path
 from typing import Iterable, Sequence
@@ -123,13 +128,22 @@ GENERATED_TABLE_DDL: dict[str, str] = {
     "generated_compliance_questions": """
         CREATE TABLE IF NOT EXISTS generated_compliance_questions (
             generated_question_id INTEGER PRIMARY KEY,
-            template_id TEXT,
             scene_id TEXT,
-            rule_id TEXT,
-            parent_rule_id TEXT,
+            file_path TEXT,
+            template_id TEXT,
             question_text TEXT,
+            rule_id TEXT,
+            rule_text_atomic_used TEXT,
+            parent_rule_id TEXT,
+            parent_rule_text_used TEXT,
+            classification TEXT,
+            ambiguity TEXT,
+            classification_parent TEXT,
+            rule_figure_required TEXT,
+            rule_figure_id TEXT,
+            figure_path TEXT,
             answer_type TEXT,
-            correct_answer TEXT,
+            ground_truth_answer TEXT,
             FOREIGN KEY (template_id) REFERENCES templates(template_id),
             FOREIGN KEY (scene_id) REFERENCES viewpoint_scenes(scene_id),
             FOREIGN KEY (rule_id) REFERENCES rules(rule_id)
@@ -300,4 +314,5 @@ def _assert_pk_uniqueness(conn: sqlite3.Connection, table_name: str, pk_cols: It
 
 def _q(identifier: str) -> str:
     return '"' + identifier.replace('"', '""') + '"'
+
 

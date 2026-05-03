@@ -1,8 +1,8 @@
-# Dataset Contribution Guide
+﻿# Dataset Contribution Guide
 
-This file explains how to extend the dataset so the backend pipeline continues to work without code changes.
+This file explains how to extend the dataset so the scripts pipeline continues to work without code changes.
 
-Scope: `backend/` Dataset Generation Pipeline (`data_manipulation.py` + `csv_unifier.py`).
+Scope: `scripts/` Dataset Generation Pipeline (`data_manipulation.py` + `csv_unifier.py`).
 
 ## Table of Contents
 - [1) Quick workflow](#1-quick-workflow)
@@ -25,8 +25,8 @@ Scope: `backend/` Dataset Generation Pipeline (`data_manipulation.py` + `csv_uni
 ## 1) Quick workflow
 
 1. Update CSV source files (templates/rules/scenes/cutouts/figures).
-2. Put any new scene images into `backend/scenes/`. 
-3. Put any new normative figure image files into `backend/rule_figure/`.
+2. Put any new scene images into `dataset/BIM_design_scenes/`. 
+3. Put any new normative figure image files into `dataset/rule_figures/`.
 4. Run:
    - `python data_manipulation.py`
    - `python csv_unifier.py`
@@ -66,13 +66,13 @@ Required fields:
 - `scene_id` (unique)
 - `template_id` (list of applicable template IDs)
 - `rule_id` (list of atomic rule IDs used by scene/rule/compliance flows)
-- `file_path` (or let `data_manipulation.py` refresh it from `backend/scenes/`)
+- `file_path` (or let `data_manipulation.py` refresh it from `dataset/BIM_design_scenes/`)
 
 Optional but important fields:
 - `object_type`, `feature_name`, `material`, `text`, `multi-view_dimensions`, `space_naming`, `spatial relations`, `not compliant`, `not sufficient`, `cutout_id`
 
 Also add image file to:
-- `backend/scenes/` (filename should start with `scene_id` for automatic path mapping)
+- `dataset/BIM_design_scenes/` (filename should start with `scene_id` for automatic path mapping)
 
 ---
 
@@ -155,7 +155,7 @@ Purpose:
 - This CSV is used as GT lookup source in `notebooks/3_2_to_3_5_Stepwise_LLM_judge_Eval.ipynb`.
 - It is **not required** to build `unified_database.db`, but is required to keep evaluation/calibration assets up to date.
 
-Fields that are реально used by the notebook lookup:
+Fields that are СЂРµР°Р»СЊРЅРѕ used by the notebook lookup:
 - `ground_truth_answer`
 - `scene_id`
 - `parent_rule_id`
@@ -280,7 +280,7 @@ Based on `10_04_VQA_Rules_Scenes_Templates(viewpoint_scenes).CSV`, use the follo
     - `text={"Cutout 1"}`
     - `label with a leader/room tag={room name:TOILET, room label:1D26}`
     - `label with a leader/layer tag={facade flashing:ventilated facade panels, load-bearing structure:[reinforced concrete structure, 250 mm]}`
-      - Layer Tag is used to represent finish-layer compositions (e.g., wall, façade, floor, or ceiling build-ups). Each entry is written as `layer meaning: layer name/material`, and entries are separated by commas. If a layer name itself contains commas, the full layer name must be enclosed in square brackets `[...]` so it is treated as a single value during parsing.
+      - Layer Tag is used to represent finish-layer compositions (e.g., wall, faГ§ade, floor, or ceiling build-ups). Each entry is written as `layer meaning: layer name/material`, and entries are separated by commas. If a layer name itself contains commas, the full layer name must be enclosed in square brackets `[...]` so it is treated as a single value during parsing.
     - `door={dimension:975}`
 
 - `multi-view_dimensions`:
@@ -320,8 +320,9 @@ Formatting recommendations:
 - New rules referenced in templates/scenes exist in rules CSV.
 - New figure IDs referenced by rules exist in figure CSV.
 - If rule-understanding RASE templates are used, RASE CSV rows are updated and contain valid `parent_rule_id` / `rule_id` / `RASE` / `applies_to_rule`.
-- New scene image files exist in `backend/scenes/`.
+- New scene image files exist in `dataset/BIM_design_scenes/`.
 - Pipeline runs end-to-end:
   - `python data_manipulation.py`
   - `python csv_unifier.py`
 - DB integrity check passes at the end of `csv_unifier.py`.
+

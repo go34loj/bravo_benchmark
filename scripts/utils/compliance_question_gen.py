@@ -1,5 +1,10 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
+import sys
+from pathlib import Path
+
+if __package__ is None or __package__ == "":
+    sys.path.append(str(Path(__file__).resolve().parents[1]))
 """
 Generate compliance_reasoning question instances from database.db.
 
@@ -14,7 +19,7 @@ from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Sequence, Tuple
 
 try:
-    from utils.data_parsers import (
+    from utils.data_access_layer.data_parsers import (
         detect_rule_text_placeholder,
         find_in_dict,
         normalize_id,
@@ -22,7 +27,7 @@ try:
         parse_template_id_list,
     )
 except ImportError:
-    from backend.utils.data_access_layer.data_parsers import (
+    from data_access_layer.data_parsers import (
         detect_rule_text_placeholder,
         find_in_dict,
         normalize_id,
@@ -156,10 +161,10 @@ def _resolve_atomic_rule(
 
     rule_figure_required = "yes" if _is_yes(matched_rule_data.get("figure_required")) else "no"
     rule_figure_id = matched_rule_data.get("figure_id", "").strip() if rule_figure_required == "yes" else ""
-    rule_figure_asset = ""
+    figure_path = ""
     if rule_figure_id:
         fig_norm, _, fig_orig = normalize_id(rule_figure_id)
-        rule_figure_asset = find_in_dict(figures, fig_norm, fig_orig) or ""
+        figure_path = find_in_dict(figures, fig_norm, fig_orig) or ""
 
     return {
         "rule_id": rule_orig,
@@ -168,7 +173,7 @@ def _resolve_atomic_rule(
         "ambiguity": matched_rule_data.get("ambiguity", ""),
         "rule_figure_required": rule_figure_required,
         "rule_figure_id": rule_figure_id,
-        "rule_figure_asset": rule_figure_asset,
+        "figure_path": figure_path,
     }
 
 
@@ -370,7 +375,7 @@ def _load_rule_figures(
     cols: Dict[str, Optional[str]],
 ) -> Dict[str, str]:
     figure_id_col = cols["figure_id"]
-    asset_col = cols.get("figure_asset")
+    asset_col = cols.get("figure_path")
 
     figures: Dict[str, str] = {}
     rows = conn.execute(f"SELECT * FROM {table_name}").fetchall()
@@ -419,7 +424,8 @@ def _create_output_table(conn: sqlite3.Connection, table_name: str) -> None:
             classification_parent TEXT,
             rule_figure_required TEXT,
             rule_figure_id TEXT,
-            rule_figure_asset TEXT,
+            figure_path TEXT,
+            ground_truth_answer TEXT,
             answer_type TEXT
         )
         """
@@ -433,7 +439,8 @@ def _create_output_table(conn: sqlite3.Connection, table_name: str) -> None:
         "classification_parent",
         "rule_figure_required",
         "rule_figure_id",
-        "rule_figure_asset",
+        "figure_path",
+        "ground_truth_answer",
     ):
         if col_name not in existing_cols:
             conn.execute(f"ALTER TABLE {table_name} ADD COLUMN {col_name} TEXT")
@@ -444,6 +451,12 @@ def _write_questions(
     table_name: str,
     rows: Sequence[Dict[str, object]],
 ) -> None:
+    def _text_or_none(value: object) -> Optional[str]:
+        if value is None:
+            return None
+        text = str(value).strip()
+        return text if text else None
+
     conn.execute(f"DELETE FROM {table_name}")
     insert_sql = f"""
         INSERT INTO {table_name} (
@@ -461,27 +474,29 @@ def _write_questions(
             classification_parent,
             rule_figure_required,
             rule_figure_id,
-            rule_figure_asset,
+            figure_path,
+            ground_truth_answer,
             answer_type
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
     """
     payload = [
         (
             row["generated_question_id"],
-            row["scene_id"],
+            _text_or_none(row["scene_id"]),
             row["file_path"],
-            row["template_id"],
+            _text_or_none(row["template_id"]),
             row["question_text"],
-            row["rule_id"],
+            _text_or_none(row["rule_id"]),
             row["rule_text_atomic_used"],
-            row.get("parent_rule_id", ""),
+            _text_or_none(row.get("parent_rule_id", "")),
             row.get("parent_rule_text_used", ""),
             row.get("classification", ""),
             row.get("ambiguity", ""),
             row.get("classification_parent", ""),
             row.get("rule_figure_required", ""),
-            row.get("rule_figure_id", ""),
-            row.get("rule_figure_asset", ""),
+            _text_or_none(row.get("rule_figure_id", "")),
+            row.get("figure_path", ""),
+            row.get("ground_truth_answer", ""),
             row["answer_type"],
         )
         for row in rows
@@ -591,7 +606,7 @@ def generate_compliance_questions(
                 preferred_names=["rule_figures"],
                 required_groups=[
                     ("figure_id", ["figure_id"], True),
-                    ("figure_asset", ["file_path"], False),
+                    ("figure_path", ["file_path", "figure_path"], False),
                 ],
                 label="rule_figures",
             )
@@ -764,10 +779,10 @@ def generate_compliance_questions(
                                 if parent_figure_required == "yes"
                                 else ""
                             )
-                            parent_figure_asset = ""
+                            parent_figure_path = ""
                             if parent_figure_id:
                                 fig_norm, _, fig_orig = normalize_id(parent_figure_id)
-                                parent_figure_asset = find_in_dict(figures, fig_norm, fig_orig) or ""
+                                parent_figure_path = find_in_dict(figures, fig_norm, fig_orig) or ""
 
                             question_text = str(template_text).replace(
                                 placeholder, str(parent_rule_text).strip()
@@ -787,14 +802,15 @@ def generate_compliance_questions(
                                 "classification_parent": parent_rule_data.get("classification_parent", ""),
                                 "rule_figure_required": parent_figure_required,
                                 "rule_figure_id": parent_figure_id,
-                                "rule_figure_asset": parent_figure_asset,
+                                "figure_path": parent_figure_path,
+                                "ground_truth_answer": "",
                                 "answer_type": template.get("answer_type", "text"),
                             }
                             questions.append(question_row)
                             parent_questions_generated += 1
                             if (
                                 question_row.get("rule_figure_required") == "yes"
-                                and (question_row.get("rule_figure_id") or question_row.get("rule_figure_asset"))
+                                and (question_row.get("rule_figure_id") or question_row.get("figure_path"))
                             ):
                                 figures_attached += 1
                     continue
@@ -818,13 +834,14 @@ def generate_compliance_questions(
                         "classification_parent": "",
                         "rule_figure_required": resolved_rule.get("rule_figure_required", ""),
                         "rule_figure_id": resolved_rule.get("rule_figure_id", ""),
-                        "rule_figure_asset": resolved_rule.get("rule_figure_asset", ""),
+                        "figure_path": resolved_rule.get("figure_path", ""),
+                        "ground_truth_answer": "",
                         "answer_type": template.get("answer_type", "text"),
                     }
                     questions.append(question_row)
                     if (
                         question_row.get("rule_figure_required") == "yes"
-                        and (question_row.get("rule_figure_id") or question_row.get("rule_figure_asset"))
+                        and (question_row.get("rule_figure_id") or question_row.get("figure_path"))
                     ):
                         figures_attached += 1
                     if template_id == 39:
@@ -856,7 +873,8 @@ def generate_compliance_questions(
                             "classification_parent": "",
                             "rule_figure_required": resolved_rule.get("rule_figure_required", ""),
                             "rule_figure_id": resolved_rule.get("rule_figure_id", ""),
-                            "rule_figure_asset": resolved_rule.get("rule_figure_asset", ""),
+                            "figure_path": resolved_rule.get("figure_path", ""),
+                            "ground_truth_answer": "",
                             "answer_type": template.get("answer_type", "text"),
                         }
                         template39_negative_candidate_rows.append(question_row)
@@ -879,7 +897,7 @@ def generate_compliance_questions(
             questions.append(question_row)
             if (
                 question_row.get("rule_figure_required") == "yes"
-                and (question_row.get("rule_figure_id") or question_row.get("rule_figure_asset"))
+                and (question_row.get("rule_figure_id") or question_row.get("figure_path"))
             ):
                 figures_attached += 1
 
@@ -952,3 +970,6 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+
+

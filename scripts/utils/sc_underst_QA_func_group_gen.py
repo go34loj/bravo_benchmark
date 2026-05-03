@@ -1,5 +1,10 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
+import sys
+from pathlib import Path
+
+if __package__ is None or __package__ == "":
+    sys.path.append(str(Path(__file__).resolve().parents[1]))
 """
 Functional grouping generation for Scene Understanding QA.
 Separated to keep the main relation pipeline compact.
@@ -12,13 +17,13 @@ from typing import Dict, Iterable, List, Optional, Tuple
 import pandas as pd
 
 try:
-    from utils.data_model import SceneUnderstandingRecord, TemplateConfig
-    from utils.data_parsers import _resolve_column
+    from utils.data_access_layer.data_model import SceneUnderstandingRecord, TemplateConfig
+    from utils.data_access_layer.data_parsers import _resolve_column
     from utils.scene_underst_QA_gen import load_scene_understanding_templates
 except ImportError:
-    from backend.utils.data_access_layer.data_model import SceneUnderstandingRecord, TemplateConfig
-    from backend.utils.data_access_layer.data_parsers import _resolve_column
-    from backend.utils.scene_underst_QA_gen import load_scene_understanding_templates
+    from data_access_layer.data_model import SceneUnderstandingRecord, TemplateConfig
+    from utils.data_access_layer.data_parsers import _resolve_column
+    from utils.scene_underst_QA_gen import load_scene_understanding_templates
 
 
 FUNCTIONAL_GROUPING_CONTEXT = "functional grouping"
@@ -593,3 +598,6 @@ def _normalize_option_key(option_text: str) -> str:
     parts = [p.strip().lower() for p in str(option_text).split("+") if p.strip()]
     parts = sorted(set(parts))
     return " ".join(parts)
+
+
+

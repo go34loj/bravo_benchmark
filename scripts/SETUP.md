@@ -1,12 +1,12 @@
-# Dataset Generation Pipeline Setup
+﻿# Dataset Generation Pipeline Setup
 
-Compact setup for generating `backend/unified_database.db`.
+Compact setup for generating `scripts/unified_database.db`.
 
-## 1) Clone and open the backend folder
+## 1) Clone and open the scripts folder
 
 ```bash
 git clone <repo-url>
-cd <repo-name>/backend
+cd <repo-name>/scripts
 ```
 
 ## 2) Create and activate Conda environment
@@ -34,11 +34,11 @@ This updates `templates_updated.csv` and refreshes scene/template links.
 
 ## 5) (Optional) Review config
 
-Default config file: `backend/config.yaml`.
+Default config file: `scripts/config.yaml`.
 
 Typical settings:
 - `inputs`: CSV filenames/paths
-- `backend.output_sqlite`: output DB path
+- `scripts.output_sqlite`: output DB path
 - `execution`: enable/disable pipeline stages
 - GT auto-run flags:
   - `run_scene_perception_gt: true`
@@ -60,3 +60,4 @@ Use this only if GT flags are disabled in `config.yaml`:
 python utils/scene_perc_gen_gt.py --db unified_database.db
 python utils/compliance_bool_gt_gen.py --db unified_database.db --table-name generated_compliance_questions
 ```
+

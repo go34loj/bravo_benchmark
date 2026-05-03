@@ -1,5 +1,10 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
+import sys
+from pathlib import Path
+
+if __package__ is None or __package__ == "":
+    sys.path.append(str(Path(__file__).resolve().parents[1]))
 """
 Generate question instances for the Scene Perception part of the VQA dataset.
 
@@ -19,15 +24,15 @@ from typing import Dict, Iterable, List, Optional, Sequence, Tuple
 import pandas as pd
 
 try:
-    from utils.database_utils import print_database_summary, save_dataframe_to_db, setup_database
+    from utils.data_access_layer.database_utils import print_database_summary, save_dataframe_to_db, setup_database
 except ImportError:
-    from backend.utils.data_access_layer.database_utils import print_database_summary, save_dataframe_to_db, setup_database
+    from data_access_layer.database_utils import print_database_summary, save_dataframe_to_db, setup_database
 try:
-    from utils.data_model import SceneRecord, TemplateConfig
+    from utils.data_access_layer.data_model import SceneRecord, TemplateConfig
 except ImportError:
-    from backend.utils.data_access_layer.data_model import SceneRecord, TemplateConfig
+    from data_access_layer.data_model import SceneRecord, TemplateConfig
 try:
-    from utils.data_parsers import (
+    from utils.data_access_layer.data_parsers import (
         _clean_label,
         _clean_material_map,
         _normalize_key,
@@ -39,7 +44,7 @@ try:
         parse_template_id_list,
     )
 except ImportError:
-    from backend.utils.data_access_layer.data_parsers import (
+    from data_access_layer.data_parsers import (
         _clean_label,
         _clean_material_map,
         _normalize_key,
@@ -51,9 +56,9 @@ except ImportError:
         parse_template_id_list,
     )
 try:
-    from utils.file_operations import load_csv
+    from utils.data_access_layer.file_operations import load_csv
 except ImportError:
-    from backend.utils.data_access_layer.file_operations import load_csv
+    from data_access_layer.file_operations import load_csv
 try:
     from utils.scene_perc_router import (
         FEATURE_PLACEHOLDER,
@@ -79,7 +84,7 @@ try:
         route_scene_perception_template,
     )
 except ImportError:
-    from backend.utils.scene_perc_router import (
+    from scene_perc_router import (
         FEATURE_PLACEHOLDER,
         OBJECT_PLACEHOLDER,
         ROUTE_FEATURE_BOOL,
@@ -765,7 +770,7 @@ def parse_args() -> argparse.Namespace:
         "--negatives-per-scene-t1",
         type=int,
         default=None,
-        help="Ignored for template 1 (negatives are 40% of positives).",
+        help="Ignored for template 1 (negatives are 40%% of positives).",
     )
     parser.add_argument(
         "--positives-per-scene-t2",
@@ -777,7 +782,7 @@ def parse_args() -> argparse.Namespace:
         "--negatives-per-scene-t2",
         type=int,
         default=None,
-        help="Ignored for template 2 (negatives are 40% of positives).",
+        help="Ignored for template 2 (negatives are 40%% of positives).",
     )
     parser.add_argument("--seed", type=int, default=None, help="Random seed for reproducibility")
 

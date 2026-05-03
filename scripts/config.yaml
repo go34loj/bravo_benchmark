@@ -1,7 +1,7 @@
-backend:
+scripts:
   base_dir: .
   output_sqlite: unified_database.db
-  scenes_dir: scenes
+  scenes_dir: ../dataset/BIM_design_scenes
 
 inputs:
   templates_csv: 03_04_VQA_Rules_Scenes_Templates(templates).csv
@@ -28,4 +28,3 @@ execution:
 
 randomness:
   seed: null
-

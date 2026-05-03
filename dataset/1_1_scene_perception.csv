@@ -1118,9 +1118,4 @@ Answer with digits only.",454
 454,9,1_1_2,15,15 Cutout 6 - Compositional view.jpg,"The annotation in the attached view shows a dimension associated with basin (position height). What numeric value is written there?
 
 Answer with digits only.",915
-455,3,1_1_1,4,4 double flat.jpg,"Look at the highlighted region in the image. Does this region contain any objects? 
-Answer ""yes"" or ""no"" and list these objects or object.  Please flag if there is nothing highlighted.
-
-Sample positive answer: ""Yes, object 1, object 2, object 3 etc""
-Sample negative answer: ""no""
-Sample answer if no highlighted region present: ""nothing highlighted""",
+,,,,,,

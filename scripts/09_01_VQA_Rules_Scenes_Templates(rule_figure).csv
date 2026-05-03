@@ -1,5 +1,5 @@
-﻿figure_id;file_path;source_ref;caption;semantic_tags;
-1;"""C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure88.jpg""";HBN 00-02 Figure 88;"The drawing represents a top view of a semi-ambulant accessible toilet, showing required activity and equipment zones. At the center of the room, there is a shaded activity area, which provides space for movement with a walking stick or frame (900 mm wide). A waste bin and a luggage zones are also located here, partially overlapping with the activity area. At the back of the room, perpendicular to the transverse wall (opposite to the door), there is a toilet pan equipped with grabrails.
+figure_id;file_path;source_ref;caption;semantic_tags;Unnamed: 5
+1;../dataset/rule_figures/Figure88.jpg;HBN 00-02 Figure 88;"The drawing represents a top view of a semi-ambulant accessible toilet, showing required activity and equipment zones. At the center of the room, there is a shaded activity area, which provides space for movement with a walking stick or frame (900 mm wide). A waste bin and a luggage zones are also located here, partially overlapping with the activity area. At the back of the room, perpendicular to the transverse wall (opposite to the door), there is a toilet pan equipped with grabrails.
 
 On the left side of the WC:
 - A toilet paper dispenser/roll holder, horizontal grabrail are mounted close to the pan.
@@ -12,24 +12,24 @@ On the right side of the room:
 - Near the basin, on the right side to the door a paper towel dispenser is provided.
 
 A note at the bottom states: “DO NOT SCALE.”";;
-2;"""C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure89.jpg""";HBN 00-02, Figure 89;"Side elevation: Vertical grabrail should be 600 mm. There should be 1100 mm to mid-point of vertical grabrail. There should be also another grabrail which should be horizontal or at 15 degrees to the surfaceof the toilet pan seat cover. Above this grabrail there should be a toilet roll holder with 800-1000 mm from floor level. There should be 680 mm from floor surface until axis of horisontal grabnail or until middle point of lower fastening of grabnail.
+2;../dataset/rule_figures/Figure89.jpg;HBN 00-02, Figure 89;"Side elevation: Vertical grabrail should be 600 mm. There should be 1100 mm to mid-point of vertical grabrail. There should be also another grabrail which should be horizontal or at 15 degrees to the surfaceof the toilet pan seat cover. Above this grabrail there should be a toilet roll holder with 800-1000 mm from floor level. There should be 680 mm from floor surface until axis of horisontal grabnail or until middle point of lower fastening of grabnail.
 
 Front elevation: The height of a toilet seat for adults should be 475-480 mm, and for children - 420 mm. There should be 680 mm from floor surface until axis of horisontal grabnail.
 
 Top view: The drawing illustrates the spatial layout around a semi-ambulant toilet, showing a required usage zone of 800 mm wide by 600 mm deep in front of the pan. Space to use at low level should be 300 mm from the axis of a pan to the both sides (600 mm wide in sum). A minimum distance to the fastening of the horizontal grabrail should be at 300 mm from the toilet centerline. A horizontal grabrail must be mounted 80 mm from the adjacent wall. Disposal bin zone is marked adjacent to the WC on the right. The toilet pan must be between 55 and 520 mm deep. This view also highlights ""space for pan"" which must be 600mm deep. ";;
-3;"""C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure3.jpg""";HBN 04-01, Figure 3;"Figure 3: Working at a touchdown base
+3;../dataset/rule_figures/Figure3.jpg;HBN 04-01, Figure 3;"Figure 3: Working at a touchdown base
 
 The image shows a 3D interior view of a workspace labeled as a touchdown base.In the foreground, a seated figure in blue clothing, similar to the uniform worn by healthcare staff, is positioned at a built-in wooden counter that runs along a wall with large internal windows. On the desk are a laptop, a file organizer with documents, and a sheet of paper.
 
 Through the interior windows, another room is visible, where a second figure, dressed in turquoise, is lying on a bed or examination couch. Next to the couch or bed stands a third figure in turquoise clothing, similar to the uniform worn by healthcare workers, gesturing towards the head of the bed. The design features wooden window and door frames, white walls, and a bright space with natural daylight streaming through the glass panels. The overall setting resembles a semi-private workspace integrated into a medical facility.";;
-4;"""C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure67.jpg""";HBN 00-02, Figure 67;"Figure 67: Space requirements for trolley access shower
+4;../dataset/rule_figures/Figure67.jpg;HBN 00-02, Figure 67;"Figure 67: Space requirements for trolley access shower
 
 The drawing presents a plan view of a trolley access shower layout, showing the required spatial dimensions for staff and equipment movement. In the center of the room is a shower trolley, with a staff member positioned on the right side holding a shower head connected by a hose to the shower equipment on the right.
 
 The total width of the shower area is 2360 mm, divided into three zones: 800 mm on each side marked as ‘Minimum space for staff to wash the patient’ and 760 mm in the middle for the trolley. The overall length required for a 1900 mm long trolley is 2700 mm, including a 600 mm minimum space beyond the end of the trolley to allow staff to pass and manoeuvre.
 
 At the upper edge of the plan, a toilet pan or sluice is shown, with a floor gully positioned near the right wall. Between the gully and coworker, the plan indicates a staff emergency ceiling pull cord (E). The distance between the floor gully axis and the wall at the trolley head is indicated as 200 mm. The coloured (purple-pink) area represents the required activity zone, including the minimum space for staff to pass and perform patient care activities.";;
-5;"""C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure53.jpg""";HBN 00-02, Figure 53;"Figure 53: Space requirements for shower with adjustable tip-up shower seat
+5;../dataset/rule_figures/Figure53.jpg;HBN 00-02, Figure 53;"Figure 53: Space requirements for shower with adjustable tip-up shower seat
 The drawing illustrates the spatial requirements for a shower room equipped with an adjustable tip-up shower seat, showing both a side elevation (top) and a plan view (bottom), together with dimensional constraints and activity zones for independent use, assisted showering, and mobile hoist transfer.
 The upper diagram (side elevation) shows the shower enclosure in section.
 A fixed shower head is located 500 mm from the right-hand wall. The zone for shower controls is indicated centrally on the wall, aligned with the seated user position. On the right is the range of the adjustable and removable shower head with vertical dimensions of 1000 mm, marked at a height of 900 mm to 1900 mm above the floor.
