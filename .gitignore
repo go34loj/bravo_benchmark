@@ -1,1 +1,4 @@
-scripts/unified_database.db
+﻿scripts/unified_database.db
+eval/.env
+.env
+
