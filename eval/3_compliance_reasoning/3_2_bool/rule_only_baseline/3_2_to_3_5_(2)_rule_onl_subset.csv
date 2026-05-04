@@ -1,0 +1,501 @@
+generated_question_id,template_id,question_text,scene_id,figure_path,RuleID,ParentRuleID,Classification,Ambiguity,ClassificationParent,rule_figure_id,correct_answer,CorrectAnswer,subset_group
+196,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+Touchdown base: a workstation. This is where EPRs can be accessed and updated.
+
+Answer ""yes"" or ""no"".",22,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure3.jpg,49.0,,Definition,yes,,3.0,yes,yes,ambiguity==yes + correct_answer==yes
+31,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The position of the grabrails should not conflict with the height-adjustment mechanism of the basin.
+
+Answer ""yes"" or ""no"".",1,,47.0,,Spatial-Topological Norm,,,,yes,yes,ambiguity!=yes + correct_answer==yes
+108,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The zone for shower controls, is located between 900 mm from floor level and 1000 mm from floor level.
+
+Answer ""yes"" or ""no"".",14,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure53.jpg,29.0,,Prescriptive,,,5.0,no,no,ambiguity!=yes + correct_answer==no
+167,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+Regardless of whether the washing facilities are located inside or outside the WCs, they must be directly accessible from the changing area
+
+Answer ""yes"" or ""no"".",17,,44.0,,Relational Tacit Knowledge,yes,,,yes,yes,ambiguity==yes + correct_answer==yes
+185,41,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The following activities take place in a semi-ambulant WC (see Figure 88): use of the toilet; disposal of sanitary towels (optional); hand-rinsing. 
+
+Emerald (Greenish) Zone: Semi-ambulant Toilet Activity Space represents the required clearance for approaching and using the semi-ambulant toilet. 
+Low-Level Space: A clear space of 600 mm (height, width and depth) is required in front of the toilet pan at a low level to allow for user positioning. Overall Width: The entire activity zone for the toilet should have a width of 800 mm and 600 depth on the upper level. 
+
+Purple (Pinkish) zone corresponds to the activity space for using the ambulant/semi-ambulant hand-rinse basin, with distinct requirements at different heights:
+Low-Level Space: At a low level, a clear space with a width of 800 mm(depth and height 600) is required for a user to approach and stand at the basin.
+Higher-Level Space: For the upper body, a wider space of 1000 mm (depth 800mm and height 1200 (human 1805-600 at low level) is required to accommodate arm movements during washing and drying.
+
+Answer ""yes"" or ""no"".",21,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure88.jpg,,2.0,,,Lexical ambiguity,1.0,yes,yes,ambiguity!=yes + correct_answer==yes
+37,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The required capacity of each door opening shall be sufficient for the occupant load served by that door opening.
+
+Answer ""yes"" or ""no"".",9,,1.0,,Incompleteness,yes,,,yes,yes,ambiguity==yes + correct_answer==yes
+115,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The horizontal distance from the centreline of the shower seat to the centreline of the horizontal grabrail must be 320 mm.
+
+Answer ""yes"" or ""no"".",14,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure53.jpg,36.0,,Prescriptive,,,5.0,no,no,ambiguity!=yes + correct_answer==no
+172,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The provided childrenÕs play area must be designed and maintained to be both safe and secure.
+
+Answer ""yes"" or ""no"".",18,,46.0,,Collective Tacit Knowledge,yes,,,no,no,ambiguity==yes + correct_answer==no
+257,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The entrance area in the semi-ambulant WC should provide a call button for assistance
+
+Answer ""yes"" or ""no"".",26,,15.0,,No direct mapping to design,yes,,,no,no,ambiguity==yes + correct_answer==no
+137,41,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The room layout includes an adjustable tip-up shower seat. This is to allow for both non-assisted and assisted showering. The position of the shower seat should be adjusted between uses as required.
+
+Answer ""yes"" or ""no"".",15,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure53.jpg,,4.0,,,Incompleteness,5.0,no,no,ambiguity!=yes + correct_answer==no
+36,41,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The required capacity of each door opening shall be sufficient for the occupant load thereof and shall provide a minimum clear opening width of 32 inches (813 mm). The clear opening width of doorways with swinging doors shall be measured between the face of the door and the stop, with the door open 90 degrees (1.57 rad). Where this section requires a minimum clear opening width of 32 inches (813 mm) and a door opening includes two door leaves without a mullion, one leaf shall provide a minimum clear opening width of 32 inches (813 mm).
+
+Answer ""yes"" or ""no"".",9,,,1.0,,,Prescriptive,,no,no,ambiguity!=yes + correct_answer==no
+182,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The provided childrenÕs play area must be designed and maintained to be both safe and secure.
+
+Answer ""yes"" or ""no"".",20,,46.0,,Collective Tacit Knowledge,yes,,,yes,yes,ambiguity==yes + correct_answer==yes
+53,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The clear opening width of doorways with swinging doors shall be measured between the face of the door and the stop, with the door open 90 degrees (1.57 rad). Where this section requires a minimum clear opening width of 32 inches (813 mm) and a door opening includes two door leaves without a mullion, one leaf shall provide a minimum clear opening width of 32 inches (813 mm).
+
+Answer ""yes"" or ""no"".",11,,4.0,,Prescriptive,no,,,yes,yes,ambiguity!=yes + correct_answer==yes
+175,41,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+A safe and secure childrenÕs play area should be provided off all main waiting areas.
+
+Answer ""yes"" or ""no"".",19,,,6.0,,,Collective Tacit Knowledge,,no,no,ambiguity!=yes + correct_answer==no
+165,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+Hand-rinse or personal washing facilities must be provided in association with the WCs that serve the changing area.
+
+Answer ""yes"" or ""no"".",17,,42.0,,Spatial-Topological Norm,,,,yes,yes,ambiguity!=yes + correct_answer==yes
+197,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+Touchdown base must be located close to patients but not within single rooms or multi-bed rooms.
+
+Answer ""yes"" or ""no"".",22,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure3.jpg,50.0,,No direct mapping to design,yes,,3.0,yes,yes,ambiguity==yes + correct_answer==yes
+18,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The semi-ambulant WC must be designed to accommodate following activities: use of the toilet; disposal of sanitary towels (optional); hand-rinsing.
+
+Answer ""yes"" or ""no"".",1,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure88.jpg,5.0,,Lexical ambiguity,yes,,1.0,yes,yes,ambiguity==yes + correct_answer==yes
+26,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+In a semi-ambulant WC must be a free area with a width of ³ 900 mm in the center of the room, intended for moving with a cane/frame. When using a large toilet holder in a semi-ambulant WC, it can protrude into the activity area.
+
+Answer ""yes"" or ""no"".",1,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure88.jpg,13.0,,Vagueness,yes,,1.0,yes,yes,ambiguity==yes + correct_answer==yes
+112,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The adjustable shower seat must have a vertical height adjustment range of 200 mm, spanning from a minimum of 480 mm to a maximum of 680 mm from the floor.
+
+Answer ""yes"" or ""no"".",14,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure53.jpg,33.0,,Prescriptive,,,5.0,yes,yes,ambiguity!=yes + correct_answer==yes
+69,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The floor must be sloped in the shower, and the floor gully must be located so as to ensure that water is contained and does not escape into any adjoining bedroom.
+
+Answer ""yes"" or ""no"".",12,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure67.jpg,24.0,,Relational Tacit Knowledge,yes,,4.0,yes,yes,ambiguity==yes + correct_answer==yes
+20,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The ""Emerald (Greenish) Zone"" is defined as the required clear activity space for approaching and using the semi-ambulant toilet. Lighter shade show a zone in the upper level. The overall toilet activity zone at the upper level must have a width of 800 mm and a depth of 600 mm.
+
+Answer ""yes"" or ""no"".",1,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure88.jpg,7.0,,No direct mapping to design,yes,,1.0,yes,yes,ambiguity==yes + correct_answer==yes
+51,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The required capacity of each door opening shall be sufficient for the occupant load served by that door opening.
+
+Answer ""yes"" or ""no"".",11,,1.0,,Incompleteness,yes,,,yes,yes,ambiguity==yes + correct_answer==yes
+249,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The ""Emerald (Greenish) Zone"" is defined as the required clear activity space for approaching and using the semi-ambulant toilet. Lighter shade show a zone in the upper level. The overall toilet activity zone at the upper level must have a width of 800 mm and a depth of 600 mm.
+
+Answer ""yes"" or ""no"".",26,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure88.jpg,7.0,,No direct mapping to design,yes,,1.0,no,no,ambiguity==yes + correct_answer==no
+120,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The maximum comfortable reach envelope for an independent user in the corner seat position is defined by a radius of 600 mm.
+
+Answer ""yes"" or ""no"".",14,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure53.jpg,41.0,,Spatial-Topological Norm,,,5.0,yes,yes,ambiguity!=yes + correct_answer==yes
+253,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+A toilet seat in a semi-ambulant WC must be equipped with horizontal handrails on both sides and vertical handrails on one side and on the wall behind the toilet.
+
+Answer ""yes"" or ""no"".",26,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure88.jpg,11.0,,Prescriptive,no,,1.0,no,no,ambiguity!=yes + correct_answer==no
+17,41,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The position of the grabrails and fixtures should not conflict with the height-adjustment mechanism of the basin
+
+Answer ""yes"" or ""no"".",1,,,7.0,,,One-to-many mapping,,yes,yes,ambiguity!=yes + correct_answer==yes
+150,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The assisted wheelchair transfer zone must provide a clear width of approximately 940 mm, measured from the shower seat's centreline along its mounting wall.
+
+Answer ""yes"" or ""no"".",15,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure53.jpg,38.0,,No direct mapping to design,yes,,5.0,no,no,ambiguity==yes + correct_answer==no
+201,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+A perching stool must be provided at the touchdown base.
+
+Answer ""yes"" or ""no"".",22,,54.0,,No direct mapping to design,yes,,,no,no,ambiguity==yes + correct_answer==no
+222,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+If used observation windows should have integral privacy blinds or electrochromic glass.
+
+Answer ""yes"" or ""no"".",24,,57.0,,Prescriptive,no,,,yes,yes,ambiguity!=yes + correct_answer==yes
+223,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+Non-intrusive monitoring of the patient by staff may be achieved through an infrared camera system linked to a monitor at the nurse station.
+
+Answer ""yes"" or ""no"".",24,,59.0,,Permission,no,,,no,no,ambiguity!=yes + correct_answer==no
+149,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The assisted wheelchair transfer zone must provide a clear depth of approximately 1190 mm in front of the shower curtain.
+
+Answer ""yes"" or ""no"".",15,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure53.jpg,37.0,,No direct mapping to design,yes,,5.0,yes,yes,ambiguity==yes + correct_answer==yes
+67,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+A minimum clear space of 600 mm must be provided beyond one end of the shower trolley to allow for staff passage and maneuvering.
+
+Answer ""yes"" or ""no"".",12,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure67.jpg,22.0,,Prescriptive,-,,4.0,yes,yes,ambiguity!=yes + correct_answer==yes
+64,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+Two clearance zones, one on each side of the central trolley area, must be provided in the trolley access shower, each with a minimum width of 800 mm.
+
+Answer ""yes"" or ""no"".",12,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure67.jpg,19.0,,Spatial-Topological Norm,-,,4.0,no,no,ambiguity!=yes + correct_answer==no
+213,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The placement of touchdown bases must follow one of three specified configurations:
+¥ a dedicated touchdown base immediately outside each bedroom; or
+¥ a touchdown base shared between a pair of bedrooms; or
+¥ a touchdown base serving a small cluster of bedrooms.
+
+Answer ""yes"" or ""no"".",23,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure3.jpg,53.0,,No direct mapping to design,yes,,3.0,no,no,ambiguity==yes + correct_answer==no
+113,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The center line of the shower seat should be located approximately 780 mm from the wall perpendicular to the wall onto which the seat is mounted.
+
+Answer ""yes"" or ""no"".",14,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure53.jpg,34.0,,Spatial-Topological Norm,,,5.0,yes,yes,ambiguity!=yes + correct_answer==yes
+230,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+Staff should also be able to see the patient in case of emergency.
+
+Answer ""yes"" or ""no"".",25,,56.0,,No direct mapping to design,yes,,,yes,yes,ambiguity==yes + correct_answer==yes
+250,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The ""Purple (Pinkish) Zone"" is defined as the activity space required for using the hand-rinse basin. Darker shade shows low-level area. For user approach, a clear space must be provided at a low level with a width of 800 mm, a depth of 600 mm, and a height of 600 mm.
+
+Answer ""yes"" or ""no"".",26,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure88.jpg,8.0,,No direct mapping to design,yes,,1.0,yes,yes,ambiguity==yes + correct_answer==yes
+82,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The shower trolley usually has a width of 760 mm.
+
+Answer ""yes"" or ""no"".",13,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure67.jpg,20.0,,Prescriptive,-,,4.0,yes,yes,ambiguity!=yes + correct_answer==yes
+198,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The touchdown base is at standing height.
+
+Answer ""yes"" or ""no"".",22,,51.0,,No direct mapping to design,yes,,,yes,yes,ambiguity==yes + correct_answer==yes
+38,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+Each door opening shall provide a minimum clear opening width of 32 inches (813 mm). The clear opening width of doorways with swinging doors shall be measured between the face of the door and the stop, with the door open 90 degrees (1.57 rad).
+
+Answer ""yes"" or ""no"".",9,,2.0,,Prescriptive,no,,,yes,yes,ambiguity!=yes + correct_answer==yes
+188,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+In this rule, fixtures can be mapped to many objects, such as mirrors, shelves, towel rails, soap dispensers, or paper towel dispensers etc. None of these fixtures should conflict with the height adjustment mechanism of the basin for this rule to pass.
+
+Answer ""yes"" or ""no"".",21,,48.0,,One-to-many mapping,yes,,,no,no,ambiguity==yes + correct_answer==no
+255,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+In a semi-ambulant WC must be a free area with a width of ³ 900 mm in the center of the room, intended for moving with a cane/frame. When using a large toilet holder in a semi-ambulant WC, it can protrude into the activity area.
+
+Answer ""yes"" or ""no"".",26,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure88.jpg,13.0,,Vagueness,yes,,1.0,yes,yes,ambiguity==yes + correct_answer==yes
+211,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The touchdown base is at standing height.
+
+Answer ""yes"" or ""no"".",23,,51.0,,No direct mapping to design,yes,,,no,no,ambiguity==yes + correct_answer==no
+22,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The ""Purple (Pinkish) Zone"" is defined as the activity space required for using the hand-rinse basin. Lighter shade show a zone in the upper level. To accommodate upper body and arm movements, a clear space must be provided at a higher level with a width of 1000 mm, a depth of 800 mm, and a height of 1200 mm.
+
+Answer ""yes"" or ""no"".",1,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure88.jpg,9.0,,No direct mapping to design,yes,,1.0,yes,yes,ambiguity==yes + correct_answer==yes
+219,41,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+If patients are to stay in an isolation room, it is important that they are able to see staff from their beds. This reduces the psychological problems of isolation. Staff should also be able to see the patient in case of emergency. Observation windows should have integral privacy blinds or electrochromic glass that can be controlled by both staff and patients. Non-intrusive monitoring of the patient may be achieved by an infrared camera linked to a monitor at the nurse station (but note that the camera does not provide an opportunity for the patient to see staff).
+
+Answer ""yes"" or ""no"".",24,,,9.0,,,No direct mapping to design,,no,no,ambiguity!=yes + correct_answer==no
+248,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The ""Emerald (Greenish) Zone"" is defined as the required clear activity space for approaching and using the semi-ambulant toilet. Darker shade shows low-level area. A clear space of 600 mm in height, 600 mm in width, and 600 mm in depth must be provided at a low level directly in front of the toilet pan.
+
+Answer ""yes"" or ""no"".",26,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure88.jpg,6.0,,No direct mapping to design,yes,,1.0,no,no,ambiguity==yes + correct_answer==no
+200,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The placement of touchdown bases must follow one of three specified configurations:
+¥ a dedicated touchdown base immediately outside each bedroom; or
+¥ a touchdown base shared between a pair of bedrooms; or
+¥ a touchdown base serving a small cluster of bedrooms.
+
+Answer ""yes"" or ""no"".",22,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure3.jpg,53.0,,No direct mapping to design,yes,,3.0,yes,yes,ambiguity==yes + correct_answer==yes
+228,41,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+If patients are to stay in an isolation room, it is important that they are able to see staff from their beds. This reduces the psychological problems of isolation. Staff should also be able to see the patient in case of emergency. Observation windows should have integral privacy blinds or electrochromic glass that can be controlled by both staff and patients. Non-intrusive monitoring of the patient may be achieved by an infrared camera linked to a monitor at the nurse station (but note that the camera does not provide an opportunity for the patient to see staff).
+
+Answer ""yes"" or ""no"".",25,,,9.0,,,No direct mapping to design,,no,no,ambiguity!=yes + correct_answer==no
+152,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The clear zone for side-access mobile hoist transfers must have a depth of 2400 mm (minimum 2200 mm) from the seat's centreline. The clear zone for side-access mobile hoist transfers must have a width of 1400 mm (minimum 1150 mm).
+
+Answer ""yes"" or ""no"".",15,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure53.jpg,40.0,,No direct mapping to design,yes,,5.0,no,no,ambiguity==yes + correct_answer==no
+83,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The overall length of the shower area in the trolley-access shower must be 2700 mm to accommodate a 1900 mm-long trolley, as a minimum clear space of 600 mm must be provided beyond one end of the shower trolley. There should be some space between the foot of the trolley and a wall with a toilet pan or sluice.
+
+Answer ""yes"" or ""no"".",13,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure67.jpg,21.0,,Spatial-Topological Norm,-,,4.0,no,no,ambiguity!=yes + correct_answer==no
+221,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+Staff should also be able to see the patient in case of emergency.
+
+Answer ""yes"" or ""no"".",24,,56.0,,No direct mapping to design,yes,,,no,no,ambiguity==yes + correct_answer==no
+116,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The assisted wheelchair transfer zone must provide a clear depth of approximately 1190 mm in front of the shower curtain.
+
+Answer ""yes"" or ""no"".",14,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure53.jpg,37.0,,No direct mapping to design,yes,,5.0,no,no,ambiguity==yes + correct_answer==no
+254,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+On the side wall closest to the toilet seat and perpendicular to the wall behind the toilet  in a semi-ambulant WC should be installed a toilet paper holder next to the toilet seat.
+
+Answer ""yes"" or ""no"".",26,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure88.jpg,12.0,,Relational Tacit Knowledge,yes,,1.0,no,no,ambiguity==yes + correct_answer==no
+143,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The vertical adjustment range for the adjutable and detachable shower head must be between 900 mm and 1900 mm from the floor.
+
+Answer ""yes"" or ""no"".",15,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure53.jpg,31.0,,Prescriptive,,,5.0,no,no,ambiguity!=yes + correct_answer==no
+220,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+If patients are to stay in an isolation room, it is important that they are able to see staff from their beds. This reduces the psychological problems of isolation.
+
+Answer ""yes"" or ""no"".",24,,55.0,,No direct mapping to design,yes,,,no,no,ambiguity==yes + correct_answer==no
+45,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+Each door opening shall provide a minimum clear opening width of 32 inches (813 mm). The clear opening width of doorways with swinging doors shall be measured between the face of the door and the stop, with the door open 90 degrees (1.57 rad).
+
+Answer ""yes"" or ""no"".",10,,2.0,,Prescriptive,no,,,no,no,ambiguity!=yes + correct_answer==no
+210,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+Touchdown base must be located close to patients but not within single rooms or multi-bed rooms.
+
+Answer ""yes"" or ""no"".",23,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure3.jpg,50.0,,No direct mapping to design,yes,,3.0,no,no,ambiguity==yes + correct_answer==no
+148,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The horizontal distance from the centreline of the shower seat to the centreline of the horizontal grabrail must be 320 mm.
+
+Answer ""yes"" or ""no"".",15,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure53.jpg,36.0,,Prescriptive,,,5.0,yes,yes,ambiguity!=yes + correct_answer==yes
+147,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The shower curtain must measure 1200 mm in depth and 920 mm in width and be located in front of the seat.
+
+Answer ""yes"" or ""no"".",15,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure53.jpg,35.0,,Spatial-Topological Norm,,,5.0,yes,yes,ambiguity!=yes + correct_answer==yes
+119,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The clear zone for side-access mobile hoist transfers must have a depth of 2400 mm (minimum 2200 mm) from the seat's centreline. The clear zone for side-access mobile hoist transfers must have a width of 1400 mm (minimum 1150 mm).
+
+Answer ""yes"" or ""no"".",14,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure53.jpg,40.0,,No direct mapping to design,yes,,5.0,no,no,ambiguity==yes + correct_answer==no
+146,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The center line of the shower seat should be located approximately 780 mm from the wall perpendicular to the wall onto which the seat is mounted.
+
+Answer ""yes"" or ""no"".",15,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure53.jpg,34.0,,Spatial-Topological Norm,,,5.0,yes,yes,ambiguity!=yes + correct_answer==yes
+246,41,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The following activities take place in a semi-ambulant WC (see Figure 88): use of the toilet; disposal of sanitary towels (optional); hand-rinsing. 
+
+Emerald (Greenish) Zone: Semi-ambulant Toilet Activity Space represents the required clearance for approaching and using the semi-ambulant toilet. 
+Low-Level Space: A clear space of 600 mm (height, width and depth) is required in front of the toilet pan at a low level to allow for user positioning. Overall Width: The entire activity zone for the toilet should have a width of 800 mm and 600 depth on the upper level. 
+
+Purple (Pinkish) zone corresponds to the activity space for using the ambulant/semi-ambulant hand-rinse basin, with distinct requirements at different heights:
+Low-Level Space: At a low level, a clear space with a width of 800 mm(depth and height 600) is required for a user to approach and stand at the basin.
+Higher-Level Space: For the upper body, a wider space of 1000 mm (depth 800mm and height 1200 (human 1805-600 at low level) is required to accommodate arm movements during washing and drying.
+
+Answer ""yes"" or ""no"".",26,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure88.jpg,,2.0,,,Lexical ambiguity,1.0,no,no,ambiguity!=yes + correct_answer==no
+209,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+Touchdown base: a workstation. This is where EPRs can be accessed and updated.
+
+Answer ""yes"" or ""no"".",23,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure3.jpg,49.0,,Definition,yes,,3.0,no,no,ambiguity==yes + correct_answer==no
+259,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+Near the sink (on the right or on the left side of it), in a semi-ambulant WC, install a paper towel dispenser.
+
+Answer ""yes"" or ""no"".",26,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure88.jpg,17.0,,Prescriptive,no,,1.0,yes,yes,ambiguity!=yes + correct_answer==yes
+66,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The overall length of the shower area in the trolley-access shower must be 2700 mm to accommodate a 1900 mm-long trolley, as a minimum clear space of 600 mm must be provided beyond one end of the shower trolley. There should be some space between the foot of the trolley and a wall with a toilet pan or sluice.
+
+Answer ""yes"" or ""no"".",12,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure67.jpg,21.0,,Spatial-Topological Norm,-,,4.0,yes,yes,ambiguity!=yes + correct_answer==yes
+25,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+On the side wall closest to the toilet seat and perpendicular to the wall behind the toilet  in a semi-ambulant WC should be installed a toilet paper holder next to the toilet seat.
+
+Answer ""yes"" or ""no"".",1,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure88.jpg,12.0,,Relational Tacit Knowledge,yes,,1.0,no,no,ambiguity==yes + correct_answer==no
+170,41,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+A safe and secure childrenÕs play area should be provided off all main waiting areas.
+
+Answer ""yes"" or ""no"".",18,,,6.0,,,Collective Tacit Knowledge,,no,no,ambiguity!=yes + correct_answer==no
+105,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+En-suite shower rooms must be equipped with an adjustable tip-up shower seat. This is to allow for both non-assisted and assisted showering.
+
+Answer ""yes"" or ""no"".",14,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure53.jpg,26.0,,Prescriptive,-,,5.0,yes,yes,ambiguity!=yes + correct_answer==yes
+258,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+Optionally, a disposal bin for sanitary towels can be located near the toilet seat in the semi-ambulant WC.
+
+Answer ""yes"" or ""no"".",26,,16.0,,Prescriptive,no,,,no,no,ambiguity!=yes + correct_answer==no
+70,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+A staff emergency ceiling pull cord must be located in the space between the floor gully and the showering trolley in the staff working area so that the staff member can access it quickly  in the trolley access shower.
+
+Answer ""yes"" or ""no"".",12,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure67.jpg,25.0,,Spatial-Topological Norm,-,,4.0,yes,yes,ambiguity!=yes + correct_answer==yes
+50,41,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The required capacity of each door opening shall be sufficient for the occupant load thereof and shall provide a minimum clear opening width of 32 inches (813 mm). The clear opening width of doorways with swinging doors shall be measured between the face of the door and the stop, with the door open 90 degrees (1.57 rad). Where this section requires a minimum clear opening width of 32 inches (813 mm) and a door opening includes two door leaves without a mullion, one leaf shall provide a minimum clear opening width of 32 inches (813 mm).
+
+Answer ""yes"" or ""no"".",11,,,1.0,,,Prescriptive,,yes,yes,ambiguity!=yes + correct_answer==yes
+177,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The provided childrenÕs play area must be designed and maintained to be both safe and secure.
+
+Answer ""yes"" or ""no"".",19,,46.0,,Collective Tacit Knowledge,yes,,,no,no,ambiguity==yes + correct_answer==no
+117,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The assisted wheelchair transfer zone must provide a clear width of approximately 940 mm, measured from the shower seat's centreline along its mounting wall.
+
+Answer ""yes"" or ""no"".",14,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure53.jpg,38.0,,No direct mapping to design,yes,,5.0,no,no,ambiguity==yes + correct_answer==no
+229,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+If patients are to stay in an isolation room, it is important that they are able to see staff from their beds. This reduces the psychological problems of isolation.
+
+Answer ""yes"" or ""no"".",25,,55.0,,No direct mapping to design,yes,,,yes,yes,ambiguity==yes + correct_answer==yes
+158,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+Hand-rinse or personal washing facilities must be provided in association with the WCs that serve the changing area.
+
+Answer ""yes"" or ""no"".",16,,42.0,,Spatial-Topological Norm,,,,no,no,ambiguity!=yes + correct_answer==no
+86,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The floor must be sloped in the shower, and the floor gully must be located so as to ensure that water is contained and does not escape into any adjoining bedroom.
+
+Answer ""yes"" or ""no"".",13,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure67.jpg,24.0,,Relational Tacit Knowledge,yes,,4.0,yes,yes,ambiguity==yes + correct_answer==yes
+199,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+A number of touchdown bases must be provided throughout the ward.
+
+Answer ""yes"" or ""no"".",22,,52.0,,No direct mapping to design,yes,,,yes,yes,ambiguity==yes + correct_answer==yes
+110,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+The vertical adjustment range for the adjutable and detachable shower head must be between 900 mm and 1900 mm from the floor.
+
+Answer ""yes"" or ""no"".",14,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure53.jpg,31.0,,Prescriptive,,,5.0,no,no,ambiguity!=yes + correct_answer==no
+140,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+A fixed shower head must be provided, and its centreline must be located 500 mm from the side wall
+
+Answer ""yes"" or ""no"".",15,C:\Users\ritaMZ\WebstormProjects\thesis\backend\rule_figure\Figure53.jpg,28.0,,Prescriptive,,,5.0,no,no,ambiguity!=yes + correct_answer==no
+142,42,"Is the design displayed in the first picture compliant with the following rule?
+
+Rule:
+An adjustable and removable shower head must be provided.
+
+Answer ""yes"" or ""no"".",15,,30.0,,Prescriptive,,,,no,no,ambiguity!=yes + correct_answer==no
