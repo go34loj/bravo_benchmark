@@ -33,6 +33,15 @@ Key documentation:
 - [`scripts/SETUP.md`](scripts/SETUP.md) - quick guide for running the pipeline.
 - [`scripts/dataset_contribution.md`](scripts/dataset_contribution.md) - guide for adding new data to the dataset and scaling it.
 
+## Evaluation
+
+Evaluation notebooks and analysis artifacts are located in [`eval/`](eval/).
+
+Start here:
+- [`eval/eval_SETUP.md`](eval/eval_SETUP.md) - compact overview of evaluation sections, recommended run order, and links to section-specific documentation.
+
+The `eval_SETUP.md` page also links to more detailed local documents (`*_inputs_outputs.md`, methodology markdown files, and troubleshooting notes) for each evaluation subfolder.
+
 ## License
 
 This repository uses multiple licenses.
